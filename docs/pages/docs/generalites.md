@@ -1,6 +1,6 @@
 ---
 title: Généralités sur la doctrine du ci-sis
-nav_order: 2
+nav_order: 1
 description: 
 ---
 
