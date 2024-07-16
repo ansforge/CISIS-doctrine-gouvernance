@@ -88,13 +88,13 @@ Ces règles de nommage ont été établies en s'inspirant des ressources us-core
 
 | **Paramètre** | **Objet concerné** | **Règle** | **Exemple us-core** |
 | ----- | ----- | ----- | ----- |
-| id | ressources de conformité | utiliser le format kebab-case, ex : fr-core-patient. (/!\ sur Forge, l'id n'est pas obligatoire, il est important de le rajouter !). Lors de la création d'un IG pour un projet en particulier, il est possible de préfixer l'ensemble des ressources de conformité par le trigramme du projet (ex : "ror-...") | us-core-patient |
-| title | ressources de conformité |  similaire au nom, avec espaces. Ex : Fr Core Patient | US Core Patient Profile |
+| id | ressources de conformité | Utiliser le format kebab-case, ex : fr-core-patient.. Lors de la création d'un IG pour un projet en particulier, il est possible de préfixer l'ensemble des ressources de conformité par le trigramme du projet (ex : "ror-...") | us-core-patient |
+| title | ressources de conformité | Similaire au nom, avec espaces. Ex : Fr Core Patient | US Core Patient Profile |
 | name | ressources de conformité |  Utiliser le format PascalCase sans espace. Ex : FrCorePatient | USCorePatientProfile |
 | url | ressources de conformité |  [base]/[ResourceType]/[id] (généré automatiquement par sushi). A noter que [ResourceType] doit respecter le nom et la casse des ressources définies dans FHIR core (ex: StructureDefinition). | http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient |
-| code  | SearchParameter|  toujours en minuscule, mots séparés par des tirets "-" si besoin | - |
-| name | slice |  utiliser l'id de l'extension s'il s'agit d'une extension sinon utiliser le format lowerCamelCase | us-core-genderIdentity |
-| id | package |  utiliser des minuscules | hl7.fhir.us.core [lien vers la documentation](https://confluence.hl7.org/display/FHIR/NPM+Package+Specification) |
+| code  | SearchParameter|  Toujours en minuscule, mots séparés par des tirets "-" si besoin | gender-identity |
+| name | slice |  Utiliser l'id de l'extension s'il s'agit d'une extension sinon utiliser le format lowerCamelCase | us-core-genderIdentity |
+| id | package |  Utiliser des minuscules | hl7.fhir.us.core [lien vers la documentation](https://confluence.hl7.org/display/FHIR/NPM+Package+Specification) |
 
 La documentation officielle se trouve sur le [confluence d'HL7](https://confluence.hl7.org/pages/viewpage.action?pageId=35718826#GuidetoDesigningResources-NamingRules&Guidelines)
 
