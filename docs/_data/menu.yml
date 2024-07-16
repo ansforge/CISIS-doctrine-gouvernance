@@ -3,12 +3,31 @@ header:
     url: /
   - title: Doctrine du CI-SIS
     subfolderitems:
-      - page: Trajectoire interopérabilité
-        url: /pages/docs/trajectoire-iop.html
-        title: Trajectoire interopérabilité
+      - page: Généralités
+        url: /pages/docs/generalites.html
+        title: Généralités
+      - page: Doctrine du CI-SIS
+        url: /pages/docs/doctrine.html
+        title: Doctrine du CI-SIS
+      - page: Méthode d'élaboration des échanges fonctionnels
+        url: /pages/docs/elaboration.html
+        title: Méthode d'élaboration des échanges fonctionnels
+      - page: Méthode de choix des normes et standards
+        url: /pages/docs/choix-standard.html
+        title: Méthode de choix des normes et standards
       - page: Cycle de vie des spécifications
         url: /pages/docs/cycle-de-vie.html
         title: Cycle de vie des spécifications
+      - page: Expressions de besoins (EBE) et Change Proposals (CP)
+        url: /pages/docs/ebe-cp.html
+        title: Expressions de besoins (EBE) et Change Proposals (CP)
+      - page: Trajectoire interopérabilité
+        url: /pages/docs/trajectoire-iop.html
+        title: Trajectoire interopérabilité
+      - page: Unité de production externe
+        url: /pages/docs/up-externe.html
+        title: Unité de production externe
+
   - title: Gouvernance du CI-SIS
     subfolderitems:
       - page: Premiers pas sur Github
