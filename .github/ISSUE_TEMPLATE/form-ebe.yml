@@ -1,7 +1,6 @@
 name: Formulaire d'Expression des Besoins d'Interopérabilité
 description: |
-  Ce formulaire fait partie du corpus documentaire associé à la gouvernance du CI-SIS. 
-  Il permet de formaliser une expression de besoins d’interopérabilité susceptible de donner lieu à un enrichissement du CI-SIS.
+  Ce formulaire est inclus dans le corpus documentaire relatif à la gouvernance du CI-SIS. Il sert à formaliser une demande d'interopérabilité qui pourrait entraîner un enrichissement du CI-SIS.
 title: "Formulaire d'Expression des Besoins d'Interopérabilité"
 labels: ["EBE"]
 
