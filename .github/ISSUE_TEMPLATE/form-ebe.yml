@@ -1,0 +1,141 @@
+name: "Formulaire d'expression de besoins d'interopérabilité"
+description: "Formulaire pour exprimer des besoins d'interopérabilité susceptibles de donner lieu à un enrichissement du CI-SIS."
+title: "Titre (obligatoire)"
+labels: ["EBE"]
+body:
+  - type: input
+    id: titre
+    attributes:
+      label: "Titre"
+      description: "Le titre du besoin sera utilisé pour la publication sur le site esante.gouv.fr au même titre que la synthèse."
+      placeholder: "Entrez le titre du besoin"
+    validations:
+      required: true
+
+  - type: input
+    id: prenom_nom
+    attributes:
+      label: "Identification du porteur de besoins (obligatoire)"
+      description: "Prénom et Nom"
+      placeholder: "Entrez votre prénom et nom"
+    validations:
+      required: true
+
+  - type: input
+    id: organisation
+    attributes:
+      label: "Organisation"
+      description: "Votre organisation"
+      placeholder: "Entrez le nom de votre organisation"
+    validations:
+      required: true
+
+  - type: input
+    id: email
+    attributes:
+      label: "Adresse de messagerie électronique"
+      description: "Votre adresse email"
+      placeholder: "Entrez votre adresse email"
+    validations:
+      required: true
+
+  - type: input
+    id: telephone
+    attributes:
+      label: "Numéro de téléphone professionnel"
+      description: "Votre numéro de téléphone professionnel"
+      placeholder: "Entrez votre numéro de téléphone"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: projet_national
+    attributes:
+      label: "Les besoins décrits dans ce formulaire s’inscrivent-ils dans le cadre d’un projet ou d’un programme national?"
+      options:
+        - "OUI"
+        - "NON"
+    validations:
+      required: true
+
+  - type: input
+    id: projet_national_details
+    attributes:
+      label: "Si oui, veuillez préciser lequel"
+      description: "Détails du projet ou programme national"
+      placeholder: "Entrez les détails"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: complement_besoins
+    attributes:
+      label: "Les besoins décrits dans ce formulaire correspondent-ils à un complément à une expression de besoins en cours d’instruction ou à des besoins dans la liste des travaux futurs?"
+      options:
+        - "OUI"
+        - "NON"
+    validations:
+      required: true
+
+  - type: textarea
+    id: complement_besoins_details
+    attributes:
+      label: "Si oui, veuillez préciser le(s) titre(s) des besoins concernés tel(s) que référencé(s) sur le site esante.gouv.fr"
+      description: "Titres des besoins concernés"
+      placeholder: "Entrez les titres"
+    validations:
+      required: false
+
+  - type: textarea
+    id: synthese_besoins
+    attributes:
+      label: "Synthèse des besoins exprimés (obligatoire)"
+      description: "Cette synthèse sera utilisée pour la publication des besoins sur le site esante.gouv.fr."
+      placeholder: "Décrivez vos besoins en quelques lignes"
+    validations:
+      required: true
+
+  - type: textarea
+    id: cas_usage
+    attributes:
+      label: "Cas d’usage (obligatoire)"
+      description: "Décrire les cas d’usage métier dans lesquels s’inscrivent vos besoins."
+      placeholder: "Décrivez les cas d'usage"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problematique
+    attributes:
+      label: "Problématique (obligatoire)"
+      description: "À partir du scénario d’usage, expliquer la problématique rencontrée en termes d’interopérabilité."
+      placeholder: "Décrivez la problématique"
+    validations:
+      required: true
+
+  - type: textarea
+    id: modifications_cisis
+    attributes:
+      label: "Liste de modifications à mettre en place dans le CI-SIS (optionnelle)"
+      description: "Faire une liste exhaustive des modifications à mettre en place dans le CI-SIS."
+      placeholder: "Liste des modifications"
+    validations:
+      required: false
+
+  - type: textarea
+    id: description_echanges
+    attributes:
+      label: "Description des échanges entre systèmes (optionnelle)"
+      description: "Décrire les différents modules du Système d’Information intervenant dans les échanges."
+      placeholder: "Décrivez les échanges entre systèmes"
+    validations:
+      required: false
+
+  - type: textarea
+    id: divers
+    attributes:
+      label: "Divers (optionnelle)"
+      description: "Ajouter tout élément essentiel pour la prise en compte des besoins en interopérabilité."
+      placeholder: "Ajoutez des informations supplémentaires"
+    validations:
+      required: false
