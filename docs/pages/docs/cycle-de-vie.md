@@ -66,11 +66,15 @@ Une spécification avec la majorité des critères de maturité respectés indiq
 
 Les critères de maturité identifiés :
 
-* Respect de l'ensemble des critères de qualité mentionnés ci-dessous
-* (Etude en cours) Nombre d'implémentations obtenu par déclaration (par convergence ou par les DSI). Idéalement avec des retours d'expérience sur l'implémentation des spécifications
-* Nombre de passage en projectathons, nombre de tests réalisés lors de projectathon, et nombre de partenaires
-* Nombre d'issues et résolutions sur le repo GitHub
-* Nombre de commentaires lors des phases de concertation
+<div class="wysiwyg">
+    <ul>
+        <li> Respect de l'ensemble des critères de qualité mentionnés ci-dessous </li>
+        <li> (Etude en cours) Nombre d'implémentations obtenu par déclaration (par convergence ou par les DSI). Idéalement avec des retours d'expérience sur l'implémentation des spécifications </li>
+        <li> Nombre de passage en projectathons, nombre de tests réalisés lors de projectathon, et nombre de partenaires </li>
+        <li> Nombre d'issues et résolutions sur le repo GitHub </li>
+        <li> Nombre de commentaires lors des phases de concertation </li>
+    </ul>
+</div>
 
 ## Définition des critères de qualité
 
@@ -80,13 +84,17 @@ Il n'est pas toujours possible de respecter strictement ces critères de qualit�
 
 Les critères de qualité **FHIR** sont :
 
-* Respect des bonnes pratiques nationales tel que les règles de nommages indiquées ci-dessous
-* Respect des [bonnes pratiques internationales](https://build.fhir.org/ig/FHIR/ig-guidance/best-practice.html)
-* Respecter le stratégie nationale des choix de version FHIR
-* Chaque ressource de conformité doit avoir une description
-* L'ensemble des ressources de conformité doit avoir une description précise de son usage
-* Publication de l'IG sans erreurs (cf session Q/A)
-* Ne pas recréer des artifacts qui existent déjà au niveau national et international (nécessite de l'expertise, de la veille et de faire une analyse de l'existant international avant de débuter les travaux.)
+<div class="wysiwyg">
+    <ul>
+        <li> Respect des bonnes pratiques nationales tel que les règles de nommages indiquées ci-dessous </li>
+        <li> Respect des [bonnes pratiques internationales](https://build.fhir.org/ig/FHIR/ig-guidance/best-practice.html) </li>
+        <li> Respecter le stratégie nationale des choix de version FHIR </li>
+        <li> Chaque ressource de conformité doit avoir une description </li>
+        <li> L'ensemble des ressources de conformité doit avoir une description précise de son usage </li>
+        <li> Publication de l'IG sans erreurs (cf session Q/A) </li>
+        <li> Ne pas recréer des artifacts qui existent déjà au niveau national et international (nécessite de l'expertise, de la veille et de faire une analyse de l'existant international avant de débuter les travaux.) </li>
+    </ul>
+</div>
 
 Ces règles de nommage ont été établies en s'inspirant des ressources us-core
 
