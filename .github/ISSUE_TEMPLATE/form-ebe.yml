@@ -176,11 +176,10 @@ body:
       label: Quel est le niveau de maturité de la structure de votre Terminologie ? (obligatoire)
       options:
         - label: La Terminologie a-t-elle une classification arborescente avec un code parent ?
-          required: true
         - label: La Terminologie a-t-elle des libellés uniques ?
-          required: true
         - label: La Terminologie a-t-elle des définitions associées aux libellés ?
-          required: true
+    validations:     
+      required: true       
 
   - type: input
     id: interactions_liens
