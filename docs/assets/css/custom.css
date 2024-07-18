@@ -4,3 +4,7 @@
 p, li {
     color: black;
   }
+
+div.wysiwyg {
+  margin-bottom: "3rem";
+}
