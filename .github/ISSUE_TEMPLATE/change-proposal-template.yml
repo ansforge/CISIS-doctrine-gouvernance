@@ -62,15 +62,3 @@ body:
         Tip: Vous pouvez joindre des images ou des fichiers en cliquant sur cette zone pour la mettre en surbrillance, puis en y faisant glisser les fichiers.
     validations:
       required: false
-
-  - type: textarea
-    id: major_impact_details
-    attributes:
-      label: "Détails de l'impact majeur"
-      description: "Si vous avez sélectionné 'Majeur', veuillez fournir des détails supplémentaires sur l'impact."
-      placeholder: "Décrivez l'impact majeur"
-    validations:
-      required: true
-    conditional:
-      path: $.impact_assessment
-      value: "majeur" 
