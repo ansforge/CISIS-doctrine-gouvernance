@@ -1,7 +1,7 @@
 name: "Change Proposal template"
 description: "Change Proposal pour un volet du CI-SIS"
 title: "[CP]: "
-labels: ["CP", "backlog"]
+labels: ["CP"]
 
 body:
   - type: input
