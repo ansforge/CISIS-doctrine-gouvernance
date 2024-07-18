@@ -148,7 +148,7 @@ body:
     id: problematique_semantique
     attributes:
       label: Problématique (obligatoire) - PARTIE SEMANTIQUE
-      description: À partir du scénario d’usage expliquer la problématique rencontrée en termes d’interopérabilité que cette demande solutionnerait.
+      description: À partir du scénario d’usage, expliquer la problématique rencontrée en termes d’interopérabilité que cette demande solutionnerait.
       placeholder: 'Décrivez la problématique'
     validations:
       required: true
