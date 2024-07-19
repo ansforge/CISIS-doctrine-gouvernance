@@ -14,7 +14,7 @@ Ce formulaire fait partie du corpus documentaire associé à cette gouvernance. 
 ### Suivi du traitement des expressions de besoin
 
 Il vous est possible de visualiser vos demandes en cours traitement, mais également celles émises par les autres acteurs en accédant au [tableau de bord](https://github.com/orgs/ansforge/projects/39/views/2).
-**Il est fortement recommander de prendre connaissance des demandes en cours avant de nous soumettre votre propre demande.**
+**Il est fortement recommandé de prendre connaissance des demandes en cours avant de nous soumettre votre propre demande.**
 
 ### Gestion des expressions de besoins
 
