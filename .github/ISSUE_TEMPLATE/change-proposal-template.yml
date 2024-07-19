@@ -4,14 +4,14 @@ title: "[CP]: "
 labels: ["CP"]
 
 body:
-  - type: input
-    id: contact
+  - type: textarea
+    id: volet
     attributes:
-      label: Contact
-      description: Comment vous contacter si nous avons besoin de plus d'information?
-      placeholder: ex. email@example.com
+      label: Volet Ci-SIS
+      description: Quel est le volet CI-SIS concerné par votre demande?
+      placeholder: écrire ici le titre et la version. Vous pouvez également ajouter un lien vers la version
     validations:
-      required: false
+      required: true
   - type: input
     id: section_identification
     attributes:
