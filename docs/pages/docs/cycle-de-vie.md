@@ -89,7 +89,7 @@ Les critères de maturité identifiés :
 
 ## Définition des critères de qualité
 
-Les critères de qualité représentent un ensemble de règles à respecter pour être conforme aux attentes nationales, permettant une uniformisation qualitative de l’ensemble de nos spécifications. Ces critères de qualité sont spécifiques à chaque standard.
+Les critères de qualité représentent un ensemble de règles à respecter pour être conforme aux attentes nationales, permettant une uniformisation qualitative de l’ensemble de nos spécifications. Outre le respect à la doctrine (structuration d'une spécification d'interopérabilité, respect de la trajectoire nationale, du choix du standard, ...), les critères de qualité sont spécifiques à chaque standard.
 
 Il n'est pas toujours possible de respecter strictement ces critères de qualité, car l'écosystème national ne peut pas contrôler les spécifications internationales, qui ne respectent pas forcément l'ensemble de ces critères. De plus, certaines spécifications historiques nécessitent du temps pour évoluer. L'objectif de ces critères est de les respecter et tendre le plus possible vers eux lors de la création ou mise à jour de spécifications.
 
