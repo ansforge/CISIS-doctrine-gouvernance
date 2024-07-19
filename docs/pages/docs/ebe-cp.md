@@ -18,7 +18,23 @@ Il vous est possible de visualiser vos demandes en cours traitement, mais égale
 
 ### Gestion des expressions de besoins
 
-TODO
+L'expression des besoins d'inscrit dans le processus d’élaboration des spécifications d’interopérabilité qui sont à l’origine du développement des conditions favorables à l’interopérabilité des systèmes. Ce processus peut être schématisé de la façon suivante :
+
+<div class="figure" style='text-align: center;'>
+    <img src="../../assets/images/processus-ebe.png)" alt="CP" title="Processus d’élaboration des spécifications d’interopérabilité" style="width:80%;">
+    <figcaption><b>Processus d’élaboration des spécifications d’interopérabilité</b></figcaption>
+</div>
+
+UNe expression de besoins ce traduit par une évolution majeure du CI-SIS.
+Si l'expression de besoin se traduit par la demande de modification d'un volet existant il sera requalifié en demande de CP.
+
+<div class="figure" style='text-align: center;'>
+    <img src="../../assets/images/processus-ttt-ebe.png)" alt="CP" title="Procédure de traitement d'une demande d'évolution majeure du CI-SIS" style="width:100%;">
+    <figcaption><b>Processus d’élaboration des spécifications d’interopérabilité</b></figcaption>
+</div>
+<div class="figure" style='text-align: center;'>
+    <img src="../../assets/images/def-ttt-ebe.png)" alt="CP" title="évolution majeure du CI-SIS" style="width:80%;">
+</div>
 
 ## Gestion des Changes Proposals (CP)
 
