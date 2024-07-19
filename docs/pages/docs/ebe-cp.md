@@ -18,14 +18,14 @@ Il vous est possible de visualiser vos demandes en cours traitement, mais égale
 
 ### Gestion des expressions de besoins
 
-L'expression des besoins d'inscrit dans le processus d’élaboration des spécifications d’interopérabilité qui sont à l’origine du développement des conditions favorables à l’interopérabilité des systèmes. Ce processus peut être schématisé de la façon suivante :
+L'expression des besoins s'inscrit dans le processus d’élaboration des spécifications d’interopérabilité qui sont à l’origine du développement des conditions favorables à l’interopérabilité des systèmes. Ce processus peut être schématisé de la façon suivante :
 
 <div class="figure" style='text-align: center;'>
     <img src="../../assets/images/processus-ebe.png" alt="CP" title="Processus d’élaboration des spécifications d’interopérabilité" style="width:80%;">
     <figcaption><b>Processus d’élaboration des spécifications d’interopérabilité</b></figcaption>
 </div>
 
-UNe expression de besoins ce traduit par une évolution majeure du CI-SIS.
+Une expression de besoins ce traduit par une évolution majeure du CI-SIS.
 Si l'expression de besoin se traduit par la demande de modification d'un volet existant il sera requalifié en demande de CP.
 
 <div class="figure" style='text-align: center;'>
@@ -60,7 +60,7 @@ Les CP mineures sont traitées au fil de l'eau et sont intégrées dans les vole
 
 #### Traitement d'une CP
 
-Le schéma ci-dessous décrit le cycle de vie d'une CP durant son traitment.
+Le schéma ci-dessous décrit le cycle de vie d'une CP durant son traitement.
 <div class="figure" style='text-align: center;'>
     <img src="../../assets/images/ttt-cp.png" alt="CP" title="Traitment d'une CP : son cycle de vie" style="width:100%;">
     <figcaption><b>Traitment d'une CP : son cycle de vie</b></figcaption>
