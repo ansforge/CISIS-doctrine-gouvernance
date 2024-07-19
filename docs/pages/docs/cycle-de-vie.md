@@ -13,7 +13,7 @@ Cependant, il est important de noter que le statut de maturité est une informat
 
 Quatre statuts ont été identifiés pour les spécifications d'interopérabilité de l'ANS : "draft" ou "brouillon", "public-comment" ou "en concertation", "trial-implementation" ou "pour implementation", et "final-text" ou "final".
 
-Ces travaux se sont inspirés des pratiques internationales au niveau d'[IHE](https://wiki.ihe.net/index.php/Process) et de [HL7](ttps://confluence.hl7.org/display/FHIR/FHIR+Maturity+Model
+Ces travaux se sont inspirés des pratiques internationales au niveau d'[IHE](https://wiki.ihe.net/index.php/Process) et de [HL7](https://confluence.hl7.org/display/FHIR/FHIR+Maturity+Model
 ), adaptées aux besoins nationaux. Les statuts ont été inspirés des [pratiques d'IHE](https://wiki.ihe.net/index.php/Comments#Phases_of_Development), aveec un label anglais pour correspondre aux statuts IHE ainsi que sa traduction française.
 
 Les statuts "trial-implementation" et "final-text" reflètent la maturité des spécifications dans l'ordre indiqué.
@@ -50,7 +50,16 @@ Durant la vie d'une spécification, celle-ci passe par différents statuts expri
 ![](../../assets/images/cycle-de-vie.png)
 
 A l'issue d'une concertation, une spécification peut passer au statut « final-text ou « for implementation ». Ce choix dépend du respect de critère de qualité, de maturité, et de la décision de l'auteur.
-Pour passer en final-text, la spécification doit 1/ avoir été publiée au moins une fois en "trial-implementation", 2/ avoir été implémentée au niveau national ou testée lors de projectathons avec des retours mineurs, 3/ respecter les critères de qualité et de maturité et 4/ avoir l'aval de l'auteur qui juge la spécification suffisamment mature et qualitative pour passer à ce statut.
+Pour passer en final-text, la spécification doit :
+
+<div class="wysiwyg">
+    <ol>
+        <li> Avoir été publiée au moins une fois en "trial-implementation" </li>
+        <li> Avoir été implémentée au niveau national ou testée lors de projectathons avec des retours mineurs </li>
+        <li> Respecter les critères de qualité et de maturité </li>
+        <li> Avoir l'aval de l'auteur qui juge la spécification suffisamment mature et qualitative pour passer à ce statut </li>
+    </ol>
+</div>
 
 Notes :
 
@@ -58,7 +67,7 @@ Notes :
     <ul>
         <li> Une version en final-text peut repasser en trial-use, par exemple en cas de changement majeur comme un refactoring complet de la spécification (passage au format IG, à FHIR R6, changement de standard, ...). Cela signifie que l'ancienne version en final-text ne doit plus être utilisée pour diverses raisons, comme une situation internationale nécessitant de grandes évolutions. Dans ce cas, une note explicative sera associée à la release. </li>
         <li> Lorsqu'une nouvelle version d'une spécification est publiée, il est recommandé aux implémenteurs de l'adopter dans les 1 à 2 ans suivant sa publication. </li>
-        <li> le statut de cycle de vie n'est pas associé à la version [semver](https://semver.org/lang/fr/). Le numéro de version d'une spécification est systématiquement incrémenté à chaque release et est indépendant du statut du cycle de vie. Par exemple, si une faute d'orthographe est corrigée entraînant une incrémentation mineure du numéro de version, cela ne justifie pas un changement de statut. A chaque release, une étude pour évaluer un éventuel changement de statut du cycle de vie sera effectuée en suivant le schéma ci-dessus. </li>
+        <li> le statut de cycle de vie n'est pas associé à la version <a href="https://semver.org/lang/fr">semver</a>. Le numéro de version d'une spécification est systématiquement incrémenté à chaque release et est indépendant du statut du cycle de vie. Par exemple, si une faute d'orthographe est corrigée entraînant une incrémentation mineure du numéro de version, cela ne justifie pas un changement de statut. A chaque release, une étude pour évaluer un éventuel changement de statut du cycle de vie sera effectuée en suivant le schéma ci-dessus. </li>
     </ul>
 </div>
 
@@ -89,7 +98,7 @@ Les critères de qualité **FHIR** sont :
 <div class="wysiwyg">
     <ul>
         <li> Respect des bonnes pratiques nationales tel que les règles de nommages indiquées ci-dessous </li>
-        <li> Respect des [bonnes pratiques internationales](https://build.fhir.org/ig/FHIR/ig-guidance/best-practice.html) </li>
+        <li> Respect des <a href="https://build.fhir.org/ig/FHIR/ig-guidance/best-practice.html">bonnes pratiques internationales</a></li>
         <li> Respecter le stratégie nationale des choix de version FHIR </li>
         <li> Chaque ressource de conformité doit avoir une description </li>
         <li> L'ensemble des ressources de conformité doit avoir une description précise de son usage </li>
