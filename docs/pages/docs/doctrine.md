@@ -111,7 +111,7 @@ Dans ce cas, la doctrine est donc complétée par une procédure de consultation
 
 <div class="wysiwyg">
     <ul>
-        <li> Recensement des normes et standards utilisables pour la mise en œuvre du cas d’usage par les experts du CI      <li> SIS ;</li>
+        <li> Recensement des normes et standards utilisables pour la mise en œuvre du cas d’usage par les experts du CI-SIS ;</li>
         <li> Analyse comparative des normes et standards utilisables par les experts du CI-SIS ;</li>
         <li> Lancement de la consultation par diffusion de l’analyse comparative aux parties prenantes ;</li>
         <li> Recueil des commentaires des parties prenantes sur l’analyse comparative ;</li>
