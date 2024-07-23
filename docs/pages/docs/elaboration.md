@@ -395,23 +395,38 @@ Le MOS contient un ensemble de concepts. Cet ensemble a vocation à évoluer ave
 Il n’y a pas de règle pour la mise en correspondance entre un concept métier identifié à l’étape 4 et les concepts génériques du MOS. L'exercice peut s'avérer difficile car cette correspondance nécessite à la fois une compétence métier, une expérience en modélisation et une connaissance des classes et attributs du MOS.
 
 Dans le MOS, le concept métier peut correspondre à :
-►	Une ou plusieurs classes du MOS à restreindre ou à étendre, la correspondance peut être de type :
-o	Equivalence : la classe du MOS et le concept métier ont le même sens ;
-o	Restriction : la classe du MOS contient plus d'attributs et d'associations que ceux exigés fonctionnellement dans le projet ; il faut dès lors restreindre cette classe, c'est-à-dire sélectionner les attributs et associations nécessaires aux exigences métier ; les restrictions sont toujours possibles ;
-o	Extension : la classe du MOS ne contient pas tous les attributs nécessaires fonctionnellement ou n’existe pas ; il faut dès lors étendre cette classe ou créer une nouvelle classe ; il est préconisé d’éviter de "tordre" un composant générique pour en forcer l’utilisation ; en effet, cette opération entrainerait le risque de détourner la sémantique du concept et de passer à côté de la création d'un nouveau composant dans le MOS.
-►	Un ou plusieurs attributs du MOS, la correspondance peut être de type :
-o	 Equivalence : l’attribut MOS et le concept métier ont le même sens ;
-o	Extension : il n’existe pas d’attribut MOS correspondant, grâce à la définition du concept métier, on identifie la classe à laquelle le concept appartient ;
-o	Restriction : ce type d’équivalence n’est pas possible pour les attributs
+
+
+<div class="wysiwyg">
+    <ul>
+        <li>Une ou plusieurs classes du MOS à restreindre ou à étendre, la correspondance peut être de type :</li>
+        <ul>
+            <li>Equivalence : la classe du MOS et le concept métier ont le même sens ;</li>
+            <li>Restriction : la classe du MOS contient plus d'attributs et d'associations que ceux exigés fonctionnellement dans le projet ; il faut dès lors restreindre cette classe, c'est-à-dire sélectionner les attributs et associations nécessaires aux exigences métier ; les restrictions sont toujours possibles ;</li>
+            <li>Extension : la classe du MOS ne contient pas tous les attributs nécessaires fonctionnellement ou n’existe pas ; il faut dès lors étendre cette classe ou créer une nouvelle classe ; il est préconisé d’éviter de "tordre" un composant générique pour en forcer l’utilisation ; en effet, cette opération entrainerait le risque de détourner la sémantique du concept et de passer à côté de la création d'un nouveau composant dans le MOS.</li>
+        </ul>
+        <li>Un ou plusieurs attributs du MOS, la correspondance peut être de type :</li>
+        <ul>
+            <li>Equivalence : l’attribut MOS et le concept métier ont le même sens ;</li>
+            <li>Extension : il n’existe pas d’attribut MOS correspondant, grâce à la définition du concept métier, on identifie la classe à laquelle le concept appartient ;</li>
+            <li>Restriction : ce type d’équivalence n’est pas possible pour les attributs</li>
+        </ul>
+    </ul>
+</div>
 
 Par la suite, les extensions sont instruites pour déterminer si elles sont :
-►	Suffisamment génériques pour être utilisées par d'autres projets et donc être intégrées au MOS dans le cadre des mises à jour mensuelles ;
-►	Spécifiques au projet.
 
-Construction du tableau de mise en correspondance
+<div class="wysiwyg">
+    <ul>
+        <li>Suffisamment génériques pour être utilisées par d'autres projets et donc être intégrées au MOS dans le cadre des mises à jour mensuelles ;</li>
+        <li>Spécifiques au projet.</li>
+    </ul>
+</div>
+
+**Construction du tableau de mise en correspondance**
+
 La démarche s’applique pour chacun des concepts métier identifiés, que ce concept devienne une classe ou un ou plusieurs attributs. Suite à cette analyse, il est possible de construire un tableau de correspondance entre le concept métier et le concept MOS associé (voir Figure 18).
 Ce tableau contient les éléments suivants :
-
 
 <div class="wysiwyg">
     <ul>
@@ -437,8 +452,7 @@ Remarque : Tous les concepts métier doivent être listés dans le tableau, y co
 
 <!-- Commentaire IG : Je ne suis pas convaincue de l’utilité de ce type d’analyse en particulier dans les conditions dans lesquels nous travaillons où les délais sont souvent très serrés. -->
 
-
-Figure 18 : Correspondance « concepts métier/MOS » pour les flux du volet « Cercle de soins »
+Tableau : Correspondance « concepts métier/MOS » pour les flux du volet « Cercle de soins »
 
 ### Etape 5 : modélisation des flux d’information
 
@@ -514,13 +528,14 @@ Le diagramme de classes n’est pas approprié pour formaliser le modèle sous t
 **Emettre des demandes de modification (DM)**
 
 Comme mentionné précédemment, des demandes de modifications sont à émettre pour faire évoluer le MOS ou les NOS. Ces demandes seront étudiées par l'équipe en charge de la gestion de ces référentiels socles.
-Illustration des flux modélisés – Diagramme d’objets
+
+**Illustration des flux modélisés – Diagramme d’objets**
+
 Le résultat est constitué par un diagramme de classes par flux, appelé modèle du flux, accompagné de la documentation des classes, attributs et règles.
 Le modèle du flux est neutre de toute syntaxe ; il est la base des évolutions fonctionnelles. Il est ensuite transformé, automatiquement ou non, dans la syntaxe choisie par le projet au cours de l’étude des Normes et standards (voir Figure 1). Cette syntaxe peut faire partie des standards du cadre d'interopérabilité des systèmes d'information de santé (CI-SIS).
 Le diagramme contient les classes sélectionnées du MOS et restreintes ainsi que de nouvelles classes propres à la description fonctionnelle. Chaque attribut est défini par un type de donnée et des cardinalités, les attributs de type "Code" sont associés à leur nomenclature ; cette dernière information figure dans la documentation du diagramme de classes.
 L'exemple du diagramme de classe "Flux 1 - CreationCercleSoins" illustre la construction du modèle d’un flux. Pour plus de lisibilité dans cet exemple, les classes issues du MOS ont été identifiées à l’aide du symbole *. Il est complété par le diagramme d'objet correspondant en Figure 19.
 Le diagramme de classes n’est pas approprié pour formaliser un flux de recherche. Ce diagramme est remplacé par un tableau qui contient pour chaque critère de recherche, sa description ainsi que son caractère obligatoire (voir Figure 19).
-
 
 <div class="figure" style='text-align: center;'>
     <img src="../../assets/images/flux1-creation-cds.png" alt="CP" title="Flux 1 - création CDS" style="width:80%;">
@@ -540,25 +555,80 @@ Le Cercle de Soins comprend toutes les personnes (Professionnel ou Personne Tier
 | metadonnee : [1..1] Metadonnee | Informations relatives à la gestion des classes et des données. |
 
 **Classe « PersonnePriseCharge »**
+
 Personne physique bénéficiaire de soins, d'examens, d'actes de prévention ou de services. Selon le contexte, la personne prise en charge peut être un patient ou un usager.
-Nom	Description
-idPersonnePriseCharge : [1..1] Identifiant 	Identifiant(s) de la personne prise en charge (identifiants de santé, identifiants locaux, etc.).
-adresseCorrespondance : [1..1] Adresse 	Adresse(s) de correspondance de la personne prise en charge.
-telecommunication : [1..*] Telecommunication 	Adresse(s) de télécommunication de la personne prise en charge (numéro de téléphone, adresse email, URL, etc.).
-metadonnee : [1..1] Metadonnee 	Informations relatives à la gestion des classes et des données.
-Figure 19 : Extrait du modèle de flux « flux 1 – CreationCercleSoin »
-Flux de recherche : Flux 2 – RechercheCercleSoins
-Nom	Description	Obligatoire
-CercleSoins/idCercleSoins 	Identifiant du cercle de soins. 		Non
-CercleSoins/dateCreation 	Date de création du cercle de soin		Non
-CercleSoins/dateMAJ 	Date de mise à jour du cercle de soin. 	Non
-CercleSoins/dateFin 	Date de fin d'existence du cercle de soins. 	Non
-CercleSoins/statut 	Statut du cercle de soin (actif, inactif, ...) 	Non
-MembreCercleSoin/idMembreCercleSoin 	Identifiant du membre du cercle de soins. 	Non
-Figure 20 : Tableau des critères de recherche du « Flux de recherche : Flux 2 – RechercheCercleSoins »
-Diagramme d’objet du flux 1 – CreationCercleSoins
+
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;text-align:justify;line-height:115%;font-size:13px;font-family:"Calibri",sans-serif;'><span style="font-size:15px;line-height:115%;">&nbsp;</span></p>
+<table style="border-collapse:collapse;border:none;">
+    <tbody>
+        <tr>
+            <td style="width: 226.55pt;border: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:center;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;'><span style="color:#404040;font-style:italic;"><strong><span style="color:#4F81BD;">Nom</span></strong></span></p>
+            </td>
+            <td style="width: 226.55pt;border-top: 1pt solid windowtext;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-image: initial;border-left: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:center;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;'><span style="color:#404040;font-style:italic;"><strong><span style="color:#4F81BD;">Description</span></strong></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 226.55pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;text-align:justify;'><span style='font-size:13px;font-family:"Calibri",sans-serif;'>idPersonnePriseCharge : [1..1] Identifiant&nbsp;</span></p>
+            </td>
+            <td style="width: 226.55pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;text-align:justify;'><span style='font-size:13px;font-family:"Calibri",sans-serif;'>Identifiant(s) de la personne prise en charge (identifiants de sant&eacute;, identifiants locaux, etc.).&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 226.55pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;text-align:justify;'><span style='font-size:13px;font-family:"Calibri",sans-serif;'>adresseCorrespondance : [1..1] Adresse&nbsp;</span></p>
+            </td>
+            <td style="width: 226.55pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;text-align:justify;'><span style='font-size:13px;font-family:"Calibri",sans-serif;'>Adresse(s) de correspondance de la personne prise en charge.&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 226.55pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;text-align:justify;'><span style='font-size:13px;font-family:"Calibri",sans-serif;'>telecommunication : [1..*] Telecommunication&nbsp;</span></p>
+            </td>
+            <td style="width: 226.55pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;text-align:justify;'><span style='font-size:13px;font-family:"Calibri",sans-serif;'>Adresse(s) de t&eacute;l&eacute;communication de la personne prise en charge (num&eacute;ro de t&eacute;l&eacute;phone, adresse email, URL, etc.).&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 226.55pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;text-align:justify;'><span style='font-size:13px;font-family:"Calibri",sans-serif;'>metadonnee : [1..1] Metadonnee&nbsp;</span></p>
+            </td>
+            <td style="width: 226.55pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;text-align:justify;'><span style='font-size:13px;font-family:"Calibri",sans-serif;'>Informations relatives &agrave; la gestion des classes et des donn&eacute;es.&nbsp;</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;text-align:center;line-height:115%;font-size:13px;font-family:"Calibri",sans-serif;'><span style="color:#404040;font-style:italic;"><span style="font-size:15px;line-height:115%;font-style:normal;">&nbsp;</span></span></p>
+
+Tableau 19 : Extrait du modèle de flux « flux 1 – CreationCercleSoin »
+
+**Flux de recherche : Flux 2 – RechercheCercleSoins**
+
+| Nom | Description | Obligatoire |
+| --- | --- | --- |
+| CercleSoins/idCercleSoins | Identifiant du cercle de soins. | Non |
+| CercleSoins/dateCreation | Date de création du cercle de soin | Non |
+| CercleSoins/dateMAJ | Date de mise à jour du cercle de soin. | Non |
+| CercleSoins/dateFin | Date de fin d'existence du cercle de soins. | Non |
+| CercleSoins/statut | Statut du cercle de soin (actif, inactif, ...) | Non |
+| MembreCercleSoin/idMembreCercleSoin | Identifiant du membre du cercle de soins. | Non |
+
+Tableau 20 : Tableau des critères de recherche du « Flux de recherche : Flux 2 – RechercheCercleSoins »
+
+**Diagramme d’objet du flux 1 – CreationCercleSoins**
+
+<div class="figure" style='text-align: center;'>
+    <img src="../../assets/images/diagramme-cds.png" alt="CP" title="Diagramme d’objet du flux 1 – CreationCercleSoins**" style="width:80%;">
+    <figcaption><b>Diagramme d’objet du flux 1 – CreationCercleSoins**</b></figcaption>
+</div>
 
 ## CAS SPECIFIQUE DES MISES A JOUR DES SPECIFICATIONS
+
 La mise à jour des spécifications est déclenchée lorsqu’un événement nouveau impacte une ou plusieurs étapes de ces spécifications.
 Par exemple, une nouvelle contrainte réglementaire, l’ajout d’un cas d’usage, etc.
 Dès qu’une étape est modifiée, il faut réaliser une étude d’impacts sur toutes les étapes suivantes. Un arbitrage de ces impacts doit être réalisé afin de savoir si des évolutions sont à considérer ou pas sur les spécifications existantes.
