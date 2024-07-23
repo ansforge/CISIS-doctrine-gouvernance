@@ -289,6 +289,7 @@ Remarque : Un même flux d’informations évoluant dans le temps peut être con
 
 Exemple dans le contexte du volet « Cercle de soins » :
 
+
 | Flux | Processus | Emetteur | Récepteur | Périmètre |
 | --- | --- | --- | --- | --- |
 | Flux 1 - CreationCercleSoins | Création du cercle de soins | Createur | Gestionnaire | Oui |
@@ -300,27 +301,175 @@ Tableau de synthèse de l’ensemble des flux d’information dans le contexte d
 
 Ce tableau sera ensuite repris pour construire le tableau des acteurs/transactions qui regroupe pour chaque acteur impliqué l’ensemble des flux d’information implémentés par cet acteur et qui définit le caractère obligatoire ou optionnel de chacun des flux ainsi que le lien sur la section qui décrit le flux d’un point de vue technique.
 Exemple de tableau acteurs/transactions de l’étude technique dans le contexte du volet « Cercle de soins » :
-Acteur	Transaction	Caractère requis (R)/optionnel (O) de la transaction	Vol & section
-Créateur	Flux 1 : CreationCercleSoins	Requis	Lien sur la section dans le volume des spécifications techniques (Volume 2)
-    Flux 4 : MiseJourCercleSoins	Requis	Idem
-Gestionnaire	Flux 1 : CreationCercleSoins	Requis	Idem
-    Flux 2 : RechercheCercleSoins	Requis	Idem
-    Flux 3 : ResultatRechercheCercleSoins	Requis	Idem
-    Flux 4 : MiseJourCercleSoins	Requis	Idem
-Consommateur	Flux 2 : RechercheCercleSoins	Requis	Idem
-    Flux 3 : ResultatRechercheCercleSoins	Requis	Idem
-Figure 15 : Tableau des acteurs/transactions dans le volet « Cercle de soins »
+
+<table style="width:481.7pt;border-collapse:collapse;border:none;">
+    <tbody>
+        <tr>
+            <td style="width: 73.7pt;border: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:center;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'>Acteur</p>
+            </td>
+            <td style="width: 174.15pt;border-top: 1pt solid windowtext;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-image: initial;border-left: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:center;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'>Transaction</p>
+            </td>
+            <td style="width: 116.9pt;border-top: 1pt solid windowtext;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-image: initial;border-left: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:center;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'>Caract&egrave;re requis (R)/optionnel (O) de la transaction</p>
+            </td>
+            <td style="width: 116.95pt;border-top: 1pt solid windowtext;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-image: initial;border-left: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:center;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'>Vol &amp; section</p>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2" style="width: 73.7pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'><span style="color:windowtext;font-weight:normal;">Cr&eacute;ateur</span></p>
+            </td>
+            <td style="width: 174.15pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'><span style="color:windowtext;font-weight:normal;">Flux 1&nbsp;: CreationCercleSoins</span></p>
+            </td>
+            <td style="width: 116.9pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'><span style="color:windowtext;font-weight:normal;">Requis</span></p>
+            </td>
+            <td style="width: 116.95pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'><span style="color:windowtext;font-weight:normal;">Lien sur la section dans le volume des sp&eacute;cifications techniques (Volume 2)</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 174.15pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'><span style="color:windowtext;font-weight:normal;">Flux 4&nbsp;: MiseJourCercleSoins</span></p>
+            </td>
+            <td style="width: 116.9pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'><span style="color:windowtext;font-weight:normal;">Requis</span></p>
+            </td>
+            <td style="width: 116.95pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'><span style="color:windowtext;font-weight:normal;">Idem</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="4" style="width: 73.7pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'><span style="color:windowtext;font-weight:normal;">Gestionnaire</span></p>
+            </td>
+            <td style="width: 174.15pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'><span style="color:windowtext;font-weight:normal;">Flux 1&nbsp;: CreationCercleSoins</span></p>
+            </td>
+            <td style="width: 116.9pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'><span style="color:windowtext;font-weight:normal;">Requis</span></p>
+            </td>
+            <td style="width: 116.95pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'><span style="color:windowtext;font-weight:normal;">Idem</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 174.15pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'><span style="color:windowtext;font-weight:normal;">Flux 2&nbsp;: RechercheCercleSoins</span></p>
+            </td>
+            <td style="width: 116.9pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'><span style="color:windowtext;font-weight:normal;">Requis</span></p>
+            </td>
+            <td style="width: 116.95pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'><span style="color:windowtext;font-weight:normal;">Idem</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 174.15pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'><span style="color:windowtext;font-weight:normal;">Flux 3&nbsp;: ResultatRechercheCercleSoins</span></p>
+            </td>
+            <td style="width: 116.9pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'><span style="color:windowtext;font-weight:normal;">Requis</span></p>
+            </td>
+            <td style="width: 116.95pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'><span style="color:windowtext;font-weight:normal;">Idem</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 174.15pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'><span style="color:windowtext;font-weight:normal;">Flux 4&nbsp;: MiseJourCercleSoins</span></p>
+            </td>
+            <td style="width: 116.9pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'><span style="color:windowtext;font-weight:normal;">Requis</span></p>
+            </td>
+            <td style="width: 116.95pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'><span style="color:windowtext;font-weight:normal;">Idem</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2" style="width: 73.7pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'><span style="color:windowtext;font-weight:normal;">Consommateur</span></p>
+            </td>
+            <td style="width: 174.15pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'><span style="color:windowtext;font-weight:normal;">Flux 2&nbsp;: RechercheCercleSoins</span></p>
+            </td>
+            <td style="width: 116.9pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'><span style="color:windowtext;font-weight:normal;">Requis</span></p>
+            </td>
+            <td style="width: 116.95pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'><span style="color:windowtext;font-weight:normal;">Idem</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 174.15pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'><span style="color:windowtext;font-weight:normal;">Flux 3&nbsp;: ResultatRechercheCercleSoins</span></p>
+            </td>
+            <td style="width: 116.9pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'><span style="color:windowtext;font-weight:normal;">Requis</span></p>
+            </td>
+            <td style="width: 116.95pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'><span style="color:windowtext;font-weight:normal;">Idem</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+Tableau : Tableau des acteurs/transactions dans le volet « Cercle de soins »
 
 Il est également possible de préciser, si besoin, des choix d’options de mise en œuvre des flux pour chaque acteur. Par exemple, dans le contexte du volet « Cercle de soins », il est possible de préciser les options suivantes pour l’acteur Createur :
-Acteur	Option
-Createur	Création simultanée du cercle de soins et de ses acteurs
-    Création du cercle de soins
-    Création des acteurs du cercle de soins (Note1)
-    Mise à jour simultanée du cercle de soins et de ses acteurs
-    Mise à jour du cercle de soins
-    Mise à jour des acteurs du cercle de soins (Note1)
+
+<table style="width:481.7pt;border-collapse:collapse;border:none;">
+    <tbody>
+        <tr>
+            <td style="width: 115.65pt;border: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:center;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'>Acteur</p>
+            </td>
+            <td style="width: 366.05pt;border-top: 1pt solid windowtext;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-image: initial;border-left: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:center;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'>Option</p>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="6" style="width: 115.65pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'><span style="color:windowtext;font-weight:normal;">Createur</span></p>
+            </td>
+            <td style="width: 366.05pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'><span style="color:windowtext;font-weight:normal;">Cr&eacute;ation simultan&eacute;e du cercle de soins et de ses acteurs</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 366.05pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 9pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'><span style="color:windowtext;font-weight:normal;">Cr&eacute;ation du cercle de soins&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 366.05pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 9pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'><span style="color:windowtext;font-weight:normal;">Cr&eacute;ation des acteurs du cercle de soins (Note1)</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 366.05pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 9pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'><span style="color:windowtext;font-weight:normal;">Mise &agrave; jour simultan&eacute;e du cercle de soins et de ses acteurs</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 366.05pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 9pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'><span style="color:windowtext;font-weight:normal;">Mise &agrave; jour du cercle de soins&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 366.05pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 9pt;vertical-align: top;">
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'><span style="color:windowtext;font-weight:normal;">Mise &agrave; jour des acteurs du cercle de soins (Note1)</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 (Note 1) : dans le cas où l’acteur supporte l’option Création des acteurs du cercle de soins, il doit également supporter obligatoirement l’option Création du cercle de soins.
-Figure 16 : tableau des options pour l’acteur Createur dans le contexte du volet « Cercle de soins »
+Tableau 16 : tableau des options pour l’acteur Createur dans le contexte du volet « Cercle de soins »
 
 Le même principe s’applique aux autres acteurs identifiés pour lesquels une ou plusieurs options ont été identifiées.
 Enfin, il est possible également de préciser les groupements entre les acteurs identifiés par l’étude fonctionnelle et d’autres acteurs définis en dehors du volet en construction mais déjà décrits dans d’autres volets du CI_SIS ou dans d’autres spécifications de portée internationale.
@@ -383,7 +532,7 @@ Exemple :
 | PersonnePriseCharge | Personne physique bénéficiaire de soins, d'examens, d'actes de prévention ou de services. | Flux 1 - CreationCercleSoins, Flux 2 - RechercheCercleSoins, Flux 3 - ResultatRechercheCercleSoins, Flux 4 - MiseJourCercleSoins |
 | Professionnel | Un Professionnel est une personne qui participe à la prise en charge d’une personne. Le professionnel peut être du domaine sanitaire, médico-administratif, médico-social et social. | Flux 1 - CreationCercleSoins, Flux 2 - RechercheCercleSoins, Flux 3 - ResultatRechercheCercleSoins, Flux 4 - MiseJourCercleSoins |
 
-Figure 17 : Extrait des concepts métier présents dans l’étude « Cercle de soins »
+Tableau : Extrait des concepts métier présents dans l’étude « Cercle de soins »
 
 #### Identification des classes génériques
 
@@ -472,6 +621,7 @@ Le but de cette étape est d’établir la modélisation de chaque flux en utili
 Remarque : Le cas particulier des flux de recherche est traité à la suite de la modélisation des flux afin de lier les critères de recherche aux classes et attributs identifiés.
 
 **Première opération : choix de la racine**
+
 Le modèle du flux a toujours comme point de départ une classe unique, appelée la classe racine. Elle reprend le nom du flux identifié à l'étape 3. Elle n'a pas d'attribut.
 Les noms des éléments du modèle respectent les conventions de nommage du MOS, à savoir :
 
@@ -501,6 +651,7 @@ Il faut aussi étudier les associations entre les classes ainsi que les cardinal
 Si le besoin métier est de créer une nouvelle classe ou d'enrichir une classe existante, il faut alors rédiger une Demande de Modification (DM) à soumettre au gestionnaire du MOS.
 
 **Troisième opération : définition des attributs**
+
 En ce qui concerne les attributs, les classes issues du MOS sont en général plus riches que ce qui est exigé fonctionnellement dans les flux. Il faut dès lors prendre ces classes et les restreindre, c'est-à-dire sélectionner uniquement les attributs répondant aux exigences métier. Cette opération s'applique à toutes les classes reprises, y compris les classes communes (Adresse, Telecommunication, Contact, Lieu, etc.). Il est conseillé de ne pas modifier les noms des attributs du MOS.
 Les classes du MOS peuvent aussi être étendues par la création de nouveaux attributs. Il faut également créer les attributs des nouvelles classes qui n’existent pas dans le MOS.
 Si le besoin métier est de créer un nouvel attribut ou d'enrichir un attribut existant, il faut alors rédiger une Demande de Modification (DM) à soumettre au gestionnaire du MOS.
@@ -545,6 +696,7 @@ Le diagramme de classes n’est pas approprié pour formaliser un flux de recher
 **Classe « CercleSoins »**
 
 Le Cercle de Soins comprend toutes les personnes (Professionnel ou Personne Tierce) et Entités qui participent à la prise en charge et aux actions de coordination du parcours de santé d’un Usager. Le Cercle de Soins possède un statut (actif, inactif…), une date de début, une date de fin et une date de mise à jour.
+
 | Nom | Description |
 | --- | --- |
 | idCercleSoins : [1..1] Identifiant | Identifiant du cercle de soins. |
