@@ -267,9 +267,7 @@ Le diagramme des acteurs/transactions regroupe l’ensemble des acteurs impliqu�
 
 Exemple de diagramme des acteurs/transactions dans le contexte du volet « Cercle de soins » :
  
- 
-
-  <div class="figure" style='text-align: center;'>
+<div class="figure" style='text-align: center;'>
     <img src="../../assets/images/diagramme-acteurs-transaction.png" alt="CP" title="Diagramme des acteurs/transactions dans le contexte du volet « Cercle de soins »" style="width:80%;">
     <figcaption><b>Diagramme des acteurs/transactions dans le contexte du volet « Cercle de soins »</b></figcaption>
 </div>
@@ -424,22 +422,26 @@ Ce tableau contient les éléments suivants :
 
 Remarque : Tous les concepts métier doivent être listés dans le tableau, y compris ceux qui n’ont pas de correspondance dans le MOS.
 
-Nom	Extension	Restriction	Equivalence	Concept MOS
-CercleSoins	X			
-MembreCercleSoins	X			
-PersonnePriseCharge			X	
-Professionnel		X		
-Aidant		X		
-ResponsableLegal		X		
-PersonneConfiance		X		
-Role			X	
-Entite		X		
-UniteSoin		X
+| Nom                 | Extension | Restriction | Equivalence | Concept MOS |
+| ---                 | --- | --- | --- | --- |
+| CercleSoins         | X |  |  |  |
+| MembreCercleSoins   | X |  |  |  |
+| PersonnePriseCharge |  |  | X |  |
+| Professionnel       |  | X |  |  |
+| Aidant              |  | X |  |  |
+| ResponsableLegal    |  | X |  |  |
+| PersonneConfiance   |  | X |  |  |
+| Role                |  |  | X |  |
+| Entite              |  | X |  |  |
+| UniteSoin           |  | X |  |  |
+
+<!-- Commentaire IG : Je ne suis pas convaincue de l’utilité de ce type d’analyse en particulier dans les conditions dans lesquels nous travaillons où les délais sont souvent très serrés. -->
     
 
 Figure 18 : Correspondance « concepts métier/MOS » pour les flux du volet « Cercle de soins »
 
 ### Etape 5 : modélisation des flux d’information
+
 Les concepts véhiculés par les flux d’informations ont été identifiés à l’étape 4. Le but de cette étape est d'élaborer le modèle sous tendu par chaque flux à partir des concepts métier et des classes et attributs existants dans le MOS. 
 Le modèle sous tendu par chaque flux d’information est modélisé par un diagramme de classes UML. Cette représentation formalisée du flux doit prendre en compte les deux exigences suivantes :
 
@@ -453,39 +455,63 @@ Le modèle sous tendu par chaque flux d’information est modélisé par un diag
 Modélisation des flux
 Le but de cette étape est d’établir la modélisation de chaque flux en utilisant les concepts identifiés à l'étape précédente. Cette modélisation est le résultat de cinq opérations. 
 Remarque : Le cas particulier des flux de recherche est traité à la suite de la modélisation des flux afin de lier les critères de recherche aux classes et attributs identifiés.
-	Première opération : choix de la racine
+
+**Première opération : choix de la racine**
 Le modèle du flux a toujours comme point de départ une classe unique, appelée la classe racine. Elle reprend le nom du flux identifié à l'étape 3. Elle n'a pas d'attribut. 
-Les noms des éléments du modèle respectent les conventions de nommage du MOS, à savoir : 
-►	Les articles, propositions et les accents sont retirés ; 
-►	Les noms des classes, attributs, types de données sont, autant que possible, au singulier ; 
-►	Les noms des classes et des types de données sont écrits en « UpperCamelCase » ;
-►	Les noms des attributs sont écrits en « LowerCamelCase ».
+Les noms des éléments du modèle respectent les conventions de nommage du MOS, à savoir :
+
+<div class="wysiwyg">
+    <ul>
+        <li>Les articles, propositions et les accents sont retirés ;</li>
+        <li>Les noms des classes, attributs, types de données sont, autant que possible, au singulier ;</li>
+        <li>Les noms des classes et des types de données sont écrits en « UpperCamelCase » ;</li>
+        <li>Les noms des attributs sont écrits en « LowerCamelCase ».</li>
+    </ul>
+</div>
+
 Dans l'exemple, la classe racine s'appelle " CercleSoins ".
 
-	Deuxième opération : définition des classes
-Pour chaque flux de l’étape 4, il faut identifier les concepts métier qui deviennent des classes. 
-►	Pour tout concept ayant une équivalence avec une classe du MOS dans l’étape 4.2, il faut reprendre la classe du MOS ; 
-►	Pour tout concept n’ayant pas d’équivalence avec une classe du MOS dans l’étape 4.2, il faut créer la classe correspondant à ce concept métier. 
-Il faut aussi étudier les associations entre les classes ainsi que les cardinalités pour les adapter au contexte du flux. 
+**Deuxième opération : définition des classes**
+
+Pour chaque flux de l’étape 4, il faut identifier les concepts métier qui deviennent des classes.
+
+<div class="wysiwyg">
+    <ul>
+        <li>Pour tout concept ayant une équivalence avec une classe du MOS dans l’étape 4.2, il faut reprendre la classe du MOS ; </li>
+        <li>Pour tout concept n’ayant pas d’équivalence avec une classe du MOS dans l’étape 4.2, il faut créer la classe correspondant à ce concept métier.</li>
+    </ul>
+</div>
+
+Il faut aussi étudier les associations entre les classes ainsi que les cardinalités pour les adapter au contexte du flux.
 Si le besoin métier est de créer une nouvelle classe ou d'enrichir une classe existante, il faut alors rédiger une Demande de Modification (DM) à soumettre au gestionnaire du MOS.
-	Troisième opération : définition des attributs
+
+**Troisième opération : définition des attributs**
 En ce qui concerne les attributs, les classes issues du MOS sont en général plus riches que ce qui est exigé fonctionnellement dans les flux. Il faut dès lors prendre ces classes et les restreindre, c'est-à-dire sélectionner uniquement les attributs répondant aux exigences métier. Cette opération s'applique à toutes les classes reprises, y compris les classes communes (Adresse, Telecommunication, Contact, Lieu, etc.). Il est conseillé de ne pas modifier les noms des attributs du MOS. 
 Les classes du MOS peuvent aussi être étendues par la création de nouveaux attributs. Il faut également créer les attributs des nouvelles classes qui n’existent pas dans le MOS.
 Si le besoin métier est de créer un nouvel attribut ou d'enrichir un attribut existant, il faut alors rédiger une Demande de Modification (DM) à soumettre au gestionnaire du MOS. 
-Cas particulier des métadonnées : 
+
+Cas particulier des métadonnées :
 Si d’un point du vue métier, il est important de véhiculer les métadonnées d’une ou plusieurs classes, alors il faut analyser quelles métadonnées sont nécessaires et les inclure dans les classes identifiées. 
 Il n’est pas nécessaire d’ajouter l’attribut métadonnée pour représenter les métadonnées techniques véhiculées dans chaque flux.
-	Quatrième opération : types de données et nomenclatures associées
+
+**Quatrième opération : types de données et nomenclatures associées**
+
 Qu'ils soient candidats ou non à une mise à jour du MOS, les attributs créés lors de l’étude doivent reprendre un des types de données définis dans le MOS. 
 Les attributs d'une classe dont le type est un "Code" doivent avoir une nomenclature (ou liste de codes) qui leur est associée. Dans le cadre d’une application, il faut faire référence à des jeux de valeurs plutôt qu’à des terminologies de référence. Si le besoin métier est de créer une nouvelle nomenclature ou d’enrichir une nomenclature existante, il faut alors rédiger une Demande de Modification (DM) à soumettre au gestionnaire des nomenclatures des objets de santé (NOS). Lorsque les nomenclatures sont seulement identifiées à ce stade des spécifications fonctionnelles des échanges, il est conseillé d’ajouter dans la description des attributs auxquels elles sont associées, un paragraphe les décrivant et listant, si possible, les premières valeurs proposées. Dans les livrables de l’étude, les nomenclatures associées aux échanges sont annexées au document des spécifications fonctionnelles des échanges.
-	Cinquième opération : règles de gestion
+
+**Cinquième opération : règles de gestion**
+
 Les règles de gestion métier définies par les partenaires de l'échange précisent que certaines classes ou certains attributs sont liés entre eux par des contraintes. Par exemple, dans un échange, l'attribut A est exclusif de l'attribut B ; en d'autres termes, cela veut dire que si A est échangé alors B n'est pas échangé. 
 Ces règles de gestion, rédigées en texte libre, sont spécifiées sur le diagramme de classe du flux sous la forme de contraintes UML. Ces contraintes s'appliquent sur une ou plusieurs classes et/ou sur un ou plusieurs attributs. Elles doivent rester simples et internes à l'échange. Ce sont des règles métier, elles ne doivent pas servir à exprimer des choix d'implémentation. 
 Elles sont exprimées sous la forme d'un nom suivi d'un numéro d'ordre (par exemple, Règle01, Règle02, etc.) et d'une description. 
 Dans la documentation, elles figurent à la fois sur le diagramme de classe et dans la partie textuelle, sous la forme d'un tableau. Ce tableau est présenté à la suite de la description de la classe sur laquelle ces règles portent.
-	Cas particulier des flux de recherche
+
+**Cas particulier des flux de recherche**
+
 Le diagramme de classes n’est pas approprié pour formaliser le modèle sous tendu par un flux de recherche. Ce diagramme est remplacé par un tableau qui contient pour chaque critère de recherche, sa description ainsi que son caractère obligatoire.
-	Emettre des demandes de modification (DM)
+
+**Emettre des demandes de modification (DM)**
+
 Comme mentionné précédemment, des demandes de modifications sont à émettre pour faire évoluer le MOS ou les NOS. Ces demandes seront étudiées par l'équipe en charge de la gestion de ces référentiels socles.
 Illustration des flux modélisés – Diagramme d’objets
 Le résultat est constitué par un diagramme de classes par flux, appelé modèle du flux, accompagné de la documentation des classes, attributs et règles. 
@@ -493,20 +519,26 @@ Le modèle du flux est neutre de toute syntaxe ; il est la base des évolutions 
 Le diagramme contient les classes sélectionnées du MOS et restreintes ainsi que de nouvelles classes propres à la description fonctionnelle. Chaque attribut est défini par un type de donnée et des cardinalités, les attributs de type "Code" sont associés à leur nomenclature ; cette dernière information figure dans la documentation du diagramme de classes. 
 L'exemple du diagramme de classe "Flux 1 - CreationCercleSoins" illustre la construction du modèle d’un flux. Pour plus de lisibilité dans cet exemple, les classes issues du MOS ont été identifiées à l’aide du symbole *. Il est complété par le diagramme d'objet correspondant en Figure 19. 
 Le diagramme de classes n’est pas approprié pour formaliser un flux de recherche. Ce diagramme est remplacé par un tableau qui contient pour chaque critère de recherche, sa description ainsi que son caractère obligatoire (voir Figure 19).
-Flux 1 – CreationCercleSoins
+
+
+<div class="figure" style='text-align: center;'>
+    <img src="../../assets/images/flux1-creation-cds.png" alt="CP" title="Flux 1 - création CDS" style="width:80%;">
+    <figcaption><b>Flux 1 - création CDS</b></figcaption>
+</div>
  
+**Classe « CercleSoins »**
 
-Classe « CercleSoins »
 Le Cercle de Soins comprend toutes les personnes (Professionnel ou Personne Tierce) et Entités qui participent à la prise en charge et aux actions de coordination du parcours de santé d’un Usager. Le Cercle de Soins possède un statut (actif, inactif…), une date de début, une date de fin et une date de mise à jour.
-Nom	Description
-idCercleSoins : [1..1] Identifiant 	Identifiant du cercle de soins. 
-dateCreation : [1..1] Date 	Date de création du cercle de soin. 
-dateMAJ : [1..*] Date 	Date de mise à jour du cercle de soin.
-dateFin : [1..1] string 	Date de fin d'existence du cercle de soins. 
-statut : [1..1] string 	Statut du cercle de soin (actif, inactif, ...).
-metadonnee : [1..1] Metadonnee 	Informations relatives à la gestion des classes et des données. 
+| Nom | Description |
+| --- | --- |
+| idCercleSoins : [1..1] Identifiant | Identifiant du cercle de soins. |
+| dateCreation : [1..1] Date | Date de création du cercle de soin. |
+| dateMAJ : [1..*] Date | Date de mise à jour du cercle de soin.|
+| dateFin : [1..1] string | Date de fin d'existence du cercle de soins. |
+| statut : [1..1] string | Statut du cercle de soin (actif, inactif, ...).|
+| metadonnee : [1..1] Metadonnee | Informations relatives à la gestion des classes et des données. |
 
-Classe « PersonnePriseCharge »
+**Classe « PersonnePriseCharge »**
 Personne physique bénéficiaire de soins, d'examens, d'actes de prévention ou de services. Selon le contexte, la personne prise en charge peut être un patient ou un usager.
 Nom	Description
 idPersonnePriseCharge : [1..1] Identifiant 	Identifiant(s) de la personne prise en charge (identifiants de santé, identifiants locaux, etc.). 
