@@ -30,8 +30,10 @@ Un volet du cadre d'interopérabilité des systèmes d'information de santé (CI
     </ul>
 </div>
 
-![](../../assets/images/docs-volet-cisis.png)
-Figure 4: Documents constituant un volet du CI_SIS
+<div class="figure" style='text-align: center;'>
+    <img src="../../assets/images/docs-volet-cisis.png" alt="CP" title="Figure 4: Documents constituant un volet du CI_SIS" style="width:80%;">
+    <figcaption><b>Figure 4: Documents constituant un volet du CI_SIS</b></figcaption>
+</div>
 
 ## Déroulement de la méthode
 
@@ -55,13 +57,17 @@ L'élaboration de ces étapes repose sur la notation UML (Unified Modeling Langu
 
 Les niveaux d’interopérabilité définis dans le cadre d’interopérabilité européen (European Interoperability framework - EIF) sont repris en Figure 5.
 
-![](../../assets/images/niveaux-interop.png)
-Figure 5 : Niveaux d’interopérabilité
+<div class="figure" style='text-align: center;'>
+    <img src="../../assets/images/niveaux-interop.png" alt="CP" title="Niveaux d’interopérabilité" style="width:80%;">
+    <figcaption><b>Niveaux d’interopérabilité</b></figcaption>
+</div>
 
 Les spécifications fonctionnelles des échanges font partie du niveau sémantique de l'interopérabilité. Elles peuvent intégrer également les niveaux juridique et organisationnel en citant le cadre juridique de ces échanges ainsi que les orientations organisationnelles choisies (voir Figure 6). Toute évolution fonctionnelle doit générer la mise à jour de ces spécifications. Ces spécifications fonctionnelles sont neutres vis-à-vis de la syntaxe des échanges. La transformation dans la syntaxe choisie est effectuée dans la phase de spécifications techniques.
 
-![](../../assets/images/niveaux-interop-sf.png)
-Figure 6 : Niveaux d’interopérabilité couverts par les spécifications fonctionnelles des échanges
+<div class="figure" style='text-align: center;'>
+    <img src="../../assets/images/niveaux-interop-sf.png" alt="CP" title="Niveaux d’interopérabilité couverts par les spécifications fonctionnelles des échanges" style="width:80%;">
+    <figcaption><b>Niveaux d’interopérabilité couverts par les spécifications fonctionnelles des échanges</b></figcaption>
+</div>
 
 ## La méthode par l'exemple
 Cette méthode est illustrée par les exemples qui ont été extraits à une phase préparatoire des spécifications fonctionnelles de l'étude "Cercle de soins". Ce ne sont que des exemples pour décrire la méthode.
