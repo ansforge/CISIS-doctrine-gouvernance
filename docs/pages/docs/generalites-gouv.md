@@ -1,5 +1,5 @@
 ---
-title: Généralités sur la Gouvernance du ci-sis
+title: Généralités sur la Gouvernance du CI-SIS
 nav_order: 1
 description: 
 ---
