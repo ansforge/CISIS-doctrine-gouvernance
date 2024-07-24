@@ -65,7 +65,7 @@ Les niveaux d’interopérabilité définis dans le cadre d’interopérabilité
 Les spécifications fonctionnelles des échanges font partie du niveau sémantique de l'interopérabilité. Elles peuvent intégrer également les niveaux juridique et organisationnel en citant le cadre juridique de ces échanges ainsi que les orientations organisationnelles choisies (voir Figure 6). Toute évolution fonctionnelle doit générer la mise à jour de ces spécifications. Ces spécifications fonctionnelles sont neutres vis-à-vis de la syntaxe des échanges. La transformation dans la syntaxe choisie est effectuée dans la phase de spécifications techniques.
 
 <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/niveaux-interop-sf.png" alt="CP" title="Niveaux d’interopérabilité couverts par les spécifications fonctionnelles des échanges" style="width:80%;">
+    <img src="../../assets/images/niveaux-interop-sf.png" alt="CP" title="Niveaux d’interopérabilité couverts par les spécifications fonctionnelles des échanges" style="width:20%;">
     <figcaption><b>Niveaux d’interopérabilité couverts par les spécifications fonctionnelles des échanges</b></figcaption>
 </div>
 
@@ -111,7 +111,7 @@ Le diagramme de paquetages de la Figure 4 est extrait de l’étude "Cercle de s
 Le processus collaboratif faisant partie du périmètre de l’étude est indiqué en bleu sur ce diagramme.
 
 <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/ex-cds.png" alt="CP" title="Organisation du contexte métier de l’étude « Cercle de soins »" style="width:80%;">
+    <img src="../../assets/images/ex-cds.png" alt="CP" title="Organisation du contexte métier de l’étude « Cercle de soins »" style="width:50%;">
     <figcaption><b>Organisation du contexte métier de l’étude « Cercle de soins »</b></figcaption>
 </div>
 
@@ -133,6 +133,7 @@ Toutefois, l’exercice ne doit pas être poussé trop loin. Si ces notions d’
 Un diagramme de cas d’utilisation contient un à plusieurs cas d'utilisation ainsi que les acteurs impliqués. Chaque cas d’utilisation correspond à un processus métier collaboratif. Les caractéristiques du cas d’utilisation sont détaillées à la suite du diagramme, voir Figure 6.
 
 #### Description des acteurs
+
 Les acteurs doivent être décrits et stéréotypés, voir Figure 5 et Figure 6.
 L’acteur stéréotypé <<Personne>> représente une personne physique ou morale.
 L'acteur stéréotypé <<Système>> est un système d'information utilisé par un acteur <<Personne>> pour effectuer une action particulière du processus métier collaboratif.
@@ -141,7 +142,9 @@ Les relations entre les acteurs et, entre un acteur et son rôle, sont représen
 
 L'utilité de l’acteur <<Rôle>> est de représenter tous les acteurs <<Système>> ayant le même comportement vis-à-vis du processus. La représentation de l'acteur <<Rôle>> est obligatoire dans le cas d'utilisation alors que les représentations des acteurs <<Système>> ou <<Personne>> sont facultatives.
 La description des acteurs <<Rôle>> doit donner lieu au tableau de définition des acteurs et des systèmes concernés.
+
 Exemple du cercle de soins :
+
 | Acteur | Description |
 | --- | --- |
 | Créateur | Le rôle de créateur incarné par un système est de créer ou mettre à jour le cercle de soins d'une personne. Exemples de créateur : service numérique d’appui à la coordination, dossier patient informatisé |
@@ -169,8 +172,8 @@ Exemple d’un diagramme de cas d’utilisation extrait du volet « Cercle de so
     <figcaption><b>Diagramme du cas d’utilisation « Création du cercle de soins »</b></figcaption>
 </div>
 
-
 Exemple de définition d’un processus collaboratif extrait du volet « Cercle de soins » :
+
 **Service attendu** : Le créateur du cercle de soins envoie au gestionnaire du cercle de soins une demande de création du cercle de soins de la personne.
 **Pré-conditions** : Le créateur du cercle de soins doit au préalable :
 
@@ -185,8 +188,6 @@ Exemple de définition d’un processus collaboratif extrait du volet « Cercle 
 **Post-conditions** : N/A
 **Contraintes fonctionnelles** : N/A
 **Scénario nominal** : N/A
-
-Figure 10 : définition du processus collaboratif « Création du cercle de soins »
 
 #### Règles applicables
 
@@ -240,7 +241,7 @@ L'exemple présenté en Figure 12, illustre la représentation du processus mét
 
 
  <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/collab-cds-identification-flux.png" alt="CP" title="Processus collaboratif « Création du cercle de soins » et identification des flux" style="width:80%;">
+    <img src="../../assets/images/collab-cds-identification-flux.png" alt="CP" title="Processus collaboratif « Création du cercle de soins » et identification des flux" style="width:40%;">
     <figcaption><b>Processus collaboratif « Création du cercle de soins » et identification des flux</b></figcaption>
 </div>
 
