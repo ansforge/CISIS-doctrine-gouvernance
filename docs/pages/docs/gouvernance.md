@@ -166,3 +166,468 @@ L’ordre du jour du COPIL est variable en fonction de son positionnement dans l
         <li>Mise à jour de la feuille de route interopérabilité de l’ANS.</li>
     </ul>
 </div>
+
+## Glossaire
+
+<table style="border-collapse:collapse;border:none;">
+    <tbody>
+        <tr>
+            <td style="width: 106.1pt;border: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:center;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;'><strong><span style="font-size:15px;color:#4F81BD;">Abr&eacute;viations et acronymes</span></strong></p>
+            </td>
+            <td style="width: 347pt;border-top: 1pt solid windowtext;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-image: initial;border-left: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:center;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;'><strong><span style="font-size:15px;color:#4F81BD;">D&eacute;finition</span></strong></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;'><span style="font-size:15px;color:black;">ANAP</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Agence nationale d&rsquo;appui &agrave; la performance&nbsp;</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;'><span style="font-size:15px;color:black;">&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;'><span style="font-size:15px;color:black;">ARS</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Agence r&eacute;gionale de sant&eacute;&nbsp;</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;'><span style="font-size:15px;color:black;">&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>ASINHPA&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Association des structures d&apos;informatique hospitali&egrave;re publiques autonomes&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;'><span style="font-size:15px;color:black;">ANS</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;'><span style="font-size:15px;color:black;">Agence du num&eacute;rique en sant&eacute;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;'><span style="font-size:15px;color:black;">AUDIPOG</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;'><span style="font-size:15px;color:black;">Association des utilisateurs de dossiers informatis&eacute;s en p&eacute;rinatologie, obst&eacute;trique et gyn&eacute;cologie</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>BNDMR&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;'><span style="font-size:15px;color:black;">Base nationale de donn&eacute;es maladies rares</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;'><span style="font-size:15px;color:black;">CI_SIS</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;'><span style="font-size:15px;color:black;">Cadre d&rsquo;interop&eacute;rabilit&eacute; des syst&egrave;mes d&rsquo;information de sant&eacute;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>CISS&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Collectif interassociatif sur la sant&eacute;&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>CMG&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;'><span style="font-size:15px;color:black;">Coll&egrave;ge de m&eacute;decine g&eacute;n&eacute;rale</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>CNAMTS&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Caisse nationale d&rsquo;assurance maladie des travailleurs salari&eacute;s&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>CNOCD&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Conseil national de l&rsquo;ordre des chirurgiens-dentistes&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>CNGOF&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Coll&egrave;ge national des gyn&eacute;cologues-obst&eacute;triciens fran&ccedil;ais&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>CNOM&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Conseil national de l&rsquo;ordre des m&eacute;decins&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>CNOMK&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Conseil national de l&rsquo;ordre des masseurs-kin&eacute;sith&eacute;rapeutes&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>CNOP&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Conseil national de l&rsquo;ordre des pharmaciens&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>CNOPP&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Conseil national de l&rsquo;ordre des p&eacute;dicures-podologues&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>CNSA&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Caisse nationale de solidarit&eacute; pour l&rsquo;autonomie&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>CNSF&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Coll&egrave;ge national des sage-femmes de France&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>DGOS&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Direction g&eacute;n&eacute;rale de l&rsquo;offre de soins&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>DGS&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Direction g&eacute;n&eacute;rale de la sant&eacute;&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>DMP&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Dossier m&eacute;dical partag&eacute;&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>ES&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Etablissement de sant&eacute; (terme recouvrant les &eacute;tablissements de soins publics et priv&eacute;s)&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>FEHAP&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>F&eacute;d&eacute;ration des &eacute;tablissements hospitaliers et d&rsquo;aide &agrave; la personne&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>FEIMA&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>F&eacute;d&eacute;ration des &eacute;diteurs d&apos;informatique m&eacute;dicale et param&eacute;dicale ambulatoire&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>FFMPS&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>F&eacute;d&eacute;ration fran&ccedil;aise des maisons et p&ocirc;les de sant&eacute;&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>FFRSP&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>F&eacute;d&eacute;ration fran&ccedil;aise des r&eacute;seaux de sant&eacute; en p&eacute;rinatalit&eacute;&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>FHF&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>F&eacute;d&eacute;ration hospitali&egrave;re de France&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>FHP&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>F&eacute;d&eacute;ration de l&rsquo;hospitalisation priv&eacute;e&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>FNCS&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>F&eacute;d&eacute;ration nationale des centres de sant&eacute;&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>FNEHAD&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>F&eacute;d&eacute;ration nationale des &eacute;tablissements d&rsquo;hospitalisation &agrave; domicile&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>FSM&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>F&eacute;d&eacute;ration des sp&eacute;cialit&eacute;s m&eacute;dicales&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>FSMR&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Fili&egrave;re sant&eacute; maladies rares&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;'><span style="font-size:15px;color:black;">GRADE</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;'><span style="font-size:15px;color:black;">&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>HAS&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Haute autorit&eacute; de sant&eacute;&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>INCA&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Institut national du cancer&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>LESSIS&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Les entreprises des syst&egrave;mes d&apos;information sanitaires et sociaux&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>MOS&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Mod&egrave;le des objets de sant&eacute;&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;'><span style="font-size:15px;color:black;">NOS</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Nomenclatures des objets de sant&eacute;&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>ONI&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Ordre national des infirmiers&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>PGSSI-S&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Politique g&eacute;n&eacute;rale de s&eacute;curit&eacute; des syst&egrave;mes d&rsquo;information de sant&eacute;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>PS&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;'><span style="font-size:15px;color:black;">Professionnel de sant&eacute;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>SFC&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Soci&eacute;t&eacute; fran&ccedil;aise de cardiologie&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>SFIL&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Soci&eacute;t&eacute; fran&ccedil;aise d&rsquo;informatique de laboratoire&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>SFNV&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Soci&eacute;t&eacute; fran&ccedil;aise neuro-vasculaire&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>SFMG&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Soci&eacute;t&eacute; fran&ccedil;aise de m&eacute;decine g&eacute;n&eacute;rale&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>SFN&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Soci&eacute;t&eacute; fran&ccedil;aise de n&eacute;onatologie&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>SFP&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Soci&eacute;t&eacute; fran&ccedil;aise de pathologie&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>SFP&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Soci&eacute;t&eacute; fran&ccedil;aise de p&eacute;diatrie&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>SFR&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Soci&eacute;t&eacute; fran&ccedil;aise de radiologie&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>SFT&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Soci&eacute;t&eacute; fran&ccedil;aise de t&eacute;l&eacute;m&eacute;decine&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>SNITEM&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Syndicat national de l&apos;industrie des technologies m&eacute;dicales&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>SYNERPA&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Syndicat national des &eacute;tablissements et r&eacute;sidences priv&eacute;es pour personnes &acirc;g&eacute;es&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>SYNTEC&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Convention collective nationale applicable au personnel des bureaux d&apos;&eacute;tudes techniques, des cabinets d&apos;ing&eacute;nieurs-conseils et des soci&eacute;t&eacute;s de conseils&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>UFCV&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Union nationale de formation et d&rsquo;&eacute;valuation en m&eacute;decine cardio-vasculaire&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>UNPS&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Union nationale des professionnels de sant&eacute;&nbsp;</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>URPS ML PACA&nbsp;</span></p>
+            </td>
+            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Union r&eacute;gionale des professionnels de sant&eacute; m&eacute;decins lib&eacute;raux provence alpes c&ocirc;te d&rsquo;azure&nbsp;</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>

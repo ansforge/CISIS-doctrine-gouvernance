@@ -1,10 +1,8 @@
 ---
-title: Généralités sur la Gouvernance du ci-sis
+title: Généralités sur la Gouvernance du CI-SIS
 nav_order: 1
 description: 
 ---
-
-## TODO
 
 Le présent document a pour objet de mettre à jour le contenu de la gouvernance du CI-SIS à la suite des ateliers conduits par les équipes d’interopérabilité de la DE2I de mai à juillet 2024 en vue de faire évoluer la gouvernance et la doctrine du CI-SIS.
 
@@ -32,3 +30,9 @@ Ce document est structuré en 6 sections :
         <li>La section 5 – « Annexes » – regroupe des annexes informatives. </li>
     </ul>
 </div>
+
+
+## Annexe 
+
+<!-- Reprendre ici les schémas des processus d’évolution majeure et mineure ou référencer la page dédiée à ce sujet ? Cf travaux GT G1 – faire évoluer les expressions de besoin et les CPs ? -->
+
