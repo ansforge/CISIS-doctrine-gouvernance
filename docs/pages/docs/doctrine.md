@@ -145,9 +145,12 @@ D. Rédaction des spécifications techniques d’interopérabilité par correspo
 
 E. Concertation publique sur la modélisation des échanges et les spécifications d’interopérabilité correspondantes et finalisation des spécifications.
 
-![](../../assets/images/sous-phase-evo.png)
+<div class="figure" style='text-align: center;'>
+    <img src="../../assets/images/sous-phase-evo.png" alt="CP" title="Sous phases de la phase d’évolution du CI_SIS" style="width:80%;">
+    <figcaption><b>Sous phases de la phase d’évolution du CI_SIS</b></figcaption>
+</div>
 
-Figure 3 : Sous phases de la phase d’évolution du CI_SIS <!-- Schéma modifié par rapport à l’original pour insérer la phase de concertation publique de l’étude fonctionnelle des échanges -->
+<!-- IGI - Schéma modifié par rapport à l’original pour insérer la phase de concertation publique de l’étude fonctionnelle des échanges -->
 
 Cette phase d’évolution du CI_SIS peut être sous traitée par l’ANS, selon les conditions décrites dans la gouvernance du CI_SIS,  à des Unités de Production (également désignée « UP Partenaires ») internes et externes compétentes pour contribuer à l’élaboration de volets du CI-SIS ou à l’élaboration de ressources sémantiques. Dans ce cas, l’ANS intègre le partenaire dans la gouvernance du CI-SIS en tant qu’UP « externe » et lui confie ainsi la production de spécifications d’interopérabilité ou la production de ressources sémantiques permettant de mettre en œuvre des cas d’usage priorisés par la gouvernance du CI-SIS.
 L’ANS est de fait amener à établir des conventions de partenariat ou contrats avec ces partenaires :
