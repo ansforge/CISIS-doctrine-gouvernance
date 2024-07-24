@@ -93,6 +93,6 @@ Par la définition de la structuration du contenu médical, le CI–SIS permet d
 
 De nature à favoriser l’adéquation opérationnelle des profils français du domaine de la santé, du medico-social et social, aux cas d’usage métier, ce positionnement de fait nécessite une formalisation au sein d’une doctrine d’interopérabilité afin de fournir une meilleure visibilité aux parties prenantes sur les orientations du CI-SIS en termes de normes et standards techniques, syntaxiques et sémantiques.
 
-## Guide de lecture pour novices
+<!-- ## Guide de lecture pour novices -->
 
 <!-- TODO -->
