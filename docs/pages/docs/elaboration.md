@@ -716,7 +716,6 @@ Le Cercle de Soins comprend toutes les personnes (Professionnel ou Personne Tier
 
 Personne physique bénéficiaire de soins, d'examens, d'actes de prévention ou de services. Selon le contexte, la personne prise en charge peut être un patient ou un usager.
 
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;text-align:justify;line-height:115%;font-size:13px;font-family:"Calibri",sans-serif;'><span style="font-size:15px;line-height:115%;">&nbsp;</span></p>
 <table style="border-collapse:collapse;border:none;">
     <tbody>
         <tr>
@@ -761,9 +760,8 @@ Personne physique bénéficiaire de soins, d'examens, d'actes de prévention ou 
         </tr>
     </tbody>
 </table>
-<p style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;text-align:center;line-height:115%;font-size:13px;font-family:"Calibri",sans-serif;'><span style="color:#404040;font-style:italic;"><span style="font-size:15px;line-height:115%;font-style:normal;">&nbsp;</span></span></p>
 
-Tableau 19 : Extrait du modèle de flux « flux 1 – CreationCercleSoin »
+Tableau : Extrait du modèle de flux « flux 1 – CreationCercleSoin »
 
 **Flux de recherche : Flux 2 – RechercheCercleSoins**
 
