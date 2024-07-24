@@ -1,13 +1,14 @@
 ---
 title: La doctrine du cadre d'interopérabilité
 nav_order: 2
-description: 
+description:
 ---
 
 
 ## Doctrine d’interopérabilité syntaxique et doctrine d’interopérabilité sémantique
 
 La doctrine du CI-SIS a pour objectif de formaliser les orientations suivies par le CI-SIS en termes de normes et standards dans le cas général et de fournir un processus de détermination des normes et standards à suivre lorsque le cas d’usage considéré ne peut pas être mis en œuvre via ces orientations. Une fois validée par les acteurs du domaine, elle permet de s’affranchir d’une consultation préalable à l’élaboration des spécifications d’interopérabilité lorsqu’un besoin d’interopérabilité peut être pris en compte par une norme ou un standard déjà existant dans les orientations du CI-SIS. Elle ne change pas le processus d’élaboration des spécifications d’interopérabilité qui sont soumises à concertation publique, qu’il y ait eu une consultation préalable ou non sur les normes/standards.
+
 La doctrine d’interopérabilité technique et syntaxique du CI-SIS peut être synthétisée par les règles suivantes :
 
 <div class="wysiwyg">
@@ -29,6 +30,7 @@ La doctrine d’interopérabilité sémantique du CGTS s’inscrit dans la doctr
 </div>
 
 Dans un futur proche, une doctrine d’interopérabilité pour les cas d’usage d’aide à la décision clinique viendra compléter la doctrine du CI-SIS.
+
 L’ensemble des spécifications d’interopérabilité (au sein du Cadre d’Interopérabilité des Systèmes d’Information de Santé (CI-SIS)) et des terminologies constitue un bien commun, qui respecte les principes de transparence, de collaboration, de participation et d’éthique.
 
 <div class="figure" style='text-align: center;'>
@@ -44,6 +46,7 @@ L’ensemble des spécifications d’interopérabilité (au sein du Cadre d’In
 ## Choix des profils IHE et des guides d’implémentation FHIR comme base de la doctrine d’interopérabilité syntaxique
 
 Les profils IHE  et les guides d’implémentation FHIR d’HL7 sont des spécifications opérationnelles d’interopérabilité qui indiquent comment utiliser des normes/standards stables et « vivants » dans le cadre de cas d’usage des domaines sanitaire, medico-social et social. Ce travail d’analyse et de sélection des normes/standards ainsi que la prise en compte des spécificités des cas d’usage de ces domaines en font une base de départ adaptée pour les spécifications du CI-SIS, qui n’ont plus qu’à contraindre ces profils et ces guides d’implémentation en fonction du contexte français.
+
 Cette adéquation est également reconnue au niveau européen. En effet, le 28 juillet 2015 la Commission Européenne a identifié 27 profils IHE pouvant servir de référence dans la passation de marchés publics , profils qui ont été intégrés au cadre d’interopérabilité européen. Ces profils sont présentés en annexe 1. <!-- TODORéférencer ici le lien vers le catalogue des profils IHE et des guides d’implémentation FHIR utilisés dans le CI-SIS -->
 
 Ces éléments ont amené à considérer les profils IHE ainsi que les guides d’implémentation FHIR comme base de la doctrine du CI-SIS. Pour autant, toutes ces spécifications n’ont pas un niveau de maturité suffisant pour constituer une base solide :
@@ -66,6 +69,7 @@ Les profils et les guides d’implémentation FHIR choisis pour constituer la ba
 </div>
 
 D’autre part, dans le cadre du règlement relatif à l’espace Européen des données de santé (EHDS), le réseau eHealth Network, sous l’égide de la Commission Européenne, définit des normes et standards internationaux et des spécifications techniques s’adressant aux entreprises du numérique en santé des états membres, précisant l’implémentation de ces normes et standards au fur et à mesure de la construction de cet espace Européen des données de santé. En particulier, EHDS est basé sur un format d’échange des données de santé (EEHRxF) constitué à ce jour des guidelines suivantes :
+
 <!-- Insérer le lien sur les guidelines -->
 <div class="wysiwyg">
     <ul>
@@ -77,11 +81,12 @@ D’autre part, dans le cadre du règlement relatif à l’espace Européen des 
     </ul>
 </div>
 
-Les dernières guidelines publiées dans ce cadre introduisent en particulier le standard Fast Health Interoperable Resources (FHIR) d’HL7. Ces guidelines sont ensuite déclinées en guides d’implémentation FHIR qui précisent l’implémentation opérationnelle des cas d’usage adressés. 
+Les dernières guidelines publiées dans ce cadre introduisent en particulier le standard Fast Health Interoperable Resources (FHIR) d’HL7. Ces guidelines sont ensuite déclinées en guides d’implémentation FHIR qui précisent l’implémentation opérationnelle des cas d’usage adressés.
 
 ## Réutilisation des normes et standards déjà utilisés dans le CI-SIS
 
 Afin de répondre aux enjeux de stabilité et de réutilisation, lorsqu’il n’existe pas de profil IHE ou de guide d’implémentation FHIR adapté à un cas d’usage, les normes et standards déjà utilisés dans le CI-SIS pour d’autres cas d’usage sont réutilisés s’ils sont adaptés.
+
 Par exemple, la norme CDA a été initialement utilisée dans les spécifications de plusieurs volets tels que :
 
 <div class="wysiwyg">
@@ -92,8 +97,10 @@ Par exemple, la norme CDA a été initialement utilisée dans les spécification
     </ul>
 </div>
 
-Ainsi, afin de capitaliser l’expérience acquise par les parties prenantes et de favoriser la réutilisation des développements et en l’absence de contrainte spécifique du cas d’usage qui rendrait son utilisation inadaptée, la norme CDA reste à ce jour la norme à profiler pour les spécifications du CI-SIS concernant des documents structurés. 
-Cependant, l’ANS a défini une trajectoire d’interopérabilité <!-- Référence onglet trajectoire -->qui tient compte des orientations retenues par la Commission Européenne dans le cadre de la construction de l’espace de données de santé européen (European Health Data Space - EHDS). Une de ces orientations concerne l’utilisation du standard FHIR en remplacement ou en complément de CDA pour les documents structurés.
+Ainsi, afin de capitaliser l’expérience acquise par les parties prenantes et de favoriser la réutilisation des développements et en l’absence de contrainte spécifique du cas d’usage qui rendrait son utilisation inadaptée, la norme CDA reste à ce jour la norme à profiler pour les spécifications du CI-SIS concernant des documents structurés.
+
+Cependant, l’ANS a défini une [./trajectoire-iop.html](trajectoire d’interopérabilité) qui tient compte des orientations retenues par la Commission Européenne dans le cadre de la construction de l’espace de données de santé européen (European Health Data Space - EHDS). Une de ces orientations concerne l’utilisation du standard FHIR en remplacement ou en complément de CDA pour les documents structurés.
+
 La liste des normes et standards utilisés dans le CI-SIS évolue constamment à la faveur de la production de nouveaux volets du CI-SIS. A titre d’information, les normes et standards qui sont utilisés dans le CI-SIS en septembre 2024 sont présentés ici.
 
 <!-- TODO - À mettre à jour et référencer l’onglet catalogue des profils et IG FHIR utilisés dans le CI_SIS. Le tableau Excel des normes/standards est stocké dans le répertoire Documentation du GT D2 -->
