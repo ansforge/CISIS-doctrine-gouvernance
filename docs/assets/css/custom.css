@@ -1,10 +1,7 @@
-
-
-
-p {
+p, li, td {
   color: black;
 }
 
-td {
-  color: black;
+div.wysiwyg {
+margin-bottom: 3rem;
 }
