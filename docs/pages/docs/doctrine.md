@@ -31,9 +31,11 @@ La doctrine d’interopérabilité sémantique du CGTS s’inscrit dans la doctr
 Dans un futur proche, une doctrine d’interopérabilité pour les cas d’usage d’aide à la décision clinique viendra compléter la doctrine du CI-SIS.
 L’ensemble des spécifications d’interopérabilité (au sein du Cadre d’Interopérabilité des Systèmes d’Information de Santé (CI-SIS)) et des terminologies constitue un bien commun, qui respecte les principes de transparence, de collaboration, de participation et d’éthique.
 
-![](../../assets/images/doctrine.png)
+<div class="figure" style='text-align: center;'>
+    <img src="../../assets/images/doctrine.png" alt="CP" title="Principes généraux de la doctrine d’interopérabilité" style="width:80%;">
+    <figcaption><b>Principes généraux de la doctrine d’interopérabilité</b></figcaption>
+</div>
 
-Figure 2 : Principes généraux de la doctrine d’interopérabilité
 
 ## Doctrine d'open semantique
 
@@ -126,9 +128,11 @@ Ces différentes étapes sont détaillées dans les schémas de la section suiva
 
 La doctrine est complètement intégrée à la gouvernance du CI-SIS. Elle vient se positionner en entrée de la phase 4 de l’instruction de la gouvernance lors du choix de la syntaxe et de la sémantique cibles à utiliser dans les spécifications d’interopérabilité.
 
-![](../../assets/images/phase-gouv.png)
+<div class="figure" style='text-align: center;'>
+    <img src="../../assets/images/phase-gouv.jpg" alt="CP" title="Niveaux Rappel des phases de la gouvernance du CI-SIS" style="width:80%;">
+    <figcaption><b>Niveaux Rappel des phases de la gouvernance du CI-SIS</b></figcaption>
+</div>
 
-Figure 2 : Rappel des phases de la gouvernance du CI-SIS
 En y intégrant les éléments de la doctrine syntaxique et sémantique, la phase d’évolution du CI_SIS (phase 4) se décompose en 5 sous-phases :
 
 A. Analyse métier du cas d’usage, modélisation des échanges entre SI conformément à la méthodologie d’élaboration des spécifications fonctionnelles des échanges, et choix de terminologie(s) de référence répondant au cas d’usage étudié selon les principes de la doctrine sémantique ; <!-- TODO Renvoyer vers l’onglet Méthodologie d’élaboration des spécifications fonctionnelles des échanges -->

@@ -62,7 +62,7 @@ Dans le domaine de la santé, le CI-SIS regroupe les profils opérationnels corr
 Dans le futur, il est possible que le CI_SIS soit également basé sur des spécifications publiées par d’autres organisations qui font autorité au niveau international telles que l’OMS, les accélérateurs de projets européens/internationaux ou au niveau national avec des organisations telles que [EDESS](http://www.edess.org/joomla/index.php) ou [InteropSanté](https://www.interopsante.org/). Cette dernière possibilité pourrait être envisagée uniquement pour des standards nationaux ouverts et libres de droits.
 Le CI_SIS est également en cohérence avec les orientations du RGI et du [cadre d’interopérabilité européen](https://ec.europa.eu/isa2/sites/default/files/eif_brochure_final.pdf) (European Interoperabilty Framework – EIF) et identifie formellement les cas où les spécificités des cas d’usage santé nécessitent de s’en écarter.
 
-![](../../assets/images/positionnement-profil-fr.png)
+![](../../assets/images/positionnement-profil-fr.jpg)
 Figure 1 : Exemple (non exhaustif) de positionnement de profils français et internationaux par rapport aux normes et standards
 
 Par exemple :
