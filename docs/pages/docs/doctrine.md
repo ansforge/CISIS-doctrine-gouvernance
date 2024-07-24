@@ -47,14 +47,14 @@ L’ensemble des spécifications d’interopérabilité (au sein du Cadre d’In
 
 Les profils IHE  et les guides d’implémentation FHIR d’HL7 sont des spécifications opérationnelles d’interopérabilité qui indiquent comment utiliser des normes/standards stables et « vivants » dans le cadre de cas d’usage des domaines sanitaire, medico-social et social. Ce travail d’analyse et de sélection des normes/standards ainsi que la prise en compte des spécificités des cas d’usage de ces domaines en font une base de départ adaptée pour les spécifications du CI-SIS, qui n’ont plus qu’à contraindre ces profils et ces guides d’implémentation en fonction du contexte français.
 
-Cette adéquation est également reconnue au niveau européen. En effet, le 28 juillet 2015 la Commission Européenne a identifié 27 profils IHE pouvant servir de référence dans la passation de marchés publics , profils qui ont été intégrés au cadre d’interopérabilité européen. Ces profils sont présentés en annexe 1. <!-- TODORéférencer ici le lien vers le catalogue des profils IHE et des guides d’implémentation FHIR utilisés dans le CI-SIS -->
+Cette adéquation est également reconnue au niveau européen. En effet, le 28 juillet 2015 la Commission Européenne a identifié 27 profils IHE pouvant servir de référence dans la passation de marchés publics, profils qui ont été intégrés au cadre d’interopérabilité européen. Ces profils sont présentés [dans ce tableau](="../../assets/docs/Liste_Profils_IHE_Standards.xls) . <!-- TODO Référencer ici le lien vers le catalogue des profils IHE et des guides d’implémentation FHIR utilisés dans le CI-SIS -->
 
 Ces éléments ont amené à considérer les profils IHE ainsi que les guides d’implémentation FHIR comme base de la doctrine du CI-SIS. Pour autant, toutes ces spécifications n’ont pas un niveau de maturité suffisant pour constituer une base solide :
 
 <div class="wysiwyg">
     <ul>
         <li> Certains profils IHE ne sont plus utilisés sur le terrain et pas encore retirés des spécifications IHE (ex. le profil Patient Synchronized Application basé sur le standard CCOW) ;</li>
-        <li> Certains profils IHE en trial implementation ne sont pas encore tout à fait stables (ex. les profils qui n’ont pas encore eu l’occasion d’être testés lors d’un Connectathon5).</li>
+        <li> Certains profils IHE en trial implementation ne sont pas encore tout à fait stables (ex. les profils qui n’ont pas encore eu l’occasion d’être testés lors d’un Connectathon).</li>
     </ul>
 </div>
 
@@ -99,11 +99,11 @@ Par exemple, la norme CDA a été initialement utilisée dans les spécification
 
 Ainsi, afin de capitaliser l’expérience acquise par les parties prenantes et de favoriser la réutilisation des développements et en l’absence de contrainte spécifique du cas d’usage qui rendrait son utilisation inadaptée, la norme CDA reste à ce jour la norme à profiler pour les spécifications du CI-SIS concernant des documents structurés.
 
-Cependant, l’ANS a défini une [trajectoire d’interopérabilité](./trajectoire-iop.html)) qui tient compte des orientations retenues par la Commission Européenne dans le cadre de la construction de l’espace de données de santé européen (European Health Data Space - EHDS). Une de ces orientations concerne l’utilisation du standard FHIR en remplacement ou en complément de CDA pour les documents structurés.
+Cependant, l’ANS a défini une [trajectoire d’interopérabilité](./trajectoire-iop.html) qui tient compte des orientations retenues par la Commission Européenne dans le cadre de la construction de l’espace de données de santé européen (European Health Data Space - EHDS). Une de ces orientations concerne l’utilisation du standard FHIR en remplacement ou en complément de CDA pour les documents structurés.
 
 La liste des normes et standards utilisés dans le CI-SIS évolue constamment à la faveur de la production de nouveaux volets du CI-SIS. A titre d’information, les normes et standards qui sont utilisés dans le CI-SIS en septembre 2024 sont présentés ici.
 
-<!-- TODO - À mettre à jour et référencer l’onglet catalogue des profils et IG FHIR utilisés dans le CI_SIS. Le tableau Excel des normes/standards est stocké dans le répertoire Documentation du GT D2 -->
+<!-- TODO - À mettre à jour et référencer l’onglet catalogue des profils et IG FHIR utilisés dans le CI-SIS. Le tableau Excel des normes/standards est stocké dans le répertoire Documentation du GT D2 -->
 
 ## Choix des normes et standards non encore utilisés dans le CI-SIS
 
@@ -117,7 +117,9 @@ La doctrine du CI-SIS ne peut pas couvrir l’ensemble des cas d’usage faisant
     </ul>
 </div>
 
-Dans ce cas, la doctrine est donc complétée par une procédure de consultation sur les normes et standards pour les cas d’usage non couverts par des profils IHE, par des guides d’implémentation FHIR d’HL7 adaptés ou par des normes et standards déjà utilisés dans le CI-SIS . Cette consultation s’organise en 6 étapes :
+Dans ce cas, la doctrine est donc complétée par une procédure de consultation sur les normes et standards pour les cas d’usage non couverts par des profils IHE, par des guides d’implémentation FHIR d’HL7 adaptés ou par des normes et standards déjà utilisés dans le CI-SIS.
+
+Cette consultation s’organise en 6 étapes :
 
 <div class="wysiwyg">
     <ul>
@@ -141,33 +143,34 @@ La doctrine est complètement intégrée à la gouvernance du CI-SIS. Elle vient
     <figcaption><b>Niveaux Rappel des phases de la gouvernance du CI-SIS</b></figcaption>
 </div>
 
-En y intégrant les éléments de la doctrine syntaxique et sémantique, la phase d’évolution du CI_SIS (phase 4) se décompose en 5 sous-phases :
+En y intégrant les éléments de la doctrine syntaxique et sémantique, la phase d’évolution du CI-SIS (phase 4) se décompose en 5 sous-phases :
 
-A. Analyse métier du cas d’usage, modélisation des échanges entre SI conformément à la [méthodologie d’élaboration des spécifications fonctionnelles des échanges](./elaboration.html), et choix de terminologie(s) de référence répondant au cas d’usage étudié selon les principes de la doctrine sémantique ; 
-
-B. Concertation publique sur la spécification fonctionnelle des échanges (intégrant les choix de terminologies) ;
-
-C. Choix de la norme ou du standard syntaxique selon les principes de la doctrine syntaxique ;
-
-D. Rédaction des spécifications techniques d’interopérabilité par correspondance entre les échanges modélisés et la syntaxe cible assortie des règles de mise en œuvre tel que définies dans la norme ou le standard choisi ;
-
-E. Concertation publique sur la modélisation des échanges et les spécifications d’interopérabilité correspondantes et finalisation des spécifications.
+<div class="wysiwyg">
+    <ul>
+        <li>A. Analyse métier du cas d’usage, modélisation des échanges entre SI conformément à la [méthodologie d’élaboration des spécifications fonctionnelles des échanges](./elaboration.html), et choix de terminologie(s) de référence répondant au cas d’usage étudié selon les principes de la doctrine sémantique ;</li>
+        <li>B. Concertation publique sur la spécification fonctionnelle des échanges (intégrant les choix de terminologies) ;</li>
+        <li>C. Choix de la norme ou du standard syntaxique selon les principes de la doctrine syntaxique ;</li>
+        <li>D. Rédaction des spécifications techniques d’interopérabilité par correspondance entre les échanges modélisés et la syntaxe cible assortie des règles de mise en œuvre tel que définies dans la norme ou le standard choisi ;</li>
+        <li>E. Concertation publique sur la modélisation des échanges et les spécifications d’interopérabilité correspondantes et finalisation des spécifications.</li>
+    </ul>
+</div>
 
 <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/sous-phase-evo.png" alt="CP" title="Sous phases de la phase d’évolution du CI_SIS" style="width:80%;">
-    <figcaption><b>Sous phases de la phase d’évolution du CI_SIS</b></figcaption>
+    <img src="../../assets/images/sous-phase-evo.png" alt="CP" title="Sous phases de la phase d’évolution du CI-SIS" style="width:80%;">
+    <figcaption><b>Sous phases de la phase d’évolution du CI-SIS</b></figcaption>
 </div>
 
 <!-- IGI - Schéma modifié par rapport à l’original pour insérer la phase de concertation publique de l’étude fonctionnelle des échanges -->
 
-Cette phase d’évolution du CI_SIS peut être sous traitée par l’ANS, selon les conditions décrites dans la gouvernance du CI_SIS,  à des Unités de Production (également désignée « UP Partenaires ») internes et externes compétentes pour contribuer à l’élaboration de volets du CI-SIS ou à l’élaboration de ressources sémantiques. Dans ce cas, l’ANS intègre le partenaire dans la gouvernance du CI-SIS en tant qu’UP « externe » et lui confie ainsi la production de spécifications d’interopérabilité ou la production de ressources sémantiques permettant de mettre en œuvre des cas d’usage priorisés par la gouvernance du CI-SIS.
+Cette phase d’évolution du CI-SIS peut être sous traitée par l’ANS, selon les conditions décrites dans la gouvernance du CI-SIS,  à des Unités de Production (également désignée « UP Partenaires ») internes et externes compétentes pour contribuer à l’élaboration de volets du CI-SIS ou à l’élaboration de ressources sémantiques. Dans ce cas, l’ANS intègre le partenaire dans la gouvernance du CI-SIS en tant qu’UP « externe » et lui confie ainsi la production de spécifications d’interopérabilité ou la production de ressources sémantiques permettant de mettre en œuvre des cas d’usage priorisés par la gouvernance du CI-SIS.
 
-L’ANS est de fait amener à établir des conventions de partenariat ou contrats avec ces partenaires :
+L’ANS est de fait amenée à établir des conventions de partenariat ou contrats avec ces partenaires :
 
 <div class="wysiwyg">
     <ul>
-        <li> Contrat de partenariat relatif à la mise à disposition de volets du CI_SIS ;</li> <!-- TODO : Référencer le contrat UP_externe syntaxique -->
+        <li> Contrat de partenariat relatif à la mise à disposition de volets du CI-SIS ;</li> <!-- TODO : Référencer le contrat UP_externe syntaxique -->
         <li> Contrat de partenariat relatif à la mise à disposition de terminologies.</li> <!-- TODO : Référencer le contrat UP_externe sémantique -->
     </ul>
 </div>
+
 Ces contrats visent à décrire les principes fondamentaux de collaboration et fonctionnement avec les unités de production.

@@ -5,7 +5,9 @@ description:
 ---
 
 La vague actuelle de modernisation des systèmes d’information de santé (SIS) facilite les échanges d’information, sans pour autant nécessiter la refonte générale de ces systèmes. La voie privilégiée du progrès repose sur l’interopérabilité des systèmes d'information plutôt que sur leur homogénéité.
+
 Une des réponses à l'interopérabilité des systèmes d'information est basée sur la dématérialisation harmonisée des échanges de données entre ces systèmes.
+
 La méthode d'élaboration des spécifications fonctionnelles des échanges est à destination des maîtrises d'ouvrages et maîtrises d'œuvre en charge de l'étude d'un projet comportant des interactions entre SI partenaires.
 
 A partir des exigences recueillies auprès des parties prenantes du métier, le but de la méthode est de modéliser les échanges de données en réalisant les actions suivantes :
@@ -32,15 +34,11 @@ Un volet du cadre d'interopérabilité des systèmes d'information de santé (CI
 </div>
 
 <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/docs-volet-cisis.png" alt="CP" title="Figure 4: Documents constituant un volet du CI_SIS" style="width:80%;">
-    <figcaption><b>Figure 4: Documents constituant un volet du CI_SIS</b></figcaption>
+    <img src="../../assets/images/docs-volet-cisis.png" alt="CP" title="Figure 4: Documents constituant un volet du CI-SIS" style="width:80%;">
+    <figcaption><b>Figure 4: Documents constituant un volet du CI-SIS</b></figcaption>
 </div>
 
-## Déroulement de la méthode
-
-Cette méthode est constituée de six étapes. Le résultat de chacune de ces étapes est consigné dans le dossier des spécifications fonctionnelles des échanges.
-
-Ces étapes, détaillées dans la suite du document, sont les suivantes :
+Cette méthode est constituée de six étapes. Le résultat de chacune de ces étapes est consigné dans le dossier des spécifications fonctionnelles des échanges. Ces étapes, détaillées dans la suite du document, sont les suivantes :
 
 <div class="wysiwyg">
     <ul>
@@ -57,45 +55,49 @@ L'élaboration de ces étapes repose sur la notation UML (Unified Modeling Langu
 
 ## Niveaux d’interopérabilité et spécifications fonctionnelles des échanges
 
-Les niveaux d’interopérabilité définis dans le cadre d’interopérabilité européen (European Interoperability framework - EIF) sont repris en Figure 5.
-
 <div class="figure" style='text-align: center;'>
     <img src="../../assets/images/niveaux-interop.png" alt="CP" title="Niveaux d’interopérabilité" style="width:80%;">
-    <figcaption><b>Niveaux d’interopérabilité</b></figcaption>
+    <figcaption><b>Niveaux d’interopérabilité définis dans le cadre d’interopérabilité européen (European Interoperability framework - EIF)</b></figcaption>
 </div>
 
-Les spécifications fonctionnelles des échanges font partie du niveau sémantique de l'interopérabilité. Elles peuvent intégrer également les niveaux juridique et organisationnel en citant le cadre juridique de ces échanges ainsi que les orientations organisationnelles choisies (voir Figure 6). Toute évolution fonctionnelle doit générer la mise à jour de ces spécifications. Ces spécifications fonctionnelles sont neutres vis-à-vis de la syntaxe des échanges. La transformation dans la syntaxe choisie est effectuée dans la phase de spécifications techniques.
+Les spécifications fonctionnelles des échanges font partie du niveau sémantique de l'interopérabilité. Elles peuvent intégrer également les niveaux juridique et organisationnel en citant le cadre juridique de ces échanges ainsi que les orientations organisationnelles choisies (voir figure ci-dessous). Toute évolution fonctionnelle doit générer la mise à jour de ces spécifications. Ces spécifications fonctionnelles sont neutres vis-à-vis de la syntaxe des échanges. La transformation dans la syntaxe choisie est effectuée dans la phase de spécifications techniques.
 
 <div class="figure" style='text-align: center;'>
     <img src="../../assets/images/niveaux-interop-sf.png" alt="CP" title="Niveaux d’interopérabilité couverts par les spécifications fonctionnelles des échanges" style="width:20%;">
     <figcaption><b>Niveaux d’interopérabilité couverts par les spécifications fonctionnelles des échanges</b></figcaption>
 </div>
 
-## La méthode par l'exemple
-Cette méthode est illustrée par les exemples qui ont été extraits à une phase préparatoire des spécifications fonctionnelles de l'étude "Cercle de soins". Ce ne sont que des exemples pour décrire la méthode.
-
 ## Déroulement de la méthode
+
+**La méthode par l'exemple** : cette méthode est illustrée par un exemple extrait de la phase préparatoire des spécifications fonctionnelles de l'étude "Cercle de soins".
 
 ### Etape 0 : Cadre juridique et orientations organisationnelles
 
 Le cadre juridique de l’étude doit être cité à cette étape afin de le prendre en considération à toutes les étapes de la méthode.
+
 Les orientations organisationnelles et les moyens mis en œuvre pour rationaliser les processus et favoriser les échanges doivent être mentionnés à cette étape.
+
 Les cas d’usage sont décrits à ce niveau. Il s’agit de détailler, à l’aide de diagrammes de séquences et de parties textuelles, les acteurs et les transactions entre ces acteurs supports à l’échange ou au partage de l’information médicale dans le contexte d’un workflow réalisé par différents systèmes.
 
 ### Etape 1 : Organisation du contexte métier
 
 Le but de cette étape est de placer l'étude dans son contexte et d'identifier le ou les processus collaboratifs du périmètre de cette étude.
+
 Si les informations de contexte s'avèrent insuffisantes à cette étape, il est tout à fait possible de passer à l'étape 2, en définissant les processus collaboratifs du périmètre de l'étude. Une fois les processus collaboratifs définis, il est envisageable de reprendre l'étape 1 en les rassemblant en groupes de processus. Il est également possible de revenir l'étape 1 à tout moment, quelle que soit l'étape en cours de spécification.
+
 Une fois identifiés, les processus sont représentés dans un diagramme de paquetages.
-Remarque pratique sur les diagrammes de paquetages :
-Un paquetage peut être un regroupement d'une grande variété d’éléments, comme des processus, des acteurs, d'autres paquetages imbriqués, des interactions, etc. Cette diversité implique que la représentation graphique des paquetages dans un outil UML peut être obtenue par un diagramme de paquetages mais aussi par d’autres diagrammes, notamment un diagramme de classes, un diagramme de cas d'utilisation, etc.
+
+**Remarque pratique sur les diagrammes de paquetages :** un paquetage peut être un regroupement d'une grande variété d’éléments, comme des processus, des acteurs, d'autres paquetages imbriqués, des interactions, etc. Cette diversité implique que la représentation graphique des paquetages dans un outil UML peut être obtenue par un diagramme de paquetages mais aussi par d’autres diagrammes, notamment un diagramme de classes, un diagramme de cas d'utilisation, etc.
 
 #### Description des paquetages
 
 Les paquetages doivent être décrits et stéréotypés. La granularité des paquetages dépend du contexte de l'étude.
-Le paquetage <<Domaine>> représente le domaine d'activité dans lequel se situe l’étude ; le domaine est composé d'un ou de plusieurs groupes de processus.
-Le paquetage << GroupeProcessus >> est composé d'un ou plusieurs processus métier collaboratifs.
-Le paquetage <<Processus>> représente le processus métier collaboratif qui est décrit à partir de l'étape 2. A noter que le périmètre de l'étude concerne des processus qui peuvent être présents dans un seul groupe de processus ou répartis dans plusieurs groupes de processus.
+
+Le paquetage **<<Domaine>>** représente le domaine d'activité dans lequel se situe l’étude ; le domaine est composé d'un ou de plusieurs groupes de processus.
+
+Le paquetage **<<GroupeProcessus>>** est composé d'un ou plusieurs processus métier collaboratifs.
+
+Le paquetage **<<Processus>>** représente le processus métier collaboratif qui est décrit à partir de l'étape 2. A noter que le périmètre de l'étude concerne des processus qui peuvent être présents dans un seul groupe de processus ou répartis dans plusieurs groupes de processus.
 
 #### Règles applicables
 
@@ -111,8 +113,7 @@ Les règles applicables dans cette étape sont les suivantes :
 
 #### Exemple
 
-Le diagramme de paquetages de la Figure 4 est extrait de l’étude "Cercle de soins".
-Le processus collaboratif faisant partie du périmètre de l’étude est indiqué en bleu sur ce diagramme.
+Le diagramme de paquetages de la ci-dessous est extrait de l’étude "Cercle de soins". Le processus collaboratif faisant partie du périmètre de l’étude est indiqué en bleu sur ce diagramme.
 
 <div class="figure" style='text-align: center;'>
     <img src="../../assets/images/ex-cds.png" alt="CP" title="Organisation du contexte métier de l’étude « Cercle de soins »" style="width:50%;">
@@ -135,18 +136,23 @@ D’éventuelles dépendances entre les processus peuvent être formalisées par
 </div>
 
 Toutefois, l’exercice ne doit pas être poussé trop loin. Si ces notions d’héritage, d'inclusion et d'extension semblent incontournables, il faut néanmoins avant d’y recourir, revoir la liste des processus et vérifier qu’elle est pertinente.
-Un diagramme de cas d’utilisation contient un à plusieurs cas d'utilisation ainsi que les acteurs impliqués. Chaque cas d’utilisation correspond à un processus métier collaboratif. Les caractéristiques du cas d’utilisation sont détaillées à la suite du diagramme, voir Figure 6.
+Un diagramme de cas d’utilisation contient un à plusieurs cas d'utilisation ainsi que les acteurs impliqués. Chaque cas d’utilisation correspond à un processus métier collaboratif. Les caractéristiques du cas d’utilisation sont détaillées à la suite du diagramme.
 
 #### Description des acteurs
 
-Les acteurs doivent être décrits et stéréotypés, voir Figure 5 et Figure 6.
-L’acteur stéréotypé <<Personne>> représente une personne physique ou morale.
-L'acteur stéréotypé <<Système>> est un système d'information utilisé par un acteur <<Personne>> pour effectuer une action particulière du processus métier collaboratif.
-L’acteur stéréotypé <<Rôle>> est le rôle fonctionnel "générique" vis-à-vis du processus, joué par un ou plusieurs acteur(s) <<Système>>.
+Les acteurs doivent être décrits et stéréotypés.
+
+L’acteur stéréotypé **<<Personne>>** représente une personne physique ou morale.
+
+L'acteur stéréotypé **<<Système>>** est un système d'information utilisé par un acteur **<<Personne>>** pour effectuer une action particulière du processus métier collaboratif.
+
+L’acteur stéréotypé **<<Rôle>>** est le rôle fonctionnel "générique" vis-à-vis du processus, joué par un ou plusieurs acteur(s) **<<Système>>**.
+
 Les relations entre les acteurs et, entre un acteur et son rôle, sont représentées sur les diagrammes de cas d’utilisation, par des liens de communication.
 
-L'utilité de l’acteur <<Rôle>> est de représenter tous les acteurs <<Système>> ayant le même comportement vis-à-vis du processus. La représentation de l'acteur <<Rôle>> est obligatoire dans le cas d'utilisation alors que les représentations des acteurs <<Système>> ou <<Personne>> sont facultatives.
-La description des acteurs <<Rôle>> doit donner lieu au tableau de définition des acteurs et des systèmes concernés.
+L'utilité de l’acteur **<<Rôle>>** est de représenter tous les acteurs **<<Système>>** ayant le même comportement vis-à-vis du processus. La représentation de l'acteur **<<Rôle>>** est obligatoire dans le cas d'utilisation alors que les représentations des acteurs **<<Système>>** ou **<<Personne>>** sont facultatives.
+
+La description des acteurs **<<Rôle>>** doit donner lieu au tableau de définition des acteurs et des systèmes concernés.
 
 Exemple du cercle de soins :
 
@@ -179,8 +185,9 @@ Exemple d’un diagramme de cas d’utilisation extrait du volet « Cercle de so
 
 Exemple de définition d’un processus collaboratif extrait du volet « Cercle de soins » :
 
-**Service attendu** : Le créateur du cercle de soins envoie au gestionnaire du cercle de soins une demande de création du cercle de soins de la personne.
-**Pré-conditions** : Le créateur du cercle de soins doit au préalable :
+**Service attendu** : le créateur du cercle de soins envoie au gestionnaire du cercle de soins une demande de création du cercle de soins de la personne.
+
+**Pré-conditions** : le créateur du cercle de soins doit au préalable :
 
 <div class="wysiwyg">
     <ul>
@@ -191,7 +198,9 @@ Exemple de définition d’un processus collaboratif extrait du volet « Cercle 
 </div>
 
 **Post-conditions** : N/A
+
 **Contraintes fonctionnelles** : N/A
+
 **Scénario nominal** : N/A
 
 #### Règles applicables
@@ -207,42 +216,51 @@ Les règles applicables à cette étape sont les suivantes :
 
 ### Etape 3 : identification des flux
 
-Les processus métier collaboratifs ont été identifiés à l'étape 1 "Organisation du contexte métier", puis définis à l'étape 2 "Définition des processus collaboratifs". Le but de l'étape 3 est de décrire le comportement des acteurs stéréotypés <<Rôle>> identifiés à l’étape 2 et de préciser les flux échangés par ces acteurs <<Rôle>>.
-Il est préconisé de modéliser chaque processus métier collaboratif identifié à l'étape 2, par un diagramme d'activité UML. Le résultat de l’étape 3 est un ensemble de diagrammes d’activité. Chaque diagramme est composé d’acteurs <<Rôle>> (représentés par des travées), d’actions et de flux.
+Les processus métier collaboratifs ont été identifiés à l'étape 1 "Organisation du contexte métier", puis définis à l'étape 2 "Définition des processus collaboratifs". Le but de l'étape 3 est de décrire le comportement des acteurs stéréotypés **<<Rôle>>** identifiés à l’étape 2 et de préciser les flux échangés par ces acteurs **<<Rôle>>**.
+
+Il est préconisé de modéliser chaque processus métier collaboratif identifié à l'étape 2, par un diagramme d'activité UML. Le résultat de l’étape 3 est un ensemble de diagrammes d’activité. Chaque diagramme est composé d’acteurs **<<Rôle>>** (représentés par des travées), d’actions et de flux.
+
 Cette modélisation peut être faite, si souhaité, par un diagramme BPMN ou un diagramme de séquence UML. Le diagramme BPMN offre plus d'options de modélisation que le diagramme d’activité UML. Il est donc possible de réduire les options de modélisation BPMN à celles préconisées par la méthode.
+
 Le diagramme de séquence UML offre moins d'options de modélisation que le diagramme d'activité UML. Le diagramme de séquence s’avère donc insuffisant pour décrire un processus collaboratif en prenant en compte toutes les recommandations données par la méthode.
+
 Il est possible, afin d’offrir une vue globale, de représenter en annexe des scénarios qui montrent des exemples d'enchainement des différents processus décrits à cette étape. Une étude peut décrire un à plusieurs scénarios. Cependant, il n’est pas nécessaire de lister exhaustivement l’ensemble des scénarios couverts par l’étude.
 
 #### Description des acteurs
 
 Chaque acteur est représenté sur le diagramme par une travée appelée aussi partition, couloir ou ligne d’eau. Une travée rassemble les actions, nœuds de contrôle et flux sous la responsabilité de cet acteur.
+
 Les acteurs représentés sont ceux décrits sous le stéréotype " Rôle ", à l’étape 2.
 
 #### Description des actions
 
 Dans cette analyse ciblée sur les échanges, il n’est pas utile de chercher à trop détailler les actions internes aux acteurs. Sur le diagramme, cela se traduit par un nombre raisonnable d'actions dans les travées. Les actions qui ne génèrent pas de flux d’informations, peuvent être présentes pour améliorer la compréhension du processus.
-Les actions sont représentées par des nœuds d’activité UML sur le diagramme et doivent être décrites (voir les différents nœuds d’activité en Figure 10.
+
+Les actions sont représentées par des nœuds d’activité UML sur le diagramme et doivent être décrites (voir les différents nœuds d’activité ci-dessous).
 
 <div class="figure" style='text-align: center;'>
     <img src="../../assets/images/noeuds-activite.png" alt="CP" title="Différents nœuds d’activité" style="width:80%;">
     <figcaption><b>Différents nœuds d’activité</b></figcaption>
 </div>
 
-Il existe également des nœuds de contrôle qui permettent d’organiser les flux entre les actions (voir les différents nœuds de contrôle en Figure 11).
+Il existe également des nœuds de contrôle qui permettent d’organiser les flux entre les actions (voir les différents nœuds de contrôle ci-dessous).
 
 <div class="figure" style='text-align: center;'>
     <img src="../../assets/images/noeuds-controle.png" alt="CP" title="Différents nœuds de contrôle" style="width:80%;">
     <figcaption><b>Différents nœuds de contrôle</b></figcaption>
 </div>
 
-
 #### Description des flux
 
 Un flux de contrôle décrit le séquencement entre deux nœuds d’activité ou entre un nœud de contrôle et un nœud d’activité.
+
 Un flux d’information est utilisé pour représenter les informations qui circulent entre les actions de deux acteurs différents, il passe d’une travée à une autre.
+
 Selon le contexte, si les flux de réponse des actions ont été formulés dans le besoin recueilli auprès du métier, alors ils doivent faire partie du diagramme d’activité. Les flux de réponse sont également des flux d’information.
+
 Seuls les flux d’information doivent être décrits.
-L'exemple présenté en Figure 12, illustre la représentation du processus métier collaboratif " Création du cercle de soins " par un diagramme d'activité accompagné de la description des actions.
+
+L'exemple présenté ci-dessous illustre la représentation du processus métier collaboratif "Création du cercle de soins" par un diagramme d'activité accompagné de la description des actions.
 
  <div class="figure" style='text-align: center;'>
     <img src="../../assets/images/collab-cds-identification-flux.png" alt="CP" title="Processus collaboratif « Création du cercle de soins » et identification des flux" style="width:40%;">
@@ -261,7 +279,7 @@ Les règles applicables à cette étape sont les suivantes :
 
 <div class="wysiwyg">
     <ul>
-        <li>Les noms des flux doivent être écrits au singulier et respecter la convention de nommage "UpperCamelCase" (https://fr.wikipedia.org/wiki/CamelCase );</li>
+        <li>Les noms des flux doivent être écrits au singulier et respecter la convention de nommage [UpperCamelCase](https://fr.wikipedia.org/wiki/CamelCase) ;</li>
         <li>Les articles, propositions, etc. ainsi que les accents doivent être retirés des noms des flux ;</li>
         <li>Les actions doivent commencer par un verbe à l’infinitif ;</li>
         <li>Les noms des acteurs doivent suivre la convention suivante : " InstanceActeur : RoleActeur " ; seul   RoleActeur » est à renseigner.</li>
@@ -320,7 +338,7 @@ Exemple de tableau acteurs/transactions de l’étude technique dans le contexte
                 <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:center;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'>Transaction</p>
             </td>
             <td style="width: 116.9pt;border-top: 1pt solid windowtext;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-image: initial;border-left: none;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:center;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'>Caract&egrave;re requis (R)/optionnel (O) de la transaction</p>
+                <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:center;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'>Caractère requis / optionnel de la transaction</p>
             </td>
             <td style="width: 116.95pt;border-top: 1pt solid windowtext;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-image: initial;border-left: none;padding: 0cm 5.4pt;vertical-align: top;">
                 <p style='margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:center;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;color:#4F81BD;font-weight:bold;'>Vol &amp; section</p>
@@ -426,7 +444,9 @@ Exemple de tableau acteurs/transactions de l’étude technique dans le contexte
     </tbody>
 </table>
 
-Il est également possible de préciser, si besoin, des choix d’options de mise en œuvre des flux pour chaque acteur. Par exemple, dans le contexte du volet « Cercle de soins », il est possible de préciser les options suivantes pour l’acteur Createur :
+Il est également possible de préciser, si besoin, des choix d’options de mise en œuvre des flux pour chaque acteur.
+
+Par exemple, dans le contexte du volet « Cercle de soins », il est possible de préciser les options suivantes pour l’acteur Createur :
 
 <table style="width:481.7pt;border-collapse:collapse;border:none;">
     <tbody>
@@ -478,11 +498,11 @@ Il est également possible de préciser, si besoin, des choix d’options de mis
 
 Le même principe s’applique aux autres acteurs identifiés pour lesquels une ou plusieurs options ont été identifiées.
 
-Enfin, il est possible également de préciser les groupements entre les acteurs identifiés par l’étude fonctionnelle et d’autres acteurs définis en dehors du volet en construction mais déjà décrits dans d’autres volets du CI_SIS ou dans d’autres spécifications de portée internationale.
+Enfin, il est possible également de préciser les groupements entre les acteurs identifiés par l’étude fonctionnelle et d’autres acteurs définis en dehors du volet en construction mais déjà décrits dans d’autres volets du CI-SIS ou dans d’autres spécifications de portée internationale.
 
 Les étapes 1, 2, 3 et 4 font l’objet d’une harmonisation du contenu d’une spécification d’interopérabilité, définissant ainsi un plan type des spécifications d’interopérabilité qui s’appliqué également aux guides d’implémentation (y compris les IG FHIR).
 
-Tout volet du CI_SIS, quel que soit son format doit contenir les sections suivantes (sous forme de parties dans le cas d’une spécification PDF ou d’onglets dans le cas d’un guide d’implémentation) :
+Tout volet du CI-SIS, quel que soit son format doit contenir les sections suivantes (sous forme de parties dans le cas d’une spécification PDF ou d’onglets dans le cas d’un guide d’implémentation) :
 
 <div class="wysiwyg">
     <ul>
@@ -658,12 +678,15 @@ Pour chaque flux de l’étape 4, il faut identifier les concepts métier qui de
 </div>
 
 Il faut aussi étudier les associations entre les classes ainsi que les cardinalités pour les adapter au contexte du flux.
+
 Si le besoin métier est de créer une nouvelle classe ou d'enrichir une classe existante, il faut alors rédiger une Demande de Modification (DM) à soumettre au gestionnaire du MOS.
 
 **Troisième opération : définition des attributs**
 
 En ce qui concerne les attributs, les classes issues du MOS sont en général plus riches que ce qui est exigé fonctionnellement dans les flux. Il faut dès lors prendre ces classes et les restreindre, c'est-à-dire sélectionner uniquement les attributs répondant aux exigences métier. Cette opération s'applique à toutes les classes reprises, y compris les classes communes (Adresse, Telecommunication, Contact, Lieu, etc.). Il est conseillé de ne pas modifier les noms des attributs du MOS.
+
 Les classes du MOS peuvent aussi être étendues par la création de nouveaux attributs. Il faut également créer les attributs des nouvelles classes qui n’existent pas dans le MOS.
+
 Si le besoin métier est de créer un nouvel attribut ou d'enrichir un attribut existant, il faut alors rédiger une Demande de Modification (DM) à soumettre au gestionnaire du MOS.
 
 Cas particulier des **métadonnées** : si d’un point du vue métier, il est important de véhiculer les métadonnées d’une ou plusieurs classes, alors il faut analyser quelles métadonnées sont nécessaires et les inclure dans les classes identifiées. Il n’est pas nécessaire d’ajouter l’attribut métadonnée pour représenter les métadonnées techniques véhiculées dans chaque flux.
@@ -671,13 +694,17 @@ Cas particulier des **métadonnées** : si d’un point du vue métier, il est i
 **Quatrième opération : types de données et nomenclatures associées**
 
 Qu'ils soient candidats ou non à une mise à jour du MOS, les attributs créés lors de l’étude doivent reprendre un des types de données définis dans le MOS.
+
 Les attributs d'une classe dont le type est un "Code" doivent avoir une nomenclature (ou liste de codes) qui leur est associée. Dans le cadre d’une application, il faut faire référence à des jeux de valeurs plutôt qu’à des terminologies de référence. Si le besoin métier est de créer une nouvelle nomenclature ou d’enrichir une nomenclature existante, il faut alors rédiger une Demande de Modification (DM) à soumettre au gestionnaire des nomenclatures des objets de santé (NOS). Lorsque les nomenclatures sont seulement identifiées à ce stade des spécifications fonctionnelles des échanges, il est conseillé d’ajouter dans la description des attributs auxquels elles sont associées, un paragraphe les décrivant et listant, si possible, les premières valeurs proposées. Dans les livrables de l’étude, les nomenclatures associées aux échanges sont annexées au document des spécifications fonctionnelles des échanges.
 
 **Cinquième opération : règles de gestion**
 
 Les règles de gestion métier définies par les partenaires de l'échange précisent que certaines classes ou certains attributs sont liés entre eux par des contraintes. Par exemple, dans un échange, l'attribut A est exclusif de l'attribut B ; en d'autres termes, cela veut dire que si A est échangé alors B n'est pas échangé.
+
 Ces règles de gestion, rédigées en texte libre, sont spécifiées sur le diagramme de classe du flux sous la forme de contraintes UML. Ces contraintes s'appliquent sur une ou plusieurs classes et/ou sur un ou plusieurs attributs. Elles doivent rester simples et internes à l'échange. Ce sont des règles métier, elles ne doivent pas servir à exprimer des choix d'implémentation.
+
 Elles sont exprimées sous la forme d'un nom suivi d'un numéro d'ordre (par exemple, Règle01, Règle02, etc.) et d'une description.
+
 Dans la documentation, elles figurent à la fois sur le diagramme de classe et dans la partie textuelle, sous la forme d'un tableau. Ce tableau est présenté à la suite de la description de la classe sur laquelle ces règles portent.
 
 **Cas particulier des flux de recherche**
@@ -691,10 +718,14 @@ Comme mentionné précédemment, des demandes de modifications sont à émettre 
 **Illustration des flux modélisés – Diagramme d’objets**
 
 Le résultat est constitué par un diagramme de classes par flux, appelé modèle du flux, accompagné de la documentation des classes, attributs et règles.
-Le modèle du flux est neutre de toute syntaxe ; il est la base des évolutions fonctionnelles. Il est ensuite transformé, automatiquement ou non, dans la syntaxe choisie par le projet au cours de l’étude des Normes et standards (voir Figure 1). Cette syntaxe peut faire partie des standards du cadre d'interopérabilité des systèmes d'information de santé (CI-SIS).
+
+Le modèle du flux est neutre de toute syntaxe ; il est la base des évolutions fonctionnelles. Il est ensuite transformé, automatiquement ou non, dans la syntaxe choisie par le projet au cours de l’[étude des Normes et standards](./choix-standard.html). Cette syntaxe peut faire partie des standards du cadre d'interopérabilité des systèmes d'information de santé (CI-SIS).
+
 Le diagramme contient les classes sélectionnées du MOS et restreintes ainsi que de nouvelles classes propres à la description fonctionnelle. Chaque attribut est défini par un type de donnée et des cardinalités, les attributs de type "Code" sont associés à leur nomenclature ; cette dernière information figure dans la documentation du diagramme de classes.
+
 L'exemple du diagramme de classe "Flux 1 - CreationCercleSoins" illustre la construction du modèle d’un flux. Pour plus de lisibilité dans cet exemple, les classes issues du MOS ont été identifiées à l’aide du symbole *. Il est complété par le diagramme d'objet correspondant en Figure 19.
-Le diagramme de classes n’est pas approprié pour formaliser un flux de recherche. Ce diagramme est remplacé par un tableau qui contient pour chaque critère de recherche, sa description ainsi que son caractère obligatoire (voir Figure 19).
+
+Le diagramme de classes n’est pas approprié pour formaliser un flux de recherche. Ce diagramme est remplacé par un tableau qui contient pour chaque critère de recherche, sa description ainsi que son caractère obligatoire (voir Figure ci-dessous).
 
 <div class="figure" style='text-align: center;'>
     <img src="../../assets/images/flux1-creation-cds.png" alt="CP" title="Flux 1 - création CDS" style="width:80%;">
@@ -763,7 +794,7 @@ Personne physique bénéficiaire de soins, d'examens, d'actes de prévention ou 
     </tbody>
 </table>
 
-Tableau : Extrait du modèle de flux « flux 1 – CreationCercleSoin »
+Tableaut extrait du modèle de flux « flux 1 – CreationCercleSoin »
 
 **Flux de recherche : Flux 2 – RechercheCercleSoins**
 
@@ -776,7 +807,7 @@ Tableau : Extrait du modèle de flux « flux 1 – CreationCercleSoin »
 | CercleSoins/statut | Statut du cercle de soin (actif, inactif, ...) | Non |
 | MembreCercleSoin/idMembreCercleSoin | Identifiant du membre du cercle de soins. | Non |
 
-Tableau 20 : Tableau des critères de recherche du « Flux de recherche : Flux 2 – RechercheCercleSoins »
+Tableau des critères de recherche du « Flux de recherche : Flux 2 – RechercheCercleSoins »
 
 **Diagramme d’objet du flux 1 – CreationCercleSoins**
 
@@ -788,12 +819,15 @@ Tableau 20 : Tableau des critères de recherche du « Flux de recherche : Flux 2
 ## CAS SPECIFIQUE DES MISES A JOUR DES SPECIFICATIONS
 
 La mise à jour des spécifications est déclenchée lorsqu’un événement nouveau impacte une ou plusieurs étapes de ces spécifications.
+
 Par exemple, une nouvelle contrainte réglementaire, l’ajout d’un cas d’usage, etc.
+
 Dès qu’une étape est modifiée, il faut réaliser une étude d’impacts sur toutes les étapes suivantes. Un arbitrage de ces impacts doit être réalisé afin de savoir si des évolutions sont à considérer ou pas sur les spécifications existantes.
 
 ### Pour toutes mises à jour
 
 Avant toute modification, il convient de s’assurer qu’il n’y a pas de nouvelles contraintes réglementaires et organisationnelles ou que celles qui sont spécifiées sont toujours valides.
+
 Quel que soit le type de mise à jour à réaliser, les actions suivantes sont à mener :
 
 <div class="wysiwyg">
@@ -809,6 +843,7 @@ Les modifications apportées sur les spécifications fonctionnelles peuvent impa
 ### Ajout d’un processus
 
 Avant d’ajouter un processus dans une spécification, il est important de s’assurer que le besoin n’est pas couvert par ailleurs et que le processus s’intègre au cas d’usage couvert par la spécification.
+
 L’ajout d’un processus dans une spécification doit entrainer la revue des autres processus. Certains processus peuvent être impactés par cet ajout. Dans ce cas, se référer à la partie 0.
 
 L’ajout d’un processus va se traduire par les actions suivantes :
