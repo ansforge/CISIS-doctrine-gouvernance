@@ -7,6 +7,7 @@ description:
 La vague actuelle de modernisation des systèmes d’information de santé (SIS) facilite les échanges d’information, sans pour autant nécessiter la refonte générale de ces systèmes. La voie privilégiée du progrès repose sur l’interopérabilité des systèmes d'information plutôt que sur leur homogénéité.
 Une des réponses à l'interopérabilité des systèmes d'information est basée sur la dématérialisation harmonisée des échanges de données entre ces systèmes.
 La méthode d'élaboration des spécifications fonctionnelles des échanges est à destination des maîtrises d'ouvrages et maîtrises d'œuvre en charge de l'étude d'un projet comportant des interactions entre SI partenaires.
+
 A partir des exigences recueillies auprès des parties prenantes du métier, le but de la méthode est de modéliser les échanges de données en réalisant les actions suivantes :
 
 <div class="wysiwyg">
@@ -38,6 +39,7 @@ Un volet du cadre d'interopérabilité des systèmes d'information de santé (CI
 ## Déroulement de la méthode
 
 Cette méthode est constituée de six étapes. Le résultat de chacune de ces étapes est consigné dans le dossier des spécifications fonctionnelles des échanges.
+
 Ces étapes, détaillées dans la suite du document, sont les suivantes :
 
 <div class="wysiwyg">
@@ -75,6 +77,7 @@ Cette méthode est illustrée par les exemples qui ont été extraits à une pha
 ## Déroulement de la méthode
 
 ### Etape 0 : Cadre juridique et orientations organisationnelles
+
 Le cadre juridique de l’étude doit être cité à cette étape afin de le prendre en considération à toutes les étapes de la méthode.
 Les orientations organisationnelles et les moyens mis en œuvre pour rationaliser les processus et favoriser les échanges doivent être mentionnés à cette étape.
 Les cas d’usage sont décrits à ce niveau. Il s’agit de détailler, à l’aide de diagrammes de séquences et de parties textuelles, les acteurs et les transactions entre ces acteurs supports à l’échange ou au partage de l’information médicale dans le contexte d’un workflow réalisé par différents systèmes.
@@ -97,6 +100,7 @@ Le paquetage <<Processus>> représente le processus métier collaboratif qui est
 #### Règles applicables
 
 Les règles applicables dans cette étape sont les suivantes :
+
 <div class="wysiwyg">
     <ul>
         <li>Les noms du domaine d'activité, groupes de processus et processus sont libres ; pour les processus, le nom donné doit être constitué d'une phrase infinitive, comme "Commander un DMI » ;</li>
@@ -119,6 +123,7 @@ Le processus collaboratif faisant partie du périmètre de l’étude est indiqu
 
 Les processus métier collaboratifs ont été identifiés à l'étape 1 "Organisation du contexte métier". Le but de l'étape 2 est de les décrire.
 Cette modélisation est une vue macroscopique des processus qui sont représentés au moyen de diagrammes de cas d’utilisation UML. Dans cette étape, l'action la plus importante consiste à identifier, définir et relier les acteurs aux processus.
+
 D’éventuelles dépendances entre les processus peuvent être formalisées par des :
 
 <div class="wysiwyg">
@@ -239,12 +244,10 @@ Selon le contexte, si les flux de réponse des actions ont été formulés dans 
 Seuls les flux d’information doivent être décrits.
 L'exemple présenté en Figure 12, illustre la représentation du processus métier collaboratif " Création du cercle de soins " par un diagramme d'activité accompagné de la description des actions.
 
-
  <div class="figure" style='text-align: center;'>
     <img src="../../assets/images/collab-cds-identification-flux.png" alt="CP" title="Processus collaboratif « Création du cercle de soins » et identification des flux" style="width:40%;">
     <figcaption><b>Processus collaboratif « Création du cercle de soins » et identification des flux</b></figcaption>
 </div>
-
 
 | Action | Description |
 | --- | --- |
@@ -294,8 +297,7 @@ Un tableau récapitulatif permet de décrire chaque flux d’information identif
 Lorsqu’un même flux d’informations est identifié dans plusieurs processus, ou plusieurs fois dans le même processus, le tableau compte alors autant de lignes que de fois où le flux est identifié.
 Remarque : Un même flux d’informations évoluant dans le temps peut être constitué d'instances différentes. Par exemple, un dossier de sinistre d’assurance circule entre plusieurs acteurs et est rempli au fur et à mesure de l’avancée dans le processus. Le tableau est alors constitué de plusieurs lignes pour le même flux. Il est alors recommandé par la suite, à partir de l'étape 5, de factoriser ces instances et de ne considérer, qu’un seul flux regroupant toutes les informations nécessaires au déroulement du processus.
 
-Exemple dans le contexte du volet « Cercle de soins » :
-
+Exemple du tableau de synthèse de l’ensemble des flux d’information dans le contexte du volet « Cercle de soins » :
 
 | Flux | Processus | Emetteur | Récepteur | Périmètre |
 | --- | --- | --- | --- | --- |
@@ -304,9 +306,8 @@ Exemple dans le contexte du volet « Cercle de soins » :
 | Flux 3 - ResultatRechercheCercleSoins | Consultation du cercle de soins | Gestionnaire | Consommateur | Oui |
 | Flux 4 - MiseJourCercleSoins | Mise à jour du cercle de soins | Createur | Gestionnaire | Oui |
 
-Tableau de synthèse de l’ensemble des flux d’information dans le contexte du volet « Cercle de soins »
-
 Ce tableau sera ensuite repris pour construire le tableau des acteurs/transactions qui regroupe pour chaque acteur impliqué l’ensemble des flux d’information implémentés par cet acteur et qui définit le caractère obligatoire ou optionnel de chacun des flux ainsi que le lien sur la section qui décrit le flux d’un point de vue technique.
+
 Exemple de tableau acteurs/transactions de l’étude technique dans le contexte du volet « Cercle de soins » :
 
 <table style="width:481.7pt;border-collapse:collapse;border:none;">
@@ -425,8 +426,6 @@ Exemple de tableau acteurs/transactions de l’étude technique dans le contexte
     </tbody>
 </table>
 
-Tableau : Tableau des acteurs/transactions dans le volet « Cercle de soins »
-
 Il est également possible de préciser, si besoin, des choix d’options de mise en œuvre des flux pour chaque acteur. Par exemple, dans le contexte du volet « Cercle de soins », il est possible de préciser les options suivantes pour l’acteur Createur :
 
 <table style="width:481.7pt;border-collapse:collapse;border:none;">
@@ -476,12 +475,13 @@ Il est également possible de préciser, si besoin, des choix d’options de mis
 </table>
 
 (Note 1) : dans le cas où l’acteur supporte l’option Création des acteurs du cercle de soins, il doit également supporter obligatoirement l’option Création du cercle de soins.
-Tableau 16 : tableau des options pour l’acteur Createur dans le contexte du volet « Cercle de soins »
 
 Le même principe s’applique aux autres acteurs identifiés pour lesquels une ou plusieurs options ont été identifiées.
+
 Enfin, il est possible également de préciser les groupements entre les acteurs identifiés par l’étude fonctionnelle et d’autres acteurs définis en dehors du volet en construction mais déjà décrits dans d’autres volets du CI_SIS ou dans d’autres spécifications de portée internationale.
 
 Les étapes 1, 2, 3 et 4 font l’objet d’une harmonisation du contenu d’une spécification d’interopérabilité, définissant ainsi un plan type des spécifications d’interopérabilité qui s’appliqué également aux guides d’implémentation (y compris les IG FHIR).
+
 Tout volet du CI_SIS, quel que soit son format doit contenir les sections suivantes (sous forme de parties dans le cas d’une spécification PDF ou d’onglets dans le cas d’un guide d’implémentation) :
 
 <div class="wysiwyg">
@@ -518,6 +518,7 @@ Tout volet du CI_SIS, quel que soit son format doit contenir les sections suivan
 ### Etape 4 : identification des concepts véhiculés dans les flux d’information
 
 Les flux d’informations échangés par les acteurs dans les processus métier collaboratifs ont été identifiés et décrits à l’étape 3. Le but de l’étape 4 est d’identifier les concepts métier véhiculés dans les flux et de les associer aux concepts du modèle des objets de santé (MOS). Le MOS est un ensemble de concepts, décrits de manière homogène et neutre vis-à-vis des technologies. Il offre une description commune et mutualisée des informations traitées dans les systèmes d’information et les échanges.
+
 Cette étape est découpée en deux sous-étapes :
 
 <div class="wysiwyg">
@@ -531,6 +532,7 @@ Cette étape est découpée en deux sous-étapes :
 L’identification des concepts métier véhiculés dans chacun des flux est un exercice d’inventaire qui nécessite une collecte des informations auprès du métier, flux par flux.
 D’un point de vue pratique dans cette étape, les concepts métier sont tous identifiés à des classes UML, quel que soit leur devenir, classe ou attribut, dans les étapes suivantes de l’étude. Ils respectent les conventions de nommage des classes du MOS, définies à l’étape 5.
 Le résultat de cette approche est consigné dans des tableaux qui listent, pour chaque flux, les concepts métier véhiculés et leur définition (voir Figure 15).
+
 Exemple :
 
 | Nom | Description | Flux |
@@ -546,12 +548,12 @@ Tableau : Extrait des concepts métier présents dans l’étude « Cercle de so
 Une des principales difficultés lors de la modélisation des informations d'un échange est de ne pas réinventer à chaque fois une modélisation différente pour ces mêmes informations. Il faut, par exemple, veiller à représenter les informations relatives à "une personne physique" de la même façon dans chaque projet.
 Le but de cette partie est d'identifier, pour chaque concept métier, les composants du MOS les plus pertinents à réutiliser lors de la modélisation du flux, à partir des tableaux des concepts métier définis lors de la sous-étape 4.1.
 
-Démarche
+**Démarche**
+
 Le MOS contient un ensemble de concepts. Cet ensemble a vocation à évoluer avec l’ajout de nouveaux concepts qui doivent être suffisamment génériques pour être utilisés dans plusieurs projets. Ainsi, lors de la démarche de mise à correspondance avec les concepts du MOS, il peut s’avérer que des concepts métier identifiés à l’étape 4 ne se trouvent pas dans le MOS. Ces concepts peuvent faire l’objet d’une étude menée pour leur intégration dans le MOS dans le cadre des mises à jour mensuelles du modèle.
 Il n’y a pas de règle pour la mise en correspondance entre un concept métier identifié à l’étape 4 et les concepts génériques du MOS. L'exercice peut s'avérer difficile car cette correspondance nécessite à la fois une compétence métier, une expérience en modélisation et une connaissance des classes et attributs du MOS.
 
 Dans le MOS, le concept métier peut correspondre à :
-
 
 <div class="wysiwyg">
     <ul>
@@ -582,6 +584,7 @@ Par la suite, les extensions sont instruites pour déterminer si elles sont :
 **Construction du tableau de mise en correspondance**
 
 La démarche s’applique pour chacun des concepts métier identifiés, que ce concept devienne une classe ou un ou plusieurs attributs. Suite à cette analyse, il est possible de construire un tableau de correspondance entre le concept métier et le concept MOS associé (voir Figure 18).
+
 Ce tableau contient les éléments suivants :
 
 <div class="wysiwyg">
@@ -663,9 +666,7 @@ En ce qui concerne les attributs, les classes issues du MOS sont en général pl
 Les classes du MOS peuvent aussi être étendues par la création de nouveaux attributs. Il faut également créer les attributs des nouvelles classes qui n’existent pas dans le MOS.
 Si le besoin métier est de créer un nouvel attribut ou d'enrichir un attribut existant, il faut alors rédiger une Demande de Modification (DM) à soumettre au gestionnaire du MOS.
 
-Cas particulier des métadonnées :
-Si d’un point du vue métier, il est important de véhiculer les métadonnées d’une ou plusieurs classes, alors il faut analyser quelles métadonnées sont nécessaires et les inclure dans les classes identifiées.
-Il n’est pas nécessaire d’ajouter l’attribut métadonnée pour représenter les métadonnées techniques véhiculées dans chaque flux.
+Cas particulier des **métadonnées** : si d’un point du vue métier, il est important de véhiculer les métadonnées d’une ou plusieurs classes, alors il faut analyser quelles métadonnées sont nécessaires et les inclure dans les classes identifiées. Il n’est pas nécessaire d’ajouter l’attribut métadonnée pour représenter les métadonnées techniques véhiculées dans chaque flux.
 
 **Quatrième opération : types de données et nomenclatures associées**
 
@@ -809,6 +810,7 @@ Les modifications apportées sur les spécifications fonctionnelles peuvent impa
 
 Avant d’ajouter un processus dans une spécification, il est important de s’assurer que le besoin n’est pas couvert par ailleurs et que le processus s’intègre au cas d’usage couvert par la spécification.
 L’ajout d’un processus dans une spécification doit entrainer la revue des autres processus. Certains processus peuvent être impactés par cet ajout. Dans ce cas, se référer à la partie 0.
+
 L’ajout d’un processus va se traduire par les actions suivantes :
 
 <div class="wysiwyg">
@@ -832,6 +834,7 @@ L’ajout d’un processus va se traduire par les actions suivantes :
 ### Modification d’un processus
 
 La modification d’un processus dans une spécification doit entrainer la revue des autres processus. Certains processus peuvent être impactés par cette modification.
+
 La modification d’un processus va se traduire par les actions suivantes :
 
 <div class="wysiwyg">

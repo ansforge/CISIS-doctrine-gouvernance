@@ -99,7 +99,7 @@ Par exemple, la norme CDA a été initialement utilisée dans les spécification
 
 Ainsi, afin de capitaliser l’expérience acquise par les parties prenantes et de favoriser la réutilisation des développements et en l’absence de contrainte spécifique du cas d’usage qui rendrait son utilisation inadaptée, la norme CDA reste à ce jour la norme à profiler pour les spécifications du CI-SIS concernant des documents structurés.
 
-Cependant, l’ANS a défini une [trajectoire d’interopérabilité](./trajectoire-iop.md)) qui tient compte des orientations retenues par la Commission Européenne dans le cadre de la construction de l’espace de données de santé européen (European Health Data Space - EHDS). Une de ces orientations concerne l’utilisation du standard FHIR en remplacement ou en complément de CDA pour les documents structurés.
+Cependant, l’ANS a défini une [trajectoire d’interopérabilité](./trajectoire-iop.html)) qui tient compte des orientations retenues par la Commission Européenne dans le cadre de la construction de l’espace de données de santé européen (European Health Data Space - EHDS). Une de ces orientations concerne l’utilisation du standard FHIR en remplacement ou en complément de CDA pour les documents structurés.
 
 La liste des normes et standards utilisés dans le CI-SIS évolue constamment à la faveur de la production de nouveaux volets du CI-SIS. A titre d’information, les normes et standards qui sont utilisés dans le CI-SIS en septembre 2024 sont présentés ici.
 
@@ -108,6 +108,7 @@ La liste des normes et standards utilisés dans le CI-SIS évolue constamment à
 ## Choix des normes et standards non encore utilisés dans le CI-SIS
 
 La doctrine du CI-SIS ne peut pas couvrir l’ensemble des cas d’usage faisant l’objet d’une spécification d’interopérabilité. Quand il est nécessaire de sélectionner une norme ou un standard (syntaxique, sémantique ou technique) cible qui n’est pas encore utilisé dans le CI-SIS, il est indispensable que l’ensemble des parties prenantes qui pourraient être affectées par ce choix :
+
 <div class="wysiwyg">
     <ul>
         <li>Soient informées sur les normes et standards utilisables pour la mise en œuvre du cas d’usage ;</li>
@@ -142,7 +143,7 @@ La doctrine est complètement intégrée à la gouvernance du CI-SIS. Elle vient
 
 En y intégrant les éléments de la doctrine syntaxique et sémantique, la phase d’évolution du CI_SIS (phase 4) se décompose en 5 sous-phases :
 
-A. Analyse métier du cas d’usage, modélisation des échanges entre SI conformément à la méthodologie d’élaboration des spécifications fonctionnelles des échanges, et choix de terminologie(s) de référence répondant au cas d’usage étudié selon les principes de la doctrine sémantique ; <!-- TODO Renvoyer vers l’onglet Méthodologie d’élaboration des spécifications fonctionnelles des échanges -->
+A. Analyse métier du cas d’usage, modélisation des échanges entre SI conformément à la [méthodologie d’élaboration des spécifications fonctionnelles des échanges](./elaboration.html), et choix de terminologie(s) de référence répondant au cas d’usage étudié selon les principes de la doctrine sémantique ; 
 
 B. Concertation publique sur la spécification fonctionnelle des échanges (intégrant les choix de terminologies) ;
 
@@ -160,6 +161,7 @@ E. Concertation publique sur la modélisation des échanges et les spécificatio
 <!-- IGI - Schéma modifié par rapport à l’original pour insérer la phase de concertation publique de l’étude fonctionnelle des échanges -->
 
 Cette phase d’évolution du CI_SIS peut être sous traitée par l’ANS, selon les conditions décrites dans la gouvernance du CI_SIS,  à des Unités de Production (également désignée « UP Partenaires ») internes et externes compétentes pour contribuer à l’élaboration de volets du CI-SIS ou à l’élaboration de ressources sémantiques. Dans ce cas, l’ANS intègre le partenaire dans la gouvernance du CI-SIS en tant qu’UP « externe » et lui confie ainsi la production de spécifications d’interopérabilité ou la production de ressources sémantiques permettant de mettre en œuvre des cas d’usage priorisés par la gouvernance du CI-SIS.
+
 L’ANS est de fait amener à établir des conventions de partenariat ou contrats avec ces partenaires :
 
 <div class="wysiwyg">

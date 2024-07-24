@@ -7,6 +7,7 @@ description:
 <!-- Commentaire IGi - Il n’existe pas de document du CI_SIS décrivant la méthode à appliquer pour conduire l’étude de choix des normes/standards. Proposition d’un début de construction de ce type de document. A revoir sans doute par la suite. -->
 
 L’étude des normes et standards est optionnelle. Elle intervient lorsqu’il est nécessaire de sélectionner une norme ou un standard (syntaxique, sémantique ou technique) cible qui n’est pas encore utilisé dans le CI-SIS pour répondre aux cas d’usage identifiés par l’étude fonctionnelle des échanges.
+
 Au cours de cette étude, chaque solution technique et sémantique est analysée de façon approfondie et catégorisée selon différents critères de façon à pouvoir justifier du choix final retenu.
 
 Le contenu de l’étude des normes et standards est le suivant :
@@ -22,8 +23,8 @@ Le contenu de l’étude des normes et standards est le suivant :
     </ul>
 </div>
 
-
 Il s’agit de présenter l’objet du document, de rappeler l’étude fonctionnelle des échanges réalisée au préalable, de résumer en quelques phrases le(s) cas d’usage adressés par cette étude et de citer les flux d’information pour lesquels un choix de norme ou de standard doit être réalisé.
+
 Les solutions pressenties (norme/standard, profil IHE ou guide d’implémentation FHIR) sont listées.
 
 Chacune des solutions proposées en introduction fait l’objet d’une étude détaillée. Les points suivants peuvent être analysés :
