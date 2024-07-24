@@ -100,9 +100,7 @@ Ainsi, afin de capitaliser l’expérience acquise par les parties prenantes et 
 
 Cependant, l’ANS a défini une [trajectoire d’interopérabilité](./trajectoire-iop.html) qui tient compte des orientations retenues par la Commission Européenne dans le cadre de la construction de l’espace de données de santé européen (European Health Data Space - EHDS). Une de ces orientations concerne l’utilisation du standard FHIR en remplacement ou en complément de CDA pour les documents structurés.
 
-La liste des normes et standards utilisés dans le CI-SIS évolue constamment à la faveur de la production de nouveaux volets du CI-SIS. A titre d’information, les normes et standards qui sont utilisés dans le CI-SIS en septembre 2024 sont présentés ici.
-
-<!-- TODO - À mettre à jour et référencer l’onglet catalogue des profils et IG FHIR utilisés dans le CI-SIS. Le tableau Excel des normes/standards est stocké dans le répertoire Documentation du GT D2 -->
+La liste des normes et standards utilisés dans le CI-SIS évolue constamment à la faveur de la production de nouveaux volets du CI-SIS. A titre d’information, les normes et standards qui sont utilisés dans le CI-SIS en septembre 2024 sont présentés [ici](../../assets/docs/Liste_Profils_IHE_Standards.zip).
 
 ## Choix des normes et standards non encore utilisés dans le CI-SIS
 
@@ -161,8 +159,5 @@ En y intégrant les éléments de la doctrine syntaxique et sémantique, la phas
 
 <!-- IGI - Schéma modifié par rapport à l’original pour insérer la phase de concertation publique de l’étude fonctionnelle des échanges -->
 
-Cette phase d’évolution du CI-SIS peut être sous traitée par l’ANS, selon les conditions décrites dans la gouvernance du CI-SIS,  à des Unités de Production (également désignée « UP Partenaires ») internes et externes compétentes pour contribuer à l’élaboration de volets du CI-SIS ou à l’élaboration de ressources sémantiques. Dans ce cas, l’ANS intègre le partenaire dans la gouvernance du CI-SIS en tant qu’UP « externe » et lui confie ainsi la production de spécifications d’interopérabilité ou la production de ressources sémantiques permettant de mettre en œuvre des cas d’usage priorisés par la gouvernance du CI-SIS.
+Ces travaux peuvent être faits en collaboration avec l'écosystème via une contractualisation sous forme d'[Unité de Production externe](./up-externe.html).
 
-L’ANS est de fait amenée à établir des conventions de partenariat ou contrats avec ces partenaires pour les [volets du CI-SIS](../../assets/docs/Contrat_Cadre_UP_Syntaxe.zip) ou pour la [mise à disposition de terminologies](../../assets/docs/Contrat_cadre_UP_Semantique.zip)
-
-Ces contrats visent à décrire les principes fondamentaux de collaboration et fonctionnement avec les unités de production.
