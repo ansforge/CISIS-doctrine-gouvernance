@@ -66,9 +66,9 @@ Exemple de tableau de comparaison :
 
 ## Analyse SWOT
 
-Le tableau de maturité précédant peut être complété par une analyse SWOT qui permet d’évaluer plus finement les forces (Strengths), les faiblesses (Weaknesses), les opportunités (Opportunities) et les menaces (Threats ) de chacune des options envisagées dans les étapes précédentes.
+Le tableau de maturité précédant peut être complété par une analyse SWOT qui permet d’évaluer plus finement les forces (Strengths), les faiblesses (Weaknesses), les opportunités (Opportunities) et les menaces (Threats) de chacune des options envisagées dans les étapes précédentes.
 
-### Forces : caractéristiques de la solution qui lui donnent un avantage sur les autres.
+### Forces : caractéristiques de la solution qui lui donnent un avantage sur les autres
 
 A ce niveau, on cherchera à évaluer les points clés suivants :
 
