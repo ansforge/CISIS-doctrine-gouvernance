@@ -4,8 +4,7 @@ nav_order: 5
 description: 
 ---
 
-Il a été identifié qu'il n'est pas évident pour les développeurs de solutions d'identifier si la spécification est de qualité et de maturité suffisante pour pouvoir être implémentée en production sans craindre une évolution majeure dans un futur proche.
-Pour d'offrir une meilleure visibilité à notre écosystème, il a été décidé de mettre en place de critères de qualité et de maturité associés à des statuts pour chacune de nos spécifications.
+Le niveau de qualité et la maturité des volets du CI-SIS et des guides d’implémentation sont des informations importantes qui vont inciter les éditeurs de solution à engager des développements sans craindre de futures évolutions majeures dans un avenir proche.
 
 Cependant, il est important de noter que le statut de maturité est une information indicative. Il est toujours préférable de se baser sur des spécifications standards, même peu matures, plutôt que sur un format propriétaire. La transition vers la spécification mature sera toujours plus facile à partir d'un format standard, même au statut "draft", comparé à des interfaces propriétaire.
 
