@@ -1,5 +1,5 @@
 ---
-title: Généralités sur la doctrine du ci-sis
+title: Généralités sur la doctrine du CI-SIS
 nav_order: 1
 description: 
 ---

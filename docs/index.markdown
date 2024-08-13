@@ -5,11 +5,11 @@ title: Bienvenue sur la documentation du CI-SIS
 
 ## Documentation
 
-Cette documentation contient toutes les informations sur la gouvernance et la doctrine du ci-sis.
+Cette documentation contient toutes les informations sur la gouvernance et la doctrine du CI-SIS.
 
 ## Objet du document
 
-Le présent document a pour objet de préciser le contenu de la gouvernance et de la doctrine du CI_SIS mise à jour à la suite des ateliers conduits par les équipes d’interopérabilité de la DE2I de mai à juillet 2024 en vue de faire évoluer la gouvernance et la doctrine du CI_SIS.
+Le présent document a pour objet de préciser le contenu de la gouvernance et de la doctrine du CI-SIS mise à jour à la suite des ateliers conduits par les équipes d’interopérabilité de la DE2I de mai à juillet 2024 en vue de faire évoluer la gouvernance et la doctrine du CI-SIS.
 
 
 ## Glossaire
