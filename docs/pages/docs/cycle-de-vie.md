@@ -72,7 +72,7 @@ Notes :
 
 ## Définition des critères de maturité
 
-Une spécification avec la majorité des critères de maturité respectés indiquent sa clarté et sa facilité, et est le signe d'une plus grande pérennité de la spécification. Cependant, il est important de noter que la pérennité ne peut jamais être garantie, les spécifications jugées matures ont néanmoins une plus faible probabilité de subir des évolutions non rétrocompatibles.
+Une spécification avec la majorité des critères de maturité respectés indiquent sa clarté et sa facilité de mise en oeuvre. C'est le signe d'une plus grande pérennité de la spécification. Cependant, la pérennité d'une spécification ne peut jamais être garantie. Les spécifications jugées matures ont néanmoins une plus faible probabilité de subir des évolutions non rétrocompatibles.
 
 Les critères de maturité identifiés :
 
