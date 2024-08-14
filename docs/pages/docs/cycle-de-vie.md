@@ -16,7 +16,7 @@ Cependant, il est important de noter que le statut de maturité est une informat
 
 Quatre statuts ont été identifiés pour les spécifications d'interopérabilité de l'ANS : « draft » ou « version-de-travail », « public-comment » ou « en concertation », « trial-implementation » ou « pour implementation », et « final-text » ou « final ».
 
-La modélisation du cycle de vie des volets du CI-SIS s'appuie sur les pratiques internationales d'[IHE](https://wiki.ihe.net/index.php/Process) et de [HL7](https://confluence.hl7.org/display/FHIR/FHIR+Maturity+Model), adaptées aux besoins nationaux. Les statuts sont repris des [pratiques d'IHE](https://wiki.ihe.net/index.php/Comments#Phases_of_Development), avec le libellé anglais et sa traduction française.
+La modélisation du cycle de vie des volets du CI-SIS s'appuie sur les pratiques internationales d'[IHE](https://wiki.ihe.net/index.php/Process) et de [HL7](https://confluence.hl7.org/display/FHIR/FHIR+Maturity+Model), adaptées aux besoins nationaux. Les statuts sont repris des [pratiques d'IHE](https://wiki.ihe.net/index.php/Comments#Phases_of_Development), avec le libellé anglais et sa traduction française. Pour des raisons d'uniformisation, les termes anglais seront utilisés dans la suite de ce document.
 
 Les statuts « trial-implementation » et « final-text » reflètent la maturité des spécifications dans l'ordre indiqué.
 
@@ -38,7 +38,7 @@ Ce statut est un reflet de la maturité : selon l'auteur, la spécification est 
 ### Le statut « final-text » ou « final »
 
 Les auteurs de la spécification ont estimé qu'elle avait atteint le **stade de maturité le plus élevé**.
-Ce stade est atteint lorsque la spécification a déjà été mise en œuvre dans un projet national ou testée lors d'un projectathon. La spécification a eu des retours post-concertation, post-projectathon ou post-implémentation et a été corrigée. Ce statut indique également que les critères de maturité et de qualité définis ci-dessous ont été respectés.
+Ce stade est atteint lorsque la spécification a déjà été mise en œuvre dans au moins un projet national ou testée lors d'un projectathon. La spécification a pu avoir des retours post-concertation, post-projectathon ou post-mise en oeuvre et a été corrigée. Ce statut indique également que les critères de maturité et de qualité définis ci-dessous ont été respectés.
 Ce statut n'empèche pas de repasser en « trial-implementation », qui peut arriver dans le cas de changement majeur tel que la migration d'un nouveau standard.
 
 ### Les autres statuts
@@ -67,7 +67,7 @@ Notes :
 
 <div class="wysiwyg">
     <ul>
-        <li> Une version en final-text peut repasser en trial-use, par exemple en cas de changement majeur comme un refactoring complet de la spécification (passage au format IG, à FHIR R6, changement de standard, ...). Cela signifie que l'ancienne version en final-text ne doit plus être utilisée pour diverses raisons, comme une situation internationale nécessitant de grandes évolutions. Dans ce cas, une note explicative sera associée à la release. </li>
+        <li> Une spécification au statut « final-text » peut repasser au statut « trial-implementation », par exemple en cas de changement majeur comme une refactorisation de la spécification (passage au format guide d'implémentation FHIR, à une version supérieure du standard sous-jacent, à un changement de standard, ...). Cela signifie que l'ancienne version en « final-text » ne doit plus être utilisée pour diverses raisons, comme une situation internationale nécessitant de grandes évolutions. Dans ce cas, une note explicative sera associée à la publication de la nouvelle spécification. </li>
         <li> Lorsqu'une nouvelle version d'une spécification est publiée, il est recommandé aux éditeurs de l'adopter dans les 1 à 2 ans suivant sa publication. </li>
         <li> Le statut du cycle de vie n'est pas associé à la version <a href="https://semver.org/lang/fr">semver</a> d'une spécification. Le numéro de version d'une spécification est systématiquement incrémenté à chaque release et est indépendant du statut du cycle de vie. Par exemple, si une faute d'orthographe est corrigée entraînant une incrémentation mineure du numéro de version, cela ne justifie pas un changement de statut. A chaque publiation, une étude pour évaluer un éventuel changement de statut du cycle de vie est effectuée en suivant le schéma ci-dessus. </li>
     </ul>
@@ -134,7 +134,7 @@ Les métadonnées correspondent aux données annexées aux spécifications. Elle
 | Nom | Description | Cardinalité | Exemples |
 | --- | --- | --- | --- |
 | identifiant | Identifiant ou URL identifiante d’accès à la spécification | 1..1 | https://interop.esante.gouv.fr/ig/fhir/pdsm |
-| statut | Statut de la spécification selon les statuts définis par l’ANS. Les statuts peuvent être rédigés en anglais ou en français. | 1..1 | draft, public-comment, for-implementation, final-text |
+| statut | Statut de la spécification selon les statuts définis par l’ANS. Les statuts peuvent être rédigés en anglais ou en français. | 1..1 | « draft », « public-comment », « for-implementation », « final-text » |
 | version | Version au format semver | 1..1 | 1.0.0 |
 | code | Code qui définit la spécification | 1..1 | GAP, CR-BIO |
 | titre | Titre de la spécification | 1..1 | Gestion d'Agendas Partagés |
