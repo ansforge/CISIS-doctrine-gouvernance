@@ -4,33 +4,36 @@ nav_order: 5
 description: 
 ---
 
+
+<!-- Proposition de changements JCC -->
+<!-- Brouillon devient version-de-travail -->
+<!--  -->
 Le niveau de qualité et la maturité des volets du CI-SIS et des guides d’implémentation sont des informations importantes qui vont inciter les éditeurs de solution à engager des développements sans craindre de futures évolutions majeures dans un avenir proche.
 
 Cependant, il est important de noter que le statut de maturité est une information indicative. Il est toujours préférable de se baser sur des spécifications standards, même peu matures, plutôt que sur un format propriétaire. La transition vers la spécification mature sera toujours plus facile à partir d'un format standard, même au statut « draft », comparé à des interfaces propriétaire.
 
 ## Le cycle de vie et les statuts associés
 
-Quatre statuts ont été identifiés pour les spécifications d'interopérabilité de l'ANS : « draft » ou « brouillon », « public-comment » ou « en concertation », « trial-implementation » ou « pour implementation », et « final-text » ou « final ».
+Quatre statuts ont été identifiés pour les spécifications d'interopérabilité de l'ANS : « draft » ou « version-de-travail », « public-comment » ou « en concertation », « trial-implementation » ou « pour implementation », et « final-text » ou « final ».
 
-Ces travaux se sont inspirés des pratiques internationales au niveau d'[IHE](https://wiki.ihe.net/index.php/Process) et de [HL7](https://confluence.hl7.org/display/FHIR/FHIR+Maturity+Model
-), adaptées aux besoins nationaux. Les statuts ont été inspirés des [pratiques d'IHE](https://wiki.ihe.net/index.php/Comments#Phases_of_Development), aveec un label anglais pour correspondre aux statuts IHE ainsi que sa traduction française.
+La modélisation du cycle de vie des volets du CI-SIS s'appuie sur les pratiques internationales d'[IHE](https://wiki.ihe.net/index.php/Process) et de [HL7](https://confluence.hl7.org/display/FHIR/FHIR+Maturity+Model), adaptées aux besoins nationaux. Les statuts sont repris des [pratiques d'IHE](https://wiki.ihe.net/index.php/Comments#Phases_of_Development), avec le libellé anglais et sa traduction française.
 
 Les statuts « trial-implementation » et « final-text » reflètent la maturité des spécifications dans l'ordre indiqué.
 
-### Le statut « draft » ou « brouillon »
+### Le statut « draft » ou « version-de-travail »
 
-Ce statut correspond à une spécification **en cours de développement**, il s'agit du statut d'une spécification en cours de création ou de modification.
-Le statut brouillon est particulièrement important pour les spécifications développées sur GitHub car tous les travaux sont publics et sont donc accessibles à tout moment : de la création du répertoire GitHub à la publication. Ainsi, c'est le statut d'une spécification en intégration continue ou ci-build.
+Le statut « draft » / « version-de-travail » correspond à une spécification **en cours de cours de création ou de modification**.
+Ce statut est particulièrement important pour les spécifications développées sur GitHub car tous les travaux sont publics et sont donc accessibles à tout moment : de la création du répertoire GitHub à la publication. Ainsi, c'est le statut d'une spécification publiée en mode intégration continue (ci-build).
 
 ### Le statut « public comment » ou « en concertation »
 
 La spécification est publiée au statut **en concertation** lors de ses phases de consultations publiques. La spécification en mode « public comment » risque d'évoluer suite aux commentaires des concertations et n'est pas faite pour être implémentée : elle est en attente de la validation de l'écosystème pour publication.
-Une spécification en « final-text » ou en « trial-implementation » peut repasser en commentaire public en cas d'évolution majeure.
+Une spécification en « final-text » ou en « trial-implementation » peut repasser en « public-comment » en cas d'évolution majeure (des cas d'usage, du standard sous-jacent ...)..
 
 ### Le statut « trial-implementation » ou « pour implémentation »
 
-La spécification est passée par une ou plusieurs phase de concertation et est **prête pour implémentation** en situation réelle.
-Ce statut est un reflet de la maturité : selon l'auteur, la spécification est prète pour une première implémentation.
+La spécification est passée par une ou plusieurs phases de concertation et est **prête pour être mise en oeuvre** en situation réelle.
+Ce statut est un reflet de la maturité : selon l'auteur, la spécification est prète pour une première mise en situation réelle.
 
 ### Le statut « final-text » ou « final »
 
@@ -51,7 +54,7 @@ Durant la vie d'une spécification, celle-ci passe par différents statuts expri
 A l'issue d'une concertation, une spécification peut passer au statut « final-text » ou « for implementation ». Ce choix dépend du respect de critère de qualité, de maturité, et de la décision de l'auteur.
 Pour passer en final-text, la spécification doit :
 
-<div class=«  »wysiwyg«  »>
+<div class="wysiwyg">
     <ol>
         <li> Avoir été publiée au moins une fois en « trial-implementation » </li>
         <li> Avoir été implémentée au niveau national ou testée lors de projectathons avec des retours mineurs </li>
@@ -62,21 +65,21 @@ Pour passer en final-text, la spécification doit :
 
 Notes :
 
-<div class=«  »wysiwyg«  »>
+<div class="wysiwyg">
     <ul>
         <li> Une version en final-text peut repasser en trial-use, par exemple en cas de changement majeur comme un refactoring complet de la spécification (passage au format IG, à FHIR R6, changement de standard, ...). Cela signifie que l'ancienne version en final-text ne doit plus être utilisée pour diverses raisons, comme une situation internationale nécessitant de grandes évolutions. Dans ce cas, une note explicative sera associée à la release. </li>
         <li> Lorsqu'une nouvelle version d'une spécification est publiée, il est recommandé aux implémenteurs de l'adopter dans les 1 à 2 ans suivant sa publication. </li>
-        <li> le statut de cycle de vie n'est pas associé à la version <a href=«  »https://semver.org/lang/fr«  »>semver</a>. Le numéro de version d'une spécification est systématiquement incrémenté à chaque release et est indépendant du statut du cycle de vie. Par exemple, si une faute d'orthographe est corrigée entraînant une incrémentation mineure du numéro de version, cela ne justifie pas un changement de statut. A chaque release, une étude pour évaluer un éventuel changement de statut du cycle de vie sera effectuée en suivant le schéma ci-dessus. </li>
+        <li> Le statut du cycle de vie n'est pas associé à la version <a href="https://semver.org/lang/fr">semver</a> d'une spécification. Le numéro de version d'une spécification est systématiquement incrémenté à chaque release et est indépendant du statut du cycle de vie. Par exemple, si une faute d'orthographe est corrigée entraînant une incrémentation mineure du numéro de version, cela ne justifie pas un changement de statut. A chaque publiation, une étude pour évaluer un éventuel changement de statut du cycle de vie est effectuée en suivant le schéma ci-dessus. </li>
     </ul>
 </div>
 
 ## Définition des critères de maturité
 
-Une spécification avec la majorité des critères de maturité respectés indiquent sa clarté et sa facilité, et est le signe d'une plus grande pérennité de la spécification. Cependant, il est important de noter que la pérennité ne peut jamais être garantie, les spécifications jugées matures ont néanmoins une plus faible probabilité de subir des évolutions non rétrocompatibles.
+Une spécification avec la majorité des critères de maturité respectés indiquent sa clarté et sa facilité de mise en oeuvre. C'est le signe d'une plus grande pérennité de la spécification. Cependant, la pérennité d'une spécification ne peut jamais être garantie. Les spécifications jugées matures ont néanmoins une plus faible probabilité de subir des évolutions non rétrocompatibles.
 
 Les critères de maturité identifiés :
 
-<div class=«  »wysiwyg«  »>
+<div class="wysiwyg">
     <ul>
         <li> Respect de l'ensemble des critères de qualité mentionnés ci-dessous </li>
         <li> (Etude en cours) Nombre d'implémentations obtenu par déclaration (par convergence ou par les DSI). Idéalement avec des retours d'expérience sur l'implémentation des spécifications </li>
@@ -88,25 +91,25 @@ Les critères de maturité identifiés :
 
 ## Définition des critères de qualité
 
-Les critères de qualité représentent un ensemble de règles à respecter pour être conforme aux attentes nationales, permettant une uniformisation qualitative de l’ensemble de nos spécifications. Outre le respect à la doctrine (structuration d'une spécification d'interopérabilité, respect de la trajectoire nationale, du choix du standard, ...), les critères de qualité sont spécifiques à chaque standard.
+Les critères de qualité représentent un ensemble de règles à respecter pour produire des spécifications de niveau de qualité conforme aux attentes nationales. Outre le respect à la doctrine (structuration d'une spécification d'interopérabilité, respect de la trajectoire nationale, du choix du standard, ...), les critères de qualité sont spécifiques à chaque standard.
 
 Il n'est pas toujours possible de respecter strictement ces critères de qualité, car l'écosystème national ne peut pas contrôler les spécifications internationales, qui ne respectent pas forcément l'ensemble de ces critères. De plus, certaines spécifications historiques nécessitent du temps pour évoluer. L'objectif de ces critères est de les respecter et tendre le plus possible vers eux lors de la création ou mise à jour de spécifications.
 
 Les critères de qualité **FHIR** sont :
 
-<div class=«  »wysiwyg«  »>
+<div class="wysiwyg">
     <ul>
-        <li> Respect des bonnes pratiques nationales tel que les règles de nommages indiquées ci-dessous </li>
-        <li> Respect des <a href=«  »https://build.fhir.org/ig/FHIR/ig-guidance/best-practice.html«  »>bonnes pratiques internationales</a></li>
-        <li> Respecter le stratégie nationale des choix de version FHIR </li>
+        <li> Respect des règles de nommages indiquées ci-dessous </li>
+        <li> Respect des <a href="https://build.fhir.org/ig/FHIR/ig-guidance/best-practice.html">bonnes pratiques internationales</a></li>
+        <li> Respecter la stratégie nationale du choix des versions FHIR </li>
         <li> Chaque ressource de conformité doit avoir une description </li>
         <li> L'ensemble des ressources de conformité doit avoir une description précise de son usage </li>
-        <li> Publication de l'IG sans erreurs (cf session Q/A) </li>
-        <li> Ne pas recréer des artifacts qui existent déjà au niveau national et international (nécessite de l'expertise, de la veille et de faire une analyse de l'existant international avant de débuter les travaux.) </li>
+        <li> Publication de l'IG sans erreurs (cf session Q/A de chaque IG) </li>
+        <li> Ne pas recréer des artefacts qui existent déjà au niveau national et international. La création d'artefacts FHIR nécessite de l'expertise, de la veille et de faire une analyse précise de l'existant international. </li>
     </ul>
 </div>
 
-Ces règles de nommage ont été établies en s'inspirant des ressources us-core
+Ces règles de nommage ont été établies en s'inspirant des ressources [us-core](http://hl7.org/fhir/us/core).
 
 | **Paramètre** | **Objet concerné** | **Règle** | **Exemple us-core** |
 | ----- | ----- | ----- | ----- |
@@ -142,5 +145,5 @@ Les métadonnées correspondent aux données annexées aux spécifications. Elle
 | Catégorie | Catégorie métier de la spécification (équivalent des technical frameworks IHE) correspondant aux préfixes des spécifications CDA | 0..* | Liste des catégories : ANEST - Anesthésie, AVC - Accident vasculaire cérébral, BIO - Biologie, CANCER - Cancer, CARD - Cardiologie, IMG - Imagerie, OBP - Obstétrique et périnatalité, OPH - Ophtalmologie, TLM - Télémédecine, VAC - Vaccination (Demande d'ajout de nouvelles catégories : issues GitHub) |
 | Type | Type de spécification | 0..* | Document médical, définition d'APIs, outillage, couche métier, couche service, couche transport, documentation, ... |
 | Utilisations connues | Formulaire d’auto-déclaration de conformité pour les éditeurs (à définir) | 0..* | à définir |
-| Porteur | Permet d’afficher le porteur de laspécification. Particulièrement important dans le cas de l’UP externe | 1..1 | ANS, InteropSanté |
+| Porteur | Permet d’afficher le porteur de la spécification. Particulièrement important dans le cas de l’UP externe | 1..1 | ANS, Interop'Santé, EDESS, GCS E-santé Bretagne|
 | Contact | Permet d’afficher le contact de la spécification. Particulièrement important dans le cas de l’UP externe | 1..1 | ci-sis@esante.gouv.fr |
