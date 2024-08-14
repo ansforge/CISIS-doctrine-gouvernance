@@ -167,7 +167,7 @@ Il existe deux possibilités quant à l'usage du standard FHIR dans la gestion d
 
 Ces travaux ont un défaut : la nécessité de maintenir le mapping entre les standards avec les nouvelles versions des spécifications CDA et FHIR qui vont sortir, avec un grand niveau de difficulté. Par exemple, des [travaux italiens sur ce sujet](https://build.fhir.org/ig/hl7-it/cda2fhir/index.html) contiennent plusieurs dizaines de miliers de lignes. Il y a également des questionnements quant à la responsabilité : qui serait responsable d'une erreur de transformation ?
 
-Pour une transformation des CDA vers FHIR complète, il faudrait que l'ensemble des spécifications CDA françaises soient définies au format StructureDefinition pour utiliser le FHIR Mapping Language.
+Pour transformer les documents CDA des volets du CI-SIS vers FHIR, il faudrait que l'ensemble des spécifications CDA soient définies au format StructureDefinition pour utiliser le FHIR Mapping Language.
 
 #### Permettre une utilisation concommitante de FHIR et de CDA le temps d'une transition vers FHIR
 
