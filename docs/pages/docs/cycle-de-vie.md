@@ -52,7 +52,7 @@ Durant la vie d'une spécification, celle-ci passe par différents statuts expri
 ![](../../assets/images/cycle-de-vie.png)
 
 A l'issue d'une concertation, une spécification peut passer au statut « final-text » ou « for implementation ». Ce choix dépend du respect de critère de qualité, de maturité, et de la décision de l'auteur.
-Pour passer en final-text, la spécification doit :
+Pour passer au statut « final-text », la spécification doit :
 
 <div class="wysiwyg">
     <ol>
