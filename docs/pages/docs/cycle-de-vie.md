@@ -96,7 +96,7 @@ Les critères de qualité **FHIR** sont :
 
 <div class=«  »wysiwyg«  »>
     <ul>
-        <li> Respect des bonnes pratiques nationales tel que les règles de nommages indiquées ci-dessous </li>
+        <li> Respect des règles de nommages indiquées ci-dessous </li>
         <li> Respect des <a href=«  »https://build.fhir.org/ig/FHIR/ig-guidance/best-practice.html«  »>bonnes pratiques internationales</a></li>
         <li> Respecter le stratégie nationale des choix de version FHIR </li>
         <li> Chaque ressource de conformité doit avoir une description </li>
