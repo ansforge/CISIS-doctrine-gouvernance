@@ -6,8 +6,9 @@ description:
 
 
 <!-- Proposition de changements JCC -->
-<!-- Brouillon devient version-de-travail -->
-<!--  -->
+<!-- brouillon devient version-de-travail -->
+<!-- en-concertation devient version-en-concertation -->
+<!-- pour-implementation devient version-pour-mise-en-oeuvre -->
 Le niveau de qualité et la maturité des volets du CI-SIS et des guides d’implémentation sont des informations importantes qui vont inciter les éditeurs de solution à engager des développements sans craindre de futures évolutions majeures dans un avenir proche.
 
 Cependant, il est important de noter que le statut de maturité est une information indicative. Il est toujours préférable de se baser sur des spécifications standards, même peu matures, plutôt que sur un format propriétaire. La transition vers la spécification mature sera toujours plus facile à partir d'un format standard, même au statut « draft », comparé à des interfaces propriétaire.
@@ -25,12 +26,12 @@ Les statuts « trial-implementation » et « final-text » reflètent la matur
 Le statut « draft » / « version-de-travail » correspond à une spécification **en cours de cours de création ou de modification**.
 Ce statut est particulièrement important pour les spécifications développées sur GitHub car tous les travaux sont publics et sont donc accessibles à tout moment : de la création du répertoire GitHub à la publication. Ainsi, c'est le statut d'une spécification publiée en mode intégration continue (ci-build).
 
-### Le statut « public comment » ou « en concertation »
+### Le statut « public-comment » ou « en-concertation »
 
 La spécification est publiée au statut **en concertation** lors de ses phases de consultations publiques. La spécification en mode « public comment » risque d'évoluer suite aux commentaires des concertations et n'est pas faite pour être implémentée : elle est en attente de la validation de l'écosystème pour publication.
 Une spécification en « final-text » ou en « trial-implementation » peut repasser en « public-comment » en cas d'évolution majeure (des cas d'usage, du standard sous-jacent ...)..
 
-### Le statut « trial-implementation » ou « pour implémentation »
+### Le statut « trial-implementation » ou « pour-implémentation »
 
 La spécification est passée par une ou plusieurs phases de concertation et est **prête pour être mise en oeuvre** en situation réelle.
 Ce statut est un reflet de la maturité : selon l'auteur, la spécification est prète pour une première mise en situation réelle.
@@ -39,7 +40,7 @@ Ce statut est un reflet de la maturité : selon l'auteur, la spécification est 
 
 Les auteurs de la spécification ont estimé qu'elle avait atteint le **stade de maturité le plus élevé**.
 Ce stade est atteint lorsque la spécification a déjà été mise en œuvre dans au moins un projet national ou testée lors d'un projectathon. La spécification a pu avoir des retours post-concertation, post-projectathon ou post-mise en oeuvre et a été corrigée. Ce statut indique également que les critères de maturité et de qualité définis ci-dessous ont été respectés.
-Ce statut n'empèche pas de repasser en « trial-implementation », qui peut arriver dans le cas de changement majeur tel que la migration d'un nouveau standard.
+Ce statut n'empèche pas de repasser au statut « trial-implementation », qui peut arriver dans le cas de changement majeur tel que la migration d'un nouveau standard, ou l'expression de nouveaux besoins.
 
 ### Les autres statuts
 
@@ -51,7 +52,7 @@ Durant la vie d'une spécification, celle-ci passe par différents statuts expri
 
 ![](../../assets/images/cycle-de-vie.png)
 
-A l'issue d'une concertation, une spécification peut passer au statut « final-text » ou « for implementation ». Ce choix dépend du respect de critère de qualité, de maturité, et de la décision de l'auteur.
+A l'issue d'une concertation, une spécification peut passer au statut « final-text » ou « trial-implementation ». Ce choix dépend du respect de critère de qualité, de maturité, et de la décision de l'auteur.
 Pour passer au statut « final-text », la spécification doit :
 
 <div class="wysiwyg">
