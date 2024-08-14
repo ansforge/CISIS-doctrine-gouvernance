@@ -163,17 +163,19 @@ La nécessité de prioriser la prise en charge du FHIR document est à ce point 
 
 Il existe deux possibilités quant à l'usage du standard FHIR dans la gestion des documents en France
 
-#### Mettre en place une transformation entre les standards CDA et FHIR
+#### 1/ Mettre en place une transformation entre les standards CDA et FHIR
 
 Ces travaux ont un défaut : la nécessité de maintenir le mapping entre les standards avec les nouvelles versions des spécifications CDA et FHIR qui vont sortir, avec un grand niveau de difficulté. Par exemple, des [travaux italiens sur ce sujet](https://build.fhir.org/ig/hl7-it/cda2fhir/index.html) contiennent plusieurs dizaines de miliers de lignes. Il y a également des questionnements quant à la responsabilité : qui serait responsable d'une erreur de transformation ?
 
 Pour transformer les documents CDA des volets du CI-SIS vers FHIR, il faudrait que l'ensemble des spécifications CDA soient définies au format StructureDefinition pour utiliser le FHIR Mapping Language.
 
-#### Permettre une utilisation concommitante de FHIR et de CDA le temps d'une transition vers FHIR
+#### 2/ Permettre une utilisation concommitante de FHIR et de CDA le temps d'une transition vers FHIR
 
 Cette solution permettrait une utilisation concommitante de FHIR et de CDA, où les spécifications seront publiées selon les deux modes. Cela permettrait une transition douce avec un timing au choix de chacun vers le passage au paradigme FHIR Document.
 
 Ainsi, au même titre que les documents CDA ne sont pas automatiquement transformés vers les nouvelles versions des spécifications, les documents historiques resteront au format CDA et les nouveaux au format FHIR Document.
+
+La difficulté reviendrait aux consommateurs qui devront être capables de traiter deux formats différents : CDA et FHIR.
 
 La solution qui semble se dessiner pour l'ANS est de permettre une utilisation concommitante de FHIR et de CDA pour faire une transition douce, complétée d'une preuve de concept d'un mapping CDA - FHIR, générique, sans aller jusqu'à une spécification validée et utilisable en production, pour aider les éditeurs dans leur transition.
 
