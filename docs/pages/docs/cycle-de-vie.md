@@ -105,11 +105,11 @@ Les critères de qualité **FHIR** sont :
         <li> Chaque ressource de conformité doit avoir une description </li>
         <li> L'ensemble des ressources de conformité doit avoir une description précise de son usage </li>
         <li> Publication de l'IG sans erreurs (cf session Q/A de chaque IG) </li>
-        <li> Ne pas recréer des artifacts qui existent déjà au niveau national et international (nécessite de l'expertise, de la veille et de faire une analyse de l'existant international avant de débuter les travaux.) </li>
+        <li> Ne pas recréer des artefacts qui existent déjà au niveau national et international. La création d'artefacts FHIR nécessite de l'expertise, de la veille et de faire une analyse précise de l'existant international. </li>
     </ul>
 </div>
 
-Ces règles de nommage ont été établies en s'inspirant des ressources us-core
+Ces règles de nommage ont été établies en s'inspirant des ressources [us-core](http://hl7.org/fhir/us/core).
 
 | **Paramètre** | **Objet concerné** | **Règle** | **Exemple us-core** |
 | ----- | ----- | ----- | ----- |
