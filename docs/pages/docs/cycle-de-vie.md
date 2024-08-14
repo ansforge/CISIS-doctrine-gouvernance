@@ -28,12 +28,12 @@ Ce statut est particulièrement important pour les spécifications développées
 ### Le statut « public comment » ou « en concertation »
 
 La spécification est publiée au statut **en concertation** lors de ses phases de consultations publiques. La spécification en mode « public comment » risque d'évoluer suite aux commentaires des concertations et n'est pas faite pour être implémentée : elle est en attente de la validation de l'écosystème pour publication.
-Une spécification en « final-text » ou en « trial-implementation » peut repasser en commentaire public en cas d'évolution majeure.
+Une spécification en « final-text » ou en « trial-implementation » peut repasser en « public-comment » en cas d'évolution majeure (des cas d'usage, du standard sous-jacent ...)..
 
 ### Le statut « trial-implementation » ou « pour implémentation »
 
-La spécification est passée par une ou plusieurs phase de concertation et est **prête pour implémentation** en situation réelle.
-Ce statut est un reflet de la maturité : selon l'auteur, la spécification est prète pour une première implémentation.
+La spécification est passée par une ou plusieurs phases de concertation et est **prête pour être mise en oeuvre** en situation réelle.
+Ce statut est un reflet de la maturité : selon l'auteur, la spécification est prète pour une première mise en situation réelle.
 
 ### Le statut « final-text » ou « final »
 
@@ -69,7 +69,7 @@ Notes :
     <ul>
         <li> Une version en final-text peut repasser en trial-use, par exemple en cas de changement majeur comme un refactoring complet de la spécification (passage au format IG, à FHIR R6, changement de standard, ...). Cela signifie que l'ancienne version en final-text ne doit plus être utilisée pour diverses raisons, comme une situation internationale nécessitant de grandes évolutions. Dans ce cas, une note explicative sera associée à la release. </li>
         <li> Lorsqu'une nouvelle version d'une spécification est publiée, il est recommandé aux implémenteurs de l'adopter dans les 1 à 2 ans suivant sa publication. </li>
-        <li> le statut de cycle de vie n'est pas associé à la version <a href=«  »https://semver.org/lang/fr«  »>semver</a>. Le numéro de version d'une spécification est systématiquement incrémenté à chaque release et est indépendant du statut du cycle de vie. Par exemple, si une faute d'orthographe est corrigée entraînant une incrémentation mineure du numéro de version, cela ne justifie pas un changement de statut. A chaque release, une étude pour évaluer un éventuel changement de statut du cycle de vie sera effectuée en suivant le schéma ci-dessus. </li>
+        <li> le statut de cycle de vie n'est pas associé à la version <a href="https://semver.org/lang/fr">semver</a>. Le numéro de version d'une spécification est systématiquement incrémenté à chaque release et est indépendant du statut du cycle de vie. Par exemple, si une faute d'orthographe est corrigée entraînant une incrémentation mineure du numéro de version, cela ne justifie pas un changement de statut. A chaque release, une étude pour évaluer un éventuel changement de statut du cycle de vie sera effectuée en suivant le schéma ci-dessus. </li>
     </ul>
 </div>
 
@@ -100,7 +100,7 @@ Les critères de qualité **FHIR** sont :
 <div class="wysiwyg">
     <ul>
         <li> Respect des règles de nommages indiquées ci-dessous </li>
-        <li> Respect des <a href=«  »https://build.fhir.org/ig/FHIR/ig-guidance/best-practice.html«  »>bonnes pratiques internationales</a></li>
+        <li> Respect des <a href="https://build.fhir.org/ig/FHIR/ig-guidance/best-practice.html">bonnes pratiques internationales</a></li>
         <li> Respecter la stratégie nationale du choix des versions FHIR </li>
         <li> Chaque ressource de conformité doit avoir une description </li>
         <li> L'ensemble des ressources de conformité doit avoir une description précise de son usage </li>
