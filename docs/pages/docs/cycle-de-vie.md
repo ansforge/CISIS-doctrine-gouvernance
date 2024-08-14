@@ -57,7 +57,7 @@ Pour passer au statut « final-text », la spécification doit :
 <div class="wysiwyg">
     <ol>
         <li> Avoir été publiée au moins une fois en « trial-implementation » </li>
-        <li> Avoir été implémentée au niveau national ou testée lors de projectathons avec des retours mineurs </li>
+        <li> Avoir été mise en oeuvre au niveau national ou testée lors de projectathons avec des retours mineurs </li>
         <li> Respecter les critères de qualité et de maturité </li>
         <li> Avoir l'aval de l'auteur qui juge la spécification suffisamment mature et qualitative pour passer à ce statut </li>
     </ol>
