@@ -68,7 +68,7 @@ Notes :
 <div class="wysiwyg">
     <ul>
         <li> Une version en final-text peut repasser en trial-use, par exemple en cas de changement majeur comme un refactoring complet de la spécification (passage au format IG, à FHIR R6, changement de standard, ...). Cela signifie que l'ancienne version en final-text ne doit plus être utilisée pour diverses raisons, comme une situation internationale nécessitant de grandes évolutions. Dans ce cas, une note explicative sera associée à la release. </li>
-        <li> Lorsqu'une nouvelle version d'une spécification est publiée, il est recommandé aux implémenteurs de l'adopter dans les 1 à 2 ans suivant sa publication. </li>
+        <li> Lorsqu'une nouvelle version d'une spécification est publiée, il est recommandé aux éditeurs de l'adopter dans les 1 à 2 ans suivant sa publication. </li>
         <li> Le statut du cycle de vie n'est pas associé à la version <a href="https://semver.org/lang/fr">semver</a> d'une spécification. Le numéro de version d'une spécification est systématiquement incrémenté à chaque release et est indépendant du statut du cycle de vie. Par exemple, si une faute d'orthographe est corrigée entraînant une incrémentation mineure du numéro de version, cela ne justifie pas un changement de statut. A chaque publiation, une étude pour évaluer un éventuel changement de statut du cycle de vie est effectuée en suivant le schéma ci-dessus. </li>
     </ul>
 </div>
@@ -116,7 +116,7 @@ Ces règles de nommage ont été établies en s'inspirant des ressources [us-cor
 | id | Ressources de conformité | Utiliser le format kebab-case, ex : fr-core-patient.. Lors de la création d'un IG pour un projet en particulier, il est possible de préfixer l'ensemble des ressources de conformité par le trigramme du projet (ex : « ror-... ») | us-core-patient |
 | title | Ressources de conformité | Similaire au nom, avec espaces. Ex : Fr Core Patient | US Core Patient Profile |
 | name | Ressources de conformité |  Utiliser le format PascalCase sans espace. Ex : FrCorePatient | USCorePatientProfile |
-| url | Ressources de conformité |  [base]/[ResourceType]/[id] (généré automatiquement par sushi). A noter que [ResourceType] doit respecter le nom et la casse des ressources définies dans FHIR core (ex: StructureDefinition). | http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient |
+| url | Ressources de conformité |  [base]/[ResourceType]/[id] (généré automatiquement par [SUSHI - SUSHI Unshortens Short Hand Inputs](https://fshschool.org/docs/sushi/)). A noter que [ResourceType] doit respecter le nom et la casse des ressources définies dans FHIR core (ex: StructureDefinition). | http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient |
 | code  | SearchParameter |  Toujours en minuscule, mots séparés par des tirets « - » | gender-identity |
 | name | Slice | S'il s'agit d'une extension, utiliser son id, sinon utiliser le format lowerCamelCase | us-core-genderIdentity |
 | id | Package | Utiliser des minuscules | hl7.fhir.us.core [lien vers la documentation](https://confluence.hl7.org/display/FHIR/NPM+Package+Specification) |
