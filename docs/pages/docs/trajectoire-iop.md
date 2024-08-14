@@ -66,7 +66,7 @@ L'interopérabilité est souvent confondue avec référencement, or ils ne sont 
 
 ## Stratégie - choix de la version FHIR
 
-La stratégie sur le choix des versions FHIR a été définie au sein d'un groupe de travail organisé entre InteropSanté et l'ANS en 2023/2024, complétée par une [concertation](https://participez.esante.gouv.fr/project/fhir-r5-ou-r4/presentation/presentation) de l'ANS. Les conclusions de ce GT sont indiquées ci-dessous.
+La stratégie sur le choix des versions FHIR a été définie au sein d'un groupe de travail organisé entre Interop'Santé et l'ANS en 2023/2024, complétée par une [concertation](https://participez.esante.gouv.fr/project/fhir-r5-ou-r4/presentation/presentation) de l'ANS. Les conclusions de ce GT sont indiquées ci-dessous.
 
 ### Nouveaux cas d’usages FHIR adressés par Interop’Santé et l’ANS : privilégier FHIR R4 et anticiper la transition vers R6
 
