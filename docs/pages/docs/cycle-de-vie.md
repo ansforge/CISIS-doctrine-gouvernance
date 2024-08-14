@@ -4,27 +4,26 @@ nav_order: 5
 description: 
 ---
 
-
 <!-- Proposition de changements JCC -->
 <!-- brouillon devient version-de-travail -->
 <!-- en-concertation devient version-en-concertation -->
 <!-- pour-implementation devient version-pour-mise-en-oeuvre -->
-Le niveau de qualité et la maturité des volets du CI-SIS et des guides d’implémentation sont des informations importantes qui vont inciter les éditeurs de solution à engager des développements sans craindre de futures évolutions majeures dans un avenir proche.
+Le niveau de qualité et la maturité des volets du CI-SIS et des guides d’implémentation sont des informations importantes pour inciter les éditeurs de solution à engager des développements sans craindre de futures évolutions majeures dans un avenir proche.
 
-Cependant, il est important de noter que le statut de maturité est une information indicative. Il est toujours préférable de se baser sur des spécifications standards, même peu matures, plutôt que sur un format propriétaire. La transition vers la spécification mature sera toujours plus facile à partir d'un format standard, même au statut « draft », comparé à des interfaces propriétaire.
+Le statut de maturité est une information indicative. Il est toujours préférable de se baser sur des spécifications standards, même si celles-ci sont peu matures. La transition vers la spécification mature sera toujours facilitée si celle-ci est faite à partir d'un format standard plutôt qu'à partir d'interfaces propriétaire.
 
 ## Le cycle de vie et les statuts associés
 
-Quatre statuts ont été identifiés pour les spécifications d'interopérabilité de l'ANS : « draft » ou « version-de-travail », « public-comment » ou « en concertation », « trial-implementation » ou « pour implementation », et « final-text » ou « final ».
+Le cycle de vie défini pour les des volets du CI-SIS s'appuie sur les pratiques internationales d'[IHE](https://wiki.ihe.net/index.php/Process) et de [HL7](https://confluence.hl7.org/display/FHIR/FHIR+Maturity+Model) adaptées aux besoins nationaux.
 
-La modélisation du cycle de vie des volets du CI-SIS s'appuie sur les pratiques internationales d'[IHE](https://wiki.ihe.net/index.php/Process) et de [HL7](https://confluence.hl7.org/display/FHIR/FHIR+Maturity+Model), adaptées aux besoins nationaux. Les statuts sont repris des [pratiques d'IHE](https://wiki.ihe.net/index.php/Comments#Phases_of_Development), avec le libellé anglais et sa traduction française. Pour des raisons d'uniformisation, les termes anglais seront utilisés dans la suite de ce document.
+Quatre statuts ont été identifiés pour les spécifications d'interopérabilité de l'ANS : « draft » ou « version-de-travail », « public-comment » ou « en concertation », « trial-implementation » ou « pour-implementation », et « final-text » ou « final ». Ces statuts sont repris des [pratiques d'IHE](https://wiki.ihe.net/index.php/Comments#Phases_of_Development), avec le libellé anglais et sa traduction française. Pour des raisons d'uniformisation, les termes anglais seront utilisés dans la suite de ce document.
 
 Les statuts « trial-implementation » et « final-text » reflètent la maturité des spécifications dans l'ordre indiqué.
 
 ### Le statut « draft » ou « version-de-travail »
 
-Le statut « draft » / « version-de-travail » correspond à une spécification **en cours de cours de création ou de modification**.
-Ce statut est particulièrement important pour les spécifications développées sur GitHub car tous les travaux sont publics et sont donc accessibles à tout moment : de la création du répertoire GitHub à la publication. Ainsi, c'est le statut d'une spécification publiée en mode intégration continue (ci-build).
+Le statut « draft » correspond à une spécification **en cours de cours de création ou de modification**.
+Ce statut est particulièrement important pour les spécifications développées sur GitHub car tous les travaux sont publics et donc accessibles à tout moment : de la création du répertoire GitHub à la publication. C'est le statut d'une spécification publiée en mode intégration continue (ci-build).
 
 ### Le statut « public-comment » ou « en-concertation »
 
@@ -135,7 +134,7 @@ Les métadonnées correspondent aux données annexées aux spécifications. Elle
 | Nom | Description | Cardinalité | Exemples |
 | --- | --- | --- | --- |
 | identifiant | Identifiant ou URL identifiante d’accès à la spécification | 1..1 | https://interop.esante.gouv.fr/ig/fhir/pdsm |
-| statut | Statut de la spécification selon les statuts définis par l’ANS. Les statuts peuvent être rédigés en anglais ou en français. | 1..1 | « draft », « public-comment », « for-implementation », « final-text » |
+| statut | Statut de la spécification selon les statuts définis par l’ANS. Les statuts peuvent être rédigés en anglais ou en français. | 1..1 | « draft », « public-comment », « trial-implementation », « final-text » |
 | version | Version au format semver | 1..1 | 1.0.0 |
 | code | Code qui définit la spécification | 1..1 | GAP, CR-BIO |
 | titre | Titre de la spécification | 1..1 | Gestion d'Agendas Partagés |
