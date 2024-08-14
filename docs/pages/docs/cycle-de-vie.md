@@ -4,23 +4,26 @@ nav_order: 5
 description: 
 ---
 
+
+<!-- Proposition de changements JCC -->
+<!-- Brouillon devient version-de-travail -->
+<!--  -->
 Le niveau de qualité et la maturité des volets du CI-SIS et des guides d’implémentation sont des informations importantes qui vont inciter les éditeurs de solution à engager des développements sans craindre de futures évolutions majeures dans un avenir proche.
 
 Cependant, il est important de noter que le statut de maturité est une information indicative. Il est toujours préférable de se baser sur des spécifications standards, même peu matures, plutôt que sur un format propriétaire. La transition vers la spécification mature sera toujours plus facile à partir d'un format standard, même au statut « draft », comparé à des interfaces propriétaire.
 
 ## Le cycle de vie et les statuts associés
 
-Quatre statuts ont été identifiés pour les spécifications d'interopérabilité de l'ANS : « draft » ou « brouillon », « public-comment » ou « en concertation », « trial-implementation » ou « pour implementation », et « final-text » ou « final ».
+Quatre statuts ont été identifiés pour les spécifications d'interopérabilité de l'ANS : « draft » ou « version-de-travail », « public-comment » ou « en concertation », « trial-implementation » ou « pour implementation », et « final-text » ou « final ».
 
-Ces travaux se sont inspirés des pratiques internationales au niveau d'[IHE](https://wiki.ihe.net/index.php/Process) et de [HL7](https://confluence.hl7.org/display/FHIR/FHIR+Maturity+Model
-), adaptées aux besoins nationaux. Les statuts ont été inspirés des [pratiques d'IHE](https://wiki.ihe.net/index.php/Comments#Phases_of_Development), aveec un label anglais pour correspondre aux statuts IHE ainsi que sa traduction française.
+La modélisation du cycle de vie des volets du CI-SIS s'appuie sur les pratiques internationales d'[IHE](https://wiki.ihe.net/index.php/Process) et de [HL7](https://confluence.hl7.org/display/FHIR/FHIR+Maturity+Model), adaptées aux besoins nationaux. Les statuts sont repris des [pratiques d'IHE](https://wiki.ihe.net/index.php/Comments#Phases_of_Development), avec le libellé anglais et sa traduction française.
 
 Les statuts « trial-implementation » et « final-text » reflètent la maturité des spécifications dans l'ordre indiqué.
 
-### Le statut « draft » ou « brouillon »
+### Le statut « draft » ou « version-de-travail »
 
-Ce statut correspond à une spécification **en cours de développement**, il s'agit du statut d'une spécification en cours de création ou de modification.
-Le statut brouillon est particulièrement important pour les spécifications développées sur GitHub car tous les travaux sont publics et sont donc accessibles à tout moment : de la création du répertoire GitHub à la publication. Ainsi, c'est le statut d'une spécification en intégration continue ou ci-build.
+Le statut « draft » / « version-de-travail » correspond à une spécification **en cours de cours de création ou de modification**.
+Ce statut est particulièrement important pour les spécifications développées sur GitHub car tous les travaux sont publics et sont donc accessibles à tout moment : de la création du répertoire GitHub à la publication. Ainsi, c'est le statut d'une spécification publiée en mode intégration continue (ci-build).
 
 ### Le statut « public comment » ou « en concertation »
 
@@ -51,7 +54,7 @@ Durant la vie d'une spécification, celle-ci passe par différents statuts expri
 A l'issue d'une concertation, une spécification peut passer au statut « final-text » ou « for implementation ». Ce choix dépend du respect de critère de qualité, de maturité, et de la décision de l'auteur.
 Pour passer en final-text, la spécification doit :
 
-<div class=«  »wysiwyg«  »>
+<div class="wysiwyg">
     <ol>
         <li> Avoir été publiée au moins une fois en « trial-implementation » </li>
         <li> Avoir été implémentée au niveau national ou testée lors de projectathons avec des retours mineurs </li>
@@ -62,7 +65,7 @@ Pour passer en final-text, la spécification doit :
 
 Notes :
 
-<div class=«  »wysiwyg«  »>
+<div class="wysiwyg">
     <ul>
         <li> Une version en final-text peut repasser en trial-use, par exemple en cas de changement majeur comme un refactoring complet de la spécification (passage au format IG, à FHIR R6, changement de standard, ...). Cela signifie que l'ancienne version en final-text ne doit plus être utilisée pour diverses raisons, comme une situation internationale nécessitant de grandes évolutions. Dans ce cas, une note explicative sera associée à la release. </li>
         <li> Lorsqu'une nouvelle version d'une spécification est publiée, il est recommandé aux implémenteurs de l'adopter dans les 1 à 2 ans suivant sa publication. </li>
@@ -76,7 +79,7 @@ Une spécification avec la majorité des critères de maturité respectés indiq
 
 Les critères de maturité identifiés :
 
-<div class=«  »wysiwyg«  »>
+<div class="wysiwyg">
     <ul>
         <li> Respect de l'ensemble des critères de qualité mentionnés ci-dessous </li>
         <li> (Etude en cours) Nombre d'implémentations obtenu par déclaration (par convergence ou par les DSI). Idéalement avec des retours d'expérience sur l'implémentation des spécifications </li>
@@ -94,14 +97,14 @@ Il n'est pas toujours possible de respecter strictement ces critères de qualit�
 
 Les critères de qualité **FHIR** sont :
 
-<div class=«  »wysiwyg«  »>
+<div class="wysiwyg">
     <ul>
         <li> Respect des règles de nommages indiquées ci-dessous </li>
         <li> Respect des <a href=«  »https://build.fhir.org/ig/FHIR/ig-guidance/best-practice.html«  »>bonnes pratiques internationales</a></li>
         <li> Respecter la stratégie nationale du choix des versions FHIR </li>
         <li> Chaque ressource de conformité doit avoir une description </li>
         <li> L'ensemble des ressources de conformité doit avoir une description précise de son usage </li>
-        <li> Publication de l'IG sans erreurs (cf session Q/A) </li>
+        <li> Publication de l'IG sans erreurs (cf session Q/A de chaque IG) </li>
         <li> Ne pas recréer des artifacts qui existent déjà au niveau national et international (nécessite de l'expertise, de la veille et de faire une analyse de l'existant international avant de débuter les travaux.) </li>
     </ul>
 </div>
