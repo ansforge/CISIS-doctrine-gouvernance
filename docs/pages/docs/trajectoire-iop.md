@@ -51,7 +51,7 @@ Transformé en HTML : https://markdowntohtml.com/ -->
     </ul>
 </div>
 
-## Qu'est-ce que l'interopérabilité ?
+## Introduction à l'interopérabilité
 
 L'interopérabilité est la capacité de deux systèmes informatiques à communiquer ensemble. L'intérêt stratégique pour la e-santé est immense pour le patient et pour la recherche clinique grâce un partage et un accès facilité à la donnée, intégrable, réutilisable, exploitables.
 
@@ -76,7 +76,7 @@ Pour garantir un écosystème cohérent et permettre l'interopérabilité, il es
 
 La priorité actuelle est de faire monter l’écosystème en compétences et de gagner en maturité sur les spécifications existantes. Créer des IGs R5 engendreraient une fragmentation de l’écosystème et un ralentissement de la mise en qualité de l’existant qui finirait par freiner l’adoption de FHIR.
 
-Dans certains cas, une autre version de FHIR peut être justifiée, par exemple si le cas d'usage concerne des échanges internationaux ou pour que le cas d'usage est mieux répondu dans une autre version. Le cas échéant, l’usage d’une autre version devra être validé par une étude des normes et standards et par l’écosystème.
+Dans certains cas, une autre version de FHIR peut être justifiée, par exemple si le cas d'usage concerne des échanges internationaux ou pour que le cas d'usage est significativement mieux couvert par une autre version. Le cas échéant, l’usage d’une autre version devra être validé par une étude des normes et standards et par l’écosystème.
 
 Si un cas d’usage où FHIR R5 a été justifié, et que celui-ci nécessite des profils nationaux (FrCore) :
 
@@ -165,7 +165,7 @@ Il existe deux scénarios de déploiement de FHIR document en France
 
 #### 1/ Mettre en place une transformation entre les standards CDA et FHIR
 
-Ces travaux ont un défaut : la nécessité de maintenir le mapping entre les standards avec les nouvelles versions des spécifications CDA et FHIR qui vont sortir, avec un grand niveau de difficulté. Par exemple, des [travaux italiens sur ce sujet](https://build.fhir.org/ig/hl7-it/cda2fhir/index.html) contiennent plusieurs dizaines de miliers de lignes. Il y a également des questionnements quant à la responsabilité : qui serait responsable d'une erreur de transformation ?
+Ces travaux ont un défaut : la nécessité de maintenir l'alignement des spécifications CDA et FHIR. Les techniques d'alignement sont complexes et lourdes à mettre un oeuvre avec un accroissement de la complexité pour chaque nouvelle version de spécification publiée. Par exemple, des [travaux italiens sur ce sujet](https://build.fhir.org/ig/hl7-it/cda2fhir/index.html) contiennent plusieurs dizaines de milliers de lignes. Il y a également des questionnements quant à la responsabilité : qui sera responsable du document en cas d'erreur de transformation ?
 
 Pour transformer les documents CDA des volets du CI-SIS vers FHIR, il faudrait que l'ensemble des spécifications CDA soient définies au format StructureDefinition pour utiliser le FHIR Mapping Language.
 
