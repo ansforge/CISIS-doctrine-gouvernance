@@ -4,19 +4,15 @@ nav_order: 5
 description: 
 ---
 
-<!-- Proposition de changements JCC -->
-<!-- brouillon devient version-de-travail -->
-<!-- en-concertation devient version-en-concertation -->
-<!-- pour-implementation devient version-pour-mise-en-oeuvre -->
-Le niveau de qualité et la maturité des volets du CI-SIS et des guides d’implémentation sont des informations importantes pour inciter les éditeurs de solution à engager des développements sans craindre de futures évolutions majeures dans un avenir proche.
+Le niveau de qualité et la maturité des volets du CI-SIS sont des informations importantes pour inciter les éditeurs de solution à engager des développements sans craindre de futures évolutions majeures dans un avenir proche.
 
-Le statut de maturité est une information indicative. Il est toujours préférable de se baser sur des spécifications standards, même si celles-ci sont peu matures. La transition vers la spécification mature sera toujours facilitée si celle-ci est faite à partir d'un format standard plutôt qu'à partir d'interfaces propriétaire.
+Le statut de maturité est une information indicative. Il est toujours préférable de se baser sur des spécifications standards, même si celles-ci sont peu matures. Les standards étant développés par une communauté d’experts, il est plus facile et plus sécurisant de faire évoluer des spécifications en parallèle des évolutions d’un standard plutôt de maintenir un standard propriétaire.
 
 ## Le cycle de vie et les statuts associés
 
 Le cycle de vie défini pour les des volets du CI-SIS s'appuie sur les pratiques internationales d'[IHE](https://wiki.ihe.net/index.php/Process) et de [HL7](https://confluence.hl7.org/display/FHIR/FHIR+Maturity+Model) adaptées aux besoins nationaux.
 
-Quatre statuts ont été identifiés pour les spécifications d'interopérabilité de l'ANS : « draft » ou « version-de-travail », « public-comment » ou « en concertation », « trial-implementation » ou « pour-implementation », et « final-text » ou « final ». Ces statuts sont repris des [pratiques d'IHE](https://wiki.ihe.net/index.php/Comments#Phases_of_Development), avec le libellé anglais et sa traduction française. Pour des raisons d'uniformisation, les termes anglais seront utilisés dans la suite de ce document.
+Quatre statuts sont définis pour les spécifications d'interopérabilité de l'ANS : « draft » ou « version-de-travail », « public-comment » ou « en-concertation », « trial-implementation » ou « pour-implementation », et « final-text » ou « final ». Ces statuts sont repris des [pratiques d'IHE](https://wiki.ihe.net/index.php/Comments#Phases_of_Development), avec le libellé anglais et sa traduction française. Pour des raisons d'uniformisation, les termes anglais seront utilisés dans la suite de ce document.
 
 Les statuts « trial-implementation » et « final-text » reflètent la maturité des spécifications dans l'ordre indiqué.
 
