@@ -62,19 +62,6 @@ Les différentes réponses à ces enjeux du cadre commun CI-SIS sont ainsi port�
 
 <div class="wysiwyg">
     <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <ul>
-            <li> </li>
-            <li> </li>
-        </ul>
-    </ul>
-</div>
-
-
-<div class="wysiwyg">
-    <ul>
         <li><b>Une doctrine du CI-SIS</b> qui formalise les règles régissant la constitution et l’évolution du contenu du CI-SIS : trajectoire générale de l’interopérabilité, choix des normes et standards, cycle de vie des référentiels, modalités de contribution et concertation de l’écosystème, formalisation du contenu des référentiels</li>
         <li><b>Une gouvernance du CI-SIS</b> qui favorise la co-construction, instruit et arbitre les priorités des travaux et évolutions du CI-SIS par rapport aux cas d’usage et donne de la visibilité aux différents acteurs sur les orientations stratégiques du CI-SIS.</li>
     </ul>
