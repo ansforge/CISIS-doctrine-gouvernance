@@ -1,12 +1,9 @@
 ---
 layout: home
-title: Bienvenue sur la documentation du CI-SIS
+title: Le CI-SIS au cœur du développement de la e-santé
 ---
-## Le CI-SIS au cœur du développement de la e-santé
 
 L’Agence du Numérique en Santé (ANS) accompagne la transformation numérique du système de santé aux côtés de tous les acteurs concernés des secteurs sanitaire, social et médico-social, privés comme publics, professionnels ou usagers.  Elle met en œuvre les orientations dédiées au secteur de la santé et du médico-social, à travers trois ambitions.
-
-
 
 <div class="wysiwyg">
     <ul>
@@ -15,7 +12,6 @@ L’Agence du Numérique en Santé (ANS) accompagne la transformation numérique
         <li><b>Promotrice et valorisatrice</b> : elle stimule, accompagne et évalue toutes les initiatives de e-santé pour les faire grandir. </li>
     </ul>
 </div>
-
 
 Dans le rôle de **régulateur** ayant pour ambition de développer la capacité des systèmes d’information en santé à partager et échanger des données de santé de manière fluide, efficace et sécurisée, l’Agence porte la construction d’un cadre commun comprenant l’interopérabilité, la sécurité et l’éthique, permettant ainsi le développement de la e-santé entre l’ensemble des acteurs, et en particulier avec les solutions de la puissance publique, dans le cadre retenu de l’Etat-plateforme.
 Ce cadre commun sur l’interopérabilité :
@@ -59,19 +55,6 @@ Afin de répondre à ces ambitions, la construction de ce cadre comme d’intero
 </div>
 
 Les différentes réponses à ces enjeux du cadre commun CI-SIS sont ainsi portées par :
-
-<div class="wysiwyg">
-    <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <ul>
-            <li> </li>
-            <li> </li>
-        </ul>
-    </ul>
-</div>
-
 
 <div class="wysiwyg">
     <ul>
