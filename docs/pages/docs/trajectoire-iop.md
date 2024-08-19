@@ -187,7 +187,25 @@ La solution qui semble se dessiner pour l'ANS est de permettre une utilisation c
 
 ## Actions menées pour encourager l'interopérabilité
 
-Gazelle, SMT, GitHub, PAT
+De nombreuses actions sont menées pour faciliter l'usage des standards et l'intéropérabilité en France.
+
+### La plateforme de tests gazelle
+
+La plateforme de tests gazelle permet à chaque concepteur de logiciels de tester sa conformité aux spécifications d'interopérabilité du CI-SIS. Celle-ci est ouverte en permanence à l'adresse [https://interop.esante.gouv.fr/evs/home.seam].
+
+### Le serveur multi terminologique (SMT)
+
+Le serveur multi terminologique est un site web permettant d'accéder à l'ensemble des terminologies et jeu de valeurs à utiliser en France. Il dispose également d'une API pour accéder informatiquement à ces inforamtions. Le SMT est accessible à l'adresse [https://smt.esante.gouv.fr/]
+
+### GitHub
+
+L'ANS prône la démarche open source et publie la majorité de ses spécifications sur GitHub. GitHub permet à n'importe qui d'accéder à notre code source et à écrire des commentaires dans une perspective d'amélioration continue.
+L'organisation ANS sur GitHub est accessible à l'adresse[https://github.com/orgs/ansforge/dashboard].
+
+### Les projectathons
+
+L'ANS organise régulièrement des projectathons, évènement unique permettant à tous les éditeurs de se rencontrer et de tester ses interfaces d'interopérabilité en point-à-point.
+Notre plateforme de tests gazelle est utilisée dans le cadre de ces évènements.
 
 ## Le paradigme "Document" du DMP à compléter par un service orienté donnée
 
