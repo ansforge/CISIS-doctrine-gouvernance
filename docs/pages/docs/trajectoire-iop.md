@@ -161,7 +161,7 @@ Aux Etats-Unis, les spécifications CDA ont fait leur premier pas vers FHIR, cel
 
 La nécessité de prioriser la prise en charge du FHIR document est à ce point indéniable, de nombreux indices sur les études internationales et la multiplication de projets lancés mettent en lumière le consensus international sur l'utilisation du FHIR Document.
 
-Il existe deux possibilités quant à l'usage du standard FHIR dans la gestion des documents en France
+Il existe deux scénarios de déploiement de FHIR document en France
 
 #### 1/ Mettre en place une transformation entre les standards CDA et FHIR
 
