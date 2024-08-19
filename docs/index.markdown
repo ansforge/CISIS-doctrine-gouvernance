@@ -80,7 +80,7 @@ Les différentes réponses à ces enjeux du cadre commun CI-SIS sont ainsi port�
     </ul>
 </div>
 
-## une évolution volontariste dans la continuité
+## Une évolution volontariste dans la continuité
 
 Sous l’impulsion de la première feuille de route du numérique en santé (masanté 2022), du Ségur numérique, et d’évolutions réglementaires récentes au niveau français et européen, l’interopérabilité et le rôle de régulation de l’Agence évoluent fortement :
 
@@ -88,7 +88,7 @@ Sous l’impulsion de la première feuille de route du numérique en santé (mas
     <ul>
         <li>A travers le <b>Ségur numérique</b> Vague 1 ont été mis en place de manière massive les « canaux » de partage et d’échange de données de santé via MES/DMP et la MSSanté. Si la consultation du DMP dans les logiciels des PS sera développée / améliorée avec la Vague 2, le focus devrait ainsi se porter <b>à court terme sur le développement de cas d’usage</b> via le numérique en santé (et moins sur des sujets technique de mise en place de ces canaux) ;</li>
         <li>Le rôle de l’Agence <b>en tant que régulateur</b> du numérique en santé sur les champs de l’interopérabilité, de la sécurité et de l’éthique a été confirmé, en particulier dans la mission de contrôle de conformité des solutions aux référentiels, ayant vocation à être complété à court terme par un dispositif de sanction ;</li>
-        <li><b>La mise en œuvre de l’EHDS et d’un futur cadre européen de l’interopérabilité<b>, impliquant de promouvoir le cadre déjà mis en œuvre au niveau national, mais aussi d’assurer la transition vers le future cadre européen. Il sera aussi nécessaire de poursuivre le développement des outils permettant de valider de manière automatique la conformité des solutions des ENS ;</li>
+        <li><b>La mise en œuvre de l’EHDS et d’un futur cadre européen de l’interopérabilité</b>, impliquant de promouvoir le cadre déjà mis en œuvre au niveau national, mais aussi d’assurer la transition vers le future cadre européen. Il sera aussi nécessaire de poursuivre le développement des outils permettant de valider de manière automatique la conformité des solutions des ENS ;</li>
         <li><b>Le développement des EDS</b> (Entrepôts de Données de Santé) et de l’usage secondaire des données de santé, porté aussi fortement par l’EHDS, met directement en exergue le besoin de qualité des données numériques de santé, et donc d’interopérabilité ;</li>
         <li><b>L’IA en santé</b> ouvre aussi des perspectives particulièrement stimulantes pour l’interopérabilité</li>
     </ul>
