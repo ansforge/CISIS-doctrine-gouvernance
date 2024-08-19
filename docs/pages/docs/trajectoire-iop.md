@@ -151,7 +151,7 @@ En plus de la trajectoire internationale semblant mener vers l'usage du FHIR doc
     <ul>
         <li>Les FHIR Document sont composés d'une multitude de brique, appelée ressource (ex : Observation, Patient, Encounter, ...) qui peuvent être extraites du document facilement pour être consommées et réutilisées au sein d'une API Rest par exemple.</li>
         <li>Les spécifications peuvent être publiées en open source sur GitHub car leur édition est totalement en mode texte (FSH / markdown), permettant ainsi de faciliter la collaboration, la remontée d'erreurs, la participation de l'écosystème, l'automatisation des différences entre les versions et du changelog, l'historisation automatique des anciennes versions, ...</li>
-        <li>Les développements faits seront facilement réutilisables à l'international (ex : Lab Report d'HL7 Europe dévié pour la France), ce qui facilite l'internationalisation des entreprises.</li>
+        <li>Les développements peuvent facilement être réutilisés dans un contexte international (par exemple le compte-rendu de laboratoire européen peut facilement être localisé pour la France), ce qui facilite l'internationalisation des entreprises.</li>
     </ul>
 </div>
 
