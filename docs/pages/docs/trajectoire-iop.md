@@ -4,9 +4,6 @@ nav_order: 7
 description: 
 ---
 
-
-
-
 <!-- TOC generated with Auto Markdown TOC 
 Nom : Auto Markdown TOC
 ID : xavierguarch.auto-markdown-toc
@@ -214,4 +211,3 @@ L'historique français avec le DMP montre le cas d'usage "document" : un documen
 Il y a par exemple déjà actuellement les API Mesures de santé et Agenda de mon espace santé où il y a des données accessibles via des requêtes REST sans document médical.
 
 Ainsi, il ne faudra pas négliger ce paradigme API REST de données unitaires pour certains cas d'usages s'y pretant bien, comme par exemple une API de vaccination, une API Cercle de Soins, une API pour la diffusion des essais cliniques ouverts au recrutement. L'intérêt tout particulier de ce type d'API réside sur l'utilisation de critères de recherches standards définis par FHIR pour accéder à l'information d'intérêt simplement, sans superflux.
-
