@@ -76,7 +76,7 @@ La stratégie sur le choix des versions FHIR a été définie au sein d'un group
 ### Nouveaux cas d’usages FHIR adressés par Interop’Santé et l’ANS : privilégier FHIR R4 et anticiper la transition vers R6
 
 Pour garantir un écosystème cohérent et permettre l'interopérabilité, il est nécessaire d'utiliser une même version du standard FHIR à l'échelle nationale. Il a ainsi été choisi de conserver FHIR R4 car il y a un existant conséquent en France et cela permet d'éviter une double transition R4 --> R5 et R5 --> R6. Ce choix est conforté car la release 6 se veut être la “final stable version” de FHIR, une transition vers R6 se voudra de toute manière nécessaire. Pour anticiper cette transition, il est jugé important d’être proactif sur les travaux internationaux de R6 et d’anticiper les impacts pour l’écosystème français.
-Il est également à noter que le choix des standards dépendra du règlement de l'espace européen sur les données de santées (EHDS) qui se dessine progressivement et qui pour l'heure semble privilégier R4.
+Il est également à noter que le choix national de la version FHIR utilisée devra être en accord avec le règlement de l'espace européen sur les données de santées (EHDS) qui se dessine progressivement et qui pour l'heure semble se diriger vers l'usage de R4.
 
 ### Ne pas créer d’IG se basant sur R5 sans analyse des normes et standards et des impacts
 
@@ -175,7 +175,7 @@ Ces travaux ont un défaut : la nécessité de maintenir l'alignement des spéci
 
 Pour transformer les documents CDA des volets du CI-SIS vers FHIR, il faudrait que l'ensemble des spécifications CDA soient définies au format StructureDefinition pour utiliser le FHIR Mapping Language.
 
-#### 2/ Permettre une utilisation concommitante de FHIR et de CDA le temps d'une transition vers FHIR
+#### 2/ Permettre une utilisation concommitante de FHIR et de CDA le temps de la transition
 
 Cette solution permettrait une utilisation concommitante de FHIR et de CDA, où les spécifications seront publiées selon les deux modes. Cela permettrait une transition douce avec un timing au choix de chacun vers le passage au paradigme FHIR Document.
 
