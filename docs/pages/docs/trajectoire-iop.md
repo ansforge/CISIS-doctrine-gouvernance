@@ -4,7 +4,19 @@ nav_order: 7
 description: 
 ---
 
-
+<div style="
+    background-color: #fff5f5; 
+    color: #e57373; 
+    border: 1px solid #e57373; 
+    padding: 10px; 
+    border-radius: 5px; 
+    font-size: 14px; 
+    text-align: center; 
+    max-width: 300px; 
+    margin: 20px auto;
+">
+    ⚠️ Work in Progress
+</div>
 
 
 <!-- TOC generated with Auto Markdown TOC 
@@ -76,6 +88,7 @@ La stratégie sur le choix des versions FHIR a été définie au sein d'un group
 ### Nouveaux cas d’usages FHIR adressés par Interop’Santé et l’ANS : privilégier FHIR R4 et anticiper la transition vers R6
 
 Pour garantir un écosystème cohérent et permettre l'interopérabilité, il est nécessaire d'utiliser une même version du standard FHIR à l'échelle nationale. Il a ainsi été choisi de conserver FHIR R4 car il y a un existant conséquent en France et cela permet d'éviter une double transition R4 --> R5 et R5 --> R6. Ce choix est conforté car la release 6 se veut être la “final stable version” de FHIR, une transition vers R6 se voudra de toute manière nécessaire. Pour anticiper cette transition, il est jugé important d’être proactif sur les travaux internationaux de R6 et d’anticiper les impacts pour l’écosystème français.
+Il est également à noter que le choix national de la version FHIR utilisée devra être en accord avec le règlement de l'espace européen sur les données de santées (EHDS) qui se dessine progressivement et qui pour l'heure semble se diriger vers l'usage de R4.
 
 ### Ne pas créer d’IG se basant sur R5 sans analyse des normes et standards et des impacts
 
@@ -170,11 +183,11 @@ Il existe deux scénarios de déploiement de FHIR document en France
 
 #### 1/ Mettre en place une transformation entre les standards CDA et FHIR
 
-Ces travaux ont un défaut : la nécessité de maintenir l'alignement des spécifications CDA et FHIR. Les techniques d'alignement sont complexes et lourdes à mettre un oeuvre avec un accroissement de la complexité pour chaque nouvelle version de spécification publiée. Par exemple, des [travaux italiens sur ce sujet](https://build.fhir.org/ig/hl7-it/cda2fhir/index.html) contiennent plusieurs dizaines de milliers de lignes. Il y a également des questionnements quant à la responsabilité : qui sera responsable du document en cas d'erreur de transformation ?
+Ces travaux ont un défaut : la nécessité de maintenir l'alignement des spécifications CDA et FHIR. Les techniques d'alignement sont complexes et lourdes à mettre un oeuvre avec un accroissement de la complexité pour chaque nouvelle version de spécification publiée. Par exemple, des [travaux italiens sur ce sujet](https://www.hl7.it/fhir/cda2fhir/) contiennent plusieurs dizaines de milliers de lignes. Il y a également des questionnements quant à la responsabilité : qui sera responsable du document en cas d'erreur de transformation ?
 
 Pour transformer les documents CDA des volets du CI-SIS vers FHIR, il faudrait que l'ensemble des spécifications CDA soient définies au format StructureDefinition pour utiliser le FHIR Mapping Language.
 
-#### 2/ Permettre une utilisation concommitante de FHIR et de CDA le temps d'une transition vers FHIR
+#### 2/ Permettre une utilisation concommitante de FHIR et de CDA le temps de la transition
 
 Cette solution permettrait une utilisation concommitante de FHIR et de CDA, où les spécifications seront publiées selon les deux modes. Cela permettrait une transition douce avec un timing au choix de chacun vers le passage au paradigme FHIR Document.
 
@@ -186,7 +199,25 @@ La solution qui semble se dessiner pour l'ANS est de permettre une utilisation c
 
 ## Actions menées pour encourager l'interopérabilité
 
-Gazelle, SMT, GitHub, PAT
+De nombreuses actions sont menées pour faciliter l'usage des standards et l'intéropérabilité en France.
+
+### La plateforme de tests gazelle
+
+La plateforme de tests gazelle permet à chaque concepteur de logiciels de tester sa conformité aux spécifications d'interopérabilité du CI-SIS. Celle-ci est ouverte en permanence à l'adresse [https://interop.esante.gouv.fr/evs/home.seam].
+
+### Le serveur multi terminologique (SMT)
+
+Le serveur multi terminologique est un site web permettant d'accéder à l'ensemble des terminologies et jeu de valeurs à utiliser en France. Il dispose également d'une API pour accéder informatiquement à ces inforamtions. Le SMT est accessible à l'adresse [https://smt.esante.gouv.fr/]
+
+### GitHub
+
+L'ANS prône la démarche open source et publie la majorité de ses spécifications sur GitHub. GitHub permet à n'importe qui d'accéder à notre code source et à écrire des commentaires dans une perspective d'amélioration continue.
+L'organisation ANS sur GitHub est accessible à l'adresse[https://github.com/orgs/ansforge/dashboard].
+
+### Les projectathons
+
+L'ANS organise régulièrement des projectathons, évènement unique permettant à tous les éditeurs de se rencontrer et de tester ses interfaces d'interopérabilité en point-à-point.
+Notre plateforme de tests gazelle est utilisée dans le cadre de ces évènements.
 
 ## Le paradigme "Document" du DMP à compléter par un service orienté donnée
 
@@ -195,4 +226,3 @@ L'historique français avec le DMP montre le cas d'usage "document" : un documen
 Il y a par exemple déjà actuellement les API Mesures de santé et Agenda de mon espace santé où il y a des données accessibles via des requêtes REST sans document médical.
 
 Ainsi, il ne faudra pas négliger ce paradigme API REST de données unitaires pour certains cas d'usages s'y pretant bien, comme par exemple une API de vaccination, une API Cercle de Soins, une API pour la diffusion des essais cliniques ouverts au recrutement. L'intérêt tout particulier de ce type d'API réside sur l'utilisation de critères de recherches standards définis par FHIR pour accéder à l'information d'intérêt simplement, sans superflux.
-
