@@ -4,6 +4,20 @@ nav_order: 1
 description: 
 ---
 
+<div style="
+    background-color: #fff5f5; 
+    color: #e57373; 
+    border: 1px solid #e57373; 
+    padding: 10px; 
+    border-radius: 5px; 
+    font-size: 14px; 
+    text-align: center; 
+    max-width: 300px; 
+    margin: 20px auto;
+">
+    ⚠️ Work in Progress
+</div>
+
 Le présent document a pour objet de mettre à jour le contenu de la gouvernance du CI-SIS à la suite des ateliers conduits par les équipes d’interopérabilité de la DE2I de mai à juillet 2024 en vue de faire évoluer la gouvernance et la doctrine du CI-SIS.
 
 À l’issue de plusieurs années de test de mise en œuvre de la gouvernance rénovée du cadre d’interopérabilité des systèmes d’information de santé (CI-SIS), il est apparu que la comitologie associée n’impliquait pas assez les acteurs partie-prenante de l’interopérabilité. En conséquence une nouvelle comitologie pour la gouvernance du CI-SIS a été définie, dans un effort de :
