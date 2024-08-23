@@ -4,6 +4,20 @@ nav_order: 2
 description:
 ---
 
+<div style="
+    background-color: #fff5f5; 
+    color: #e57373; 
+    border: 1px solid #e57373; 
+    padding: 10px; 
+    border-radius: 5px; 
+    font-size: 14px; 
+    text-align: center; 
+    max-width: 300px; 
+    margin: 20px auto;
+">
+    ⚠️ Work in Progress
+</div>
+
 
 ## Doctrine d’interopérabilité syntaxique et doctrine d’interopérabilité sémantique
 
