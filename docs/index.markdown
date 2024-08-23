@@ -3,6 +3,20 @@ layout: home
 title: Le CI-SIS au cœur du développement de la e-santé
 ---
 
+<div style="
+    background-color: #fff5f5; 
+    color: #e57373; 
+    border: 1px solid #e57373; 
+    padding: 10px; 
+    border-radius: 5px; 
+    font-size: 14px; 
+    text-align: center; 
+    max-width: 300px; 
+    margin: 20px auto;
+">
+    ⚠️ Work in Progress
+</div>
+
 L’Agence du Numérique en Santé (ANS) accompagne la transformation numérique du système de santé aux côtés de tous les acteurs concernés des secteurs sanitaire, social et médico-social, privés comme publics, professionnels ou usagers.  Elle met en œuvre les orientations dédiées au secteur de la santé et du médico-social, à travers trois ambitions.
 
 <div class="wysiwyg">
