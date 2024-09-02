@@ -121,13 +121,13 @@ Il est également nécessaire de rester à l’écoute des tendances internation
 
 Il est important de prendre en compte qu'il existe de nombreux acteurs qui influencent la trajectoire et que le rôle des experts interopérabilité est d'avoir cette vision globale pour répondre aux besoins en réutilisant au maximum les travaux existants au niveau international, et éviter la nécessité de se ré-aligner par la suite.
 
-Les acteurs peuvent se classifier sur plusieurs statuts : au niveau politique, au niveau technique et au niveau implémentation.
+Les acteurs peuvent se classifier à plusieurs niveaux : au niveau politique, au niveau modélisation technique et au niveau implémentation.
 
 ### Les acteurs dits "politiques"
 
 Ministère de la santé, commission européenne, EHDS
 
-### Les acteurs dits "techniques"
+### Les acteurs dits "modélisation technique"
 
 IHE, HL7 International, HL7 Europe
 
