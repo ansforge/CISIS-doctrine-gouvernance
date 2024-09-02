@@ -137,8 +137,8 @@ La CNAM (DMP, Mon Espace Santé), les éditeurs de logiciels de soin
 
 ## Focus FHIR Document
 
-Aujourd'hui en France, l'ensemble des documents médicaux sont stockés en CDA, notamment avec la plus grande plateforme technique médicale nationale : le DMP, brique de Mon Espace Santé. Le nouveau standard d'interopérabilité FHIR, connu pour son API Rest standard, est utilisé dans de nombreux cas d'usages en France : l'annuaire santé, le ROR, le SAS, Mon Espace Santé, ...
-L'usage de FHIR peut être étendu aux documents, qui semble être la direction prise par EHDS.
+Aujourd'hui en France, l'ensemble des documents médicaux sont stockés en CDA, notamment avec la plus grande plateforme technique médicale nationale : le DMP, brique de Mon Espace Santé. De son côté, le nouveau standard d'interopérabilité FHIR, particulièrement valorisé pour son API REST, est utilisé dans de nombreux cas d'usages en France : l'annuaire santé, le ROR, le SAS, Mon Espace Santé, ...
+Le standard FHIR peut, au même titre que le CDA, être utilisé pour décrire des documents médicaux. C'est par ailleurs la trajectoire qui semble être prise à l'international, notamment par EHDS.
 
 ### Etude internationale
 
@@ -150,8 +150,8 @@ Cette même étude dévoile un nombre important de pays utilisant le FHIR docume
 
 ![](../../assets/images/fhir-documents.png)
 
-De plus, les projets européens European Health Data Space (EHDS) ayant fait une étude de normes et standards pour les échanges transfrontaliers au sein de l'Europe a conclu sur l'usage du FHIR Document. Ce choix est justifié par le fait que certains pays n'ont pas d'historiques et choisissent très logiquement d'utiliser le standard FHIR étant plus récent et plus à la mode.
-FHIR a été choisi comme standard largement préféré pour les trois cas d'usages identifiés par l'Europe comme partage transfrontalier : le lab report, l'hospital discharge report et enfin le medical imaging report (resp. 18, 17 et 16 membres préféraient FHIR contre 3, 5 et 5 pour CDA).
+De plus, les projets européens European Health Data Space (EHDS) ayant fait une étude de normes et standards pour les échanges transfrontaliers au sein de l'Europe a conclu sur l'usage du FHIR Document. Ce choix est justifié par le fait que certains pays n'ont pas d'historique CDA et choisissent très logiquement d'utiliser le standard FHIR étant plus récent et utilisant des technologies web modernes.
+FHIR a été largement préféré par l'Europe pour les trois cas d'usages privilégiés pour le partage transfrontalier : le lab report, l'hospital discharge report et enfin le medical imaging report (resp. 18, 17 et 16 membres préféraient FHIR contre 3, 5 et 5 pour CDA).
 
 ### Intérêt d'usage du FHIR document
 
@@ -160,32 +160,37 @@ En plus de la trajectoire internationale semblant mener vers l'usage du FHIR doc
 <div class="wysiwyg">
     <ul>
         <li>Les FHIR Document sont composés d'une multitude de brique, appelée ressource (ex : Observation, Patient, Encounter, ...) qui peuvent être extraites du document facilement pour être consommées et réutilisées au sein d'une API Rest par exemple.</li>
-        <li>Les spécifications peuvent être publiées en open source sur GitHub car leur édition est totalement en mode texte (FSH / markdown), permettant ainsi de faciliter la collaboration, la remontée d'erreurs, la participation de l'écosystème, l'automatisation des différences entre les versions et du changelog, l'historisation automatique des anciennes versions, ...</li>
-        <li>Les développements peuvent facilement être réutilisés dans un contexte international (par exemple le compte-rendu de laboratoire européen peut facilement être localisé pour la France), ce qui facilite l'internationalisation des entreprises.</li>
+        <li>Les spécifications peuvent être publiées en open source sur GitHub car leur édition est totalement en mode texte (FSH / markdown), permettant ainsi de faciliter la collaboration, la remontée d'erreurs, la participation de l'écosystème, l'automatisation des comparaison entre les versions, l'historisation automatique des anciennes versions, ...</li>
+        <li>Les spécifications peuvent facilement être héritées d'un contexte international (par exemple le compte-rendu de laboratoire européen peut facilement être adapté pour la France).</li>
     </ul>
 </div>
 
 Aux Etats-Unis, les spécifications CDA ont fait leur premier pas vers FHIR, celles-ci sont publiées sont forme de guide d'implémentation en modèle logique, permettant ainsi de valider les CDA avec le FHIR Validator en abandonnant les schematrons [source](https://build.fhir.org/ig/HL7/CDA-ccda/validation.html#:~:text=Validation%20Note-,What%20happened%20to%20the%20Schematron%3F,of%20the%20C%2DCDA%20document.)
 
+L'uniformisation des spécifications d'interopérabilité au niveau européen et modial est un vrai atout pour les entreprises, car cela permet de faciliter leur internationalisation.
+
 ### Position de l'Agence du Numérique en Santé
 
-La nécessité de prioriser la prise en charge du FHIR document est à ce point indéniable, de nombreux indices sur les études internationales et la multiplication de projets lancés mettent en lumière le consensus international sur l'utilisation du FHIR Document.
+Prioriser la prise en charge du FHIR document est à ce point indéniable, de nombreux indices sur les études internationales et la multiplication de projets lancés mettent en lumière le consensus international sur l'utilisation du FHIR Document.
 
-Il existe deux scénarios de déploiement de FHIR document en France
+Deux scénarios de déploiement de FHIR document ont été identifiés en France
 
 #### 1/ Mettre en place une transformation entre les standards CDA et FHIR
 
-Ces travaux ont un défaut : la nécessité de maintenir l'alignement des spécifications CDA et FHIR. Les techniques d'alignement sont complexes et lourdes à mettre un oeuvre avec un accroissement de la complexité pour chaque nouvelle version de spécification publiée. Par exemple, des [travaux italiens sur ce sujet](https://www.hl7.it/fhir/cda2fhir/) contiennent plusieurs dizaines de milliers de lignes. Il y a également des questionnements quant à la responsabilité : qui sera responsable du document en cas d'erreur de transformation ?
+Le premier scénario consiste à mettre un place un outil de transformation du standard CDA vers FHIR et inversement.
+Cependant, ce scénario nécessité de maintenir cet alignement dans le temps. Les techniques d'alignement sont complexes et lourdes à mettre un oeuvre avec un accroissement de la complexité pour chaque nouvelle version de spécification publiée. Par exemple, des [travaux italiens sur ce sujet](https://www.hl7.it/fhir/cda2fhir/) contiennent plusieurs dizaines de milliers de lignes. Il y a également des questionnements quant à la responsabilité : qui sera responsable du document en cas d'erreur de transformation ?
 
 Pour transformer les documents CDA des volets du CI-SIS vers FHIR, il faudrait que l'ensemble des spécifications CDA soient définies au format StructureDefinition pour utiliser le FHIR Mapping Language.
 
 #### 2/ Permettre une utilisation concomitante de FHIR et de CDA le temps de la transition
 
-Cette solution permettrait une utilisation concomitante de FHIR et de CDA, où les spécifications seront publiées selon les deux modes. Cela permettrait une transition douce avec un timing au choix de chacun vers le passage au paradigme FHIR Document.
+Cette solution permettrait une utilisation concomitante de FHIR et de CDA, où les spécifications seront publiées selon les deux modes. Cela permettrait une transition douce avec un timing au choix de chacun vers le passage au paradigme FHIR Document, avec une date limite de décommissionnement de l'autorisation d'écriture en CDA dans le DMP.
 
 Ainsi, au même titre que les documents CDA ne sont pas automatiquement transformés vers les nouvelles versions des spécifications, les documents historiques resteront au format CDA et les nouveaux au format FHIR Document.
 
-La difficulté reviendrait aux consommateurs qui devront être capables de traiter deux formats différents : CDA et FHIR.
+La difficulté reviendrait aux consommateurs qui devront, au moins pendant un temps, être capables de traiter deux formats différents : CDA et FHIR. Ce qui ne changerait pas de la situation actuelle finalement car les spécifications CDA évoluent elles aussi.
+
+#### Solution privilégiée par l'ANS
 
 La solution qui semble se dessiner pour l'ANS est de permettre une utilisation concomitante de FHIR et de CDA pour faire une transition douce, complétée d'une preuve de concept d'un mapping CDA - FHIR, générique, sans aller jusqu'à une spécification validée et utilisable en production, pour aider les éditeurs dans leur transition.
 
@@ -213,8 +218,8 @@ Notre plateforme de tests gazelle est utilisée dans le cadre de ces évènement
 
 ## Le paradigme "Document" du DMP à compléter par un service orienté donnée
 
-L'historique français avec le DMP montre le cas d'usage "document" : un document est un compte rendu médical signé et daté d'un patient. Il est possible de voir un nouveau cas d'usage qui n'est pas orienté document mais plutôt "donnée unitaire" où une API Rest peut être davantage adaptée.
+L'historique français avec le DMP montre le cas d'usage "document" : un document est un compte rendu médical signé et daté d'un patient. Il est possible de voir un nouveau cas d'usage qui n'est pas orienté document mais plutôt "donnée unitaire" où une API REST peut être davantage adaptée.
 
-Il y a par exemple déjà actuellement les API Mesures de santé et Agenda de mon espace santé où il y a des données accessibles via des requêtes REST sans document médical.
+Il y a par exemple déjà actuellement les API Mesures de santé et Agenda de Mon Espace Santé où il y a des données accessibles via des requêtes REST sans document médical.
 
 Ainsi, il ne faudra pas négliger ce paradigme API REST de données unitaires pour certains cas d'usages s'y prêtant bien, comme par exemple une API de vaccination, une API Cercle de Soins, une API pour la diffusion des essais cliniques ouverts au recrutement. L'intérêt tout particulier de ce type d'API réside sur l'utilisation de critères de recherches standards définis par FHIR pour accéder à l'information d'intérêt simplement, sans superflu.
