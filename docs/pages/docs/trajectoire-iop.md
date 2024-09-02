@@ -66,18 +66,16 @@ Transformé en HTML : https://markdowntohtml.com/ -->
 ## Introduction à l'interopérabilité
 
 L'interopérabilité est la capacité des systèmes à communiquer entre eux au sein d'un système d'information, qu'il soit local (établissement, GHT), régional ou national, permettant un partage et un accès facilité à une donnée, intégrable, réutilisable et exploitable. L'intérêt stratégique de permettre cette communication pour la e-santé est indéniable, tant pour le patient que pour la recherche clinique.
+L'interopérabilité est souvent confondue avec référencement, mais ces termes ne sont pas synonymes. Bien que l'interopérabilité puisse être une exigence dans le cadre d'un référencement, elle se distingue principalement par sa capacité à faciliter le partage et la réutilisation des données. 
 
-Pour faciliter l'accès et le partage de la donnée de santé, il est nécessaire de construire un langage de données informatique uniforme de manière collaborative en s'appuyant sur des standards internationaux, avec l'ensemble des acteurs de l'écosystème. Fédérer un maximum d'acteurs autour de l'interopérabilité est primordial pour répondre à un besoin car cela permet d'obtenir la vision la plus large possible (métier, technique, décisionnaires, politiques) et d'être accepté, valorisé et priorisé par tous.
-
-Lors du développement d'un logiciel, l'interopérabilité doit être pensée au plus tôt, au moment de sa conception afin d'être "interoperable by design", car une fois des interfaces graphiques développées et corrélées aux flux propriétaires, il est bien plus coûteux de faire l'évolution dans l'autre sens.
-
-L'interopérabilité est souvent confondue avec référencement, or ils ne sont pas synonymes. L'interopérabilité peut être une exigence d'un référencement, mais c'est avant tout le domaine permettant de partager et réutiliser les données facilement.
+Pour faciliter l'accès et le partage de la donnée de santé, il est nécessaire de construire un langage de données informatique uniforme en s'appuyant sur des standards internationaux. La construction d'un langage interopérable valide, utilisable, et qui réponde efficacement au besoin identifié nécessite sa co-construction avec l'ensemble des acteurs de l'écosystème (métier, technique, décisionnaire, politique). Cette collaboration est nécessaire pour valoriser et prioriser une spécification afin d'atteindre le stade ultime de la plus-value pour le médecin et le patient. La clé de la réussite de l'interopérabilité est de fédérer un maximum d'acteurs.
+Par la suite, lors du développement d'un logiciel, l'interopérabilité doit être pensée au plus tôt, au moment de sa conception afin d'être "interoperable by design", car une fois des interfaces graphiques développées et corrélées aux flux propriétaires, il est bien plus coûteux de faire l'évolution dans l'autre sens.
 
 ## Contexte national
 
-Le déploiement de la e-Santé en France s'appuie sur trois piliers : interopérabilité, sécurité et éthique. L'interopérabilité des systèmes déployés en France est pris en charge par l'Agence du Numérique en Santé (ANS) et d'autres organisations comme l'association Interop'Santé qui est le représentant français des deux principaux organismes internationaux de standardisation HL7 et IHE. L'ANS et Interop'Santé publient deux documents de référence pour définir les standards à utiliser en France, respectivement le Cadre d'Interopérabilité des Systèmes d'Information en Santé (CI-SIS) et le Guide d'Interopérabilité Hospitalier. Ces deux documents sont parfaitement alignés et cohérents et s'appuient sur des profils d'interopérabilité internationaux d'IHE et de HL7.
+Le déploiement de la e-Santé en France s'appuie sur trois piliers : interopérabilité, sécurité et éthique. L'interopérabilité des systèmes déployés en France est pris en charge par l'Agence du Numérique en Santé (ANS) et d'autres organisations comme l'association Interop'Santé qui est le représentant français des deux principaux organismes internationaux de standardisation HL7 et IHE. L'ANS et Interop'Santé publient les documents de référence définissant les standards à utiliser en France, respectivement le Cadre d'Interopérabilité des Systèmes d'Information en Santé (CI-SIS) et le Guide d'Interopérabilité Hospitalier. Ces deux documents sont parfaitement alignés et cohérents et s'appuient sur des profils d'interopérabilité internationaux d'IHE et de HL7.
 
-Les anciens standards HL7 v2 et CDA ont été créés il y a plusieurs dizaines d'années et sont très robustes mais sont concurrencés par un standard plus récent d'HL7 : FHIR. Il propose une nouvelle façon d'échanger des données par APIs et un protocole d'échange moderne (REST) beaucoup plus proches des technologies modernes de développement informatique. Plusieurs états membres de la communauté européenne font la promotion de standard et les actes d'exécution du règlement européen EHDS seront basés sur FHIR.
+Les standards HL7 v2 et CDA ont été créés il y a plusieurs dizaines d'années et sont très robustes mais sont concurrencés par le plus récent standard d'HL7 : FHIR. Il propose une nouvelle façon d'échanger des données par APIs et un protocole d'échange moderne (REST) beaucoup plus proches des technologies modernes de développement informatique. Plusieurs états membres de la communauté européenne font la promotion de standard et les actes d'exécution du règlement européen EHDS seront basés sur FHIR.
 
 L'objectif de ce document est de donner à l'écosystème une vision sur l'évolution des standards d'interopérabilité déployés en France, notamment ceux utilisés par le CI-SIS, dans les programmes nationaux comme le Ségur du Numérique en Santé et les établissements. Cette trajectoire est vouée à évoluer car les travaux sont constants au niveau international et européen. On peut citer par exemple les actes d'exécution du règlement EHDS qui se baseront à priori sur le standard FHIR R4 dans un premier temps mais dont le choix pourrait évoluer.
 
@@ -89,14 +87,14 @@ La stratégie sur le choix des versions FHIR a été définie au sein d'un group
 
 ### Nouveaux cas d’usages FHIR adressés par Interop’Santé et l’ANS : privilégier FHIR R4 et anticiper la transition vers R6
 
-Pour garantir un écosystème cohérent, éviter tous problèmes de compatibilité ainsi que les travaux divergents, il est nécessaire d'utiliser une même version du standard FHIR à l'échelle nationale. Le choix a été fait de conserver FHIR R4 car il y a un existant conséquent en France et cela permet d'éviter une double transition R4 --> R5 et R5 --> R6. Ce choix est conforté car la release 6 se veut être la “final stable version” de FHIR, une transition vers R6 se voudra de toute manière nécessaire. Pour anticiper cette transition, il est jugé important d’être proactif sur les travaux internationaux de développement de R6 et d’anticiper les impacts pour l’écosystème français.
+Pour garantir un écosystème cohérent, éviter tous problèmes de compatibilité ainsi que les travaux divergents, il est nécessaire d'utiliser une même version du standard FHIR à l'échelle nationale. Le choix a été fait de conserver FHIR R4 car il y a un existant conséquent en France et cela permet d'éviter une double transition R4 vers R5 et R5 vers R6. Ce choix est conforté car la release 6 se veut être la “final stable version” de FHIR, une transition vers R6 se voudra de toute manière nécessaire. Pour anticiper cette transition, il est jugé important d’être proactif sur les travaux internationaux de développement de R6 et d’anticiper les impacts pour l’écosystème français.
 Il est également à noter que le choix national de la version FHIR utilisée devra être en accord avec le règlement de l'espace européen sur les données de santé (EHDS) qui se dessine progressivement et qui pour l'heure semble se diriger vers R4.
 
-### Ne pas créer d’IG se basant sur R5 sans analyse des normes et standards et des impacts
+### Ne pas créer de guide d'implémentation (IG) se basant sur R5 sans analyse des normes et standards et des impacts
 
 La priorité actuelle est de faire monter l’écosystème en compétences et de gagner en maturité sur les spécifications existantes. Créer des IGs R5 engendreraient une fragmentation de l’écosystème et un ralentissement de la mise en qualité de l’existant qui finirait par freiner l’adoption de FHIR.
 
-Généralement, rajouter une ou deux [extensions qui miment les attributs R5](https://hl7.org/fhir/R5/versions.html#extensions) sont suffisants et ne nécessitent pas de créer tout un guide en R5. Dans certains cas, une autre version de FHIR peut être justifiée, par exemple si le cas d'usage concerne des échanges internationaux ou si le cas d'usage est significativement mieux couvert par une autre version. Le cas échéant, l’usage d’une autre version devra être validé par une étude des normes et standards publiée et validée par l’écosystème.
+Généralement, rajouter quelques [extensions qui miment les attributs R5](https://hl7.org/fhir/R5/versions.html#extensions) s'avère suffisant pour éviter de créer tout un guide en R5. Dans certains cas, une autre version de FHIR peut être justifiée, par exemple si le cas d'usage concerne des échanges internationaux ou si le cas d'usage est significativement mieux couvert par une autre version. Le cas échéant, l’usage d’une autre version devra être validé par une étude des normes et standards publiée et validée par l’écosystème.
 
 Dans certains cas non identifiés à ce jour, il pourrait également être nécessaire de maintenir des guides d’implémentation sous plusieurs versions. Après validation par l’écosystème de ce besoin, cela donnerait l’opportunité d'estimer des travaux de maintenance d’Implementation Guide (IG) sous plusieurs versions ainsi qu’un mapping associé pour gagner en expérience.
 
@@ -108,20 +106,20 @@ Les priorités des prochaines années sont de continuer dans cette direction :
 
 <div class="wysiwyg">
     <ul>
-        <li>La montée en compétences et l’acculturation des développeurs aux bonnes pratiques d’usages de FHIR, notamment en organisant des évènements par l'ANS et InteropSanté : projectathon, webinaires, formations, ...</li>
-        <li>S’assurer de la faisabilité d’implémentation des IGs existants (amélioration du contenu narratif pour expliquer comment utiliser les ressources, s’assurer de la facilité d’accès au contenu, …).</li>
+        <li>La montée en compétences et l’acculturation des développeurs et des chefs de projets aux bonnes pratiques d’usages de FHIR, notamment en organisant des évènements par l'ANS et InteropSanté : projectathon, webinaires, formations, ...</li>
+        <li>S’assurer de la faisabilité d’implémentation des IGs existants (amélioration du contenu narratif pour expliquer comment utiliser les ressources, s’assurer de la facilité d’accès au contenu, s'assurer que les IGs soient bien connus …).</li>
         <li>Prise en main des outils de mapping tel que le FHIR Mapping Language afin d'assurer une transition maîtrisée vers une autre version de FHIR.</li>
         <li>Anticiper les prochaines évolutions internationales : passage au FHIR Document dans le cadre du règlement européen, anticiper la transition vers FHIR R6, ...</li>
     </ul>
 </div>
 
-Il est également nécessaire de rester à l’écoute des tendances internationales en interopérabilité et de se garder la possibilité de réitérer l’analyse si le besoin ou le contexte international évolue.
+Il est également nécessaire de rester à l’écoute des tendances internationales en interopérabilité et de se garder la possibilité de réitérer l’analyse si le besoin ou le contexte international évolue, en particulier l'EHDS.
 
 <!-- ## Cartographie de l'interopérabilité -->
 
 ## Listing des acteurs influençant la trajectoire
 
-Il est important de noter que de nombreux acteurs influencent la trajectoire et que le rôle des experts interopérabilité est d'avoir cette vision globale pour répondre aux besoins en réutilisant au maximum les travaux existants au niveau international.
+Il est important de prendre en compte qu'il existe de nombreux acteurs qui influencent la trajectoire et que le rôle des experts interopérabilité est d'avoir cette vision globale pour répondre aux besoins en réutilisant au maximum les travaux existants au niveau international, et éviter la nécessité de se ré-aligner par la suite.
 
 Les acteurs peuvent se classifier sur plusieurs statuts : au niveau politique, au niveau technique et au niveau implémentation.
 
@@ -135,11 +133,12 @@ IHE, HL7 International, HL7 Europe
 
 ### Les acteurs dits "implémenteurs"
 
-La CNAM (DMP, Mon Espace Santé), l'écosystème français des éditeurs de logiciels de soin
+La CNAM (DMP, Mon Espace Santé), les éditeurs de logiciels de soin
 
 ## Focus FHIR Document
 
-Aujourd'hui en France, l'ensemble des documents médicaux sont stockés en CDA, notamment avec la plus grande plateforme technique médicale nationale : le DMP, brique de Mon Espace Santé. Le nouveau standard d'interopérabilité FHIR, connu pour son API Rest standard, est utilisé dans de nombreux cas d'usages en France : l'annuaire santé, le ROR, le SAS, Mon Espace Santé, .... L'usage de FHIR peut être étendu aux documents.
+Aujourd'hui en France, l'ensemble des documents médicaux sont stockés en CDA, notamment avec la plus grande plateforme technique médicale nationale : le DMP, brique de Mon Espace Santé. Le nouveau standard d'interopérabilité FHIR, connu pour son API Rest standard, est utilisé dans de nombreux cas d'usages en France : l'annuaire santé, le ROR, le SAS, Mon Espace Santé, ...
+L'usage de FHIR peut être étendu aux documents, qui semble être la direction prise par EHDS.
 
 ### Etude internationale
 
