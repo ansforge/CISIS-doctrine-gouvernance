@@ -32,6 +32,8 @@ body:
         - label: "Couche Service"
         - label: "Couche Transport"
         - label: "Autre (préciser ci-dessous)"
+    validations:
+      required: true
     
   - type: textarea
     id: autre_rubrique
