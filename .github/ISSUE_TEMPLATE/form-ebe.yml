@@ -1,11 +1,10 @@
-name: "Expression des besoins d'interopérabilité"
+name: "(CI-SIS) Formulaire d’expression de besoins d’interopérabilité"
 description: >
+  Ce formulaire s’adresse à tout acteur des domaines sanitaire, médico-social et médico-administratif identifiant des besoins d’interopérabilité entre au moins deux systèmes.
   Utilisez ce formulaire pour exprimer vos besoins d'interopérabilité en santé.
   Remplissez toutes les sections obligatoires pour faciliter le traitement de votre demande.
-labels: 
-  - CI-SIS
-  - Interopérabilité
-
+title: "[EBE]: "
+labels: ["EBE"]
 body:
   - type: markdown
     attributes:
