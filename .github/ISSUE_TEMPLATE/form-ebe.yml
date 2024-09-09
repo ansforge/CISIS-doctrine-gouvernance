@@ -1,250 +1,71 @@
-name: Formulaire d'Expression des Besoins d'Interopérabilité
-description: |
-  Ce formulaire est inclus dans le corpus documentaire relatif à la gouvernance du CI-SIS. Il sert à formaliser une demande d'interopérabilité qui pourrait entraîner un enrichissement du CI-SIS.
-title: "Formulaire d'Expression des Besoins d'Interopérabilité"
-labels: ["EBE"]
-
-
-body:
-  - type: input
-    id: titre
-    attributes:
-      label: Titre (obligatoire)
-      description: Le titre du besoin sera utilisé pour la publication sur le site esante.gouv.fr [au même titre que la synthèse (cf. §3)]
-      placeholder: Titre
-    validations:
-      required: true
-
-  - type: input
-    id: identification
-    attributes:
-      label: Identification du porteur de besoins (obligatoire)
-      description: |
-        - Prénom et Nom
-        - Organisation
-        - Adresse de messagerie électronique
-        - Numéro de téléphone professionnel
-      placeholder: 'Renseignez vos informations'
-    validations:
-      required: true
-
-  - type: textarea
-    id: synthese
-    attributes:
-      label: Synthèse des besoins exprimés (obligatoire)
-      description: Cette synthèse sera utilisée pour la publication des besoins sur le site esante.gouv.fr
-      placeholder: 'Renseignez votre synthèse'
-    validations:
-      required: true
-
-  - type: dropdown
-    id: portage
-    attributes:
-      label: Les besoins décrits dans ce formulaire s’inscrivent-ils dans le cadre d’un projet ou d’un programme national ?
-      options:
-        - Oui
-        - Non
-    validations:
-      required: true
-
-  - type: input
-    id: portage_preciser
-    attributes:
-      label: Veuillez préciser lequel
-      placeholder: 'Renseignez-moi'
-    validations:
-      required: false
-
-  - type: dropdown
-    id: complement
-    attributes:
-      label: Les besoins décrits dans ce formulaire correspondent-ils à un complément d’une expression de besoins ou travaux en cours d’instruction par l’ANS ?
-      options:
-        - Oui
-        - Non
-    validations:
-      required: true
-
-  - type: input
-    id: complement_preciser
-    attributes:
-      label: Veuillez préciser le(s) titre(s) des besoins concernés tel(s) que référencé(s) sur le site esante.gouv.fr
-      placeholder: 'Renseignez-moi'
-    validations:
-      required: false
-
-  - type: textarea
-    id: cas_usage_syntaxique
-    attributes:
-      label: Cas d’usage (obligatoire) - PARTIE SYNTAXIQUE
-      description: |
-        Décrire le(s) cas d’usage métier dans le(s)quel(s) s’inscrivent vos besoins en particulier :
-        - les transmissions de contenu à effectuer de manière dématérialisée
-        - les actions réalisées via un composant informatique sur un autre composant informatique.
-      placeholder: 'Décrivez les cas d’usage'
-    validations:
-      required: true
-
-  - type: textarea
-    id: problematique_syntaxique
-    attributes:
-      label: Problématique (obligatoire) - PARTIE SYNTAXIQUE
-      description: À partir du scénario d’usage expliquer la problématique rencontrée en termes d’interopérabilité.
-      placeholder: 'Décrivez la problématique'
-    validations:
-      required: true
-
-  - type: textarea
-    id: modifications_syntaxique
-    attributes:
-      label: Liste de modifications à mettre en place dans le CI-SIS (optionnel) - PARTIE SYNTAXIQUE
-      description: Dans le cas où la problématique identifiée vient de l’utilisation du CI-SIS faire une liste exhaustive des modifications à mettre en place.
-      placeholder: 'Listez les modifications'
-    validations:
-      required: false
-
-  - type: textarea
-    id: description_echanges
-    attributes:
-      label: Description des échanges entre systèmes (optionnel)
-      description: |
-        À partir du/des cas d’usage métier décrit(s) en section 1 dégager les différents modules du Système d’Information intervenant dans les échanges.
-        Exemples : Module « créateur de documents médicaux », Module « Administration Patient », etc.
-        Décrire le rôle de chaque module et ses interactions avec les autres modules. Si connus donner des éléments quantitatifs : indications de volumes de répartition géographique de fréquence etc.
-      placeholder: 'Décrivez les échanges'
-    validations:
-      required: false
-
-  - type: dropdown
-    id: jeux_valeurs
-    attributes:
-      label: J’ai besoin de Jeux de valeurs ou de spécificités sémantiques en complément de ma demande (obligatoire)
-      options:
-        - Oui
-        - Non
-    validations:
-      required: true
-
-  - type: input
-    id: jeux_valeurs_preciser
-    attributes:
-      label: Veuillez préciser si possible (optionnel)
-      placeholder: 'Renseignez-moi'
-    validations:
-      required: false
-
-  - type: textarea
-    id: cas_usage_semantique
-    attributes:
-      label: Cas d’usage (obligatoire) - PARTIE SEMANTIQUE
-      description: |
-        Décrire le(s) cas d’usage métier dans le(s)quel(s) s’inscrivent vos besoins en détaillant comment est utilisée actuellement et/ou sera utilisée la Terminologie.
-        Le(s) cas d'usage peut/peuvent être présenté(s) sous la forme d'une petite histoire.
-      placeholder: 'Décrivez les cas d’usage'
-    validations:
-      required: true
-
-  - type: textarea
-    id: problematique_semantique
-    attributes:
-      label: Problématique (obligatoire) - PARTIE SEMANTIQUE
-      description: À partir du scénario d’usage, expliquer la problématique rencontrée en termes d’interopérabilité que cette demande solutionnerait.
-      placeholder: 'Décrivez la problématique'
-    validations:
-      required: true
-
-  - type: textarea
-    id: prerequis_publication
-    attributes:
-      label: Prérequis à la publication et travaux associés
-      description: Quel est le format actuel de votre Terminologie ? (exemple Excel PDF Access etc.) (obligatoire)
-      placeholder: 'Renseignez le format actuel'
-    validations:
-      required: true
-
-  - type: input
-    id: volumetrie
-    attributes:
-      label: Avez-vous une estimation de la volumétrie du contenu de votre Terminologie (nombre de codes) ? (obligatoire)
-      placeholder: 'Renseignez la volumétrie'
-    validations:
-      required: true
-
-  - type: checkboxes
-    id: maturite_structure
-    attributes:
-      label: Quel est le niveau de maturité de la structure de votre Terminologie ? (obligatoire)
-      options:
-        - label: La Terminologie a-t-elle une classification arborescente avec un code parent ?
-        - label: La Terminologie a-t-elle des libellés uniques ?
-        - label: La Terminologie a-t-elle des définitions associées aux libellés ?
-    validations:     
-      required: true       
-
-  - type: input
-    id: interactions_liens
-    attributes:
-      label: Votre Terminologie a-t-elle des interactions/liens avec d’autres Terminologies ? (obligatoire)
-      placeholder: 'Renseignez les interactions'
-    validations:
-      required: true
-
-  - type: input
-    id: langue
-    attributes:
-      label: Quelle est la langue utilisée (notamment la langue des synonymes) ? (obligatoire)
-      placeholder: 'Renseignez la langue'
-    validations:
-      required: true
-
-  - type: dropdown
-    id: multilingue
-    attributes:
-      label: Votre Terminologie est-elle multilingue ? (obligatoire)
-      options:
-        - Oui
-        - Non
-    validations:
-      required: true
-
-  - type: input
-    id: autre_langue
-    attributes:
-      label: Si oui quelle autre langue est utilisée (autre que français)
-      placeholder: 'Renseignez-moi'
-    validations:
-      required: false
-
-  - type: dropdown
-    id: niveau_attente
-    attributes:
-      label: Vous sollicitez l’Agence du numérique en santé quel est votre niveau d’attente ? (obligatoire)
-      options:
-        - Assistance à maîtrise d’ouvrage et à la diffusion de votre Terminologie
-        - Autres attentes
-    validations:
-      required: true
-
-  - type: input
-    id: autres_attentes
-    attributes:
-      label: Si autres veuillez préciser lesquelles
-      placeholder: 'Renseignez-moi'
-    validations:
-      required: false
-
-  - type: input
-    id: unite_production
-    attributes:
-      label: Avez-vous identifié l’Unité de Production* de votre Terminologie ? (obligatoire)
-      placeholder: 'Renseignez l’unité de production'
-    validations:
-      required: true
-
-  - type: input
-    id: unite_production_details
-    attributes:
-      label: Unité de Production Organisme public ou privé sous la responsabilité duquel votre Terminologie est produite. Exemple Société Savante/ Collège / Ministère / etc.
-      placeholder: 'Renseignez les détails'
-    validations:
-      required: true
+formulaire_expression_besoins:
+  titre: "FORMULAIRE D’EXPRESSION DES BESOINS D’INTEROPERABILITE"
+  note_utilisation:
+    - "Merci de remplir toutes les sections obligatoires correspondant à votre demande de manière détaillée et si possible les sections indiquées comme optionnelles."
+    - "Le formulaire rempli ainsi que les éventuelles pièces jointes sont à transmettre par courriel à l’adresse ci-sis@esante.gouv.fr."
+  partie_syntaxique:
+    description_besoins:
+      titre: ""
+      rubrique:
+        options:
+          - "Couche Métier"
+          - "Couche Service"
+          - "Couche Transport"
+          - "Autre: Préciser"
+      identification_porteur_besoins:
+        prenom_nom: ""
+        organisation: ""
+        adresse_messagerie: ""
+        telephone: ""
+    sponsor:
+      prenom_nom: ""
+      organisation: ""
+      adresse_messagerie: ""
+      telephone: ""
+    partie_prenantes:
+      liste_prenantes:
+        - organisation: ""
+          contact: ""
+    contexte_besoins:
+      projet_programme:
+        question: "Les besoins s’inscrivent-ils dans un projet/programme national ou international ?"
+        options:
+          - oui: "Préciser lequel"
+          - non: ""
+        cadre_reglementaire: "Décrire ici le cadre réglementaire justifiant votre demande"
+      complement_expression:
+        question: "Les besoins correspondent-ils à un complément d’expression ou travaux en cours d’instruction par l’ANS ?"
+        options:
+          - oui: "Préciser les titres des besoins concernés"
+          - non: ""
+  impact_interet:
+    impact_systeme: [1, 2, 3, 4, 5]
+    interet_ecosysteme: [1, 2, 3, 4, 5]
+    complexite: [1, 2, 3, 4, 5]
+    risque_non_faire: [1, 2, 3, 4, 5]
+    autres_risques_benefices: "Texte libre"
+    delais_contraintes: "Indiquer les contraintes de délai"
+  partie_semantique:
+    cas_usage:
+      description: "Décrire les cas d’usage métier et la problématique rencontrée en termes d’interopérabilité."
+    prerequis:
+      format_terminologie: ""
+      volumetrie: ""
+      maturite: ""
+      interactions_autres_terminologies: ""
+      langue: ""
+      multilingue:
+        options:
+          - oui: "Préciser la langue"
+          - non: ""
+      niveau_attente: "Assistance à maîtrise d’ouvrage"
+      unite_production: ""
+      organisme_responsable: ""
+      equipe_projet: ""
+      politique_gestion: ""
+      frequence_evolution: ""
+      propriete_intellectuelle: ""
+      utilisateurs_terminologie: ""
+  elements_complementaires:
+    commentaires: "Ajoutez ici tout élément complémentaire."
+    documents: "Joindre tout document utile."
