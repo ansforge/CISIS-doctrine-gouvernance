@@ -55,9 +55,6 @@ body:
     attributes:
       label: "Adresse de messagerie"
       placeholder: "Indiquez l'adresse e-mail"
-      validation:
-        required: true
-        pattern: "^\\S+@\\S+\\.\\S+$"
 
   - type: textarea
     id: contexte_besoins
@@ -81,4 +78,3 @@ body:
     attributes:
       label: "Commentaires supplémentaires"
       description: "Ajoutez tout autre élément pertinent pour votre demande."
-
