@@ -1,0 +1,17 @@
+name: "(CI-SIS) Formulaire d’expression de besoins d’interopérabilité"
+description: >
+  Cible: tout acteur des domaines sanitaire, médico-social et médico-administratif identifiant des besoins d’interopérabilité entre au moins deux systèmes.
+title: "[EBE]: "
+labels: ["EBE"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Note d’utilisation
+        Pour nous soumettre votre demande il vous faut télécharger le document à compléter [ici](ici).
+        
+  - type: textarea
+    id: form
+    attributes:
+      label: "Formulaire complété"
+      description: "Veuillez joindre ici votre formulaire de demande complété."
