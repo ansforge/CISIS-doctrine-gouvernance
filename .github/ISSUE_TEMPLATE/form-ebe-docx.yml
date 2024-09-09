@@ -8,7 +8,7 @@ body:
     attributes:
       value: |
         ## Note d’utilisation
-        Pour nous soumettre votre demande il vous faut télécharger le document à compléter [ici](ici).
+        Pour nous soumettre votre demande il vous faut télécharger le document à compléter [ici](https://github.com/ansforge/CISIS-doctrine-gouvernance/blob/main/docs/assets/docs/CI-SIS_FORMULAIRE_EXPRESSION%20DE%20BESOINS.docx).
         
   - type: textarea
     id: form
