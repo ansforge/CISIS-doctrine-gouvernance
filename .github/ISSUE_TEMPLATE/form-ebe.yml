@@ -94,7 +94,7 @@ body:
     id: parties_prenantes
     attributes:
       label: "Parties Prenantes"
-      description: "Liste des organisations et contacts impliqués."
+      description: "Liste des parties prenantes impliquées dans l'expression de ces besoins."
 
   - type: checkboxes
     id: contexte_projet_programme
@@ -108,7 +108,7 @@ body:
     id: cadre_reglementaire
     attributes:
       label: "Cadre réglementaire"
-      description: "Décrire le cadre réglementaire justifiant votre demande."
+      description: "Décrire le cadre réglementaire justifiant votre demande (références vers les décrets)."
 
   - type: checkboxes
     id: complement_expression
@@ -122,13 +122,13 @@ body:
     id: references
     attributes:
       label: "Références"
-      description: "Ajouter toutes références (articles, décrets) justifiant votre demande."
+      description: "Ajouter toutes les références (articles, décrets) justifiant votre demande."
 
   - type: textarea
     id: synthese_besoins
     attributes:
       label: "Synthèse des besoins exprimés"
-      description: "Cette synthèse sera utilisée pour la publication sur le site esante.gouv.fr."
+      description: "Cette synthèse sera utilisée pour la publication des besoins sur le site esante.gouv.fr."
 
   - type: checkboxes
     id: impact_interet
@@ -150,36 +150,98 @@ body:
     id: delai_contraintes
     attributes:
       label: "Délai et contraintes projet"
-      description: "Indiquez les contraintes de délai à prendre en compte."
+      description: "Indiquez les contraintes de délai à prendre en compte pour le traitement de votre demande."
 
   - type: textarea
-    id: cas_usage
+    id: cas_usage_syntaxique
     attributes:
-      label: "Cas d’usage"
-      description: "Décrire le(s) cas d’usage métier dans lesquels s’inscrivent vos besoins."
+      label: "Cas d’usage (Partie Syntaxique)"
+      description: |
+        Décrire le(s) cas d’usage métier dans lesquels s’inscrivent vos besoins, en précisant les transmissions de contenu de manière dématérialisée (qui produit le contenu, qui sont les destinataires).
 
   - type: textarea
-    id: problematique
+    id: problematique_syntaxique
     attributes:
-      label: "Problématique"
-      description: "À partir du scénario d’usage, expliquer la problématique rencontrée."
+      label: "Problématique (Partie Syntaxique)"
+      description: "Expliquer la problématique rencontrée en termes d’interopérabilité."
 
   - type: textarea
     id: description_echanges
     attributes:
       label: "Description des échanges entre systèmes"
-      description: "Décrire les modules intervenant dans les échanges, leur rôle et interactions."
+      description: |
+        Décrire les modules du Système d’Information intervenant dans les échanges, leur rôle, et interactions. Fournir des éléments quantitatifs si connus (volumes, répartition, fréquence).
 
   - type: checkboxes
     id: jeux_valeurs
     attributes:
-      label: "Besoin de jeux de valeurs ou spécificités sémantiques ?"
+      label: "Besoin de jeux de valeurs ou spécificités sémantiques en complément de la demande ?"
       options:
         - label: "Oui (préciser)"
         - label: "Non"
 
   - type: textarea
-    id: autres_elements
+    id: cas_usage_semantique
     attributes:
-      label: "Éléments complémentaires"
-      description: "Ajoutez tout élément essentiel non renseigné dans les sections précédentes."
+      label: "Cas d’usage (Partie Sémantique)"
+      description: |
+        Décrire le(s) cas d’usage métier dans lesquels s’inscrivent vos besoins sémantiques, en expliquant comment la Terminologie est utilisée ou sera utilisée.
+
+  - type: textarea
+    id: problematique_semantique
+    attributes:
+      label: "Problématique (Partie Sémantique)"
+      description: "Expliquer la problématique rencontrée en termes d’interopérabilité et comment cette demande y répondrait."
+
+  - type: textarea
+    id: prerequis_publication
+    attributes:
+      label: "Prérequis à la publication et travaux associés"
+      description: |
+        Décrire le format actuel de votre Terminologie, la volumétrie, les interactions avec d’autres terminologies, le niveau de maturité, et la langue utilisée.
+
+  - type: checkboxes
+    id: multilingue
+    attributes:
+      label: "Votre Terminologie est-elle multilingue ?"
+      options:
+        - label: "Oui (préciser la langue)"
+        - label: "Non"
+
+  - type: textarea
+    id: unite_production
+    attributes:
+      label: "Unité de Production"
+      description: |
+        Avez-vous identifié l’Unité de Production de votre Terminologie ? Précisez l’organisme responsable, la composition de l’équipe, et la politique de gestion.
+
+  - type: textarea
+    id: frequence_evolution
+    attributes:
+      label: "Fréquence d'évolution de la Terminologie"
+      description: "Indiquer la fréquence d’évolution de votre Terminologie (ex : mensuelle, annuelle)."
+
+  - type: textarea
+    id: propriete_intellectuelle
+    attributes:
+      label: "Propriété intellectuelle"
+      description: |
+        En cas d'utilisation d’une licence autre que LOV2, expliquer les modalités d’accès à la Terminologie (ex: traçabilité des utilisateurs avec un mode connecté).
+
+  - type: textarea
+    id: utilisateurs_terminologie
+    attributes:
+      label: "Utilisateurs de la Terminologie"
+      description: "Décrire l’audience visée par votre Terminologie."
+
+  - type: textarea
+    id: commentaires
+    attributes:
+      label: "Commentaires supplémentaires"
+      description: "Ajoutez tout autre élément pertinent pour votre demande."
+
+  - type: textarea
+    id: documents_complementaires
+    attributes:
+      label: "Documents complémentaires"
+      description: "Veuillez joindre tout document utile qui peut faciliter l’instruction de votre demande."
