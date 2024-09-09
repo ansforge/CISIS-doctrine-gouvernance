@@ -1,71 +1,86 @@
-formulaire_expression_besoins:
-  titre: "FORMULAIRE D’EXPRESSION DES BESOINS D’INTEROPERABILITE"
-  note_utilisation:
-    - "Merci de remplir toutes les sections obligatoires correspondant à votre demande de manière détaillée et si possible les sections indiquées comme optionnelles."
-    - "Le formulaire rempli ainsi que les éventuelles pièces jointes sont à transmettre par courriel à l’adresse ci-sis@esante.gouv.fr."
-  partie_syntaxique:
-    description_besoins:
-      titre: ""
-      rubrique:
-        options:
-          - "Couche Métier"
-          - "Couche Service"
-          - "Couche Transport"
-          - "Autre: Préciser"
-      identification_porteur_besoins:
-        prenom_nom: ""
-        organisation: ""
-        adresse_messagerie: ""
-        telephone: ""
-    sponsor:
-      prenom_nom: ""
-      organisation: ""
-      adresse_messagerie: ""
-      telephone: ""
-    partie_prenantes:
-      liste_prenantes:
-        - organisation: ""
-          contact: ""
-    contexte_besoins:
-      projet_programme:
-        question: "Les besoins s’inscrivent-ils dans un projet/programme national ou international ?"
-        options:
-          - oui: "Préciser lequel"
-          - non: ""
-        cadre_reglementaire: "Décrire ici le cadre réglementaire justifiant votre demande"
-      complement_expression:
-        question: "Les besoins correspondent-ils à un complément d’expression ou travaux en cours d’instruction par l’ANS ?"
-        options:
-          - oui: "Préciser les titres des besoins concernés"
-          - non: ""
-  impact_interet:
-    impact_systeme: [1, 2, 3, 4, 5]
-    interet_ecosysteme: [1, 2, 3, 4, 5]
-    complexite: [1, 2, 3, 4, 5]
-    risque_non_faire: [1, 2, 3, 4, 5]
-    autres_risques_benefices: "Texte libre"
-    delais_contraintes: "Indiquer les contraintes de délai"
-  partie_semantique:
-    cas_usage:
-      description: "Décrire les cas d’usage métier et la problématique rencontrée en termes d’interopérabilité."
-    prerequis:
-      format_terminologie: ""
-      volumetrie: ""
-      maturite: ""
-      interactions_autres_terminologies: ""
-      langue: ""
-      multilingue:
-        options:
-          - oui: "Préciser la langue"
-          - non: ""
-      niveau_attente: "Assistance à maîtrise d’ouvrage"
-      unite_production: ""
-      organisme_responsable: ""
-      equipe_projet: ""
-      politique_gestion: ""
-      frequence_evolution: ""
-      propriete_intellectuelle: ""
-      utilisateurs_terminologie: ""
-  elements_complementaires:
-    commentaires: "Ajoutez ici tout élément complémentaire."
-    documents: "Joindre tout document utile."
+issues:
+  - title: "Expression des besoins d'interopérabilité"
+    labels: 
+      - CI-SIS
+      - Interopérabilité
+    body: |
+      ## Note d’utilisation
+      Merci de remplir toutes les sections obligatoires correspondant à votre demande de manière détaillée et si possible les sections indiquées comme optionnelles. Le formulaire rempli ainsi que les éventuelles pièces jointes sont à transmettre par courriel à l’adresse ci-sis@esante.gouv.fr.
+
+      ### Partie Syntaxique
+      **Description des besoins :**
+      - **Titre :** [Renseigner le titre ici]
+      - **Rubrique :**
+        - [ ] Couche Métier
+        - [ ] Couche Service
+        - [ ] Couche Transport
+        - [ ] Autre (préciser) : 
+
+      **Identification du porteur de besoins :**
+      - **Prénom et Nom :** [Renseigner]
+      - **Organisation :** [Renseigner]
+      - **Adresse de messagerie électronique :** [Renseigner]
+      - **Numéro de téléphone professionnel :** [Renseigner]
+
+      **Sponsor :**
+      - **Prénom et Nom :** [Renseigner]
+      - **Organisation :** [Renseigner]
+      - **Adresse de messagerie électronique :** [Renseigner]
+      - **Numéro de téléphone professionnel :** [Renseigner]
+
+      **Parties Prenantes :**
+      - Liste des parties prenantes :
+        - Organisation : [Renseigner]
+        - Contact : [Renseigner]
+
+      **Contexte des besoins :**
+      - Les besoins s’inscrivent-ils dans un projet/programme national ou international ?
+        - [ ] Oui (préciser)
+        - [ ] Non
+      - Les besoins correspondent-ils à un complément d’expression ou travaux en cours d’instruction par l’ANS ?
+        - [ ] Oui (préciser)
+        - [ ] Non
+      
+      **Impact et intérêt :**
+      - Impact sur les systèmes :
+        - [ ] 1
+        - [ ] 2
+        - [ ] 3
+        - [ ] 4
+        - [ ] 5
+      - Intérêt pour l'écosystème :
+        - [ ] 1
+        - [ ] 2
+        - [ ] 3
+        - [ ] 4
+        - [ ] 5
+      - Estimation de la complexité :
+        - [ ] 1
+        - [ ] 2
+        - [ ] 3
+        - [ ] 4
+        - [ ] 5
+      - Risque à ne pas faire :
+        - [ ] 1
+        - [ ] 2
+        - [ ] 3
+        - [ ] 4
+        - [ ] 5
+
+      ### Partie Sémantique
+      **Cas d’usage :**
+      - Décrire le(s) cas d’usage métier : [Renseigner]
+
+      **Prérequis :**
+      - Format actuel de la Terminologie : [Renseigner]
+      - Estimation de la volumétrie : [Renseigner]
+      - Niveau de maturité : [Renseigner]
+      - Interactions avec d’autres Terminologies : [Renseigner]
+      - Langue utilisée : [Renseigner]
+      - Multilingue ?
+        - [ ] Oui (préciser la langue)
+        - [ ] Non
+
+      **Autres éléments complémentaires :**
+      - Commentaires : [Renseigner]
+      - Documents complémentaires : [Joindre tout document utile]
