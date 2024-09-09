@@ -13,6 +13,10 @@ body:
         ## Note d’utilisation
         Merci de remplir toutes les sections obligatoires correspondant à votre demande de manière détaillée et si possible les sections indiquées comme optionnelles. Le formulaire rempli ainsi que les éventuelles pièces jointes sont à transmettre par courriel à l’adresse ci-sis@esante.gouv.fr.
 
+        ### Sections obligatoires et optionnelles
+        - **Partie Syntaxique** : À remplir si votre demande concerne la création ou la modification de volets dans le partage des informations (standardisation du format).
+        - **Partie Sémantique** : À remplir si votre demande concerne la publication d’une Terminologie ou d’un alignement (création ou hébergement).
+
   - type: input
     id: titre
     attributes:
@@ -53,28 +57,129 @@ body:
   - type: input
     id: porteur_email
     attributes:
-      label: "Adresse de messagerie"
+      label: "Adresse de messagerie électronique"
       placeholder: "Indiquez l'adresse e-mail"
 
-  - type: textarea
-    id: contexte_besoins
+  - type: input
+    id: porteur_telephone
     attributes:
-      label: "Contexte des besoins"
-      description: "Décrivez le contexte dans lequel s’inscrivent vos besoins."
+      label: "Numéro de téléphone professionnel"
+      placeholder: "Indiquez le numéro de téléphone"
+
+  - type: input
+    id: sponsor_prenom_nom
+    attributes:
+      label: "Prénom et Nom du sponsor"
+      placeholder: "Indiquez le prénom et nom du sponsor"
+
+  - type: input
+    id: sponsor_organisation
+    attributes:
+      label: "Organisation du sponsor"
+      placeholder: "Indiquez l'organisation du sponsor"
+
+  - type: input
+    id: sponsor_email
+    attributes:
+      label: "Adresse de messagerie électronique du sponsor"
+      placeholder: "Indiquez l'adresse e-mail du sponsor"
+
+  - type: input
+    id: sponsor_telephone
+    attributes:
+      label: "Numéro de téléphone professionnel du sponsor"
+      placeholder: "Indiquez le numéro de téléphone du sponsor"
+
+  - type: textarea
+    id: parties_prenantes
+    attributes:
+      label: "Parties Prenantes"
+      description: "Liste des organisations et contacts impliqués."
+
+  - type: checkboxes
+    id: contexte_projet_programme
+    attributes:
+      label: "Les besoins s’inscrivent-ils dans un projet ou programme national/international ?"
+      options:
+        - label: "Oui (préciser)"
+        - label: "Non"
+    
+  - type: textarea
+    id: cadre_reglementaire
+    attributes:
+      label: "Cadre réglementaire"
+      description: "Décrire le cadre réglementaire justifiant votre demande."
+
+  - type: checkboxes
+    id: complement_expression
+    attributes:
+      label: "Les besoins sont-ils un complément d’une expression ou travaux en cours ?"
+      options:
+        - label: "Oui (préciser les titres des besoins concernés)"
+        - label: "Non"
+
+  - type: textarea
+    id: references
+    attributes:
+      label: "Références"
+      description: "Ajouter toutes références (articles, décrets) justifiant votre demande."
+
+  - type: textarea
+    id: synthese_besoins
+    attributes:
+      label: "Synthèse des besoins exprimés"
+      description: "Cette synthèse sera utilisée pour la publication sur le site esante.gouv.fr."
 
   - type: checkboxes
     id: impact_interet
     attributes:
-      label: "Impact et intérêt"
-      description: "Évaluez l'impact sur les systèmes et l'intérêt pour l'écosystème."
+      label: "Impact et intérêt (1 = faible à 5 = fort)"
       options:
-        - label: "Impact sur les systèmes (1 à 5)"
-        - label: "Intérêt pour l'écosystème (1 à 5)"
-        - label: "Complexité estimée (1 à 5)"
-        - label: "Risque à ne pas faire (1 à 5)"
+        - label: "Impact sur les systèmes"
+        - label: "Intérêt pour l'écosystème"
+        - label: "Estimation de la complexité"
+        - label: "Risque à ne pas faire"
     
   - type: textarea
-    id: commentaires
+    id: autres_risques_benefices
     attributes:
-      label: "Commentaires supplémentaires"
-      description: "Ajoutez tout autre élément pertinent pour votre demande."
+      label: "Autres risques et/ou bénéfices"
+      description: "Justifiez les niveaux renseignés et ajoutez d’autres risques ou bénéfices."
+
+  - type: textarea
+    id: delai_contraintes
+    attributes:
+      label: "Délai et contraintes projet"
+      description: "Indiquez les contraintes de délai à prendre en compte."
+
+  - type: textarea
+    id: cas_usage
+    attributes:
+      label: "Cas d’usage"
+      description: "Décrire le(s) cas d’usage métier dans lesquels s’inscrivent vos besoins."
+
+  - type: textarea
+    id: problematique
+    attributes:
+      label: "Problématique"
+      description: "À partir du scénario d’usage, expliquer la problématique rencontrée."
+
+  - type: textarea
+    id: description_echanges
+    attributes:
+      label: "Description des échanges entre systèmes"
+      description: "Décrire les modules intervenant dans les échanges, leur rôle et interactions."
+
+  - type: checkboxes
+    id: jeux_valeurs
+    attributes:
+      label: "Besoin de jeux de valeurs ou spécificités sémantiques ?"
+      options:
+        - label: "Oui (préciser)"
+        - label: "Non"
+
+  - type: textarea
+    id: autres_elements
+    attributes:
+      label: "Éléments complémentaires"
+      description: "Ajoutez tout élément essentiel non renseigné dans les sections précédentes."
