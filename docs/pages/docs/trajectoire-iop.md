@@ -129,28 +129,6 @@ La difficulté reviendrait aux consommateurs qui devront, au moins pendant un te
 
 La solution qui semble se dessiner pour l'ANS est de permettre une utilisation concomitante de FHIR et de CDA pour faire une transition douce, complétée d'une preuve de concept d'un mapping CDA - FHIR, générique, sans aller jusqu'à une spécification validée et utilisable en production, pour aider les éditeurs dans leur transition.
 
-## Actions menées pour encourager l'interopérabilité
-
-De nombreuses actions sont menées pour faciliter l'usage des standards et l'interopérabilité en France.
-
-### La plateforme de tests gazelle
-
-La plateforme de tests gazelle permet à chaque concepteur de logiciels de tester sa conformité aux spécifications d'interopérabilité du CI-SIS. Celle-ci est ouverte en permanence à l'adresse [https://interop.esante.gouv.fr/evs/home.seam].
-
-### Le serveur multi terminologique (SMT)
-
-Le serveur multi terminologique est un site web permettant d'accéder à l'ensemble des terminologies et jeu de valeurs à utiliser en France. Il dispose également d'une API pour accéder informatiquement à ces informations. Le SMT est accessible à l'adresse [https://smt.esante.gouv.fr/]
-
-### GitHub
-
-L'ANS prône la démarche open source et publie la majorité de ses spécifications sur GitHub. GitHub permet à n'importe qui d'accéder à notre code source et à écrire des commentaires dans une perspective d'amélioration continue.
-L'organisation ANS sur GitHub est accessible à l'adresse[https://github.com/orgs/ansforge/dashboard].
-
-### Les projectathons
-
-L'ANS organise régulièrement des projectathons, évènement unique permettant à tous les éditeurs de se rencontrer et de tester ses interfaces d'interopérabilité de point-à-point.
-Notre plateforme de tests gazelle est utilisée dans le cadre de ces évènements.
-
 ## Le paradigme "Document" du DMP à compléter par un paradigme "API"
 
 L'historique français avec le DMP montre le cas d'usage "document" : un document est un compte rendu médical signé et daté d'un patient. Il est possible de voir un nouveau cas d'usage qui n'est pas orienté document mais plutôt un paradigme "API".
@@ -169,9 +147,9 @@ De nombreuses actions sont menées pour faciliter l'usage des standards et l'int
 
 <div class="wysiwyg">
     <ul>
-        <li><b>La plateforme de tests gazelle</b> permet à chaque concepteur de logiciels de tester sa conformité aux spécifications d'interopérabilité du CI-SIS. Celle-ci est ouverte en permanence à l'adresse [https://interop.esante.gouv.fr/evs/home.seam].</li>
-        <li><b></b>Le serveur multi terminologique</b> est un site web permettant d'accéder à l'ensemble des terminologies et jeu de valeurs à utiliser en France. Il dispose également d'une API pour accéder informatiquement à ces informations. Le SMT est accessible à l'adresse [https://smt.esante.gouv.fr/]</li>
-        <li>L'ANS prône la démarche open source et publie la majorité de ses spécifications sur <b>GitHub</b>. GitHub permet à n'importe qui d'accéder à notre code source et à écrire des commentaires dans une perspective d'amélioration continue. L'organisation ANS sur GitHub est accessible à l'adresse[https://github.com/orgs/ansforge/dashboard].</li>
+        <li><b>La plateforme de tests gazelle</b> permet à chaque concepteur de logiciels de tester sa conformité aux spécifications d'interopérabilité du CI-SIS. Celle-ci est ouverte en permanence <a href="https://interop.esante.gouv.fr/evs/home.seam">à cette adresse</a>.
+        <li><b>Le serveur multi terminologique</b> est un site web permettant d'accéder à l'ensemble des terminologies et jeu de valeurs à utiliser en France. Il dispose également d'une API pour accéder informatiquement à ces informations. Le SMT est accessible <a href="https://smt.esante.gouv.fr/">à cette adresse</a>. </li>
+        <li>L'ANS prône la démarche open source et publie la majorité de ses spécifications sur <b>GitHub</b>. GitHub permet à n'importe qui d'accéder à notre code source et à écrire des commentaires dans une perspective d'amélioration continue. L'organisation ANS sur GitHub est accessible <a href="https://github.com/orgs/ansforge/dashboard">à cette adresse</a>.</li>
         <li>L'ANS organise régulièrement des <b>projectathons</b>, évènement unique permettant à tous les éditeurs de se rencontrer et de tester ses interfaces d'interopérabilité de point-à-point. Notre plateforme de tests gazelle est utilisée dans le cadre de ces évènements.</li>
     </ul>
 </div>
