@@ -8,7 +8,7 @@ body:
     attributes:
       value: |
         ## Note d’utilisation
-        Merci de remplir toutes les sections obligatoires correspondant à votre demande de manière détaillée et si possible les sections indiquées comme optionnelles. Le formulaire rempli ainsi que les éventuelles pièces jointes sont à transmettre par courriel à l’adresse ci-sis@esante.gouv.fr.
+        Merci de remplir toutes les sections obligatoires correspondant à votre demande de manière détaillée et si possible les sections indiquées comme optionnelles.
 
         ### Sections obligatoires et optionnelles
         - **Partie Syntaxique** : À remplir si votre demande concerne la création ou la modification de volets dans le partage des informations (standardisation du format).
@@ -287,13 +287,8 @@ body:
       description: "Décrire l’audience visée par votre Terminologie."
 
   - type: textarea
-    id: commentaires
+    id: commplements
     attributes:
-      label: "Commentaires supplémentaires"
-      description: "Ajoutez tout autre élément pertinent pour votre demande."
+      label: "Commentaires et documents supplémentaires"
+      description: "Ajoutez tout autre élément pertinent pour votre demande (commentaires et/ou tout document utile qui peut faciliter l’instruction de votre demande.)."
 
-  - type: textarea
-    id: documents_complementaires
-    attributes:
-      label: "Documents complémentaires"
-      description: "Veuillez joindre tout document utile qui peut faciliter l’instruction de votre demande."
