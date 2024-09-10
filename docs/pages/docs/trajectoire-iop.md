@@ -36,16 +36,18 @@ L'objectif de cette page est de donner à l'écosystème une vision sur l'évolu
 
 Pour le moment, cette page traite des standards d'interopérabilité suivants : FHIR, CDA, HL7 V2.
 
-## Stratégie - choix de la version FHIR
+## La trajectoire syntaxique
+
+### La stratégie du choix de la version FHIR
 
 La stratégie sur le choix des versions FHIR a été définie au sein d'un groupe de travail organisé entre Interop'Santé et l'ANS en 2023/2024, validée via une [concertation](https://participez.esante.gouv.fr/project/fhir-r5-ou-r4/presentation/presentation) de l'ANS. Les conclusions de ce GT sont indiquées ci-dessous.
 
-### Nouveaux cas d’usages FHIR adressés par Interop’Santé et l’ANS : privilégier FHIR R4 et anticiper la transition vers R6
+#### Nouveaux cas d’usages FHIR adressés par Interop’Santé et l’ANS : privilégier FHIR R4 et anticiper la transition vers R6
 
 Pour garantir un écosystème cohérent, éviter tous problèmes de compatibilité ainsi que les travaux divergents, il est nécessaire d'utiliser une même version du standard FHIR à l'échelle nationale. Le choix a été fait de conserver FHIR R4 car il y a un existant conséquent en France et cela permet d'éviter une double transition R4 vers R5 et R5 vers R6. Ce choix est conforté car la release 6 se veut être la version finale stable de FHIR, une transition vers R6 se voudra de toute manière nécessaire. Pour anticiper cette transition, il est jugé important d’être proactif sur les travaux internationaux de développement de R6 et d’anticiper les impacts pour l’écosystème français.
 Il est également à noter que le choix national de la version FHIR utilisée devra être en accord avec le règlement de l'espace européen sur les données de santé (EHDS) qui se dessine progressivement et qui pour l'heure semble se diriger vers R4.
 
-### Ne pas créer de guide d'implémentation (IG) se basant sur R5 sans analyse des normes et standards et des impacts
+#### Ne pas créer de guide d'implémentation (IG) se basant sur R5 sans analyse des normes et standards et des impacts
 
 La priorité actuelle est de faire monter l’écosystème en compétences et de gagner en maturité sur les spécifications existantes. Créer des IGs R5 engendreraient une fragmentation de l’écosystème et un ralentissement de la mise en qualité de l’existant qui finirait par freiner l’adoption de FHIR.
 
@@ -53,7 +55,7 @@ Généralement, rajouter quelques [extensions qui miment les attributs R5](https
 
 Dans certains cas non identifiés à ce jour, il pourrait également être nécessaire de maintenir des guides d’implémentation sous plusieurs versions. Après validation par l’écosystème de ce besoin, cela donnerait l’opportunité d'estimer des travaux de maintenance d’Implementation Guide (IG) sous plusieurs versions ainsi qu’un mapping associé pour gagner en expérience.
 
-### Priorité FHIR France en 2024 et 2025 - améliorer la qualité de l’existant
+#### Priorité FHIR France en 2024 et 2025 - améliorer la qualité de l’existant
 
 De nombreux travaux ont été menés en 2023 pour mettre en qualité les spécifications FHIR et encourager leur déploiement, tel que le passage au format IG et la mise à jour des tests et validateurs gazelle.
 
@@ -70,31 +72,11 @@ Les priorités des prochaines années sont de continuer dans cette direction :
 
 Il est également nécessaire de rester à l’écoute des tendances internationales en interopérabilité et de se garder la possibilité de réitérer l’analyse si le besoin ou le contexte international évolue, en particulier l'EHDS.
 
-<!-- ## Cartographie de l'interopérabilité -->
-
-## Les acteurs influençant la trajectoire
-
-De nombreux acteurs influencent la trajectoire et le rôle des experts interopérabilité est d'avoir une vision globale de cet écosystème, de ces acteurs et des spécifications existantes afin de répondre aux besoins en réutilisant au maximum les travaux existants au niveau international, et éviter la nécessité de se ré-aligner par la suite.
-
-Les acteurs peuvent se situer à plusieurs niveaux : au niveau politique, au niveau modélisation technique et au niveau implémentation.
-
-### Les acteurs politiques
-
-Ministère de la santé, commission européenne, EHDS
-
-### Les acteurs en charge de la modélisation technique (organismes de standardisation)
-
-IHE, HL7 International, HL7 Europe
-
-### Les acteurs en charge de l'implémentation
-
-La CNAM (DMP, Mon Espace Santé), les éditeurs de logiciels de soin
-
-## Focus FHIR Document
+### Focus FHIR Document
 
 Aujourd'hui en France, l'ensemble des documents médicaux sont stockés en CDA, notamment avec la plus grande plateforme technique médicale nationale : le DMP, brique de Mon Espace Santé. Le standard FHIR peut, au même titre que le CDA, être utilisé pour décrire des documents médicaux. C'est par ailleurs la trajectoire qui a été retenue à l'international, notamment par EHDS.
 
-### Etude internationale
+#### Etude internationale
 
 Selon l'étude [2024 State of FHIR](../../assets/docs/2024 StateofFHIRSurveyResults_final.pdf), l'utilisation du standard FHIR augmente dans la majorité des pays.
 
@@ -107,13 +89,13 @@ Cette même étude dévoile un nombre important de pays utilisant le FHIR docume
 De plus, les projets européens European Health Data Space (EHDS) ayant fait une étude de normes et standards pour les échanges transfrontaliers au sein de l'Europe a conclu sur l'usage du FHIR Document. Ce choix est justifié par le fait que certains pays n'ont pas d'historique CDA et choisissent très logiquement d'utiliser le standard FHIR étant plus récent et utilisant des technologies web modernes.
 FHIR a été largement préféré par l'Europe pour les trois cas d'usages privilégiés pour le partage transfrontalier : le compte rendu d'examenens de biologie médicale (Lab Report), la lettre de sortie (Hospital Discharge Report) et le compte rendu d'imagerie médicale (Medical Imaging Report). Resp. 18, 17 et 16 membres préféraient FHIR contre 3, 5 et 5 pour CDA.
 
-### Intérêt d'usage du FHIR document
+#### Intérêt d'usage du FHIR document
 
 En plus de la trajectoire internationale semblant mener vers l'usage du FHIR document, des avantages non négligeables sont à noter sur l'usage de ce nouveau standard.
 
 <div class="wysiwyg">
     <ul>
-        <li>Au même titre que les sections et entrées CDA, les FHIR Document sont composés d'une multitude de brique, appelée ressource (ex : Observation, Patient, Encounter, ...). La différence est que celles-ci peuvent être extraites du document facilement pour être consommées et réutilisées telles quelles au sein d'une API REST par exemple.</li>
+        <li>Au même titre que les sections et entrées CDA, les FHIR Document sont composés d'une multitude de brique, appelée ressource (ex : Observation, Patient, Encounter, ...). La différence est que celles-ci peuvent être extraites du document pour être consommées et réutilisées telles quelles au sein d'une API REST par exemple.</li>
         <li>Les spécifications peuvent être publiées en open source sur GitHub car leur édition est totalement en mode texte (FSH / markdown), permettant ainsi de faciliter la collaboration, la remontée d'erreurs, la participation de l'écosystème, l'automatisation des comparaison entre les versions, l'historisation automatique des anciennes versions, ...</li>
         <li>Les spécifications peuvent facilement être héritées d'un contexte international (par exemple le compte-rendu de laboratoire européen peut facilement être adapté pour la France).</li>
     </ul>
@@ -123,19 +105,19 @@ Aux Etats-Unis, les spécifications CDA ont fait leur premier pas vers FHIR, cel
 
 L'uniformisation des spécifications d'interopérabilité au niveau européen et mondial est un vrai atout pour les entreprises, car cela permet de faciliter leur internationalisation.
 
-### Position de l'Agence du Numérique en Santé
+#### Position de l'Agence du Numérique en Santé
 
 Prioriser la prise en charge du FHIR document est à ce point indéniable, de nombreux indices sur les études internationales et la multiplication de projets lancés mettent en lumière le consensus international sur l'utilisation du FHIR Document.
 
 Deux scénarios de déploiement de FHIR document ont été identifiés en France
 
-#### 1/ Mettre en place une transformation entre les standards CDA et FHIR
+##### 1/ Mettre en place une transformation entre les standards CDA et FHIR
 
 Le premier scénario consiste à mettre un place un outil de transformation des documents CDA vers FHIR et inversement. Cependant, ce scénario nécessite de maintenir cet alignement dans le temps. Les techniques d'alignement sont complexes et lourdes à mettre un oeuvre avec un accroissement de la complexité pour chaque nouvelle version de spécification publiée. Par exemple, des [travaux italiens sur ce sujet](https://www.hl7.it/fhir/cda2fhir/) contiennent plusieurs dizaines de milliers de lignes. Il y a également des questionnements quant à la responsabilité : qui sera responsable du document en cas d'erreur de transformation ?
 
 Pour transformer les documents CDA des volets du CI-SIS vers FHIR, il faudrait que l'ensemble des spécifications CDA soient définies au format StructureDefinition pour utiliser le FHIR Mapping Language.
 
-#### 2/ Permettre une utilisation concomitante de FHIR et de CDA le temps de la transition
+##### 2/ Permettre une utilisation concomitante de FHIR et de CDA le temps de la transition
 
 Cette solution permettrait une utilisation concomitante de FHIR et de CDA, où les spécifications seront publiées selon les deux modes. Cela permettrait une transition douce avec un timing au choix de chacun pour le passage vers FHIR Document, avec une date limite de décommissionnement de l'autorisation d'écriture en CDA dans le DMP.
 
@@ -143,7 +125,7 @@ Ainsi, au même titre que les documents CDA ne sont pas automatiquement transfor
 
 La difficulté reviendrait aux consommateurs qui devront, au moins pendant un temps, être capables de traiter deux formats différents : CDA et FHIR. Ce qui ne changerait pas de la situation actuelle finalement car les spécifications CDA évoluent elles aussi.
 
-#### Solution privilégiée par l'ANS
+##### Solution privilégiée par l'ANS
 
 La solution qui semble se dessiner pour l'ANS est de permettre une utilisation concomitante de FHIR et de CDA pour faire une transition douce, complétée d'une preuve de concept d'un mapping CDA - FHIR, générique, sans aller jusqu'à une spécification validée et utilisable en production, pour aider les éditeurs dans leur transition.
 
@@ -169,10 +151,47 @@ L'organisation ANS sur GitHub est accessible à l'adresse[https://github.com/org
 L'ANS organise régulièrement des projectathons, évènement unique permettant à tous les éditeurs de se rencontrer et de tester ses interfaces d'interopérabilité de point-à-point.
 Notre plateforme de tests gazelle est utilisée dans le cadre de ces évènements.
 
-## Le paradigme "Document" du DMP à compléter par un paradigme "API
+## Le paradigme "Document" du DMP à compléter par un paradigme "API"
 
 L'historique français avec le DMP montre le cas d'usage "document" : un document est un compte rendu médical signé et daté d'un patient. Il est possible de voir un nouveau cas d'usage qui n'est pas orienté document mais plutôt un paradigme "API".
 
 Il y a par exemple déjà actuellement les API Mesures de santé et Agenda de Mon Espace Santé où il y a des données accessibles via des requêtes REST sans document médical.
 
 Ainsi, il ne faudra pas négliger ce paradigme API REST pour certains cas d'usages s'y prêtant bien, comme par exemple une API de vaccination, une API Cercle de Soins, une API pour la diffusion des essais cliniques ouverts au recrutement. L'intérêt tout particulier de ce type d'API réside sur l'utilisation de critères de recherches standards définis par FHIR pour accéder à l'information d'intérêt simplement, sans superflu.
+
+## La trajectoire sémantique
+
+A compléter
+
+## Actions menées pour encourager l'interopérabilité
+
+De nombreuses actions sont menées pour faciliter l'usage des standards et l'interopérabilité en France.
+
+<div class="wysiwyg">
+    <ul>
+        <li><b>La plateforme de tests gazelle</b> permet à chaque concepteur de logiciels de tester sa conformité aux spécifications d'interopérabilité du CI-SIS. Celle-ci est ouverte en permanence à l'adresse [https://interop.esante.gouv.fr/evs/home.seam].</li>
+        <li><b></b>Le serveur multi terminologique</b> est un site web permettant d'accéder à l'ensemble des terminologies et jeu de valeurs à utiliser en France. Il dispose également d'une API pour accéder informatiquement à ces informations. Le SMT est accessible à l'adresse [https://smt.esante.gouv.fr/]</li>
+        <li>L'ANS prône la démarche open source et publie la majorité de ses spécifications sur <b>GitHub</b>. GitHub permet à n'importe qui d'accéder à notre code source et à écrire des commentaires dans une perspective d'amélioration continue. L'organisation ANS sur GitHub est accessible à l'adresse[https://github.com/orgs/ansforge/dashboard].</li>
+        <li>L'ANS organise régulièrement des <b>projectathons</b>, évènement unique permettant à tous les éditeurs de se rencontrer et de tester ses interfaces d'interopérabilité de point-à-point. Notre plateforme de tests gazelle est utilisée dans le cadre de ces évènements.</li>
+    </ul>
+</div>
+
+<!-- ## Cartographie de l'interopérabilité -->
+
+### Les acteurs influençant la trajectoire
+
+De nombreux acteurs influencent la trajectoire et le rôle des experts interopérabilité est d'avoir une vision globale de cet écosystème, de ces acteurs et des spécifications existantes afin de répondre aux besoins en réutilisant au maximum les travaux existants au niveau international, et éviter la nécessité de se ré-aligner par la suite.
+
+Les acteurs peuvent se situer à plusieurs niveaux : au niveau politique, au niveau modélisation technique et au niveau implémentation.
+
+#### Les acteurs politiques
+
+Ministère de la santé, commission européenne, EHDS
+
+#### Les acteurs en charge de la modélisation technique (organismes de standardisation)
+
+IHE, HL7 International, HL7 Europe
+
+#### Les acteurs en charge de l'implémentation
+
+La CNAM (DMP, Mon Espace Santé), les éditeurs de logiciels de soin
