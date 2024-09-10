@@ -169,7 +169,7 @@ L'organisation ANS sur GitHub est accessible à l'adresse[https://github.com/org
 L'ANS organise régulièrement des projectathons, évènement unique permettant à tous les éditeurs de se rencontrer et de tester ses interfaces d'interopérabilité de point-à-point.
 Notre plateforme de tests gazelle est utilisée dans le cadre de ces évènements.
 
-## Le paradigme "Document" du DMP à compléter par un paradigme "API
+## Le paradigme "Document" du DMP à compléter par un paradigme "API"
 
 L'historique français avec le DMP montre le cas d'usage "document" : un document est un compte rendu médical signé et daté d'un patient. Il est possible de voir un nouveau cas d'usage qui n'est pas orienté document mais plutôt un paradigme "API".
 
