@@ -23,15 +23,16 @@ body:
     validations:
       required: true
 
-  - type: checkboxes
+  - type: dropdown
     id: rubrique
     attributes:
-      label: "Rubrique"
+      label: "Rubrique (obligatoire)"
+      description: "Veuillez sélectionner la rubrique correspondante."
       options:
-        - label: "Couche Métier"
-        - label: "Couche Service"
-        - label: "Couche Transport"
-        - label: "Autre (préciser ci-dessous)"
+      - "Couche Métier"
+      - "Couche Service"
+      - "Couche Transport"
+      - "Autre (préciser ci-dessous)"
     validations:
       required: true
     
@@ -46,48 +47,48 @@ body:
     attributes:
       label: "Prénom et Nom du porteur de besoins"
       placeholder: "Indiquez le prénom et nom"
+    validations:
+      required: true
 
   - type: input
     id: porteur_organisation
     attributes:
       label: "Organisation du porteur de besoins"
       placeholder: "Indiquez l'organisation"
+    validations:
+      required: true
 
   - type: input
     id: porteur_email
     attributes:
       label: "Adresse de messagerie électronique"
       placeholder: "Indiquez l'adresse e-mail"
-
-  - type: input
-    id: porteur_telephone
-    attributes:
-      label: "Numéro de téléphone professionnel"
-      placeholder: "Indiquez le numéro de téléphone"
+    validations:
+      required: true
 
   - type: input
     id: sponsor_prenom_nom
     attributes:
       label: "Prénom et Nom du sponsor"
       placeholder: "Indiquez le prénom et nom du sponsor"
+    validations:
+      required: true
 
   - type: input
     id: sponsor_organisation
     attributes:
       label: "Organisation du sponsor"
       placeholder: "Indiquez l'organisation du sponsor"
+    validations:
+      required: true
 
   - type: input
     id: sponsor_email
     attributes:
       label: "Adresse de messagerie électronique du sponsor"
       placeholder: "Indiquez l'adresse e-mail du sponsor"
-
-  - type: input
-    id: sponsor_telephone
-    attributes:
-      label: "Numéro de téléphone professionnel du sponsor"
-      placeholder: "Indiquez le numéro de téléphone du sponsor"
+    validations:
+      required: true
 
   - type: textarea
     id: parties_prenantes
@@ -95,19 +96,23 @@ body:
       label: "Parties Prenantes"
       description: "Liste des parties prenantes impliquées dans l'expression de ces besoins."
 
-  - type: checkboxes
+  - type: dropdown
     id: contexte_projet_programme
     attributes:
       label: "Les besoins s’inscrivent-ils dans un projet ou programme national/international ?"
       options:
-        - label: "Oui (préciser)"
-        - label: "Non"
-    
+        - "Oui (précisez ci-dessous)"
+        - "Non (justifiez ci-dessous)"
+    validations:
+      required: true
+
   - type: textarea
     id: cadre_reglementaire
     attributes:
       label: "Cadre réglementaire"
-      description: "Décrire le cadre réglementaire justifiant votre demande (références vers les décrets)."
+      description: "Si vous avez répondu oui à la question précédente merci d'apporter une précision. Sinon, veuillez décrire le cadre réglementaire justifiant votre demande (références vers les décrets)."
+    validations:
+      required: true
 
   - type: checkboxes
     id: complement_expression
@@ -128,6 +133,8 @@ body:
     attributes:
       label: "Synthèse des besoins exprimés"
       description: "Cette synthèse sera utilisée pour la publication des besoins sur le site esante.gouv.fr."
+    validations:
+      required: true
 
   - type: checkboxes
     id: impact_interet
