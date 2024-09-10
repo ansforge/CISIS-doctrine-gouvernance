@@ -101,7 +101,7 @@ En plus de la trajectoire internationale semblant mener vers l'usage du FHIR doc
     </ul>
 </div>
 
-Aux Etats-Unis, les spécifications CDA ont fait leur premier pas vers FHIR, celles-ci sont publiées sont forme de guide d'implémentation en modèle logique, permettant ainsi de valider les CDA avec le FHIR Validator en abandonnant les schematrons [source](https://build.fhir.org/ig/HL7/CDA-ccda/validation.html#:~:text=Validation%20Note-,What%20happened%20to%20the%20Schematron%3F,of%20the%20C%2DCDA%20document.)
+Aux Etats-Unis, les spécifications CDA ont fait leur premier pas vers FHIR, celles-ci sont publiées sont forme de guide d'implémentation en modèle logique, permettant ainsi de valider les CDA avec le FHIR Validator en abandonnant les schematrons ([source](https://build.fhir.org/ig/HL7/CDA-ccda/validation.html#:~:text=Validation%20Note-,What%20happened%20to%20the%20Schematron%3F,of%20the%20C%2DCDA%20document.)).
 
 L'uniformisation des spécifications d'interopérabilité au niveau européen et mondial est un vrai atout pour les entreprises, car cela permet de faciliter leur internationalisation.
 
@@ -147,8 +147,8 @@ De nombreuses actions sont menées pour faciliter l'usage des standards et l'int
 
 <div class="wysiwyg">
     <ul>
-        <li><b>La plateforme de tests gazelle</b> permet à chaque concepteur de logiciels de tester sa conformité aux spécifications d'interopérabilité du CI-SIS. Celle-ci est ouverte en permanence <a href="https://interop.esante.gouv.fr/evs/home.seam">à cette adresse</a>.
-        <li><b>Le serveur multi terminologique</b> est un site web permettant d'accéder à l'ensemble des terminologies et jeu de valeurs à utiliser en France. Il dispose également d'une API pour accéder informatiquement à ces informations. Le SMT est accessible <a href="https://smt.esante.gouv.fr/">à cette adresse</a>. </li>
+        <li><b>La plateforme de tests gazelle</b> permet à chaque concepteur de logiciels de tester sa conformité aux spécifications d'interopérabilité du CI-SIS. Celle-ci est ouverte en permanence <a href="https://interop.esante.gouv.fr/evs/home.seam">à cette adresse</a>.</li>
+        <li><b>Le serveur multi terminologique</b> est un site web permettant d'accéder à l'ensemble des terminologies et jeu de valeurs à utiliser en France. Il dispose également d'une API pour accéder informatiquement à ces informations. Le SMT est accessible <a href="https://smt.esante.gouv.fr/">à cette adresse</a>.</li>
         <li>L'ANS prône la démarche open source et publie la majorité de ses spécifications sur <b>GitHub</b>. GitHub permet à n'importe qui d'accéder à notre code source et à écrire des commentaires dans une perspective d'amélioration continue. L'organisation ANS sur GitHub est accessible <a href="https://github.com/orgs/ansforge/dashboard">à cette adresse</a>.</li>
         <li>L'ANS organise régulièrement des <b>projectathons</b>, évènement unique permettant à tous les éditeurs de se rencontrer et de tester ses interfaces d'interopérabilité de point-à-point. Notre plateforme de tests gazelle est utilisée dans le cadre de ces évènements.</li>
     </ul>
