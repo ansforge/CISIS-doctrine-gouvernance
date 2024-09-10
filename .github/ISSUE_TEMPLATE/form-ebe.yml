@@ -136,16 +136,62 @@ body:
     validations:
       required: true
 
-  - type: checkboxes
-    id: impact_interet
+  - type: dropdown
+    id: impact_systeme
     attributes:
-      label: "Impact et intérêt (1 = faible à 5 = fort)"
+      label: "Impact sur les systèmes"
+      description: "Évaluez l'impact sur les systèmes (1 = faible à 5 = fort)."
       options:
-        - label: "Impact sur les systèmes"
-        - label: "Intérêt pour l'écosystème"
-        - label: "Estimation de la complexité"
-        - label: "Risque à ne pas faire"
-    
+      - "1"
+      - "2"
+      - "3"
+      - "4"
+      - "5"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: interet_ecosysteme
+    attributes:
+      label: "Intérêt pour l'écosystème"
+      description: "Évaluez l'intérêt pour l'écosystème (1 = faible à 5 = fort)."
+      options:
+      - "1"
+      - "2"
+      - "3"
+      - "4"
+      - "5"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: estimation_complexite
+    attributes:
+      label: "Estimation de la complexité"
+      description: "Évaluez la complexité de la demande (1 = faible à 5 = fort)."
+      options:
+      - "1"
+      - "2"
+      - "3"
+      - "4"
+      - "5"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: risque_non_faire
+    attributes:
+      label: "Risque à ne pas faire"
+      description: "Évaluez le risque associé à ne pas traiter cette demande (1 = faible à 5 = fort)."
+      options:
+      - "1"
+      - "2"
+      - "3"
+      - "4"
+      - "5"
+    validations:
+      required: true
+
   - type: textarea
     id: autres_risques_benefices
     attributes:
