@@ -17,7 +17,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## DESCRIPTION DE VOTRE BESOIN
+        # DESCRIPTION DE VOS BESOINS
 
   - type: input
     id: titre
@@ -50,7 +50,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        #### Porteur de besoins
+        ### Porteur de besoins
 
   - type: input
     id: porteur_prenom_nom
@@ -79,7 +79,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        #### Sponsor
+        ### Sponsor
 
   - type: input
     id: sponsor_prenom_nom
@@ -114,7 +114,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        #### Contexte des besoins 
+        ### Contexte des besoins 
 
   - type: dropdown
     id: contexte_projet_programme
@@ -159,7 +159,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        #### Impact et intérêt (risques et bénéfices) 
+        ### Impact et intérêt (risques et bénéfices) 
 
   - type: dropdown
     id: impact_systeme
@@ -232,7 +232,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ### PARTIE SYNTAXIQUE (SPECIFIQUE)
+        ## PARTIE SYNTAXIQUE (SPECIFIQUE)
 
   - type: textarea
     id: cas_usage_syntaxique
@@ -265,7 +265,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ### PARTIE SEMANTIQUE (SPECIFIQUE)
+        ## PARTIE SEMANTIQUE (SPECIFIQUE)
 
   - type: textarea
     id: cas_usage_semantique
@@ -283,7 +283,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        #### Prérequis à la publication et travaux associés 
+        ### Prérequis à la publication et travaux associés 
 
   - type: textarea
     id: format_actuel
@@ -336,7 +336,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## ELEMENTS COMPEMENTAIRES
+        ## ELEMENTS COMPLEMENTAIRES
 
   - type: textarea
     id: commplements
