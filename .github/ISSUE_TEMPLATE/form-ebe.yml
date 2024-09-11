@@ -13,6 +13,10 @@ body:
         ### Sections obligatoires et optionnelles
         - **Partie Syntaxique** : À remplir si votre demande concerne la création ou la modification de volets dans le partage des informations (standardisation du format).
         - **Partie Sémantique** : À remplir si votre demande concerne la publication d’une Terminologie ou d’un alignement (création ou hébergement).
+  - type: markdown
+    attributes:
+      value: |
+        ## DESCRIPTION DE VOS BESOINS
 
   - type: input
     id: titre
@@ -204,6 +208,11 @@ body:
       label: "Délai et contraintes projet"
       description: "Indiquez les contraintes de délai à prendre en compte pour le traitement de votre demande."
 
+  - type: markdown
+    attributes:
+      value: |
+        ### PARTIE SYNTAXIQUE (SPECIFIQUE)
+
   - type: textarea
     id: cas_usage_syntaxique
     attributes:
@@ -231,6 +240,11 @@ body:
       options:
         - label: "Oui (préciser)"
         - label: "Non"
+
+  - type: markdown
+    attributes:
+      value: |
+        ### PARTIE SEMANTIQUE (SPECIFIQUE)
 
   - type: textarea
     id: cas_usage_semantique
@@ -285,6 +299,11 @@ body:
     attributes:
       label: "Utilisateurs de la Terminologie"
       description: "Décrire l’audience visée par votre Terminologie."
+
+  - type: markdown
+    attributes:
+      value: |
+        ## ELEMENTS COMPEMENTAIRES
 
   - type: textarea
     id: commplements
