@@ -271,8 +271,15 @@ body:
     attributes:
       label: "Votre Terminologie est-elle multilingue ?"
       options:
-        - label: "Oui (préciser la langue)"
+        - label: "Oui (préciser la langue ci-dessous)"
         - label: "Non"
+
+  - type: textarea
+    id: langue
+    attributes:
+      label: "Langue"
+      description: |
+        Si votre Terminologie est multilingue merci de préciser la langue.
 
   - type: textarea
     id: unite_production
