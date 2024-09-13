@@ -8,7 +8,7 @@ Le CI-SIS, permettant de standardiser un échange d’informations et constitué
 Cette gouvernance garantit un moyen transparent pour la prise en compte des « besoins » terrain dans le CI-SIS.
 
 ### Formulaire pour l'expression de vos besoins
-Afin de nous remonter vos besoins une formulaire est disponible [ici](https://github.com/ansforge/CISIS-doctrine-gouvernance/issues/new?assignees=&labels=EBE&projects=&template=form-ebe.yml&title=Formulaire+d%27Expression+des+Besoins+d%27Interop%C3%A9rabilit%C3%A9).
+Afin de nous remonter vos besoins une formulaire est disponible [ici](https://github.com/ansforge/CISIS-doctrine-gouvernance/blob/main/docs/assets/docs/CI-SIS_FORMULAIRE_EXPRESSION%20DE%20BESOINS.docx).
 Ce formulaire fait partie du corpus documentaire associé à cette gouvernance. Il constitue le support permettant de formaliser une expression de besoins d’interopérabilité susceptible de donner lieu à un enrichissement du CI-SIS. Il s’adresse à tout acteur des domaines sanitaire, médico-social et médico-administratif identifiant des besoins d’interopérabilité entre au moins deux systèmes.
 
 ### Suivi du traitement des expressions de besoin
@@ -16,7 +16,7 @@ Ce formulaire fait partie du corpus documentaire associé à cette gouvernance. 
 Il vous est possible de visualiser vos demandes en cours traitement, mais également celles émises par les autres acteurs en accédant au [tableau de bord](https://github.com/orgs/ansforge/projects/39/views/2).
 **Il est fortement recommandé de prendre connaissance des demandes en cours avant de nous soumettre votre propre demande.**
 
-### Gestion des expressions de besoins
+### Gestion des expressions de besoins (A REVOIR)
 
 L'expression des besoins s'inscrit dans le processus d’élaboration des spécifications d’interopérabilité qui sont à l’origine du développement des conditions favorables à l’interopérabilité des systèmes. Ce processus peut être schématisé de la façon suivante :
 
@@ -36,7 +36,7 @@ Si l'expression de besoin se traduit par la demande de modification d'un volet e
     <img src="../../assets/images/def-ttt-ebe.png" alt="CP" title="Evolution majeure du CI-SIS" style="width:80%;">
 </div>
 
-## Gestion des Changes Proposals (CP)
+## Gestion des Changes Proposals (CP) (A VALIDER)
 
 ### Formulaire et suivi
 Une demande de Change Proposal (CP) peut être réalisée via ce [formulaire](https://github.com/ansforge/CISIS-doctrine-gouvernance/issues/new?assignees=&labels=CP&projects=&template=change-proposal-template.yml&title=%5BCP%5D%3A+).
