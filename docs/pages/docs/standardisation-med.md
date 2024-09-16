@@ -495,3 +495,5 @@ Cette doctrine respecte les étapes et les règles de gouvernance énoncés dans
     <li>Clinical Quality Language (CQL) [Internet]. [cited 2024 Aug 30]. Available from: https://cql.hl7.org/</li> 
     <li>Etalab Licence Ouverte V2.0 [Internet]. 2017. Available from: https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf</li>
     <li>Généralités sur la Gouvernance du CI-SIS [Internet]. [cited 2024 Aug 30]. Available from: https://ansforge.github.io/CISIS-doctrine-gouvernance/pages/docs/generalites-gouv.html</li> 
+    </ol>
+</div>  
