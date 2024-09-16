@@ -15,62 +15,72 @@ Ce document vient donc s’inscrire dans le cadre des travaux de mise à jour de
 # 2. Publics concernés
 
 Ce document s'adresse principalement aux personnes et organismes qui veulent comprendre
-* Comment les principes de la présente doctrine ont été élaborés
-
-    * Cela concerne les chapitres 3 et 4
-
-    * Les profils de personnes potentiellement concernés sont : les responsables de l'ANS, les experts de l'ANS, les chercheurs en informatique médicale, les directeurs de projets
-
-* Comme les principes de la présente doctrine ont été utilisés pour faire des choix de standards, de méthodes et d'outils pour concevoir et partager des artéfacts de connaissances médicales standardisés
-
-    * Cela concerne le chapitre 5
-
-    * es profils de personnes potentiellement concernés sont : les responsables de l'ANS, les experts de l'ANS, les chercheurs en informatique médicale, les directeurs de projets et les chefs de projet informatique
-
-* Quels sont les standards, méthodes et outils choisis et préconisés par l’ANS si on veut standardiser des artéfacts de connaissances médicales et les intégrer sous forme d’aide à la décision cliniques 
-
-    * Cela concerne le chapitre 5 
-
-    * Les profils de personnes potentiellement concernés sont : les responsables de l’ANS, les experts de l’ANS, les chercheurs en informatique médicale, les directeurs de projets, les chefs de projet informatique, les développeurs, les POs 
+<div class = "wysiwyg">
+    <ul>
+    <li>Comment les principes de la présente doctrine ont été élaborés </li>
+        <ul>
+        <li>Cela concerne les chapitres 3 et 4 </li>
+        <li>Les profils de personnes potentiellement concernés sont : les responsables de l'ANS, les experts de l'ANS, les chercheurs en informatique médicale, les directeurs de projets </li>
+        </ul>
+    <li>Comme les principes de la présente doctrine ont été utilisés pour faire des choix de standards, de méthodes et d'outils pour concevoir et partager des artéfacts de connaissances médicales standardisés </li>
+        <ul>
+        <li>Cela concerne le chapitre 5 </li>
+        <li>Les profils de personnes potentiellement concernés sont : les responsables de l'ANS, les experts de l'ANS, les chercheurs en informatique médicale, les directeurs de projets et les chefs de projet informatique </li>
+        </ul>
+    <li>Quels sont les standards, méthodes et outils choisis et préconisés par l’ANS si on veut standardiser des artéfacts de connaissances médicales et les intégrer sous forme d’aide à la décision cliniques </li>
+    <li>Cela concerne le chapitre 5 </li>
+    <li>Les profils de personnes potentiellement concernés sont : les responsables de l’ANS, les experts de l’ANS, les chercheurs en informatique médicale, les directeurs de projets, les chefs de projet informatique, les développeurs, les POs </li>
+    </ul>
+</div>
 
 # 3. Le cadre de la doctrine d'ineropérabilité du SI-CM
 
 La doctrine d’interopérabilité du SI-CM s’inscrit dans les orientations suivies par la nouvelle version de la doctrine du  CI-SIS décrite ici (1). 
-
 La doctrine du SI-CM peut-être synthétisée ainsi 
 
-* Un ensemble de principes de base qui permettent de guider les choix en termes de standards, de méthodes et d’outils pour attendre l’objectif  
-
-    * de modéliser et de partager de façon standard la connaissance médicale issue des GBPC.  
-
-    * d’intégrer de façon standard (dans un SI cible) cette connaissance médicale issue des GBPC sous forme de de Système d’Aide à la Décision Clinique (SADC) 
-
-* Un chemin nominal : qui instancie les principes de la doctrine du SI-CM et décrit les choix en termes de standards de référence, de méthodes et d’outils adoptés pour atteindre les objectif sus mentionnés 
-
-* Un ou plusieurs chemins secondaires : décrivent le choix et l’utilisation d’un standard et / ou d’un processus de conception et / ou de mise en œuvre « non de référence ». Ce chemin secondaire peut-être justifié par le fait que le chemin nominal ne réponde pas aux besoins remontés du terrain.
+<div class = "wysiwyg">
+    <ul>
+    <li>Un ensemble de principes de base qui permettent de guider les choix en termes de standards, de méthodes et d’outils pour attendre l’objectif </li>
+        <ul>
+        <li>de modéliser et de partager de façon standard la connaissance médicale issue des GBPC. </li>
+        <li>d’intégrer de façon standard (dans un SI cible) cette connaissance médicale issue des GBPC sous forme de de Système d’Aide à la Décision Clinique (SADC) </li>
+        </ul>
+    <li>Un chemin nominal : qui instancie les principes de la doctrine du SI-CM et décrit les choix en termes de standards de référence, de méthodes et d’outils adoptés pour atteindre les objectif sus mentionnés </li>
+    <li>Un ou plusieurs chemins secondaires : décrivent le choix et l’utilisation d’un standard et / ou d’un processus de conception et / ou de mise en œuvre « non de référence ». Ce chemin secondaire peut-être justifié par le fait que le chemin nominal ne réponde pas aux besoins remontés du terrain. </li>
+    </ul>
+</div>
 
 La doctrine d’interopérabilité du SI-CM décrite dans ce document couvre  
-
-1. Les concepts en lien avec la standardisation de la connaissance médicale issue des GBPC  
-
-2. Les concepts en lien avec la standardisation de l’intégration de la connaissance médicale sous forme de système d’aide à la décision clinique (SADC) dans un SI de santé 
+<div class = "wysiwyg">
+    <ol>
+    <li>Les concepts en lien avec la standardisation de la connaissance médicale issue des GBPC </li> 
+    <li>Les concepts en lien avec la standardisation de l’intégration de la connaissance médicale sous forme de système d’aide à la décision clinique (SADC) dans un SI de santé </li> 
+    </ol>
+</div>
 
 # 4. Les principes de la doctrine du SI-CM
 
 Une doctrine est par définition : un ensemble de principes génériques de base sur lequel s'appuie une stratégie et des plans d'actions (2). Dans ce qui suit, nous décrivons les principes sur lesquels la doctrine du SI-CM s’appuiera pour gérer les artéfacts de connaissances médicales que le SI-CM produira / exposera. Ces principes nous permettront d’instancier un chemin nominal pour la gestion des artéfacts produits / exposés par le SI-CM et un ou plusieurs chemins secondaires. Ces chemins décriront les outils de modélisation, de conception et de mise en œuvre qui devront être utilisés et/ou promus (à destination de l’écosystème) par le SI-CM pour la gestion des artéfacts de connaissances médicales en France.
 
 Dans ce qui suit nous énonceront
-* Les principes de la doctrine du SI-CM
-
-* Le chemin nominal et la possibilité d'avoir un ou plusieurs chemins secondaires pour les différents outils de modélisation, de conception et de mise en oeuvre des artéfacts de connaissances médicales du SI-CM
+<div class = "wysiwyg">
+    <ul>
+    <li>Les principes de la doctrine du SI-CM </li> 
+    <li>Le chemin nominal et la possibilité d'avoir un ou plusieurs chemins secondaires pour les différents outils de modélisation, de conception et de mise en oeuvre des artéfacts de connaissances médicales du SI-CM </li> 
+    </ul>
+</div>    
 
 ### 4.1 Principes #1 : Principes issus du cadre juridique
 
 La loi du 7 octobre 2016 (3) pour une république numérique, souvent appelée "Loi république numérique", est une législation française visant à adapter le cadre juridique aux enjeux de la transformation numérique. Cette loi est une source de « règles » pour la doctrine du SI-CM. Le SI-CM et les volets qui vont être publiés dans le CI-SIS doivent, entre autres, souscrire  
-* à l'ouverture des données produites dans le cadre de ce système d'information (SI)
-* à rendre accessibles en ligne les données ubiques produites dans le cadre de ce SI, dans un format ouvert et réutilisable
-* à la portabilité des données produites dans le cadre de ce SI. Les utilisateurs finaux doivent pouvoir se partager les données publiques et libres d'accès (voir chapitre sur la propriété intelectuelle)
 
+<div class = "wysiwyg">
+    <ul>
+    <li>à l'ouverture des données produites dans le cadre de ce système d'information (SI)</li>
+    <li>à rendre accessibles en ligne les données ubiques produites dans le cadre de ce SI, dans un format ouvert et réutilisable</li>
+    <li>à la portabilité des données produites dans le cadre de ce SI. Les utilisateurs finaux doivent pouvoir se partager les données publiques et libres d'accès (voir chapitre sur la propriété intelectuelle)</li>
+    </ul>
+</div>
 Plusieurs de ces principes ont été directement ou partiellement inspirés des principes FAIR et de la mouvance Open Data que nous prenons également comme base de réflexion pour la doctrine du SI-CM.
 
 ### 4.2 Principes #2 : Principes FAIR
@@ -79,31 +89,31 @@ Les principes FAIR (Findable, Accessible, Interoperable, Reusable) (4) visent à
 
 Le SI-CM et les volets qui vont être publiés dans le CI-SIS doivent, entre autres, souscrire 
 
-* A ce que les artéfacts publiques produits par le SI-CM soient facilement trouvables via une plateforme dédiée. La plateforme en question doit être implémentée de façon à ce que  
-
-    * Les artéfacts produits dans le cadre du SI-CM doivent être faciles à localiser pour les humains et les machines. Cela implique l'utilisation de métadonnées descriptives et de mécanismes de recherche appropriés. 
-
-    * Les artéfacts produits dans le cadre du SI-CM doivent avoir un identifiant unique et persistant. 
-
-* A ce que les artéfacts publiques produits par le SI-CM soient accessibles en s’assurant que  
-
-    * L’accès à ces artéfacts se fasse via des protocoles standards et ouverts 
-
-    * Les conditions d’accès à ces artéfacts soient clairement spécifiées et documentées, autant que faire se peut, via des métas donnés 
-
-* A ce que les artéfacts publiques produits par le SI-CM soient interopérables en s’assurant que  
-
-    * Les artéfacts produits dans le cadre du SI-CM soient structurés de manière à pouvoir les combiner et les intégrer dans divers Sis 
-
-    * Les artéfacts produits dans le cadre du SI-CM utilisent pour la structuration de leurs données des standards d’interopérabilité reconnus et validés par la littérature et les experts du domaine mais également par les usages 
-
-    * Les artéfacts produits dans le cadre du SI-CM utilisent pour la structuration de leurs données des terminologies reconnues et validées par la littérature et les experts du domaine mais également par les usages 
-
-* A ce que les artéfacts publiques produits par le SI-CM soient réutilisables en s’assurant que  
-
-    * Les artéfacts produits dans le cadre du SI-CM soient suffisamment documentés pour permettre la réutilisation mais également pour permettre à l’utilisateur final de connaitre le contexte métier en lien avec la production de ces artéfacts 
-
-    * Les conditions d’utilisation et de réutilisation soient clairement énoncées, cela comprend la ou les licences de publication des artéfacts en question.
+<div class = "wysiwyg">
+    <ul>
+    <li>A ce que les artéfacts publiques produits par le SI-CM soient facilement trouvables via une plateforme dédiée. La plateforme en question doit être implémentée de façon à ce que</li>
+        <ul>
+        <li>Les artéfacts produits dans le cadre du SI-CM doivent être faciles à localiser pour les humains et les machines. Cela implique l'utilisation de métadonnées descriptives et de mécanismes de recherche appropriés.</li>
+        <li>Les artéfacts produits dans le cadre du SI-CM doivent avoir un identifiant unique et persistant.</li>
+        </ul>
+    <li>A ce que les artéfacts publiques produits par le SI-CM soient accessibles en s’assurant que</li>  
+        <ul>
+        <li>L’accès à ces artéfacts se fasse via des protocoles standards et ouverts </li>
+        <li>Les conditions d’accès à ces artéfacts soient clairement spécifiées et documentées, autant que faire se peut, via des métas donnés</li>
+        </ul>
+    <li>A ce que les artéfacts publiques produits par le SI-CM soient interopérables en s’assurant que</li>
+        <ul>
+        <li>Les artéfacts produits dans le cadre du SI-CM soient structurés de manière à pouvoir les combiner et les intégrer dans divers Sis</li>
+        <li>Les artéfacts produits dans le cadre du SI-CM utilisent pour la structuration de leurs données des standards d’interopérabilité reconnus et validés par la littérature et les experts du domaine mais également par les usages</li>
+        <li>Les artéfacts produits dans le cadre du SI-CM utilisent pour la structuration de leurs données des terminologies reconnues et validées par la littérature et les experts du domaine mais également par les usages</li>
+        </ul>
+    <li>A ce que les artéfacts publiques produits par le SI-CM soient réutilisables en s’assurant que</li>
+        <ul>
+        <li>Les artéfacts produits dans le cadre du SI-CM soient suffisamment documentés pour permettre la réutilisation mais également pour permettre à l’utilisateur final de connaitre le contexte métier en lien avec la production de ces artéfacts</li>
+        <li>Les conditions d’utilisation et de réutilisation soient clairement énoncées, cela comprend la ou les licences de publication des artéfacts en question.</li>
+        </ul>
+    </ul>
+</div>
 
 ### 4.3 Principes #3 : Principes du mouvement de l'Open Data
 
@@ -114,7 +124,7 @@ La doctrine SI-CM - comme décrite plus en aval – vise à pousser l’éco sys
 ![alt text](<../../assets/images/FIGURE 1  ENONCE SIMPLIFIE DES PRINCIPES FIVE STARS.png>)
 
 
-<div align="center"><font color=#006AB2>Figure 1 : ENONCE SIMPLIFIE DES PRINCIPES FIVES STARS (6)</font></div>
+<div align="center">Figure 1 : ENONCE SIMPLIFIE DES PRINCIPES FIVES STARS (6)</div>
 
 
 ### 4.4 Princpes #4 : Principes en lien avec les bonnes pratiques d'ingénierie logicielle et de recherche
@@ -129,29 +139,34 @@ Dans ce qui suit nous listons les principes d’ingénierie que la présente doc
 
 Les artéfacts de connaissances médicales publiés, développés ou partagés par le SI-CM doivent se conformer aux principes architecturaux énoncés dans la littérature et adoptés par l’écosystème des ingénieurs informatiques. Dans ce qui suit nous citons succinctement quelqu’un de ces principes. 
 
-1. La modularité : un logiciel doit être divisé en modules ou composants distincts, chacun ayant une fonction spécifique. 
-
-    * Avantages : la modularité facilite la compréhension, la maintenance et la réutilisation du code. 
-
-2. L’encapsulation : permet de restreindre l'accès direct aux données et fonctions internes d'un module, exposant uniquement ce qui est nécessaire via des interfaces publiques. 
-
-    * Avantages : l’encapsulation protège l'intégrité des données et réduit les interférences entre les composants. 
-
-3. L’abstraction : consiste à cacher la complexité interne d’implémentation à l’utilisateur en se concentrant sur les aspects essentiels à l’utilisateur 
-
-    * Avantages : améliore la clarté et permet de gérer la complexité du système en interne 
-
-4. La forte cohésion : le degré auquel les éléments d'un même module sont liés fonctionnellement doit être fort. 
-
-    * Avantages : les modules fortement en cohésion sont plus compréhensibles, maintenables et fiables 
-
-5. Le faible couplage : les modules doivent être faiblement interdépendants 
-
-    * Avantages : Un faible couplage réduit la complexité et facilite les modifications et l'évolution du système. 
-
-6. La séparation des responsabilités : la responsabilité est un ensemble de fonctionnalités pris en charge par un module ou un ensemble de modules distincts. La séparation des responsabilités revient à concevoir le logiciel en groupes de modules distincts en termes de groupes de fonctionnalités  
-
-    * Avantage : améliore la modularité citée plus haut mais à un niveau de modularité plus élevée 
+<div class = "wysiwyg">
+    <ol>
+    <li>La modularité : un logiciel doit être divisé en modules ou composants distincts, chacun ayant une fonction spécifique.</li>
+        <ul>
+        <li>Avantages : la modularité facilite la compréhension, la maintenance et la réutilisation du code.</li>
+        </ul>
+    <li>L’encapsulation : permet de restreindre l'accès direct aux données et fonctions internes d'un module, exposant uniquement ce qui est nécessaire via des interfaces publiques.</li>
+        <ul>
+        <li>Avantages : l’encapsulation protège l'intégrité des données et réduit les interférences entre les composants.</li>
+        </ul>
+    <li>L’abstraction : consiste à cacher la complexité interne d’implémentation à l’utilisateur en se concentrant sur les aspects essentiels à l’utilisateur</li>
+        <ul>
+        <li>Avantages : améliore la clarté et permet de gérer la complexité du système en interne</li>
+        </ul>
+    <li>La forte cohésion : le degré auquel les éléments d'un même module sont liés fonctionnellement doit être fort.</li>
+        <ul>
+        <li>Avantages : les modules fortement en cohésion sont plus compréhensibles, maintenables et fiables</il>
+        </ul>
+    <li>Le faible couplage : les modules doivent être faiblement interdépendants</li>
+        <ul>
+        <li>Avantages : Un faible couplage réduit la complexité et facilite les modifications et l'évolution du système.</li>
+        </ul>
+    <li>La séparation des responsabilités : la responsabilité est un ensemble de fonctionnalités pris en charge par un module ou un ensemble de modules distincts. La séparation des responsabilités revient à concevoir le logiciel en groupes de modules distincts en termes de groupes de fonctionnalités</li>
+        <ul>
+        <li>Avantage : améliore la modularité citée plus haut mais à un niveau de modularité plus élevée</li>
+        </ul>
+    </ul>
+</div>
 
 Il existe bien évidemment beaucoup plus de bonnes pratiques de conception logiciel énoncés dans la littérature, voici quelques références de base (7) (8) (9) (10). 
 
@@ -185,57 +200,64 @@ En ingénierie des connaissances et plus particulièrement dans le cadre défini
 
 La standardisation des GBPC dans le cadre du SI-CM doit combiner et interfacer trois types de modèles (Figure 2) 
 
-* __Information about specific patients and clinical situations__: ce modèle dit d’informations médicales permet de standardiser les informations issues du dossier patient 
-
-* __General patient-independent information about medicine and medical practice__: ce modèle dit de connaissances métiers comprend 2 sous modèles 
-
-* __Guideline independent static knowledge__ : un modèle de connaissances métiers dit statique. C’est ce qui correspond le plus dans le jargon de l’interopérabilité aux modèles définis par les terminologies médicales. 
-
-* __Guideline dependent dynamic knowledge model__: Ce modèle dit d’inférence a pour objectif de modéliser comment on infère les conclusions et les décisions d’informations spécifiques au patient et des faits indépendants décrit dans le GBPC. 
+<div class = "wysiwyg">
+    <ul>
+    <li><strong>Information about specific patients and clinical situations</strong> : ce modèle dit d’informations médicales permet de standardiser les informations issues du dossier patient</li>
+    <li><strong> General patient-independent information about medicine and medical practice </strong>: ce modèle dit de connaissances métiers comprend 2 sous modèles</li>
+    <li><strong>Guideline independent static knowledge</strong>: un modèle de connaissances métiers dit statique. C’est ce qui correspond le plus dans le jargon de l’interopérabilité aux modèles définis par les terminologies médicales.</li>
+    <li><strong> Guideline dependent dynamic knowledge model</strong>: Ce modèle dit d’inférence a pour objectif de modéliser comment on infère les conclusions et les décisions d’informations spécifiques au patient et des faits indépendants décrit dans le GBPC.</li>
+    </ul>
+</div>
 
 ![alt text](<../../assets/images/Figure 2  Les modèles de l’architecture tri dimensionnel de Rector et al. et leurs interfaces.png>)
 
-<div align="center"><font color=#006AB2>Figure 2 : Les modèles de l’architecture tri dimensionnel de Rector et al. (15) et leurs interfaces</font></div>
+<div align="center">Figure 2 : Les modèles de l’architecture tri dimensionnel de Rector et al. (15) et leurs interfaces</div>
 
 ##### 4.4.4.2 La représentation multi couches de la connaissance médicale de Boxwala et al (16)
 
 La standardisation des GBPC dans le cadre du SI-CM doit respecter les différents niveaux de structuration de la connaissance décrits dans (16) (Tableau 1) Les documents de spécifications pour chaque volet du SI-CM doivent pouvoir décrire la structuration de la connaissance médicale du GBPC cible suivant ces quatre formats de représentation  
 
-1. __Narratif__ : ce format correspond au texte brut de la recommandation du GBPC cible ainsi que le lien vers la recommandation en question.  
+<div class ="wysiwyg">
+    <ol>
+    <li><strong>Narratif<strong> : ce format correspond au texte brut de la recommandation du GBPC cible ainsi que le lien vers la recommandation en question.</li>
+        <ul>
+        <li>Ce format doit être lisible et partageable par tous</li>
+        <li>Ce format doit être indépendant de toute technologie d’implémentation</li>
+        <li>Ce format doit être indépendant du contexte de mise en œuvre</li>
+        <li>Ce format est produit par les experts métiers producteurs du GBPC</li>
+        <li>Ce format a pour but de définir une politique de santé publique basée sur les faits et la connaissance</li>
+        </ul>
+    <li><strong>Semi structuré</strong> : Ce format correspond à une interopération du texte brut en vue de sa structuration. Ce format permet de définir à partir du texte brut : le qui, le quoi, le quand, le où et le pourquoi. Il permet de définir les concepts statiques qui composent la recommandation et d’identifier les terminologies auxquels ils peuvent correspondre. Ce format est généralement une combinaison de texte structuré et de diagrammes d’activités UML. </li>
+        <ul>
+        <li>Ce format doit être lisible et partageable par tous</li>
+        <li>Ce format doit être indépendant de toute technologie d’implémentation</li>
+        <li>Ce format doit être indépendant du contexte de mise en œuvre</li>
+        <li>Ce format doit être co écrit par un expert du domaine métier ainsi que par un expert informatique en ingénierie des connaissances</li>
+        <li>Ce format a pour but de structurer le texte brut de la recommandation en vue de sa standardisation et implémentation sous forme d’aide à la décision clinique</li>
+        </ul>
+    <li><strong>Structuré<strong> : Ce format doit impérativement correspondre au modèle appelé : Guideline dependent dynamic knowledge model décrit en paragraphe 4.4.4.1.</li>
+        <ul>
+        <li>Ce format est interprétable par la machine</li> 
+        <li>Ce format doit être lisible et partageable par tous</li> 
+        <li>Ce format doit être indépendant de toute technologie d’implémentation</li> 
+        <li>Ce format doit être indépendant du contexte de mise en œuvre</li> 
+        <li>Ce format est généralement écrit par l’expert en structuration de la connaissance médicale et en standardisation / interopérabilité</li> 
+        <li>Ce format doit servir à partager la connaissance médicale standardisée et interopérable. Ce format doit servir à valider le contenu de la connaissance médicale avec un interpréteur (raisonneur).</li>
+        </ul> 
+    <li><strong>Exécutable</strong>: Ce format correspond au code exécutable par un SADC.</li> 
+        <ul>
+        <li>Ce format est interprétable par la machine</li> 
+        <li>Ce format n’est pas lisible par l’humain et n’est pas partageable</li> 
+        <li>Ce format est dépendant de la technologie de mise en œuvre du SADC qui l’exploite</li> 
+        <li>Ce format est dépendant du contexte de mise en œuvre du SADC qui l’exploite </li>
+        <li>Ce format doit servir à la mise en œuvre d’un SADC pour un SI particulier</li>
+        </ul>
+    </ol>
+</div> 
 
-* Ce format doit être lisible et partageable par tous 
-* Ce format doit être indépendant de toute technologie d’implémentation  
-* Ce format doit être indépendant du contexte de mise en œuvre  
-* Ce format est produit par les experts métiers producteurs du GBPC 
-* Ce format a pour but de définir une politique de santé publique basée sur les faits et la connaissance 
-
-2. __Semi structuré__ : Ce format correspond à une interopération du texte brut en vue de sa structuration. Ce format permet de définir à partir du texte brut : le qui, le quoi, le quand, le où et le pourquoi. Il permet de définir les concepts statiques qui composent la recommandation et d’identifier les terminologies auxquels ils peuvent correspondre. Ce format est généralement une combinaison de texte structuré et de diagrammes d’activités UML. 
-
-* Ce format doit être lisible et partageable par tous 
-* Ce format doit être indépendant de toute technologie d’implémentation  
-* Ce format doit être indépendant du contexte de mise en œuvre  
-* Ce format doit être co écrit par un expert du domaine métier ainsi que par un expert informatique en ingénierie des connaissances 
-* Ce format a pour but de structurer le texte brut de la recommandation en vue de sa standardisation et implémentation sous forme d’aide à la décision clinique  
-
-3. __Structuré__ : Ce format doit impérativement correspondre au modèle appelé : Guideline dependent dynamic knowledge model décrit en paragraphe 4.4.4.1.  
-
-* Ce format est interprétable par la machine 
-* Ce format doit être lisible et partageable par tous 
-* Ce format doit être indépendant de toute technologie d’implémentation 
-* Ce format doit être indépendant du contexte de mise en œuvre 
-* Ce format est généralement écrit par l’expert en structuration de la connaissance médicale et en standardisation / interopérabilité 
-* Ce format doit servir à partager la connaissance médicale standardisée et interopérable. Ce format doit servir à valider le contenu de la connaissance médicale avec un interpréteur (raisonneur).  
-
-4. __Exécutable__ : Ce format correspond au code exécutable par un SADC.  
-
-* Ce format est interprétable par la machine 
-* Ce format n’est pas lisible par l’humain et n’est pas partageable 
-* Ce format est dépendant de la technologie de mise en œuvre du SADC qui l’exploite 
-* Ce format est dépendant du contexte de mise en œuvre du SADC qui l’exploite 
-* Ce format doit servir à la mise en œuvre d’un SADC pour un SI particulier 
 ![alt text](<../../assets/images/Tableau 1 les quatre couches de formats de représentation de la connaissance médicale selon Boxwala et al.png>)
 
-<div align="center"><font color=#006AB2>Tableau 1 : les quatre couches de formats de représentation de la connaissance médicale selon Boxwala et al. (16)</font></div>
+<div align="center">Tableau 1 : les quatre couches de formats de représentation de la connaissance médicale selon Boxwala et al. (16)</div>
 
 ##### 4.4.4.3 L'intégration standardisée des SADC basés sur les GBPC dans un SI de santé
 
@@ -245,15 +267,15 @@ La connaissance médicale issue des GBPC standardisée dans le cadre du SI-CM n�
 
 Les solutions logicielles conçues dans le cadre des problématiques posées par l’interopérabilité en santé doivent être réfléchies à un niveau d’abstraction qui permet d’instancier ces solutions de façons différentes autant de fois qu’elles seront utilisées sur le terrain pour un cas d’usage. C’est là, la définition même d’un Design Pattern. Les Design Patterns produits par les différentes sociétés savantes : HL7, IHE, IEEE,…peuvent être de trois catégories 
 
-1. Un modèle d’information standard : définie un modèle de données standard qui doit circuler dans des messages d’interopérabilité pour un cas d’usage X. 
-
-2. Un design pattern architectural : définie une solution logicielle standard qui s’appuie sur un modèle d’information standard pour résoudre un problème d’interopérabilité Y de façon standard. 
-
-3. Un design pattern architectural de contenu standard : instancie un design pattern architectural pour répondre à un cas d’usage particulier. Ce type de Design Pattern est le plus répondu.  
+<div class = "wysiwyg">
+    <ol>
+    <li>Un modèle d’information standard : définie un modèle de données standard qui doit circuler dans des messages d’interopérabilité pour un cas d’usage X.</li> 
+    <li>Un design pattern architectural : définie une solution logicielle standard qui s’appuie sur un modèle d’information standard pour résoudre un problème d’interopérabilité Y de façon standard.</li> 
+    <li>Un design pattern architectural de contenu standard : instancie un design pattern architectural pour répondre à un cas d’usage particulier. Ce type de Design Pattern est le plus répondu.</li>  
+    </ol>
+</div>
 
 Les spécifications définies et / ou exposées par le SI-CM doivent se positionner par rapport à ces trois types de design pattern architecturaux génériques.  
-
- 
 
 __Pourquoi il est important de se positionner par rapport aux différentes catégories de Design Pattern ?__  
 
@@ -296,136 +318,140 @@ Dans ce qui suit nous justifions nos choix d’outils et/ou standards pour le ch
 Cette activité est en relation avec le principe #4, chapitre 3.4.2 énoncé en amont. Le langage de modélisation standard choisi pour illustrer les étapes de conception et de structuration des artéfacts de connaissances médicales issues des GBPC dans la doctrine du SI-CM est le langage standard UML version 2.0 (20). 
 
 Ce choix est justifié pour plusieurs raisons 
-
-* UML s’articule avec le principe #4 de la présente doctrine 
-
-* UML est le langage standard de modélisation en informatique depuis l’avènement de la mouvance orientée objet 
-
-* UML est actuellement utilisé par de nombreux projets de standardisation de la connaissance médicale  
-
-* UML s’articule avec l’ensemble des autres standards choisis dans le chemin nominal de la présente doctrine 
+<div class = "wysiwyg">
+    <ul>
+    <li>UML s’articule avec le principe #4 de la présente doctrine</li> 
+    <li>UML est le langage standard de modélisation en informatique depuis l’avènement de la mouvance orientée objet</li> 
+    <li>UML est actuellement utilisé par de nombreux projets de standardisation de la connaissance médicale</li>  
+    <li>UML s’articule avec l’ensemble des autres standards choisis dans le chemin nominal de la présente doctrine</li> 
+    </ul>
+</div>
 
 ##### 5.1.1.2 Choisir un processus de modélisation
 
 Cette activité est en relation avec le principe #4, chapitre 3.4.3 énoncé en amont. Le processus choisi pour encadrer le travail de conception et de structuration des artéfacts de connaissances médicales issues des GBPC dans la doctrine du SI-CM est le processus Agile décrit dans le FHIR IG CPG-on-FHIR (21). 
 
 Ce choix est justifié pour plusieurs raisons :
-
-* FHIR IG CPG-on-FHIR (21) s’articule avec les principes #4 de la présente doctrine 
-
-* FHIR IG CPG-on-FHIR (21) s’articule avec l’ensemble des autres standards choisis. FHIR IG CPG-on-FHIR  (21) permet de mettre en œuvre ensemble les différents modèles préconisés par l’architecture tri-dimensionnelle de Rector et al. (15) il permet de mettre en œuvre le standard UML pour illustrer les différentes étapes de conception. Il permet de mettre en œuvre la représentation multi couches de la connaissance médicale de Boxwala et al. (16). 
-
-* FHIR IG CPG-on-FHIR (21) est actuellement utilisé par de nombreux projets de standardisation de la connaissance médicale  
+<div class = "wysiwyg">
+    <ul>
+    <li>FHIR IG CPG-on-FHIR (21) s’articule avec les principes #4 de la présente doctrine</li> 
+    <li>FHIR IG CPG-on-FHIR (21) s’articule avec l’ensemble des autres standards choisis. FHIR IG CPG-on-FHIR  (21) permet de mettre en œuvre ensemble les différents modèles préconisés par l’architecture tri-dimensionnelle de Rector et al. (15) il permet de mettre en œuvre le standard UML pour illustrer les différentes étapes de conception. Il permet de mettre en œuvre la représentation multi couches de la connaissance médicale de Boxwala et al. (16).</li> 
+    <li>FHIR IG CPG-on-FHIR (21) est actuellement utilisé par de nombreux projets de standardisation de la connaissance médicale</li>  
+    </ul>
+</div>
 
 ##### 5.1.1.3 Choisir un modèle d'information standard
 
 Cette activité est en relation avec le principe #4, chapitre 3.4.4.1 et les principes #1, #2, #3 et #5 énoncés en amont. Le modèle d’information standard choisi pour standardiser les informations issues du dossier patient est FHIR en version R4 (22). 
 
 Ce choix est justifié pour plusieurs raisons :
-
-* FHIR en version R4 s’articule avec l’ensemble des principes énoncés en amont 
-
-* FHIR en version R4 s’articule avec l’ensemble des autres standards choisis  
-
-* FHIR en version R4 s’articule avec les autres modèles correspondants au principe d’architecture tri-dimensionnelle de Rector et al. La figure 3 illustre l’instanciation de ce principe avec les différents modèles choisis pour la présente doctrine.  
-
-* FHIR en version R4 est actuellement utilisé par de nombreux projets de standardisation de la connaissance médicale 
-
-* FHIR en version R4 s’articule avec le choix de la doctrine du CI-SIS 
+<div class = "wysiwyg">
+    <ul>
+    <li>FHIR en version R4 s’articule avec l’ensemble des principes énoncés en amont</li>   
+    <li>FHIR en version R4 s’articule avec l’ensemble des autres standards choisis</li>
+    <li>FHIR en version R4 s’articule avec les autres modèles correspondants au principe d’architecture tri-dimensionnelle de Rector et al. La figure 3 illustre l’instanciation de ce principe avec les différents modèles choisis pour la présente doctrine.</li>
+    <li>FHIR en version R4 est actuellement utilisé par de nombreux projets de standardisation de la connaissance médicale</li>   
+    <li>FHIR en version R4 s’articule avec le choix de la doctrine du CI-SIS</li>   
+    </ul>
+</div>
 
 ##### 5.1.1.4 Choisir un modèle de connaissances statiques standard
 
 Cette activité est en relation avec le principe #4, chapitre 3.4.4.1 et les principes #1, #2, #3 et #5 énoncés en amont. La ou les terminologies médicales choisies pour structurer les artéfacts de connaissances issus de la standardisation des GBPC sont celles recommandées par la doctrine du CGTS. 
 
 Ce choix est justifié pour plusieurs raisons :
-
-* Les terminologies gérées par le CGTS (via le SMT) s’articulent avec l’ensemble des principes énoncés en amont 
-
-* Les terminologies gérées par le CGTS (via le SMT) s’articulent avec l’ensemble des autres standards choisis  
-
-* Les terminologies gérées par le CGTS (via le SMT) s’articulent avec les autres modèles correspondants au principe d’architecture tri-dimensionnelle de Rector et al (15). La figure 3 illustre l’instanciation de ce principe avec les différents modèles choisis pour la présente doctrine.  
-
-* Les terminologies gérées par le CGTS (via le SMT) sont actuellement utilisées par de nombreux projets de standardisation de la connaissance médicale 
-
-* Les terminologies gérées par le CGTS (via le SMT) s’articulent avec la doctrine du CGTS 
+<div class = "wysiwyg">
+    <ul>
+    <li>Les terminologies gérées par le CGTS (via le SMT) s’articulent avec l’ensemble des principes énoncés en amont</li> 
+    <li>Les terminologies gérées par le CGTS (via le SMT) s’articulent avec l’ensemble des autres standards choisis </li> 
+    <li>Les terminologies gérées par le CGTS (via le SMT) s’articulent avec les autres modèles correspondants au principe d’architecture tri-dimensionnelle de Rector et al (15). La figure 3 illustre l’instanciation de ce principe avec les différents modèles choisis pour la présente doctrine.</li>  
+    <li>Les terminologies gérées par le CGTS (via le SMT) sont actuellement utilisées par de nombreux projets de standardisation de la connaissance médicale</li> 
+    <li>Les terminologies gérées par le CGTS (via le SMT) s’articulent avec la doctrine du CGTS</li>
+    </ul>
+</div>
 
 ##### 5.1.1.5 Choisir un modèle de connaissances dynamiques standard
 
 Cette activité est en relation avec le principe #4, chapitre 3.4.4.1 et les principes #1, #2, #3 et #5 énoncés en amont. Le modèle de connaissances dynamiques choisie pour standardiser l’écriture des artéfacts de connaissances médicales issues des GBPC est CQL (23).  
 
 Ce choix est justifié pour plusieurs raisons :
+<div class = "wysiwyg">
+    <ul>
+    <li>CQL s’articule avec l’ensemble des principes énoncés en amont</li>
+    <li>CQL s’articule avec l’ensemble des autres standards choisis : UML, FHIR R4, CDS Hooks,…</li>
+    <li>CQL s’articule avec les autres modèles correspondants au principe d’architecture tri-dimensionnelle de Rector et al. La figure 3 illustre l’instanciation de ce principe avec les différents modèles choisis pour la présente doctrine.</li> 
+    <li>CQL est actuellement utilisé par de nombreux projets de standardisation de la connaissance médicale</li> 
+    <li>CQL s’articule avec la doctrine du CI-SIS et la doctrine du CGTS</li>
+    </ul>
+</div>
 
-* CQL s’articule avec l’ensemble des principes énoncés en amont 
-
-* CQL s’articule avec l’ensemble des autres standards choisis : UML, FHIR R4, CDS Hooks,… 
-
-* CQL s’articule avec les autres modèles correspondants au principe d’architecture tri-dimensionnelle de Rector et al. La figure 3 illustre l’instanciation de ce principe avec les différents modèles choisis pour la présente doctrine. 
-
-* CQL est actuellement utilisé par de nombreux projets de standardisation de la connaissance médicale 
-
-* CQL s’articule avec la doctrine du CI-SIS et la doctrine du CGTS 
 ![alt text](<../../assets/images/FIGURE 3  Instanciation du modèle de Rector et al. avec l’ensemble des standards utilisés dans le chemin nominal de la doctrine du SI-CM.png>)
-
-<div align="center"><font color=#006AB2>FIGURE 3 : Instanciation du modèle de Rector et al. avec l’ensemble des standards utilisés dans le chemin nominal de la doctrine du SI-CM</font></div>
+<div align="center">FIGURE 3 : Instanciation du modèle de Rector et al. avec l’ensemble des standards utilisés dans le chemin nominal de la doctrine du SI-CM</div>
 
 ##### 5.1.1.6 Choisir un standard d'intégration 
 
 Cette activité est en relation avec le principe #4, chapitre 3.4.4.3. Le standard d’intégration de la connaissance médicale sous forme de SDAC choisi par l’ANS est le standard CDS Hooks (19).  
 
 Ce choix est justifié pour plusieurs raisons :
-
-* CDS Hooks s’articule avec l’ensemble des principes énoncés en amont 
-
-* CDS Hooks est le seul standard d’intégration de SAD basés sur la standardisation des GBPC qui puisse s’articuler avec les standards choisis dans le chemin nominal de la présente doctrine : UML, FHIR R4, CQL,… 
-
-* CDS Hooks est actuellement utilisé par de nombreux projets de standardisation de la connaissance médicale 
+<div class = "wysiwyg">
+    <ul>
+    <li>CDS Hooks s’articule avec l’ensemble des principes énoncés en amont</li> 
+    <li>CDS Hooks est le seul standard d’intégration de SAD basés sur la standardisation des GBPC qui puisse s’articuler avec les standards choisis dans le chemin nominal de la présente doctrine : UML, FHIR R4, CQL,…</li> 
+    <li>CDS Hooks est actuellement utilisé par de nombreux projets de standardisation de la connaissance médicale</li> 
+    </ul>
+</div>
 
 ##### 5.1.1.7 Choisir une licence de publication
 
 Cette activité est en relation avec le principe #3 et le principe #5 de la présente doctrine. Tous les artéfacts de connaissances médicales publiés dans le cadre du SI-CM doivent l’être sous la licence « Licence Ouverte Version 2.0 » (Lov2) d’Etalab (24). 
 
 Ce choix est justifié pour plusieurs raisons :
-
-* La licence « Licence Ouverte Version 2.0 » (Lov2) suit la logique du mouvement de l’Open Data  
-
-* La licence « Licence Ouverte Version 2.0 » (Lov2) est celle choisie par la doctrine du CGTS 
+<div class = "wysiwyg">
+    <ul>
+    <li>La licence « Licence Ouverte Version 2.0 » (Lov2) suit la logique du mouvement de l’Open Data</li>   
+    <li>La licence « Licence Ouverte Version 2.0 » (Lov2) est celle choisie par la doctrine du CGTS</li> 
+    </ul>
+</div>
 
 ##### 5.1.1.8 Choisir un format de publication standard
 
 Cette activité est en relation avec le principe #1, #2, #3 et #5 de la présente doctrine. Les artéfacts de connaissances médicales définis et / ou exposés dans le cadre du SI-CM doivent être publiés suivant le format FHIR ImplementationGuide (IG). 
 
 Ce choix est justifié pour plusieurs raisons :
+<div class = "wysiwyg">
+    <ul>
+    <li>FHIR ImplementationGuide (IG) s’articule avec l’ensemble des principes énoncés en amont</li>  
+    <li>FHIR ImplementationGuide (IG) avec l’ensemble des standards choisis dans le cadre du chemin du nominal de la présente doctrine : UML, FHIR R4, CQL, …</li>  
+    <li>FHIR ImplementationGuide (IG) est actuellement utilisé dans de nombreux exemples de mises en œuvre de projet en lien avec la standardisation de la connaissance médicale</li>   
+    <li>FHIR ImplementationGuide (IG) s’articule avec la doctrine du CI-SIS</li> 
+    </ul>
+</div> 
 
-* FHIR ImplementationGuide (IG) s’articule avec l’ensemble des principes énoncés en amont 
+![alt text](../../assets/images/Image1.svg)
 
-* FHIR ImplementationGuide (IG) avec l’ensemble des standards choisis dans le cadre du chemin du nominal de la présente doctrine : UML, FHIR R4, CQL, … 
 
-* FHIR ImplementationGuide (IG) est actuellement utilisé dans de nombreux exemples de mises en œuvre de projet en lien avec la standardisation de la connaissance médicale  
-
-* FHIR ImplementationGuide (IG) s’articule avec la doctrine du CI-SIS 
-![alt text](<../../assets/images/Figure 4 Diagramme d’activité UML pour illustrer les choix du chemin nominal de la doctrine du SI-CM et les possibles chemins secondaires.png>)
-
-<div align="center"><font color=#006AB2>Figure 4 : Diagramme d’activité UML pour illustrer les choix du chemin nominal de la doctrine du SI-CM et les possibles chemins secondaires </font></div>
+<div align="center">Figure 4 : Diagramme d’activité UML pour illustrer les choix du chemin nominal de la doctrine du SI-CM et les possibles chemins secondaires</div>
 
 ### 5.2 Les chemins secondaires de la doctrine du SI-CM
 
 Les choix effectués dans le chemin nominal de la présente doctrine ne sont pas et ne doivent pas être définitifs. Ces choix peuvent être remis en question pour de nombreuse raisons 
-
-* Le standard choisi n’est plus d’actualité  
-
-* Le standard choisi n’a pas évolué par rapport aux autres standards 
-
-* Il existe un ou plusieurs standards plus adaptés à un cas d’usage donné 
-
-* Un ou plusieurs principes de la présente doctrine ou de la doctrine du CI-SIS et/ou du CGTS ont évolué 
-
-* … 
+<div class = "wysiwyg">
+    <ul>
+    <li>Le standard choisi n’est plus d’actualité</li>   
+    <li>Le standard choisi n’a pas évolué par rapport aux autres standards</li>  
+    <li>Il existe un ou plusieurs standards plus adaptés à un cas d’usage donné</li>  
+    <li>Un ou plusieurs principes de la présente doctrine ou de la doctrine du CI-SIS et/ou du CGTS ont évolué</li>  
+    <li>…</li>
+    </ul>
+</div>   
 
 Il est donc nécessaire de laisser la porte ouverte à chaque étape de se poser la question de faire un autre choix de standard, d’outils ou autres méthodes. Pour cela, il est nécessaire que l’ensemble des parties prenantes  
-
-* Soient interrogés en cas de nouveaux choix effectués par l’ANS 
-
-* Aient la possibilité de proposer de nouveaux choix à l’ANS pour un cas d’usage donné 
+<div class = "wysiwyg">
+    <ul>
+    <li>Soient interrogés en cas de nouveaux choix effectués par l’ANS</li> 
+    <li>Aient la possibilité de proposer de nouveaux choix à l’ANS pour un cas d’usage donné</li>
+    </ul>
+</div>  
 
 A l’image de la doctrine du CI-SIS ou de la doctrine du CGTS, la présente doctrine définie une procédure de consultation sur les différentes étapes où un autre choix est possible. La procédure de consultation comprend résolument les mêmes étapes que celles décrites dans la doctrine du CI-SIS (1).  
 
@@ -442,53 +468,30 @@ La notion d’UP et de conventions entre l’ANS et les UPs sont celles définie
 Cette doctrine respecte les étapes et les règles de gouvernance énoncés dans la gouvernance du CI-SIS (25). 
 
 ##  Références
-
-1.	Le CI-SIS au cœur du développement de la e-santé [Internet]. [cited 2024 Aug 29]. Available from: https://ansforge.github.io/CISIS-doctrine-gouvernance/ 
-
-2.	Doctrine. In: Wikipédia [Internet]. 2024 [cited 2024 Aug 29]. Available from: https://fr.wikipedia.org/w/index.php?title=Doctrine&oldid=212118223 
-
-3.	LOI n° 2016-1321 du 7 octobre 2016 pour une République numérique (1). 2016-1321 Oct 7, 2016.  
-
-4.	GO FAIR [Internet]. [cited 2024 Aug 29]. FAIR Principles. Available from: https://www.go-fair.org/fair-principles/ 
-
-5.	Open data. In: Wikipedia [Internet]. 2024 [cited 2024 Aug 29]. Available from: https://en.wikipedia.org/w/index.php?title=Open_data&oldid=1238576109 
-
-6.	Open Data 5 étoiles [Internet]. [cited 2024 Aug 29]. Available from: http://5stardata.info/fr/ 
-
-7.	Gamma E, Helm R, Johnson R, Vlissides J. Design Patterns: Elements of Reusable Object-Oriented Software. 1er édition. Boston, Mass. Munich: Addison Wesley; 1994. 416 p.  
-
-8.	Martin R. Clean Code: A Handbook of Agile Software Craftsmanship. 1er édition. Upper Saddle River, NJ: Pearson; 2008. 464 p.  
-
-9.	The Pragmatic Programmer: your journey to mastery, 20th Anniversary Edition, 2nd Edition[Book] [Internet]. [cited 2024 Aug 29]. Available from: https://www.oreilly.com/library/view/the-pragmatic-programmer/9780135956977/ 
-
-10.	Martin RC. Agile Software Development: Principles, Patterns, and Practices. USA: Prentice Hall PTR; 2003. 710 p.  
-
-11.	Schreiber GT, Akkermans H. Knowledge engineering and management: the CommonKADS methodology. Cambridge, MA, USA: MIT Press; 2000.  
-
-12.	giantchair.com. Artificial Intelligence: A Modern Approach - Pearson France [Internet]. [cited 2024 Aug 29]. Available from: https://www.pearson.fr/fr/book/?GCOI=27440100705580 
-
-13.	Ambler SW. The Object Primer: Agile Model-Driven Development With Uml 2.0. 3e édition. Cambridge, UK : New York: Cambridge University Press; 2004. 572 p.  
-
-14.	Rumbaugh J, Jacobson I, Booch G. Unified Modeling Language Reference Manual, The (2nd Edition). Pearson Higher Education; 2004.  
-
-15.	Rector AL, Johnson PD, Tu SW, Wroe C, Rogers J. Interface of Inference Models with Concept and Medical Record Models. In: Quaglini S, Barahona P, Andreassen S, editors. Artificial Intelligence Medicine, 8th Conference on AI in Medicine in Europe, AIME 2001, Cascais, Portugal, July 1-4, 2001, Proceedings [Internet]. Springer; 2001 [cited 2024 Aug 29]. p. 314–23. (Lecture Notes in Computer Science; vol. 2101). Available from: https://doi.org/10.1007/3-540-48229-6\_43 
-
-16.	Boxwala AA, Rocha BH, Maviglia S, Kashyap V, Meltzer S, Kim J, et al. A multi-layered framework for disseminating knowledge for computer-based decision support. Journal of the American Medical Informatics Association. 2011 Dec 1;18(Supplement_1):i132–9.  
-
-17.	Graham ID, Logan J, Harrison MB, Straus SE, Tetroe J, Caswell W, et al. Lost in knowledge translation: Time for a map? Journal of Continuing Education in the Health Professions. 2006;26(1):13–24.  
-
-18.	Marcial LH, Blumenfeld B, Harle C, Jing X, Keller MS, Lee V, et al. Barriers, Facilitators, and Potential Solutions to Advancing Interoperable Clinical Decision Support: Multi-Stakeholder Consensus Recommendations for the Opioid Use Case. AMIA Annu Symp Proc. 2019;2019:637–46.  
-
-19.	CDS Hooks [Internet]. [cited 2018 Apr 12]. Available from: http://cds-hooks.org/ 
-
-20.	About the Unified Modeling Language Specification Version 2.0 [Internet]. [cited 2024 Aug 29]. Available from: https://www.omg.org/spec/UML/2.0/ 
-
-21.	CPG Home - Clinical Practice Guidelines v2.0.0-ballot [Internet]. [cited 2024 Aug 30]. Available from: https://hl7.org/fhir/uv/cpg/2024Jan/ 
-
-22.	Http - FHIR v4.0.1 [Internet]. [cited 2021 Dec 1]. Available from: https://www.hl7.org/fhir/http.html 
-
-23.	Clinical Quality Language (CQL) [Internet]. [cited 2024 Aug 30]. Available from: https://cql.hl7.org/ 
-
-24.	Etalab Licence Ouverte V2.0 [Internet]. 2017. Available from: https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf 
-
-25.	Généralités sur la Gouvernance du CI-SIS [Internet]. [cited 2024 Aug 30]. Available from: https://ansforge.github.io/CISIS-doctrine-gouvernance/pages/docs/generalites-gouv.html 
+<div class = "wysiwyg">
+    <ol>
+    <li>Le CI-SIS au cœur du développement de la e-santé [Internet]. [cited 2024 Aug 29]. Available from: https://ansforge.github.io/CISIS-doctrine-gouvernance/</li> 
+    <li>Doctrine. In: Wikipédia [Internet]. 2024 [cited 2024 Aug 29]. Available from: https://fr.wikipedia.org/w/index.php?title=Doctrine&oldid=212118223</li> 
+    <li>LOI n° 2016-1321 du 7 octobre 2016 pour une République numérique (1). 2016-1321 Oct 7, 2016.</li>  
+    <li>GO FAIR [Internet]. [cited 2024 Aug 29]. FAIR Principles. Available from: https://www.go-fair.org/fair-principles/</li> 
+    <li>Open data. In: Wikipedia [Internet]. 2024 [cited 2024 Aug 29]. Available from: https://en.wikipedia.org/w/index.php?title=Open_data&oldid=1238576109</li> 
+    <li>Open Data 5 étoiles [Internet]. [cited 2024 Aug 29]. Available from: http://5stardata.info/fr/ </li>
+    <li>Gamma E, Helm R, Johnson R, Vlissides J. Design Patterns: Elements of Reusable Object-Oriented Software. 1er édition. Boston, Mass. Munich: Addison Wesley; 1994. 416 p.</li>  
+    <li>Martin R. Clean Code: A Handbook of Agile Software Craftsmanship. 1er édition. Upper Saddle River, NJ: Pearson; 2008. 464 p.</li>  
+    <li>The Pragmatic Programmer: your journey to mastery, 20th Anniversary Edition, 2nd Edition[Book] [Internet]. [cited 2024 Aug 29]. Available from: https://www.oreilly.com/library/view/the-pragmatic-programmer/9780135956977/ </li>
+    <li>Martin RC. Agile Software Development: Principles, Patterns, and Practices. USA: Prentice Hall PTR; 2003. 710 p.</li>  
+    <li>Schreiber GT, Akkermans H. Knowledge engineering and management: the CommonKADS methodology. Cambridge, MA, USA: MIT Press; 2000. </li> 
+    <li>giantchair.com. Artificial Intelligence: A Modern Approach - Pearson France [Internet]. [cited 2024 Aug 29]. Available from: https://www.pearson.fr/fr/book/?GCOI=27440100705580 </li>
+    <li>Ambler SW. The Object Primer: Agile Model-Driven Development With Uml 2.0. 3e édition. Cambridge, UK : New York: Cambridge University Press; 2004. 572 p.</li>  
+    <li>Rumbaugh J, Jacobson I, Booch G. Unified Modeling Language Reference Manual, The (2nd Edition). Pearson Higher Education; 2004. </li> 
+    <li>Rector AL, Johnson PD, Tu SW, Wroe C, Rogers J. Interface of Inference Models with Concept and Medical Record Models. In: Quaglini S, Barahona P, Andreassen S, editors. Artificial Intelligence Medicine, 8th Conference on AI in Medicine in Europe, AIME 2001, Cascais, Portugal, July 1-4, 2001, Proceedings [Internet]. Springer; 2001 [cited 2024 Aug 29]. p. 314–23. (Lecture Notes in Computer Science; vol. 2101). Available from: https://doi.org/10.1007/3-540-48229-6\_43 </li>
+    <li>Boxwala AA, Rocha BH, Maviglia S, Kashyap V, Meltzer S, Kim J, et al. A multi-layered framework for disseminating knowledge for computer-based decision support. Journal of the American Medical Informatics Association. 2011 Dec 1;18(Supplement_1):i132–9.</li>  
+    <li>Graham ID, Logan J, Harrison MB, Straus SE, Tetroe J, Caswell W, et al. Lost in knowledge translation: Time for a map? Journal of Continuing Education in the Health Professions. 2006;26(1):13–24.</li>  
+    <li>Marcial LH, Blumenfeld B, Harle C, Jing X, Keller MS, Lee V, et al. Barriers, Facilitators, and Potential Solutions to Advancing Interoperable Clinical Decision Support: Multi-Stakeholder Consensus Recommendations for the Opioid Use Case. AMIA Annu Symp Proc. 2019;2019:637–46.</li>  
+    <li>CDS Hooks [Internet]. [cited 2018 Apr 12]. Available from: http://cds-hooks.org/</li> 
+    <li>About the Unified Modeling Language Specification Version 2.0 [Internet]. [cited 2024 Aug 29]. Available from: https://www.omg.org/spec/UML/2.0/</li> 
+    <li>CPG Home - Clinical Practice Guidelines v2.0.0-ballot [Internet]. [cited 2024 Aug 30]. Available from: https://hl7.org/fhir/uv/cpg/2024Jan/</li> 
+    <li>Http - FHIR v4.0.1 [Internet]. [cited 2021 Dec 1]. Available from: https://www.hl7.org/fhir/http.html</li> 
+    <li>Clinical Quality Language (CQL) [Internet]. [cited 2024 Aug 30]. Available from: https://cql.hl7.org/</li> 
+    <li>Etalab Licence Ouverte V2.0 [Internet]. 2017. Available from: https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf</li>
+    <li>Généralités sur la Gouvernance du CI-SIS [Internet]. [cited 2024 Aug 30]. Available from: https://ansforge.github.io/CISIS-doctrine-gouvernance/pages/docs/generalites-gouv.html</li> 
