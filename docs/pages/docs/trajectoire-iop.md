@@ -94,11 +94,11 @@ En plus de la trajectoire internationale semblant mener vers l'usage du FHIR doc
 
 <div class="wysiwyg">
     <ul>
-        <li>Au même titre que les sections et entrées CDA, les FHIR Document sont composés d'une multitude de brique, appelée ressource (ex : Observation, Patient, Encounter, ...). La différence est que celles-ci peuvent être extraites du document pour être consommées et réutilisées telles quelles au sein d'une API REST par exemple.</li>
-        <li>Les spécifications peuvent être publiées en open source sur GitHub car leur édition est totalement en mode texte (FSH / markdown), permettant ainsi de faciliter la collaboration, la remontée d'erreurs, la participation de l'écosystème, l'automatisation des comparaison entre les versions, l'historisation automatique des anciennes versions, ...</li>
-        <li>Les spécifications peuvent facilement être héritées d'un contexte international (par exemple le compte-rendu de laboratoire européen peut facilement être adapté pour la France).</li>
+        <li>Au même titre que les sections et entrées CDA, les FHIR Document sont composés d'une multitude de briques, appelées ressources (ex : Observation, Patient, Encounter, ...). La différence est que ces mêmes ressources peuvent également être utilisées au sein d'API REST spécifiées par le standard.</li>
+        <li>De nombreux outils facilitent l'édition de spécifications et le déploiement du standard. Par exemple, les spécifications peuvent être publiées en open source sur GitHub car leur édition est totalement en mode texte (FSH / markdown), permettant ainsi de faciliter la collaboration, la remontée d'erreurs, la participation de l'écosystème, l'automatisation des comparaison entre les versions, l'historisation automatique des anciennes versions, ... Il existe aussi de [nombreuses implémentations open source](https://confluence.hl7.org/display/FHIR/Open+Source+Implementations) de FHIR facilitant son déploiement.</li>
     </ul>
 </div>
+<!-- TODO rajouter lien vers les différents outils open source -->
 
 Aux Etats-Unis, les spécifications CDA ont fait leur premier pas vers FHIR, celles-ci sont publiées sont forme de guide d'implémentation en modèle logique, permettant ainsi de valider les CDA avec le FHIR Validator en abandonnant les schematrons ([source](https://build.fhir.org/ig/HL7/CDA-ccda/validation.html#:~:text=Validation%20Note-,What%20happened%20to%20the%20Schematron%3F,of%20the%20C%2DCDA%20document.)).
 
