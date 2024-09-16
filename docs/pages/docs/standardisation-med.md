@@ -155,7 +155,7 @@ Les artéfacts de connaissances médicales publiés, développés ou partagés p
         </ul>
     <li>La forte cohésion : le degré auquel les éléments d'un même module sont liés fonctionnellement doit être fort.</li>
         <ul>
-        <li>Avantages : les modules fortement en cohésion sont plus compréhensibles, maintenables et fiables</il>
+        <li>Avantages : les modules fortement en cohésion sont plus compréhensibles, maintenables et fiables</li>
         </ul>
     <li>Le faible couplage : les modules doivent être faiblement interdépendants</li>
         <ul>
@@ -165,7 +165,7 @@ Les artéfacts de connaissances médicales publiés, développés ou partagés p
         <ul>
         <li>Avantage : améliore la modularité citée plus haut mais à un niveau de modularité plus élevée</li>
         </ul>
-    </ul>
+    </ol>
 </div>
 
 Il existe bien évidemment beaucoup plus de bonnes pratiques de conception logiciel énoncés dans la littérature, voici quelques références de base (7) (8) (9) (10). 
@@ -213,13 +213,14 @@ La standardisation des GBPC dans le cadre du SI-CM doit combiner et interfacer t
 
 <div align="center">Figure 2 : Les modèles de l’architecture tri dimensionnel de Rector et al. (15) et leurs interfaces</div>
 
+
 ##### 4.4.4.2 La représentation multi couches de la connaissance médicale de Boxwala et al (16)
 
 La standardisation des GBPC dans le cadre du SI-CM doit respecter les différents niveaux de structuration de la connaissance décrits dans (16) (Tableau 1) Les documents de spécifications pour chaque volet du SI-CM doivent pouvoir décrire la structuration de la connaissance médicale du GBPC cible suivant ces quatre formats de représentation  
 
 <div class ="wysiwyg">
     <ol>
-    <li><strong>Narratif<strong> : ce format correspond au texte brut de la recommandation du GBPC cible ainsi que le lien vers la recommandation en question.</li>
+    <li><strong>Narratif</strong> : ce format correspond au texte brut de la recommandation du GBPC cible ainsi que le lien vers la recommandation en question.</li>
         <ul>
         <li>Ce format doit être lisible et partageable par tous</li>
         <li>Ce format doit être indépendant de toute technologie d’implémentation</li>
@@ -235,7 +236,7 @@ La standardisation des GBPC dans le cadre du SI-CM doit respecter les différent
         <li>Ce format doit être co écrit par un expert du domaine métier ainsi que par un expert informatique en ingénierie des connaissances</li>
         <li>Ce format a pour but de structurer le texte brut de la recommandation en vue de sa standardisation et implémentation sous forme d’aide à la décision clinique</li>
         </ul>
-    <li><strong>Structuré<strong> : Ce format doit impérativement correspondre au modèle appelé : Guideline dependent dynamic knowledge model décrit en paragraphe 4.4.4.1.</li>
+    <li><strong>Structuré</strong> : Ce format doit impérativement correspondre au modèle appelé : Guideline dependent dynamic knowledge model décrit en paragraphe 4.4.4.1.</li>
         <ul>
         <li>Ce format est interprétable par la machine</li> 
         <li>Ce format doit être lisible et partageable par tous</li> 
