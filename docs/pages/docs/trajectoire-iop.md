@@ -20,13 +20,27 @@ description:
 
 ## Introduction à l'interopérabilité
 
-L'interopérabilité est la capacité des systèmes à communiquer entre eux, qu'il soit local (établissement, GHT), régional ou national. L'interopérabilité permet in fine un partage et un accès facilité à une donnée, intégrable, réutilisable et exploitable, créant ainsi un intérêt stratégique indéniable, tant pour le patient que pour la recherche clinique.
-L'interopérabilité est souvent confondue avec référencement, mais ces termes ne sont pas synonymes. Bien que l'interopérabilité puisse être une exigence dans le cadre d'un référencement, elle se distingue principalement par sa capacité à faciliter le partage et la réutilisation des données.
+L'interopérabilité est la capacité des systèmes à communiquer entre eux, qu'il soit local (établissement, GHT), régional ou national. L'interopérabilité permet un partage et un accès facilité à une donnée, intégrable, réutilisable et exploitable, créant ainsi un intérêt stratégique indéniable, tant pour le patient que pour la recherche clinique.
 
 Pour faciliter le partage et l'accès de la donnée de santé, il est nécessaire de construire un langage de données informatique uniforme en s'appuyant sur des standards internationaux. La construction d'un langage interopérable valide, utilisable, et qui réponde efficacement aux besoins identifiés nécessite sa co-construction avec l'ensemble des acteurs de l'écosystème (métier, technique, décisionnaire en entreprise, politique). Cette collaboration est nécessaire pour valoriser et prioriser une spécification afin d'atteindre le stade ultime de la plus-value pour le médecin et le patient. La clé de la réussite de l'interopérabilité est de fédérer un maximum d'acteurs.
 Par la suite, lors du développement d'un logiciel, l'interopérabilité doit être pensée au plus tôt, au moment de sa conception afin d'être "interoperable by design", car une fois des interfaces graphiques développées et corrélées aux flux propriétaires, il est bien plus coûteux de faire l'évolution dans l'autre sens.
+L'interopérabilité est souvent confondue avec référencement, mais ces termes ne sont pas synonymes. Bien que l'interopérabilité puisse être une exigence dans le cadre d'un référencement, elle se distingue principalement par sa capacité à faciliter le partage et la réutilisation des données.
 
-Le déploiement de la e-Santé en France s'appuie sur trois piliers : la sécurité, l'éthique et l'interopérabilité. L'objectif de cette page est de donner à l'écosystème une vision sur l'évolution des standards d'interopérabilité déployés en France, notamment ceux utilisés par le CI-SIS, dans les programmes nationaux comme le Ségur du Numérique en Santé et les établissements. Cette trajectoire est vouée à évoluer car les travaux sont constants au niveau international et européen. On peut citer par exemple les actes d'exécution du règlement EHDS qui se baseront à priori sur le standard FHIR R4 dans un premier temps mais dont le choix pourrait évoluer.
+Le déploiement de la e-Santé en France s'appuie sur trois piliers : la sécurité, l'éthique et l'interopérabilité. Du côté de l'interopérabilité, de nombreuses actions sont menées pour promouvoir celle-ci afin de faciliter son déploiement.
+
+<div class="wysiwyg">
+    <ul>
+        <li><b>La plateforme de tests gazelle</b> permet à chaque concepteur de logiciels de tester sa conformité aux spécifications d'interopérabilité du CI-SIS. Celle-ci est ouverte en permanence <a href="https://interop.esante.gouv.fr/evs/home.seam">à cette adresse</a>.</li>
+        <li><b>Le <a href="https://smt.esante.gouv.fr/">Serveur Multi Terminologique (SMT)</a></b> permet l'accès à l'ensemble des terminologies et jeu de valeurs à utiliser en France. Il dispose d'un site web et d'une API pour accéder informatiquement à ces informations.</li>
+        <li>L'ANS prône la démarche open source et publie la majorité de ses spécifications d'interopérabilité sur <b>GitHub</b>. GitHub permet à n'importe qui d'accéder à notre code source et à écrire des commentaires dans une perspective d'amélioration continue. L'organisation ANS sur GitHub est accessible <a href="https://github.com/orgs/ansforge/dashboard">à cette adresse</a>.</li>
+        <li>L'ANS organise régulièrement des <b>projectathons</b>, évènement unique permettant à tous les éditeurs de se rencontrer et de tester ses interfaces d'interopérabilité de point-à-point. Notre plateforme de tests gazelle est utilisée dans le cadre de ces évènements.</li>
+        <li>L'ANS évangélise et sensibilise l'écosystème à travers de nombreux webinaires et interventions publiques ainsi qu'à travers sa page LinkedIn.</li>
+    </ul>
+</div>
+
+L'interopérabilité des systèmes déployés en France est pris en charge par l'Agence du Numérique en Santé (ANS) et d'autres organisations comme l'association Interop'Santé qui est le représentant français des deux principaux organismes internationaux de standardisation HL7 et IHE. L'ANS et Interop'Santé publient les documents de référence définissant les standards à utiliser en France, respectivement le Cadre d'Interopérabilité des Systèmes d'Information en Santé (CI-SIS) et le Guide d'Interopérabilité Hospitalier. Ces deux documents sont parfaitement alignés et cohérents et s'appuient sur des profils d'interopérabilité internationaux d'IHE et de HL7.
+
+L'objectif de cette page est de donner à l'écosystème une vision sur l'évolution des standards d'interopérabilité déployés en France, notamment ceux utilisés par le CI-SIS, dans les programmes nationaux comme le Ségur du Numérique en Santé et les établissements. Cette trajectoire est vouée à évoluer car les travaux sont constants au niveau international et européen. On peut citer par exemple les actes d'exécution du règlement EHDS qui se baseront à priori sur le standard FHIR R4 dans un premier temps mais dont le choix pourrait évoluer.
 
 ## La trajectoire syntaxique
 
@@ -34,12 +48,11 @@ Les standards HL7 v2 et CDA ont été créés il y a plusieurs dizaines d'année
 
 L'interopérabilité des systèmes déployés en France est pris en charge par l'Agence du Numérique en Santé (ANS) et d'autres organisations comme l'association Interop'Santé qui est le représentant français des deux principaux organismes internationaux de standardisation HL7 et IHE. L'ANS et Interop'Santé publient les documents de référence définissant les standards à utiliser en France, respectivement le Cadre d'Interopérabilité des Systèmes d'Information en Santé (CI-SIS) et le Guide d'Interopérabilité Hospitalier. Ces deux documents sont parfaitement alignés et cohérents et s'appuient sur des profils d'interopérabilité internationaux d'IHE et de HL7.
 
-
 Pour le moment, cette page traite des standards d'interopérabilité suivants : FHIR, CDA, HL7 V2.
 
 ### La stratégie du choix de la version FHIR
 
-La stratégie sur le choix des versions FHIR a été définie au sein d'un groupe de travail organisé entre Interop'Santé et l'ANS en 2023/2024, validée via une [concertation](https://participez.esante.gouv.fr/project/fhir-r5-ou-r4/presentation/presentation) de l'ANS. Les conclusions de ce GT sont indiquées ci-dessous.
+La stratégie sur le choix des versions FHIR a été définie au sein d'un groupe de travail organisé entre Interop'Santé et l'ANS en 2023/2024, validée via une [concertation](https://participez.esante.gouv.fr/project/fhir-r5-ou-r4/presentation/presentation) de l'ANS.
 
 #### Nouveaux cas d’usages FHIR adressés par Interop’Santé et l’ANS : privilégier FHIR R4 et anticiper la transition vers R6
 
@@ -85,8 +98,9 @@ Cette même étude dévoile un nombre important de pays utilisant le FHIR docume
 
 ![](../../assets/images/fhir-documents.png)
 
-De plus, les projets européens European Health Data Space (EHDS) ayant fait une étude de normes et standards pour les échanges transfrontaliers au sein de l'Europe a conclu sur l'usage du FHIR Document. Ce choix est justifié par le fait que certains pays n'ont pas d'historique CDA et choisissent très logiquement d'utiliser le standard FHIR étant plus récent et utilisant des technologies web modernes.
-FHIR a été largement préféré par l'Europe pour les trois cas d'usages privilégiés pour le partage transfrontalier : le compte rendu d'examenens de biologie médicale (Lab Report), la lettre de sortie (Hospital Discharge Report) et le compte rendu d'imagerie médicale (Medical Imaging Report). Resp. 18, 17 et 16 membres préféraient FHIR contre 3, 5 et 5 pour CDA.
+Aux Etats-Unis par exemple, les spécifications CDA ont fait leur premier pas vers FHIR, celles-ci sont publiées sont forme de guide d'implémentation en modèle logique, permettant ainsi de valider les CDA avec le FHIR Validator en abandonnant les schematrons ([source](https://build.fhir.org/ig/HL7/CDA-ccda/validation.html#:~:text=Validation%20Note-,What%20happened%20to%20the%20Schematron%3F,of%20the%20C%2DCDA%20document.)).
+
+Du côté de l'Union Européenne, le projet European Health Data Space (EHDS) ayant fait une étude de normes et standards pour les échanges transfrontaliers au sein de l'Europe a conclu sur l'usage du FHIR Document. Ce choix est justifié par le fait que certains pays n'ont pas d'historique CDA et choisissent très logiquement d'utiliser le standard FHIR étant plus récent et utilisant des technologies web modernes. FHIR y a été largement préféré pour les trois cas d'usages privilégiés pour le partage transfrontalier : le compte rendu d'examenens de biologie médicale (Lab Report), la lettre de sortie (Hospital Discharge Report) et le compte rendu d'imagerie médicale (Medical Imaging Report). Resp. 18, 17 et 16 membres préféraient FHIR contre 3, 5 et 5 pour CDA.
 
 #### Intérêt d'usage du FHIR document
 
@@ -95,12 +109,14 @@ En plus de la trajectoire internationale semblant mener vers l'usage du FHIR doc
 <div class="wysiwyg">
     <ul>
         <li>Au même titre que les sections et entrées CDA, les FHIR Document sont composés d'une multitude de briques, appelées ressources (ex : Observation, Patient, Encounter, ...). La différence est que ces mêmes ressources peuvent également être utilisées au sein d'API REST spécifiées par le standard.</li>
-        <li>De nombreux outils facilitent l'édition de spécifications et le déploiement du standard. Par exemple, les spécifications peuvent être publiées en open source sur GitHub car leur édition est totalement en mode texte (FSH / markdown), permettant ainsi de faciliter la collaboration, la remontée d'erreurs, la participation de l'écosystème, l'automatisation des comparaison entre les versions, l'historisation automatique des anciennes versions, ... Il existe aussi de [nombreuses implémentations open source](https://confluence.hl7.org/display/FHIR/Open+Source+Implementations) de FHIR facilitant son déploiement.</li>
+        <li>Il existe de nombreux outils facilitant l'usage de FHIR
+        <ul>
+            <li>De [nombreuses implémentations open source](https://confluence.hl7.org/display/FHIR/Open+Source+Implementations) de FHIR permettent de faciliter son déploiement chez les éditeurs.</li>
+            <li>Les outils d'édition de spécifications sont aussi nombreux et open source. Les spécifications peuvent être éditées sur GitHub de manière optimale car leur édition est totalement textuelle (FSH / markdown), permettant ainsi de faciliter la collaboration, la remontée d'erreurs, la participation de l'écosystème, l'automatisation des comparaison entre les versions, l'historisation automatique des anciennes versions, ...</li>
+        </ul>
     </ul>
 </div>
 <!-- TODO rajouter lien vers les différents outils open source -->
-
-Aux Etats-Unis, les spécifications CDA ont fait leur premier pas vers FHIR, celles-ci sont publiées sont forme de guide d'implémentation en modèle logique, permettant ainsi de valider les CDA avec le FHIR Validator en abandonnant les schematrons ([source](https://build.fhir.org/ig/HL7/CDA-ccda/validation.html#:~:text=Validation%20Note-,What%20happened%20to%20the%20Schematron%3F,of%20the%20C%2DCDA%20document.)).
 
 L'uniformisation des spécifications d'interopérabilité au niveau européen et mondial est un vrai atout pour les entreprises, car cela permet de faciliter leur internationalisation.
 
@@ -140,18 +156,6 @@ Ainsi, il ne faudra pas négliger ce paradigme API REST pour certains cas d'usag
 
 A compléter
 
-## Actions menées pour encourager l'interopérabilité
-
-De nombreuses actions sont menées pour faciliter l'usage des standards et l'interopérabilité en France.
-
-<div class="wysiwyg">
-    <ul>
-        <li><b>La plateforme de tests gazelle</b> permet à chaque concepteur de logiciels de tester sa conformité aux spécifications d'interopérabilité du CI-SIS. Celle-ci est ouverte en permanence <a href="https://interop.esante.gouv.fr/evs/home.seam">à cette adresse</a>.</li>
-        <li><b>Le serveur multi terminologique</b> est un site web permettant d'accéder à l'ensemble des terminologies et jeu de valeurs à utiliser en France. Il dispose également d'une API pour accéder informatiquement à ces informations. Le SMT est accessible <a href="https://smt.esante.gouv.fr/">à cette adresse</a>.</li>
-        <li>L'ANS prône la démarche open source et publie la majorité de ses spécifications sur <b>GitHub</b>. GitHub permet à n'importe qui d'accéder à notre code source et à écrire des commentaires dans une perspective d'amélioration continue. L'organisation ANS sur GitHub est accessible <a href="https://github.com/orgs/ansforge/dashboard">à cette adresse</a>.</li>
-        <li>L'ANS organise régulièrement des <b>projectathons</b>, évènement unique permettant à tous les éditeurs de se rencontrer et de tester ses interfaces d'interopérabilité de point-à-point. Notre plateforme de tests gazelle est utilisée dans le cadre de ces évènements.</li>
-    </ul>
-</div>
 
 <!-- ## Cartographie de l'interopérabilité -->
 
