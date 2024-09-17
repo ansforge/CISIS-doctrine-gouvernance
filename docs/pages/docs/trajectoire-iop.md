@@ -38,8 +38,6 @@ Le déploiement de la e-Santé en France s'appuie sur trois piliers : la sécuri
     </ul>
 </div>
 
-L'interopérabilité des systèmes déployés en France est pris en charge par l'Agence du Numérique en Santé (ANS) et d'autres organisations comme l'association Interop'Santé qui est le représentant français des deux principaux organismes internationaux de standardisation HL7 et IHE. L'ANS et Interop'Santé publient les documents de référence définissant les standards à utiliser en France, respectivement le Cadre d'Interopérabilité des Systèmes d'Information en Santé (CI-SIS) et le Guide d'Interopérabilité Hospitalier. Ces deux documents sont parfaitement alignés et cohérents et s'appuient sur des profils d'interopérabilité internationaux d'IHE et de HL7.
-
 L'objectif de cette page est de donner à l'écosystème une vision sur l'évolution des standards d'interopérabilité déployés en France, notamment ceux utilisés par le CI-SIS, dans les programmes nationaux comme le Ségur du Numérique en Santé et les établissements. Cette trajectoire est vouée à évoluer car les travaux sont constants au niveau international et européen. On peut citer par exemple les actes d'exécution du règlement EHDS qui se baseront à priori sur le standard FHIR R4 dans un premier temps mais dont le choix pourrait évoluer.
 
 ## La trajectoire syntaxique
@@ -116,7 +114,6 @@ En plus de la trajectoire internationale semblant mener vers l'usage du FHIR doc
         </ul>
     </ul>
 </div>
-<!-- TODO rajouter lien vers les différents outils open source -->
 
 L'uniformisation des spécifications d'interopérabilité au niveau européen et mondial est un vrai atout pour les entreprises, car cela permet de faciliter leur internationalisation.
 
