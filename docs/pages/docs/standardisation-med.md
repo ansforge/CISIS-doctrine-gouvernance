@@ -22,7 +22,7 @@ Ce document s'adresse principalement aux personnes et organismes qui veulent com
         <li>Cela concerne les chapitres 3 et 4 </li>
         <li>Les profils de personnes potentiellement concernés sont : les responsables de l'ANS, les experts de l'ANS, les chercheurs en informatique médicale, les directeurs de projets </li>
         </ul>
-    <li>Comme les principes de la présente doctrine ont été utilisés pour faire des choix de standards, de méthodes et d'outils pour concevoir et partager des artéfacts de connaissances médicales standardisés </li>
+    <li>Comment les principes de la présente doctrine ont été utilisés pour faire des choix de standards, de méthodes et d'outils pour concevoir et partager des artéfacts de connaissances médicales standardisés </li>
         <ul>
         <li>Cela concerne le chapitre 5 </li>
         <li>Les profils de personnes potentiellement concernés sont : les responsables de l'ANS, les experts de l'ANS, les chercheurs en informatique médicale, les directeurs de projets et les chefs de projet informatique </li>
