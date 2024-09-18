@@ -28,8 +28,10 @@ Ce document s'adresse principalement aux personnes et organismes qui veulent com
         <li>Les profils de personnes potentiellement concernés sont : les responsables de l'ANS, les experts de l'ANS, les chercheurs en informatique médicale, les directeurs de projets et les chefs de projet informatique </li>
         </ul>
     <li>Quels sont les standards, méthodes et outils choisis et préconisés par l’ANS si on veut standardiser des artéfacts de connaissances médicales et les intégrer sous forme d’aide à la décision cliniques </li>
+         <ul>
     <li>Cela concerne le chapitre 5 </li>
     <li>Les profils de personnes potentiellement concernés sont : les responsables de l’ANS, les experts de l’ANS, les chercheurs en informatique médicale, les directeurs de projets, les chefs de projet informatique, les développeurs, les POs </li>
+              </ul>
     </ul>
 </div>
 
