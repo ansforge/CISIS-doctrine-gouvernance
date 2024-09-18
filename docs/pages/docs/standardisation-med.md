@@ -64,7 +64,7 @@ La doctrine d’interopérabilité du SI-CM décrite dans ce document couvre
 
 Une doctrine est par définition : un ensemble de principes génériques de base sur lequel s'appuie une stratégie et des plans d'actions (2). Dans ce qui suit, nous décrivons les principes sur lesquels la doctrine du SI-CM s’appuiera pour gérer les artéfacts de connaissances médicales que le SI-CM produira / exposera. Ces principes nous permettront d’instancier un chemin nominal pour la gestion des artéfacts produits / exposés par le SI-CM et un ou plusieurs chemins secondaires. Ces chemins décriront les outils de modélisation, de conception et de mise en œuvre qui devront être utilisés et/ou promus (à destination de l’écosystème) par le SI-CM pour la gestion des artéfacts de connaissances médicales en France.
 
-Dans ce qui suit nous énonceront
+Dans ce qui suit nous énoncerons
 <div class = "wysiwyg">
     <ul>
     <li>Les principes de la doctrine du SI-CM </li> 
