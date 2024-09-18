@@ -141,9 +141,11 @@ La difficulté reviendrait aux consommateurs qui devront, au moins pendant un te
 
 La solution qui semble se dessiner pour l'ANS est de permettre une utilisation concomitante de FHIR et de CDA pour faire une transition douce, complétée d'une preuve de concept d'un mapping CDA - FHIR, générique, sans aller jusqu'à une spécification validée et utilisable en production, pour aider les éditeurs dans leur transition.
 
-## Le paradigme "Document" du DMP à compléter par un paradigme "API"
+## Le paradigme "Document" du DMP à compléter par les autres paradigmes
 
-L'historique français avec le DMP montre le cas d'usage "document" : un document est un compte rendu médical signé et daté d'un patient. Il est possible de voir un nouveau cas d'usage qui n'est pas orienté document mais plutôt un paradigme "API".
+En France, le cas d'usage "document" est bien connu, notamment dans le cadre du DMP : un document est un compte rendu médical signé et daté d'un patient.
+
+Il existe pourtant trois autres paradigmes : le paradigme service, message et API.
 
 Il y a par exemple déjà actuellement les API Mesures de santé et Agenda de Mon Espace Santé où il y a des données accessibles via des requêtes REST sans document médical.
 
@@ -152,7 +154,6 @@ Ainsi, il ne faudra pas négliger ce paradigme API REST pour certains cas d'usag
 ## La trajectoire sémantique
 
 A compléter
-
 
 <!-- ## Cartographie de l'interopérabilité -->
 
