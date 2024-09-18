@@ -38,11 +38,25 @@ Le déploiement de la e-Santé en France s'appuie sur trois piliers : la sécuri
     </ul>
 </div>
 
-L'objectif de cette page est de donner à l'écosystème une vision sur l'évolution des standards d'interopérabilité déployés en France, notamment ceux utilisés par le CI-SIS, dans les programmes nationaux comme le Ségur du Numérique en Santé et les établissements. Cette trajectoire est vouée à évoluer car les travaux sont constants au niveau international et européen. On peut citer par exemple les actes d'exécution du règlement EHDS qui se baseront à priori sur le standard FHIR R4 dans un premier temps mais dont le choix pourrait évoluer.
+L'objectif de cette page est de donner à l'écosystème une vision sur l'évolution des standards d'interopérabilité déployés en France, notamment ceux utilisés par le CI-SIS, dans les programmes nationaux comme le Ségur du Numérique en Santé et les établissements. Cette trajectoire est vouée à évoluer car les travaux sont constants au niveau international et européen. On peut citer par exemple les actes d'exécution du règlement EEDS qui se baseront à priori sur le standard FHIR R4 dans un premier temps mais dont le choix pourrait évoluer.
+
+## Contexte européen 
+
+Au niveau européen, l'interopérabilité des systèmes de santé repose sur une collaboration entre les États membres et sur l'adoption de standards communs, soutenue par des initiatives telles que l'[Espace Européen des Données de Santé](https://esante.gouv.fr/espace-europeen-donnees-sante) (EEDS). L'EEDS vise à faciliter l'échange de données de santé, avec une attention particulière sur la protection des données et l'amélioration de la qualité des soins à travers l'Europe. Le cadre réglementaire de l’EEDS repose sur des standards internationaux, et plusieurs actes d'exécution privilégient l'usage du standard FHIR pour la structuration et l’échange des données.
+
+Dans ce cadre, des initiatives comme Xt-EHR (_eXtended Electronic Health Record_) et MaSanté@UE ont été développées pour promouvoir l’interopérabilité transfrontalière.
+
+Xt-EHR a pour objectif de standardiser les dossiers de santé électroniques afin qu’ils soient compréhensibles et utilisables dans différents pays européens. Cela permet une continuité des soins pour les patients en déplacement au sein de l’UE. Cette initiative repose sur des protocoles comme FHIR et CDA pour structurer les données médicales de manière compatible entre les systèmes. Le développement de ces projets est crucial pour permettre un échange sécurisé et efficace d’informations médicales, contribuant à une continuité des soins transfrontaliers.
+
+Le programme MaSanté@UE, quant à lui, permet de faciliter l’échange des données de santé du citoyen européen dans le cadre de son parcours de soin en donnant au professionnel de santé l’accès dans sa langue aux données médicales du patient qu’il prend en charge. Il permet d'améliorer la prise en charge des citoyens lors de séjours à l’étranger. Ce projet soutient fortement l’utilisation du FHIR et du CDA pour garantir une interopérabilité maximale.
+
+Des standards FHIR et le CDA sont au cœur de ces efforts, car ils permettent une approche modulaire et flexible de l'échange de données de santé. FHIR, en particulier, grâce à son approche moderne via des API REST, est privilégié pour des cas d’usage tels que le partage de Compte-rendu de laboratoire (_Lab Reports_) de Lettre de sortie d’hospitalisation (_Hospital Discharge Reports_), et de Compte-rendu d’imagerie médical (_Medical Imaging Reports_), permettant une réutilisation plus fluide et facile des données à travers différents systèmes de santé européens.
+
+Ces initiatives s’alignent avec la trajectoire nationale française en matière d’interopérabilité, renforçant la nécessité d’une harmonisation des standards et des pratiques au niveau international. L’adoption de standards comme FHIR R4 est encouragée pour assurer une cohérence entre les systèmes nationaux et européens, en prévision des actes d’exécution du règlement EEDS. 
 
 ## La trajectoire syntaxique
 
-Les standards HL7 v2 et CDA ont été créés il y a plusieurs dizaines d'années et sont très robustes mais sont concurrencés par le plus récent standard d'HL7 : FHIR. Il propose une nouvelle façon d'échanger des données par APIs et un protocole d'échange moderne (REST) beaucoup plus proches des technologies modernes de développement informatique. Plusieurs états membres de la communauté européenne font la promotion de ce standard et les actes d'exécution du règlement européen EHDS seront basés sur FHIR.
+Les standards HL7 v2 et CDA ont été créés il y a plusieurs dizaines d'années et sont très robustes mais sont concurrencés par le plus récent standard d'HL7 : FHIR. Il propose une nouvelle façon d'échanger des données par APIs et un protocole d'échange moderne (REST) beaucoup plus proches des technologies modernes de développement informatique. 
 
 L'interopérabilité des systèmes déployés en France est pris en charge par l'Agence du Numérique en Santé (ANS) et d'autres organisations comme l'association Interop'Santé qui est le représentant français des deux principaux organismes internationaux de standardisation HL7 et IHE. L'ANS et Interop'Santé publient les documents de référence définissant les standards à utiliser en France, respectivement le Cadre d'Interopérabilité des Systèmes d'Information en Santé (CI-SIS) et le Guide d'Interopérabilité Hospitalier. Ces deux documents sont parfaitement alignés et cohérents et s'appuient sur des profils d'interopérabilité internationaux d'IHE et de HL7.
 
@@ -55,7 +69,7 @@ La stratégie sur le choix des versions FHIR a été définie au sein d'un group
 #### Nouveaux cas d’usages FHIR adressés par Interop’Santé et l’ANS : privilégier FHIR R4 et anticiper la transition vers R6
 
 Pour garantir un écosystème cohérent, éviter tous problèmes de compatibilité ainsi que les travaux divergents, il est nécessaire d'utiliser une même version du standard FHIR à l'échelle nationale. Le choix a été fait de conserver FHIR R4 car il y a un existant conséquent en France et cela permet d'éviter une double transition R4 vers R5 et R5 vers R6. Ce choix est conforté car la release 6 se veut être la version finale stable de FHIR, une transition vers R6 se voudra de toute manière nécessaire. Pour anticiper cette transition, il est jugé important d’être proactif sur les travaux internationaux de développement de R6 et d’anticiper les impacts pour l’écosystème français.
-Il est également à noter que le choix national de la version FHIR utilisée devra être en accord avec le règlement de l'espace européen sur les données de santé (EHDS) qui se dessine progressivement et qui pour l'heure semble se diriger vers R4.
+Il est également à noter que le choix national de la version FHIR utilisée devra être en accord avec le règlement de l'EEDS qui se dessine progressivement et qui pour l'heure semble se diriger vers R4.
 
 #### Ne pas créer de guide d'implémentation (IG) se basant sur R5 sans analyse des normes et standards et des impacts
 
@@ -80,11 +94,11 @@ Les priorités des prochaines années sont de continuer dans cette direction :
     </ul>
 </div>
 
-Il est également nécessaire de rester à l’écoute des tendances internationales en interopérabilité et de se garder la possibilité de réitérer l’analyse si le besoin ou le contexte international évolue, en particulier l'EHDS.
+Il est également nécessaire de rester à l’écoute des tendances internationales en interopérabilité et de se garder la possibilité de réitérer l’analyse si le besoin ou le contexte international évolue, en particulier l'EEDS.
 
 ### Focus FHIR Document
 
-Aujourd'hui en France, l'ensemble des documents médicaux sont stockés en CDA, notamment avec la plus grande plateforme technique médicale nationale : le DMP, brique de Mon Espace Santé. Le standard FHIR peut, au même titre que le CDA, être utilisé pour décrire des documents médicaux. C'est par ailleurs la trajectoire qui a été retenue à l'international, notamment par EHDS.
+Aujourd'hui en France, l'ensemble des documents médicaux sont stockés en CDA, notamment avec la plus grande plateforme technique médicale nationale : le DMP, brique de Mon Espace Santé. Le standard FHIR peut, au même titre que le CDA, être utilisé pour décrire des documents médicaux. C'est par ailleurs la trajectoire qui a été retenue à l'international, notamment par l'EEDS.
 
 #### Etude internationale
 
@@ -98,7 +112,7 @@ Cette même étude dévoile un nombre important de pays utilisant le FHIR docume
 
 Aux Etats-Unis par exemple, les spécifications CDA ont fait leur premier pas vers FHIR, celles-ci sont publiées sont forme de guide d'implémentation en modèle logique, permettant ainsi de valider les CDA avec le FHIR Validator en abandonnant les schematrons ([source](https://build.fhir.org/ig/HL7/CDA-ccda/validation.html#:~:text=Validation%20Note-,What%20happened%20to%20the%20Schematron%3F,of%20the%20C%2DCDA%20document.)).
 
-Du côté de l'Union Européenne, le projet European Health Data Space (EHDS) ayant fait une étude de normes et standards pour les échanges transfrontaliers au sein de l'Europe a conclu sur l'usage du FHIR Document. Ce choix est justifié par le fait que certains pays n'ont pas d'historique CDA et choisissent très logiquement d'utiliser le standard FHIR étant plus récent et utilisant des technologies web modernes. FHIR y a été largement préféré pour les trois cas d'usages privilégiés pour le partage transfrontalier : le compte rendu d'examenens de biologie médicale (Lab Report), la lettre de sortie (Hospital Discharge Report) et le compte rendu d'imagerie médicale (Medical Imaging Report). Resp. 18, 17 et 16 membres préféraient FHIR contre 3, 5 et 5 pour CDA.
+Du côté de l'Union Européenne, le projet EEDS ayant fait une étude de normes et standards pour les échanges transfrontaliers au sein de l'Europe a conclu sur l'usage du FHIR Document. Ce choix est justifié par le fait que certains pays n'ont pas d'historique CDA et choisissent très logiquement d'utiliser le standard FHIR étant plus récent et utilisant des technologies web modernes. FHIR y a été largement préféré pour les trois cas d'usages privilégiés pour le partage transfrontalier : le compte rendu d'examenens de biologie médicale (Lab Report), la lettre de sortie (Hospital Discharge Report) et le compte rendu d'imagerie médicale (Medical Imaging Report). Resp. 18, 17 et 16 membres préféraient FHIR contre 3, 5 et 5 pour CDA.
 
 #### Intérêt d'usage du FHIR document
 
@@ -165,7 +179,7 @@ Les acteurs peuvent se situer à plusieurs niveaux : au niveau politique, au niv
 
 #### Les acteurs politiques
 
-Ministère de la santé, commission européenne, EHDS
+Ministère de la santé, commission européenne, EEDS
 
 #### Les acteurs en charge de la modélisation technique (organismes de standardisation)
 
