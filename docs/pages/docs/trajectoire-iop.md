@@ -121,7 +121,7 @@ En plus de la trajectoire internationale semblant mener vers l'usage du FHIR doc
 <div class="wysiwyg">
     <ul>
         <li>Au même titre que les sections et entrées CDA, les FHIR Document sont composés d'une multitude de briques, appelées ressources (ex : Observation, Patient, Encounter, ...). La différence est que ces mêmes ressources peuvent également être utilisées au sein d'API REST spécifiées par le standard.</li>
-        <li>Il existe de nombreux outils facilitant l'usage de FHIR
+        <li>Il existe de nombreux outils facilitant l'usage de FHIR</li>
         <li>
             <ul>
                 <li>De [nombreuses implémentations open source](https://confluence.hl7.org/display/FHIR/Open+Source+Implementations) de FHIR permettent de faciliter son déploiement chez les éditeurs.</li>
