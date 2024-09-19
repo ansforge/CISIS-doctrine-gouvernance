@@ -122,10 +122,12 @@ En plus de la trajectoire internationale semblant mener vers l'usage du FHIR doc
     <ul>
         <li>Au même titre que les sections et entrées CDA, les FHIR Document sont composés d'une multitude de briques, appelées ressources (ex : Observation, Patient, Encounter, ...). La différence est que ces mêmes ressources peuvent également être utilisées au sein d'API REST spécifiées par le standard.</li>
         <li>Il existe de nombreux outils facilitant l'usage de FHIR
-        <ul>
-            <li>De [nombreuses implémentations open source](https://confluence.hl7.org/display/FHIR/Open+Source+Implementations) de FHIR permettent de faciliter son déploiement chez les éditeurs.</li>
-            <li>Les outils d'édition de spécifications sont aussi nombreux et open source. Les spécifications peuvent être éditées sur GitHub de manière optimale car leur édition est totalement textuelle (FSH / markdown), permettant ainsi de faciliter la collaboration, la remontée d'erreurs, la participation de l'écosystème, l'automatisation des comparaison entre les versions, l'historisation automatique des anciennes versions, ...</li>
-        </ul>
+        <li>
+            <ul>
+                <li>De [nombreuses implémentations open source](https://confluence.hl7.org/display/FHIR/Open+Source+Implementations) de FHIR permettent de faciliter son déploiement chez les éditeurs.</li>
+                <li>Les outils d'édition de spécifications sont aussi nombreux et open source. Les spécifications peuvent être éditées sur GitHub de manière optimale car leur édition est totalement textuelle (FSH / markdown), permettant ainsi de faciliter la collaboration, la remontée d'erreurs, la participation de l'écosystème, l'automatisation des comparaison entre les versions, l'historisation automatique des anciennes versions, ...</li>
+            </ul>
+        </li>
     </ul>
 </div>
 
