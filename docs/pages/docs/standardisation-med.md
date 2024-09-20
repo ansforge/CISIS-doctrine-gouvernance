@@ -40,13 +40,13 @@ La doctrine du SI-CM peut-être synthétisée ainsi
 
 <div class = "wysiwyg">
     <ul>
-    <li>Un ensemble de principes de base qui permettent de guider les choix en termes de standards, de méthodes et d’outils pour attendre l’objectif </li>
+    <li>Un ensemble de principes de base qui permettent de guider les choix en termes de standards, de méthodes et d’outils pour atteindre l’objectif </li>
         <ul>
         <li>de modéliser et de partager de façon standard la connaissance médicale issue des GBPC. </li>
-        <li>d’intégrer de façon standard (dans un SI cible) cette connaissance médicale issue des GBPC sous forme de de Système d’Aide à la Décision Clinique (SADC) </li>
+        <li>d’intégrer de façon standard (dans un SI cible) cette connaissance médicale issue des GBPC sous forme de Système d’Aide à la Décision Clinique (SADC) </li>
         </ul>
     <li>Un chemin nominal : qui instancie les principes de la doctrine du SI-CM et décrit les choix en termes de standards de référence, de méthodes et d’outils adoptés pour atteindre les objectif sus mentionnés </li>
-    <li>Un ou plusieurs chemins secondaires : décrivent le choix et l’utilisation d’un standard et / ou d’un processus de conception et / ou de mise en œuvre « non de référence ». Ce chemin secondaire peut-être justifié par le fait que le chemin nominal ne réponde pas aux besoins remontés du terrain. </li>
+    <li>Un ou plusieurs chemins secondaires : décrivent le choix et l’utilisation d’un standard et / ou d’un processus de conception et / ou de mise en œuvre « non de référence ». Ce chemin secondaire peut être justifié par le fait que le chemin nominal ne réponde pas aux besoins remontés du terrain. </li>
     </ul>
 </div>
 
@@ -78,7 +78,7 @@ La loi du 7 octobre 2016 (3) pour une république numérique, souvent appelée "
     <ul>
     <li>à l'ouverture des données produites dans le cadre de ce système d'information (SI)</li>
     <li>à rendre accessibles en ligne les données ubiques produites dans le cadre de ce SI, dans un format ouvert et réutilisable</li>
-    <li>à la portabilité des données produites dans le cadre de ce SI. Les utilisateurs finaux doivent pouvoir se partager les données publiques et libres d'accès (voir chapitre sur la propriété intelectuelle)</li>
+    <li>à la portabilité des données produites dans le cadre de ce SI. Les utilisateurs finaux doivent pouvoir se partager les données publiques et libres d'accès (voir chapitre sur la propriété intellectuelle)</li>
     </ul>
 </div>
 Plusieurs de ces principes ont été directement ou partiellement inspirés des principes FAIR et de la mouvance Open Data que nous prenons également comme base de réflexion pour la doctrine du SI-CM.
@@ -91,7 +91,7 @@ Le SI-CM et les volets qui vont être publiés dans le CI-SIS doivent, entre aut
 
 <div class = "wysiwyg">
     <ul>
-    <li>A ce que les artéfacts publiques produits par le SI-CM soient facilement trouvables via une plateforme dédiée. La plateforme en question doit être implémentée de façon à ce que</li>
+    <li>A ce que les artéfacts publics produits par le SI-CM soient facilement trouvables via une plateforme dédiée. La plateforme en question doit être implémentée de façon à ce que</li>
         <ul>
         <li>Les artéfacts produits dans le cadre du SI-CM doivent être faciles à localiser pour les humains et les machines. Cela implique l'utilisation de métadonnées descriptives et de mécanismes de recherche appropriés.</li>
         <li>Les artéfacts produits dans le cadre du SI-CM doivent avoir un identifiant unique et persistant.</li>
@@ -99,7 +99,7 @@ Le SI-CM et les volets qui vont être publiés dans le CI-SIS doivent, entre aut
     <li>A ce que les artéfacts publiques produits par le SI-CM soient accessibles en s’assurant que</li>  
         <ul>
         <li>L’accès à ces artéfacts se fasse via des protocoles standards et ouverts </li>
-        <li>Les conditions d’accès à ces artéfacts soient clairement spécifiées et documentées, autant que faire se peut, via des métas donnés</li>
+        <li>Les conditions d’accès à ces artéfacts soient clairement spécifiées et documentées, autant que faire se peut, via des métadonnées</li>
         </ul>
     <li>A ce que les artéfacts publiques produits par le SI-CM soient interopérables en s’assurant que</li>
         <ul>
@@ -196,7 +196,7 @@ Le processus de conception adopté dans le cadre de la gestion des artéfacts de
 
 En ingénierie des connaissances et plus particulièrement dans le cadre défini en paragraphe 2 de cette doctrine, nous avons identifié 3 designs patterns que le SI-CM doit respecter dans la gestion des artéfacts de connaissances médicales
 
-##### 4.4.4.1 L'architecture tri dimentionnel de Rector et al. (15)
+##### 4.4.4.1 L'architecture tri-dimentionnel de Rector et al. (15)
 
 La standardisation des GBPC dans le cadre du SI-CM doit combiner et interfacer trois types de modèles (Figure 2) 
 
@@ -211,7 +211,7 @@ La standardisation des GBPC dans le cadre du SI-CM doit combiner et interfacer t
 
 ![alt text](<../../assets/images/Figure 2  Les modèles de l’architecture tri dimensionnel de Rector et al. et leurs interfaces.png>)
 
-<div align="center">Figure 2 : Les modèles de l’architecture tri dimensionnel de Rector et al. (15) et leurs interfaces</div>
+<div align="center">Figure 2 : Les modèles de l’architecture tri-dimensionnel de Rector et al. (15) et leurs interfaces</div>
 
 
 ##### 4.4.4.2 La représentation multi couches de la connaissance médicale de Boxwala et al (16)
@@ -460,7 +460,7 @@ Les chemins secondaires #1, #2, #3, #4, #5, #6 et #8 décrits dans la figure 4 s
 
 Les choix faits au cours de ces chemins secondaires doivent impérativement respecter les principes de la présente doctrine. Ils doivent être des instances de ces principes, à l’image de l’instanciation du chemin nominal.  
 
-Le chemin secondaire #7 concerne la propriété intellectuelle des artéfacts de connaissances médicales produits et / ou exposés par le SI-CM. A l’image de la doctrine du CGTS (1), un acteur de l’éco système peut décider de distribuer ses artéfacts de connaissances sous un autre régime de propriété intellectuelle que la Licence Lov2 choisie dans le chemin nominal de la présente doctrine. Ce choix de licence de diffusion résultera des négociations entre le SI-CM et l’Unité de Production (UP) lors de l’établissement de la convention de mise à disposition des artéfacts en question.  
+Le chemin secondaire #7 concerne la propriété intellectuelle des artéfacts de connaissances médicales produits et/ou exposés par le SI-CM. A l’image de la doctrine du CGTS (1), un acteur de l’éco système peut décider de distribuer ses artéfacts de connaissances sous un autre régime de propriété intellectuelle que la Licence Lov2 choisie dans le chemin nominal de la présente doctrine. Ce choix de licence de diffusion résultera des négociations entre le SI-CM et l’Unité de Production (UP) lors de l’établissement de la convention de mise à disposition des artéfacts en question.  
 
 La notion d’UP et de conventions entre l’ANS et les UPs sont celles définies dans la gouvernance du CI-SIS (25). 
 
