@@ -30,9 +30,9 @@ Le déploiement de la e-Santé en France s'appuie sur trois piliers : la sécuri
 
 <div class="wysiwyg">
     <ul>
-        <li><b>La plateforme de tests gazelle</b> permet à chaque concepteur de logiciels de tester sa conformité aux spécifications d'interopérabilité du CI-SIS. Celle-ci est ouverte en permanence <a href="https://interop.esante.gouv.fr/evs/home.seam">à cette adresse</a>.</li>
+        <li><b>La <a href="https://interop.esante.gouv.fr/evs/home.seam">plateforme de tests gazelle</a></b> permet à chaque concepteur de logiciels de tester sa conformité aux spécifications d'interopérabilité du CI-SIS.</li>
         <li><b>Le <a href="https://smt.esante.gouv.fr/">Serveur Multi Terminologique (SMT)</a></b> permet l'accès à l'ensemble des terminologies et jeu de valeurs à utiliser en France. Il dispose d'un site web et d'une API pour accéder informatiquement à ces informations.</li>
-        <li>L'ANS prône la démarche open source et publie la majorité de ses spécifications d'interopérabilité sur <b>GitHub</b>. GitHub permet à n'importe qui d'accéder à notre code source et à écrire des commentaires dans une perspective d'amélioration continue. L'organisation ANS sur GitHub est accessible <a href="https://github.com/orgs/ansforge/dashboard">à cette adresse</a>.</li>
+        <li>L'ANS prône la démarche open source et publie la majorité de ses spécifications d'interopérabilité <b><a href="https://github.com/orgs/ansforge/dashboard">sur GitHub</a></b>. GitHub permet à n'importe qui d'accéder à notre code source et à remonter des erreurs ou de manquements dans une perspective d'amélioration continue.</li>
         <li>L'ANS organise régulièrement des <b>projectathons</b>, évènement unique permettant à tous les éditeurs de se rencontrer et de tester ses interfaces d'interopérabilité de point-à-point. Notre plateforme de tests gazelle est utilisée dans le cadre de ces évènements.</li>
         <li>L'ANS évangélise et sensibilise l'écosystème à travers de nombreux webinaires et interventions publiques ainsi qu'à travers sa page LinkedIn.</li>
     </ul>
