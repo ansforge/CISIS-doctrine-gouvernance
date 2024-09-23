@@ -123,7 +123,7 @@ Le mouvement Open Data (données ouvertes) (5) est une initiative mondiale qui v
 
 La doctrine SI-CM - comme décrite plus en aval – vise à pousser l’éco système à adopter, autant que faire se peut, l’échelle maximale (5 étoiles) de conformité pour la publication des artéfacts de connaissances médicales.
 
-![alt text](<../../assets/images/FIGURE 1  ENONCE SIMPLIFIE DES PRINCIPES FIVE STARS.png>)
+![](<../../assets/images/FIGURE 1  ENONCE SIMPLIFIE DES PRINCIPES FIVE STARS.png>)
 
 
 <div align="center">Figure 1 : ENONCE SIMPLIFIE DES PRINCIPES FIVES STARS (6)</div>
@@ -211,7 +211,7 @@ La standardisation des GBPC dans le cadre du SI-CM doit combiner et interfacer t
     </ul>
 </div>
 
-![alt text](<../../assets/images/Figure 2  Les modèles de l’architecture tri dimensionnel de Rector et al. et leurs interfaces.png>)
+![](<../../assets/images/Figure 2  Les modèles de l’architecture tri dimensionnel de Rector et al. et leurs interfaces.png>)
 
 <div align="center">Figure 2 : Les modèles de l’architecture tri-dimensionnel de Rector et al. (15) et leurs interfaces</div>
 
@@ -258,7 +258,7 @@ La standardisation des GBPC dans le cadre du SI-CM doit respecter les différent
     </ol>
 </div> 
 
-![alt text](<../../assets/images/Tableau 1 les quatre couches de formats de représentation de la connaissance médicale selon Boxwala et al.png>)
+![](<../../assets/images/Tableau 1 les quatre couches de formats de représentation de la connaissance médicale selon Boxwala et al.png>)
 
 <div align="center">Tableau 1 : les quatre couches de formats de représentation de la connaissance médicale selon Boxwala et al. (16)</div>
 
@@ -388,7 +388,7 @@ Ce choix est justifié pour plusieurs raisons :
     </ul>
 </div>
 
-![alt text](<../../assets/images/FIGURE 3  Instanciation du modèle de Rector et al. avec l’ensemble des standards utilisés dans le chemin nominal de la doctrine du SI-CM.png>)
+![](<../../assets/images/FIGURE 3  Instanciation du modèle de Rector et al. avec l’ensemble des standards utilisés dans le chemin nominal de la doctrine du SI-CM.png>)
 <div align="center">FIGURE 3 : Instanciation du modèle de Rector et al. avec l’ensemble des standards utilisés dans le chemin nominal de la doctrine du SI-CM</div>
 
 ##### 5.1.1.6 Choisir un standard d'intégration 
@@ -430,7 +430,7 @@ Ce choix est justifié pour plusieurs raisons :
     </ul>
 </div> 
 
-![alt text](<../../assets/images/diagramme activite uml.svg>)
+![](<../../assets/images/diagramme activite uml.svg>)
 
 
 <div align="center">Figure 4 : Diagramme d’activité UML pour illustrer les choix du chemin nominal de la doctrine du SI-CM et les possibles chemins secondaires</div>
