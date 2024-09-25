@@ -81,13 +81,13 @@ body:
       value: |
         ### Sponsor
 
-  - type: input
-    id: sponsor_prenom_nom
-    attributes:
-      label: "Prénom et Nom du sponsor"
-      placeholder: "Indiquez le prénom et nom du sponsor"
-    validations:
-      required: true
+#  - type: input
+#    id: sponsor_prenom_nom
+#    attributes:
+#      label: "Prénom et Nom du sponsor"
+#      placeholder: "Indiquez le prénom et nom du sponsor"
+#    validations:
+#      required: true
 
   - type: input
     id: sponsor_organisation
@@ -97,13 +97,13 @@ body:
     validations:
       required: true
 
-  - type: input
-    id: sponsor_email
-    attributes:
-      label: "Adresse de messagerie électronique du sponsor"
-      placeholder: "Indiquez l'adresse e-mail du sponsor"
-    validations:
-      required: true
+#  - type: input
+#    id: sponsor_email
+#    attributes:
+#      label: "Adresse de messagerie électronique du sponsor"
+#      placeholder: "Indiquez l'adresse e-mail du sponsor"
+#    validations:
+#      required: true
 
   - type: textarea
     id: parties_prenantes
@@ -141,7 +141,13 @@ body:
       options:
         - label: "Oui (préciser les titres des besoins concernés)"
         - label: "Non"
-
+  
+  - type: textarea
+    id: travaux
+    attributes:
+      label: "Travaux en cours"
+      description: "Précisez ici les titres des besoins concernés si vous avez répondu oui à la question précédente."
+      
   - type: textarea
     id: references
     attributes:
@@ -261,6 +267,12 @@ body:
       options:
         - label: "Oui (préciser)"
         - label: "Non"
+
+    - type: textarea
+    id: jeux_valeurs_details
+    attributes:
+      label: "Compléements"
+      description: "Complétez ici si vous avez répondu oui à la question précédente."
 
   - type: markdown
     attributes:
