@@ -35,7 +35,7 @@ Le déploiement de la e-Santé en France s'appuie sur trois piliers : la sécuri
 <div class="wysiwyg">
     <ul>
         <li><b>La <a href="https://interop.esante.gouv.fr/evs/home.seam">plateforme de tests gazelle</a></b> permet à chaque concepteur de logiciels de tester sa conformité aux spécifications d'interopérabilité du CI-SIS.</li>
-        <li><b>Le Serveur Multi Terminologique (SMT)</b> est un portail web permettant l'accès à l'ensemble des terminologies, jeux de valeurs et alignements à utiliser en France. Il dispose d'un site web et d'une API pour accéder informatiquement à ces informations. Le SMT est accessible à l’adresse [https://smt.esante.gouv.fr/] (format rdf) ou [https://smt.esante.gouv.fr/FHIR] (format FHIR)</li>
+        <li><b>Le Serveur Multi Terminologique (SMT)</b> est un portail web permettant l'accès à l'ensemble des terminologies, jeux de valeurs et alignements à utiliser en France. Il dispose d'un site web et d'une API pour accéder informatiquement à ces informations. Le SMT est accessible à l’adresse <a href="https://smt.esante.gouv.fr/">(format rdf)</a>  ou <a href="https://smt.esante.gouv.fr/FHIR">(format FHIR)</a></li>
         <li>L'ANS prône la démarche open source et publie la majorité de ses spécifications d'interopérabilité <b><a href="https://github.com/orgs/ansforge/dashboard">sur GitHub</a></b>. GitHub permet à n'importe qui d'accéder à notre code source et à remonter des erreurs ou de manquements dans une perspective d'amélioration continue.</li>
         <li>L'ANS organise régulièrement des <b>projectathons</b>, évènement unique permettant à tous les éditeurs de se rencontrer et de tester ses interfaces d'interopérabilité de point-à-point. Notre plateforme de tests gazelle est utilisée dans le cadre de ces évènements.</li>
         <li>L'ANS évangélise et sensibilise l'écosystème à travers de nombreux webinaires et interventions publiques ainsi qu'à travers sa page LinkedIn.</li>
@@ -128,7 +128,7 @@ En plus de la trajectoire internationale semblant mener vers l'usage du FHIR doc
         <li>Il existe de nombreux outils facilitant l'usage de FHIR, développés par une communauté très active à l'internationale. Ces outils permettent de :</li>
         <li>
             <ul>
-                <li>Faciliter l'implémentation, avec de [nombreux serveurs open source et validateurs](https://confluence.hl7.org/display/FHIR/Open+Source+Implementations) pour simplifier son déploiement chez les éditeurs.</li>
+                <li>Faciliter l'implémentation, avec de <a href="https://confluence.hl7.org/display/FHIR/Open+Source+Implementations">nombreux serveurs open source et validateurs</a> pour simplifier son déploiement chez les éditeurs.</li>
                 <li>Optimiser l'édition des spécifications grâce à des outils open source, entièrement compatibles avec GitHub, en offrant une gestion textuelle du contenu technique et narratif (FSH/markdown). Ces outils facilitent la collaboration, la remontée d'erreurs, la participation de l'écosystème, tout en permettant l'automatisation des comparaisons entre versions, l'historisation automatique des anciennes versions, et une gestion efficace des contributions.</li>
             </ul>
         </li>
@@ -279,13 +279,13 @@ Le graphique ci-après présente les terminologies les plus téléchargées.
 
 ![](../../assets/images/semantique.png)
 
-
 Les terminologies du médicaments (référentiels d’interopérabilité du médicament et classification ATC ) arrivent en tête. Le référentiel des unités communes de dispensation arrive en 5eme position.
 Elles sont suivies par les terminologies médicales de l’OMS (CIM 11 en déploiement et CIM10 en usage)
 Les terminologies de cyto-anapathologie, des dispositifs médicaux, des expositions professionnelles et des actes suivent ensuite.
 La SNOMED CT adoptée par la France en 2023 est disponible sur le serveur depuis novembre 2023. Environ 50 téléchargements sont opérés mensuellement.
 
 Les priorités 2025 - 2027 : 
+
 Sur le plan outillage et publication
 
 <div class="wysiwyg">
