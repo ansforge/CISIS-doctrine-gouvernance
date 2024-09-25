@@ -267,11 +267,11 @@ body:
       options:
         - label: "Oui (préciser)"
         - label: "Non"
-
-    - type: textarea
+        
+  - type: textarea
     id: jeux_valeurs_details
     attributes:
-      label: "Compléements"
+      label: "Compléments"
       description: "Complétez ici si vous avez répondu oui à la question précédente."
 
   - type: markdown
