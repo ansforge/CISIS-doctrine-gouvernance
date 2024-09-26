@@ -50,6 +50,19 @@ Une expression de besoins ce traduit par une évolution majeure du CI-SIS.
     <img src="../../assets/images/def-ttt-ebe.png" alt="CP" title="Evolution majeure du CI-SIS" style="width:80%;">
 </div>
 
+Le traitement d'une demande d'évolution majeure du CI-SIS requière un passage obligatoire en concertation publique afin de :
+* partager et communiquer sur les évolutions du CI-SIS
+* permettre aux parties-prenantes du CI-SIS et à l'ensemble de l'écosystème de réagir sur ces évolutions et remonter les impacts sur l'existant
+* faciliter l'adoption et la mise en oeuvre
+
+### Consultation et concertation
+
+Les procédures de consultation et de concertation:
+* débutent avec la diffusion de l'étude métier ou des spécifications
+* elles sont annoncées au moyen d'une actualités sur le site esante.gouv.fr et d'un courriel d'information aux acteurs concernés
+* les parties-prenantes et l'écosystème formulent leurs commentaires dans un délai de trois (3) mois après le démarrage des procédures. Ce délai peut être prolongé d'un (1) mois si nécesssaire (en période de congé estivale par exemple).
+
+
 ## Gestion des Changes Proposals (CP)
 
 ### Formulaire et suivi
@@ -66,7 +79,10 @@ Les CP sont identifiées en 2 catégories :
 #### CP majeures
 Les CP majeures sont traitées au fil de l'eau et sont publiées par "batch" tous les 6 mois **sauf exception** (obligation réglementaire, demande Ségur).
 
-**Les CP 'majeures" sont obligatoirement soumis à concertation.**
+**Les CP 'majeures" sont obligatoirement soumis à concertation avant intégration dans les volets concernés.**
+
+Les mises en concertation sont annoncées au moyen d'une actualités sur le site esante.gouv.fr et d'un courriel d'information aux acteurs concernés.
+Les parties-prenantes et l'écosystème formulent leurs commentaires dans un délai de trois (3) mois après le démarrage des procédures. Ce délai peut être prolongé d'un (1) mois si nécesssaire (en période de congé estivale par exemple).
 
 #### CP mineures
 Les CP mineures sont traitées au fil de l'eau et sont intégrées dans les volets dans des versions mineures sur décision de(s) auteur(s).
