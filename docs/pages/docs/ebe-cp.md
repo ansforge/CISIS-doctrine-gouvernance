@@ -32,7 +32,7 @@ Il vous est possible de visualiser vos demandes en cours traitement, mais égale
 
 ### Gestion des expressions de besoins
 
-L'expression des besoins s'inscrit dans le processus d’élaboration des spécifications d’interopérabilité qui sont à l’origine du développement des conditions favorables à l’interopérabilité des systèmes. Ce processus peut être schématisé de la façon suivante :
+L'expression des besoins s'inscrit dans le [processus d’élaboration des spécifications d’interopérabilité](elaboration.html) qui sont à l’origine du développement des conditions favorables à l’interopérabilité des systèmes.
 
 <div class="figure" style='text-align: center;'>
     <img src="../../assets/images/processus-ebe.png" alt="CP" title="Processus d’élaboration des spécifications d’interopérabilité" style="width:80%;">
