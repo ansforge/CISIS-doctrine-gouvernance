@@ -45,6 +45,7 @@ Une expression de besoins ce traduit par une évolution majeure du CI-SIS.
 <div class="figure" style='text-align: center;'>
     <img src="../../assets/images/processus-ttt-ebe.png" alt="process-EBE" title="Procédure de traitement d'une demande d'évolution majeure du CI-SIS" style="width:100%;">
     <figcaption><b>Procédure de traitement d'une expression de bsoins d'évolution du CI-SIS</b></figcaption>
+</div>
 
 Le traitement d'une demande d'évolution majeure du CI-SIS requière un passage obligatoire en concertation publique afin de :
 * partager et communiquer sur les évolutions du CI-SIS
