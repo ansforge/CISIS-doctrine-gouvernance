@@ -25,7 +25,7 @@ Cette gouvernance garantit un moyen transparent pour la prise en compte des « b
 Afin de nous remonter vos besoins une formulaire est disponible [ici](../../assets/docs/CI-SIS_FORMULAIRE_EXPRESSION%20DE%20BESOINS.docx).
 Ce formulaire fait partie du corpus documentaire associé à cette gouvernance. Il constitue le support permettant de formaliser une expression de besoins d’interopérabilité susceptible de donner lieu à un enrichissement du CI-SIS. Il s’adresse à tout acteur des domaines sanitaire, médico-social et médico-administratif identifiant des besoins d’interopérabilité entre au moins deux systèmes.
 
-### Suivi du traitement des expressions de besoin
+### Suivi du traitement des expressions de besoins
 
 Il vous est possible de visualiser vos demandes en cours traitement, mais également celles émises par les autres acteurs en accédant au [tableau de bord](https://github.com/orgs/ansforge/projects/39/views/2) (**outil en cours d'élaboration**).
 **Il est fortement recommandé de prendre connaissance des demandes en cours avant de nous soumettre votre propre demande.**
@@ -40,15 +40,11 @@ L'expression des besoins s'inscrit dans le processus d’élaboration des spéci
 </div>
 
 Une expression de besoins ce traduit par une évolution majeure du CI-SIS.
-**Si l'expression de besoin se traduit par la demande de modification d'un volet existant il sera requalifié en demande de CP.**
+**Si l'expression de besoins se traduit par la demande de modification d'un volet existant il sera requalifié en demande de CP.**
 
 <div class="figure" style='text-align: center;'>
     <img src="../../assets/images/processus-ttt-ebe.png" alt="process-EBE" title="Procédure de traitement d'une demande d'évolution majeure du CI-SIS" style="width:100%;">
-    <figcaption><b>Procédure de traitement d'une demande d'évolution majeure du CI-SIS</b></figcaption>
-</div>
-<div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/def-ttt-ebe.png" alt="CP" title="Evolution majeure du CI-SIS" style="width:80%;">
-</div>
+    <figcaption><b>Procédure de traitement d'une expression de bsoins d'évolution du CI-SIS</b></figcaption>
 
 Le traitement d'une demande d'évolution majeure du CI-SIS requière un passage obligatoire en concertation publique afin de :
 * partager et communiquer sur les évolutions du CI-SIS
