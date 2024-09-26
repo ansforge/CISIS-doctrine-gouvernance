@@ -49,17 +49,26 @@ Une expression de besoins se traduit par une évolution majeure du CI-SIS.
 </div>
 
 Le traitement d'une demande d'évolution majeure du CI-SIS requière un passage obligatoire en concertation publique afin de :
-* partager et communiquer sur les évolutions du CI-SIS
-* permettre aux parties-prenantes du CI-SIS et à l'ensemble de l'écosystème de réagir sur ces évolutions et remonter les impacts sur l'existant
-* faciliter l'adoption et la mise en oeuvre
+
+<div class="wysiwyg">
+    <ul>
+        <li>partager et communiquer sur les évolutions du CI-SIS</li>
+        <li>permettre aux parties-prenantes du CI-SIS et à l'ensemble de l'écosystème de réagir sur ces évolutions et remonter les impacts sur l'existant</li>
+        <li>faciliter l'adoption et la mise en oeuvre</li>
+    </ul>
+</div>
 
 ### Consultation et concertation
 
 Les procédures de consultation et de concertation:
-* débutent avec la diffusion de l'étude métier ou des spécifications
-* elles sont annoncées au moyen d'une actualités sur le site esante.gouv.fr et d'un courriel d'information aux acteurs concernés
-* les parties-prenantes et l'écosystème formulent leurs commentaires dans un délai de trois (3) mois après le démarrage des procédures. Ce délai peut être prolongé d'un (1) mois si nécesssaire (en période de congé estivale par exemple).
 
+<div class="wysiwyg">
+    <ul>
+        <li>débutent avec la diffusion de l'étude métier ou des spécifications</li>
+        <li>elles sont annoncées au moyen d'une actualités sur le site esante.gouv.fr et d'un courriel d'information aux acteurs concernés</li>
+        <li>les parties-prenantes et l'écosystème formulent leurs commentaires dans un délai de trois (3) mois après le démarrage des procédures. Ce délai peut être prolongé d'un (1) mois si nécesssaire (en période de congé estivale par exemple)</li>
+    </ul>
+</div>
 
 ## Gestion des Changes Proposals (CP)
 
@@ -71,8 +80,13 @@ Les suivi des demandes de CP est visible grêce à ce [tableau de bord](https://
 ### Description du processus de traitement des CP
 
 Les CP sont identifiées en 2 catégories :
-* les CP majeures : problème majeur à résoudre avec impact
-* les CP mineures :  typo ou reformulation ou autre modification sans impact
+
+<div class="wysiwyg">
+    <ul>
+        <li>les CP majeures : problème majeur à résoudre avec impact</li>
+        <li>les CP mineures :  typo ou reformulation ou autre modification sans impact</li>
+    </ul>
+</div>
 
 #### CP majeures
 Les CP majeures sont traitées au fil de l'eau et sont publiées par "batch" tous les 6 mois **sauf exception** (obligation réglementaire, demande Ségur).
