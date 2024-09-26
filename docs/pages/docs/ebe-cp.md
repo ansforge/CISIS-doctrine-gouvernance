@@ -39,7 +39,8 @@ L'expression des besoins s'inscrit dans le processus d’élaboration des spéci
     <figcaption><b>Processus d’élaboration des spécifications d’interopérabilité</b></figcaption>
 </div>
 
-Une expression de besoins ce traduit par une évolution majeure du CI-SIS.
+Une expression de besoins se traduit par une évolution majeure du CI-SIS.
+
 **Si l'expression de besoins se traduit par la demande de modification d'un volet existant il sera requalifié en demande de CP.**
 
 <div class="figure" style='text-align: center;'>
