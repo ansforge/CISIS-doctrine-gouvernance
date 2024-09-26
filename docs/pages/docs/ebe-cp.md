@@ -39,9 +39,11 @@ L'expression des besoins s'inscrit dans le [processus d’élaboration des spéc
     <figcaption><b>Processus d’élaboration des spécifications d’interopérabilité</b></figcaption>
 </div>
 
-Une expression de besoins se traduit par une évolution majeure du CI-SIS.
 
-**Si l'expression de besoins se traduit par la demande de modification d'un volet existant il sera requalifié en demande de CP.**
+**Une expression de besoins se traduit par une évolution majeure du CI-SIS.**
+**Si l'expression de besoins se traduit par la demande de modification d'un volet existant elle sera requalifiée en demande de CP.**
+
+Le processus de traitement d'une expression de besoins peut être schématisé ainsi :
 
 <div class="figure" style='text-align: center;'>
     <img src="../../assets/images/processus-ttt-ebe.png" alt="process-EBE" title="Procédure de traitement d'une demande d'évolution majeure du CI-SIS" style="width:100%;">
