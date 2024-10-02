@@ -49,7 +49,7 @@ Le processus de traitement d'une expression de besoins peut être schématisé a
     <img src="../../assets/images/processus-ttt-ebe.png" alt="process-EBE" title="Procédure de traitement d'une demande d'évolution majeure du CI-SIS" style="width:100%;">
     <figcaption><b>Procédure de traitement d'une expression de besoins d'évolution du CI-SIS</b></figcaption>
 </div>
-
+Après analyse et qualification du besoin, les demandes sont inscrites dans la file active afin de recueillir l'avis du Comité de concertation qui **décide** de la suite à donner et **priorise** le traitement des demandes.
 Le traitement d'une demande d'évolution majeure du CI-SIS requière un passage obligatoire en concertation publique afin de :
 
 <div class="wysiwyg">
