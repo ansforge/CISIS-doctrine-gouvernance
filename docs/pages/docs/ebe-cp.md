@@ -77,7 +77,7 @@ Les procédures de consultation et de concertation:
 ## Gestion des Changes Proposals (CP)
 
 ### Formulaire et suivi
-Une demande de Change Proposal (CP) peut être réalisée via ce [formulaire](https://github.com/ansforge/CISIS-doctrine-gouvernance/issues/new?assignees=&labels=CP&projects=&template=change-proposal-template.yml&title=%5BCP%5D%3A+).
+Une demande de Change Proposal (CP) peut être réalisée via ce [formulaire](../../assets/docs/CI-SIS_FORMULAIRE_Change_Proposal.docx).
 
 Les suivi des demandes de CP est visible grêce à ce [tableau de bord](https://github.com/orgs/ansforge/projects/39/views/1)(**outil en cours d'élaboration**).
 
