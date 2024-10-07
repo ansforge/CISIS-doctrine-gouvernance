@@ -24,7 +24,7 @@ Le CI-SIS est un ensemble de spécifications d’interopérabilité mis à dispo
 
 Initialement centré sur l’échange et le partage de documents de santé dans le cadre de projets gérés par l’ANS, le périmètre du CI-SIS s’est progressivement élargi afin d’englober l’ensemble des processus directement ou indirectement liés à la prise en charge des patients et des usagers des domaines sanitaire, médico-administratif, médico-social et social.
 
-À cet effet, un nouveau modèle de gouvernance du CI-SIS a été mis en œuvre début 2016 en 2024 afin de :
+À cet effet, un nouveau modèle de gouvernance du CI-SIS a été mis en œuvre en 2016 et revu en 2024 afin de :
 
 <div class="wysiwyg">
     <ul>
