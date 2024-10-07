@@ -24,7 +24,7 @@ Le CI-SIS est un ensemble de spécifications d’interopérabilité mis à dispo
 
 Initialement centré sur l’échange et le partage de documents de santé dans le cadre de projets gérés par l’ANS, le périmètre du CI-SIS s’est progressivement élargi afin d’englober l’ensemble des processus directement ou indirectement liés à la prise en charge des patients et des usagers des domaines sanitaire, médico-administratif, médico-social et social.
 
-À cet effet, un nouveau modèle de gouvernance du CI-SIS a été mis en œuvre début 2016 en 2024 afin de :
+À cet effet, un nouveau modèle de gouvernance du CI-SIS a été mis en œuvre en 2016 et revu en 2024 afin de :
 
 <div class="wysiwyg">
     <ul>
@@ -49,11 +49,11 @@ Le processus d’élaboration des spécifications du CI-SIS prend appui sur les 
 <div class="wysiwyg">
     <ul>
         <li>Une formalisation des orientations stratégiques en termes d’interopérabilité mise à jour régulièrement et donnant lieu à l’élaboration de critères de sélection des nouveaux besoins ;</li>
-        <li>Une collecte formelle de besoins en termes d’interopérabilité (expressions de besoins) en continue. La mise en œuvre d’une fiche d’expression de besoins d’interopérabilité permet de fournir une description de la problématique traitée ; </li>
+        <li>Une collecte formelle de besoins en termes d’interopérabilité (expressions de besoins) en continu. La mise en œuvre d’une fiche d’expression de besoins d’interopérabilité permet de fournir une description de la problématique traitée ; </li>
         <li>Une proposition de priorisation par un comité de concertation des nouveaux besoins collectés et une prise de décision par un comité d’instruction de la priorisation de ces besoins collectés pour leur intégration dans le CI-SIS ; </li>
-        <li>Des modalités d’interaction avec l’écosystème en cas de demandes d’évolution du CI-SIS. Ces interactions sont représentées sous forme de logigrammes, pour une demande d’évolution majeure du CI-SIS (ex : nouvelles spécifications ou évolution de spécifications existantes avec nécessité de développements importants pour les systèmes mettant en œuvre les spécifications existantes) et pour les demande d’évolutions mineures (ex : évolutions de spécifications existantes sans impact ou avec un impact mineur sur les systèmes mettant en œuvre les spécifications existantes).  </li>
+        <li>Des modalités d’interaction avec l’écosystème en cas de demandes d’évolution du CI-SIS. Ces interactions sont représentées sous forme de logigramme, pour une demande d’évolution majeure du CI-SIS (ex : nouvelles spécifications ou évolution de spécifications existantes avec nécessité de développements importants pour les systèmes mettant en œuvre les spécifications existantes) et pour les demande d’évolutions mineures (ex : évolutions de spécifications existantes sans impact ou avec un impact mineur sur les systèmes mettant en œuvre les spécifications existantes).  </li>
         <li>Une communication continue et un affichage partagé à l’écosystème de l’ensemble des décisions prises concernant les demandes d’évolution et le suivi des projets d’évolution du CI-SIS en cours ;</li>
-        <li>Une méthode de conception de spécifications d’interopérabilité, décrite dans la doctrine du CI-SIS, pour permettre d’identifier les échanges entre les SI de santé qui nécessitent une interopérabilité, les modéliser et faciliter la spécification des interfaces interopérables ; </li>
+        <li>Une méthode de conception de spécifications d’interopérabilité, décrite dans la doctrine du CI-SIS, pour permettre d’identifier les échanges entre les systèmes d'information de santé qui nécessitent une interopérabilité, les modéliser et faciliter la spécification des interfaces interopérables ; </li>
         <li>La possibilité de contractualiser avec des partenaires externes (Unités de Production externes) de façon à déléguer tout ou partie d’une spécification d’interopérabilité du CI-SIS en utilisant les Contrats_UP qui visent à décrire les principes fondamentaux de collaboration ainsi que le mode de fonctionnement avec les unités de production (UP), en cohérence avec les principes énoncés dans la doctrine du CI-SIS.</li>
         <li>Des mises en concertation au fil de l’eau et une réunion d’information annuelle pour présenter le bilan annuel des évolutions du CI-SIS ainsi que les orientations stratégiques. </li>
     </ul>
@@ -73,7 +73,7 @@ Suite aux premières années de mise en œuvre de la gouvernance et afin de rép
 
 À cet effet, il a été décidé de rapprocher la comitologie de gouvernance du CI-SIS de celles d’autres référentiels bâtis en concertation avec les parties-prenantes dans le secteur sanitaire, médico-administratif, médico-social et social.
 
-Ainsi, à l’instar de la PGSSI-S, La comitologie de gouvernance du CI-SIS est désormais constituée de deux trois organes :
+Ainsi, à l’instar de la PGSSI-S, La comitologie de gouvernance du CI-SIS est désormais constituée de trois organes :
 
 <div class="wysiwyg">
     <ul>
