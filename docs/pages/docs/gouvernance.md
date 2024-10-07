@@ -73,7 +73,7 @@ Suite aux premières années de mise en œuvre de la gouvernance et afin de rép
 
 À cet effet, il a été décidé de rapprocher la comitologie de gouvernance du CI-SIS de celles d’autres référentiels bâtis en concertation avec les parties-prenantes dans le secteur sanitaire, médico-administratif, médico-social et social.
 
-Ainsi, à l’instar de la PGSSI-S, La comitologie de gouvernance du CI-SIS est désormais constituée de deux trois organes :
+Ainsi, à l’instar de la PGSSI-S, La comitologie de gouvernance du CI-SIS est désormais constituée de trois organes :
 
 <div class="wysiwyg">
     <ul>
