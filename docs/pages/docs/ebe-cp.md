@@ -109,5 +109,5 @@ Les CP mineures sont traitées au fil de l'eau et sont intégrées dans les vole
 Le schéma ci-dessous décrit le cycle de vie d'une CP durant son traitement.
 <div class="figure" style='text-align: center;'>
     <img src="../../assets/images/ttt-cp.png" alt="CP" title="Traitment d'une CP : son cycle de vie" style="width:70%;">
-    <figcaption><b>Traitment d'une CP : son cycle de vie</b></figcaption>
+    <figcaption><b>Traitement d'une CP : son cycle de vie</b></figcaption>
 </div>
