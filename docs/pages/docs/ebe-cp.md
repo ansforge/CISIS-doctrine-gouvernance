@@ -46,8 +46,8 @@ L'expression des besoins s'inscrit dans le [processus d’élaboration des spéc
 Le processus de traitement d'une expression de besoins peut être schématisé ainsi :
 
 <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/processus-ttt-ebe.png" alt="process-EBE" title="Procédure de traitement d'une demande d'évolution majeure du CI-SIS" style="width:100%;">
-    <figcaption><b>Procédure de traitement d'une expression de besoins d'évolution du CI-SIS</b></figcaption>
+    <img src="../../assets/images/processus-ttt-ebe.png" alt="process-EBE" title="Procédure de traitement d'une demande d'évolution majeure du CI-SIS" border="2" style="width:100%;">
+    <figcaption><b>Procédure de traitement d'une expression de besoins d'évolution majeure du CI-SIS</b></figcaption>
 </div>
 Après analyse et qualification du besoin, les demandes sont inscrites dans la file active afin de recueillir l'avis du Comité de concertation qui s'appuie sur le Comité d'instrution  et **propose une priorisation** a Comité de pilotage.
 Le Comité de pilotage s'appuie à son tour sur cette recommandation du Comité de concertation pour **décider** de la suite à donner concerant le traitement des demandes reçues.
