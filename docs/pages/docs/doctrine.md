@@ -52,9 +52,13 @@ L’ensemble des spécifications d’interopérabilité (au sein du Cadre d’In
     <figcaption><b>Principes généraux de la doctrine d’interopérabilité</b></figcaption>
 </div>
 
+<!-- 
 ## Doctrine d'open semantique
 
-<!-- TODO - Faut-il l’intégrer à la doctrine du CI-SIS ? Si oui, à reprendre du document constitutif du CGTS. -->
+TODO - Faut-il l’intégrer à la doctrine du CI-SIS ? Si oui, à reprendre du document constitutif du CGTS. 
+A noter qu'il manque la partie doctrine d'open semantique ici.
+
+-->
 
 ## Choix des profils IHE et des guides d’implémentation FHIR comme base de la doctrine d’interopérabilité syntaxique
 
