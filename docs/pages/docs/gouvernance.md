@@ -38,7 +38,7 @@ Initialement centré sur l’échange et le partage de documents de santé dans 
 La gouvernance rénovée du CI-SIS se caractérise notamment par un processus d’élaboration des spécifications d’interopérabilité qui sont à l’origine du développement des conditions favorables à l’interopérabilité des systèmes. Ce processus peut être schématisé de la façon suivante :
 
 <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/gouvernance-1.png" alt="CP" title="Processus d’élaboration des spécifications d’interopérabilité" style="width:80%;">
+    <img src="../../assets/images/processus-ebe.png" alt="CP" title="Processus d’élaboration des spécifications d’interopérabilité" style="width:80%;">
     <figcaption><b>Processus d’élaboration des spécifications d’interopérabilité</b></figcaption>
 </div>
 
