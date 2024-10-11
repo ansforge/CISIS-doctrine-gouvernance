@@ -1,6 +1,7 @@
+p, li, td {
+  color: black;
+}
 
-
-
-p {
-    color: black;
-  }
+div.wysiwyg {
+margin-bottom: 3rem;
+}
