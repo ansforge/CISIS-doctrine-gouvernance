@@ -25,9 +25,10 @@ Le CI-SIS est élaboré à partir des cas d’usage métier des secteurs sanitai
 Le processus de la gouvernance du CI-SIS, proposé par l’ANS est le suivant :
 
 <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/gouvernance-1.png" alt="CP" title="Processus d’élaboration des spécifications d’interopérabilité" style="width:80%;">
+    <img src="../../assets/images/processus-ebe.png" alt="CP" title="Processus d’élaboration des spécifications d’interopérabilité" style="width:80%;">
     <figcaption><b>Processus d’élaboration des spécifications d’interopérabilité</b></figcaption>
 </div>
+
 
 Cette gouvernance répond aux objectifs suivants :
 
