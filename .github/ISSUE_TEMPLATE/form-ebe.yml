@@ -1,0 +1,358 @@
+name: "(CI-SIS) Formulaire d’expression de besoins d’interopérabilité"
+description: >
+  Cible: tout acteur des domaines sanitaire, médico-social et médico-administratif identifiant des besoins d’interopérabilité entre au moins deux systèmes.
+title: "[EBE]: "
+labels: ["EBE"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Note d’utilisation
+        Merci de remplir toutes les sections obligatoires correspondant à votre demande de manière détaillée et si possible les sections indiquées comme optionnelles.
+
+        ### Sections obligatoires et optionnelles
+        - **Partie Syntaxique** : À remplir si votre demande concerne la création ou la modification de volets dans le partage des informations (standardisation du format).
+        - **Partie Sémantique** : À remplir si votre demande concerne la publication d’une Terminologie ou d’un alignement (création ou hébergement).
+
+  - type: markdown
+    attributes:
+      value: |
+        # DESCRIPTION DE VOS BESOINS
+
+  - type: input
+    id: titre
+    attributes:
+      label: "Titre du besoin"
+      description: "Le titre sera utilisé pour la publication sur le site esante.gouv.fr."
+      placeholder: "Indiquez le titre ici"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: rubrique
+    attributes:
+      label: "Rubrique (obligatoire)"
+      description: "Veuillez sélectionner la rubrique correspondante."
+      options:
+      - "Couche Métier"
+      - "Couche Service"
+      - "Couche Transport"
+      - "Autre (préciser ci-dessous)"
+    validations:
+      required: true
+    
+  - type: textarea
+    id: autre_rubrique
+    attributes:
+      label: "Autre Rubrique"
+      description: "Si vous avez coché 'Autre', précisez ici."
+
+  - type: markdown
+    attributes:
+      value: |
+        ### Porteur de besoins
+
+  - type: input
+    id: porteur_prenom_nom
+    attributes:
+      label: "Prénom et Nom du porteur de besoins"
+      placeholder: "Indiquez le prénom et nom"
+    validations:
+      required: true
+
+  - type: input
+    id: porteur_organisation
+    attributes:
+      label: "Organisation du porteur de besoins"
+      placeholder: "Indiquez l'organisation"
+    validations:
+      required: true
+
+  - type: input
+    id: porteur_email
+    attributes:
+      label: "Adresse de messagerie électronique"
+      placeholder: "Indiquez l'adresse e-mail"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ### Sponsor
+
+#  - type: input
+#    id: sponsor_prenom_nom
+#    attributes:
+#      label: "Prénom et Nom du sponsor"
+#      placeholder: "Indiquez le prénom et nom du sponsor"
+#    validations:
+#      required: true
+
+  - type: input
+    id: sponsor_organisation
+    attributes:
+      label: "Organisation du sponsor"
+      placeholder: "Indiquez l'organisation du sponsor"
+    validations:
+      required: true
+
+#  - type: input
+#    id: sponsor_email
+#    attributes:
+#      label: "Adresse de messagerie électronique du sponsor"
+#      placeholder: "Indiquez l'adresse e-mail du sponsor"
+#    validations:
+#      required: true
+
+  - type: textarea
+    id: parties_prenantes
+    attributes:
+      label: "Parties Prenantes"
+      description: "Liste des parties prenantes impliquées dans l'expression de ces besoins."
+
+  - type: markdown
+    attributes:
+      value: |
+        ### Contexte des besoins 
+
+  - type: dropdown
+    id: contexte_projet_programme
+    attributes:
+      label: "Les besoins s’inscrivent-ils dans un projet ou programme national/international ?"
+      options:
+        - "Oui (précisez ci-dessous)"
+        - "Non (justifiez ci-dessous)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: cadre_reglementaire
+    attributes:
+      label: "Cadre réglementaire"
+      description: "Si vous avez répondu oui à la question précédente merci d'apporter une précision. Sinon, veuillez décrire le cadre réglementaire justifiant votre demande (références vers les décrets)."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: complement_expression
+    attributes:
+      label: "Les besoins sont-ils un complément d’une expression ou travaux en cours ?"
+      options:
+        - label: "Oui (préciser les titres des besoins concernés)"
+        - label: "Non"
+  
+  - type: textarea
+    id: travaux
+    attributes:
+      label: "Travaux en cours"
+      description: "Précisez ici les titres des besoins concernés si vous avez répondu oui à la question précédente."
+      
+  - type: textarea
+    id: references
+    attributes:
+      label: "Références"
+      description: "Ajouter toutes les références (articles, décrets) justifiant votre demande."
+
+  - type: textarea
+    id: synthese_besoins
+    attributes:
+      label: "Synthèse des besoins exprimés"
+      description: "Cette synthèse sera utilisée pour la publication des besoins sur le site esante.gouv.fr."
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ### Impact et intérêt (risques et bénéfices) 
+
+  - type: dropdown
+    id: impact_systeme
+    attributes:
+      label: "Impact sur les systèmes"
+      description: "Évaluez l'impact sur les systèmes (1 = faible à 5 = fort)."
+      options:
+      - "1"
+      - "2"
+      - "3"
+      - "4"
+      - "5"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: interet_ecosysteme
+    attributes:
+      label: "Intérêt pour l'écosystème"
+      description: "Évaluez l'intérêt pour l'écosystème (1 = faible à 5 = fort)."
+      options:
+      - "1"
+      - "2"
+      - "3"
+      - "4"
+      - "5"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: estimation_complexite
+    attributes:
+      label: "Estimation de la complexité"
+      description: "Évaluez la complexité de la demande (1 = faible à 5 = fort)."
+      options:
+      - "1"
+      - "2"
+      - "3"
+      - "4"
+      - "5"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: risque_non_faire
+    attributes:
+      label: "Risque à ne pas faire"
+      description: "Évaluez le risque associé à ne pas traiter cette demande (1 = faible à 5 = fort)."
+      options:
+      - "1"
+      - "2"
+      - "3"
+      - "4"
+      - "5"
+    validations:
+      required: true
+
+  - type: textarea
+    id: autres_risques_benefices
+    attributes:
+      label: "Autres risques et/ou bénéfices"
+      description: "Justifiez les niveaux renseignés et ajoutez d’autres risques ou bénéfices."
+
+  - type: textarea
+    id: delai_contraintes
+    attributes:
+      label: "Délai et contraintes projet"
+      description: "Indiquez les contraintes de délai à prendre en compte pour le traitement de votre demande."
+
+  - type: markdown
+    attributes:
+      value: |
+        ## PARTIE SYNTAXIQUE (SPECIFIQUE)
+
+  - type: textarea
+    id: cas_usage_syntaxique
+    attributes:
+      label: "Cas d’usage (Partie Syntaxique)"
+      description: |
+        Décrire le(s) cas d’usage métier dans lesquels s’inscrivent vos besoins, en précisant les transmissions de contenu de manière dématérialisée (qui produit le contenu, qui sont les destinataires).
+
+  - type: textarea
+    id: problematique_syntaxique
+    attributes:
+      label: "Problématique (Partie Syntaxique)"
+      description: "Expliquer la problématique rencontrée en termes d’interopérabilité."
+
+  - type: textarea
+    id: description_echanges
+    attributes:
+      label: "Description des échanges entre systèmes"
+      description: |
+        Décrire les modules du Système d’Information intervenant dans les échanges, leur rôle, et interactions. Fournir des éléments quantitatifs si connus (volumes, répartition, fréquence).
+
+  - type: checkboxes
+    id: jeux_valeurs
+    attributes:
+      label: "Besoin de jeux de valeurs ou spécificités sémantiques en complément de la demande ?"
+      options:
+        - label: "Oui (préciser)"
+        - label: "Non"
+        
+  - type: textarea
+    id: jeux_valeurs_details
+    attributes:
+      label: "Compléments"
+      description: "Complétez ici si vous avez répondu oui à la question précédente."
+
+  - type: markdown
+    attributes:
+      value: |
+        ## PARTIE SEMANTIQUE (SPECIFIQUE)
+
+  - type: textarea
+    id: cas_usage_semantique
+    attributes:
+      label: "Cas d’usage (Partie Sémantique)"
+      description: |
+        Décrire le(s) cas d’usage métier dans lesquels s’inscrivent vos besoins sémantiques, en expliquant comment la Terminologie est utilisée ou sera utilisée.
+
+  - type: textarea
+    id: problematique_semantique
+    attributes:
+      label: "Problématique (Partie Sémantique)"
+      description: "Expliquer la problématique rencontrée en termes d’interopérabilité et comment cette demande y répondrait."
+
+  - type: markdown
+    attributes:
+      value: |
+        ### Prérequis à la publication et travaux associés 
+
+  - type: textarea
+    id: format_actuel
+    attributes:
+      label: "Format actuel"
+      description: |
+        Décrire le format actuel de votre Terminologie, la volumétrie, les interactions avec d’autres terminologies, le niveau de maturité, et la langue utilisée.
+
+  - type: checkboxes
+    id: multilingue
+    attributes:
+      label: "Votre Terminologie est-elle multilingue ?"
+      options:
+        - label: "Oui (préciser la langue ci-dessous)"
+        - label: "Non"
+
+  - type: textarea
+    id: langue
+    attributes:
+      label: "Langue"
+      description: |
+        Si votre Terminologie est multilingue merci de préciser la langue.
+
+  - type: textarea
+    id: unite_production
+    attributes:
+      label: "Unité de Production"
+      description: |
+        Avez-vous identifié l’Unité de Production de votre Terminologie ? Précisez l’organisme responsable, la composition de l’équipe, et la politique de gestion.
+
+  - type: textarea
+    id: frequence_evolution
+    attributes:
+      label: "Fréquence d'évolution de la Terminologie"
+      description: "Indiquer la fréquence d’évolution de votre Terminologie (ex : mensuelle, annuelle)."
+
+  - type: textarea
+    id: propriete_intellectuelle
+    attributes:
+      label: "Propriété intellectuelle"
+      description: |
+        En cas d'utilisation d’une licence autre que LOV2, expliquer les modalités d’accès à la Terminologie (ex: traçabilité des utilisateurs avec un mode connecté).
+
+  - type: textarea
+    id: utilisateurs_terminologie
+    attributes:
+      label: "Utilisateurs de la Terminologie"
+      description: "Décrire l’audience visée par votre Terminologie."
+
+  - type: markdown
+    attributes:
+      value: |
+        ## ELEMENTS COMPLEMENTAIRES
+
+  - type: textarea
+    id: commplements
+    attributes:
+      label: "Commentaires et documents supplémentaires"
+      description: "Ajoutez tout autre élément pertinent pour votre demande (commentaires et/ou tout document utile qui peut faciliter l’instruction de votre demande.)."
+

@@ -1,4 +1,4 @@
-const contactEmail = 'ans-forge@esante.gouv.fr';
+const contactEmail = 'ci-sis@esante.gouv.fr';
 
 function normalizeText(s){
    return s.replace(/[^\w ]/g, '')
