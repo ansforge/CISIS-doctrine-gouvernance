@@ -83,7 +83,7 @@ Le positionnement des comités au sein du processus peut être illustré comme s
 La figure ci-dessous représente l’articulation entre le comité de pilotage, le comité de concertation et la réunion annuelle de présentation du CI-SIS.
 
  <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/gouvernance-3.png" alt="CP" title="articulation entre le comité de pilotage et le comité de concertation" style="width:80%;">
+    <img src="../../assets/images/Gouvernance - 3 vf.png" alt="CP" title="articulation entre le comité de pilotage et le comité de concertation" style="width:80%;">
     <figcaption><b>articulation entre le comité de pilotage et le comité de concertation</b></figcaption>
 </div>
 
