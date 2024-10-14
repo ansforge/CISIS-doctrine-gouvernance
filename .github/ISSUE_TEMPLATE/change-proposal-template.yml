@@ -4,7 +4,7 @@ title: "[CP]: "
 labels: ["CP"]
 
 body:
-  - type: texte
+  - type: textarea
     id: titre
     attributes:
       label: Titre
@@ -12,7 +12,7 @@ body:
       placeholder: écrire ici le titre résumant la demande de changement
     validations:
       required: true
-  - type: texte
+  - type: textarea
     id: volet
     attributes:
       label: Volet CI-SIS
@@ -20,7 +20,7 @@ body:
       placeholder: écrire ici le titre et la version. Vous pouvez également ajouter un lien vers la version
     validations:
       required: true
-  - type: texte
+  - type: textarea
     id: Nom_prenom
     attributes:
       label: Prénom et Nom du demandeur
@@ -31,48 +31,7 @@ body:
     id: organisation
     attributes:
       label: Oraganisation du demandeur
-      description: A quelle organisation êtes-vous ratacchée ?
-      options: 
-        - ANAP
-        - Agence du Numérique en Santé 
-        - ANSM
-        - ATIH
-        - CNAMTS
-        - CNSA
-        - DGOS
-        - DGS
-        - DSS
-        - DNS
-        - HAS
-        - HDH
-        - INCA
-        - ASINHPA
-        - FEIMA
-        - Interop'Santé
-        - LESSIS
-        - SNITEM
-        - SYNTEC
-        - ARS
-        - CISS
-        - FEHPA
-        - FFMPS
-        - FHF
-        - FHP
-        - FNEHAD
-        - FSM
-        - FSP
-        - GCS
-        - URPS
-        - UFCV
-        - Autre      
-    validations:
-      required: true
-  - type: texte
-    id: autre_orga
-    attributes:
-      label: Autre organisation
-      description: Veuillez spécifier votre organisation si vous avez sélectionné 'Autres'
-      visible_si: organisation == 'Autre'
+      description: A quelle organisation êtes-vous ratacchée ?   
     validations:
       required: true
   - type: email
@@ -82,7 +41,7 @@ body:
       description: Renseignez votre adresse mail
     validations:
       required: true
-  - type: texte
+  - type: textarea
     id: volet
     attributes:
       label: Volet CI-SIS
@@ -117,17 +76,11 @@ body:
     validations:
       required: true
 
-  - type: dropdown
+  - type: textarea
     id: impact_assessment
     attributes:
-      label: "Votre évaluation d'impact"
-      multiple: false
-      description: |
-        - **Majeur**: Question importante où il y a un problème majeur à résoudre. Nécessitera une concertation
-        - **Mineur**: Par exemple typo ou reformulation ne nécessitant pas de mise en concertation
-      options:
-        - Majeur
-        - Mineur
+      label: "Votre évaluation d'impact du changement "
+      description: "Veuillez indiquer ci-dessous votre évaluation de(s) impact(s) (gains et/ou risques) du changement proposé"
     validations:
       required: true
   
