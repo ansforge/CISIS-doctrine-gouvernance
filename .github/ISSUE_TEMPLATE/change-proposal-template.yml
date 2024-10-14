@@ -82,7 +82,7 @@ body:
       label: "Votre évaluation d'impact du changement "
       description: "Veuillez indiquer ci-dessous votre évaluation de(s) impact(s) (gains et/ou risques) du changement proposé"
     validations:
-      required: true
+      required: false
   
   - type: textarea
     attributes:
