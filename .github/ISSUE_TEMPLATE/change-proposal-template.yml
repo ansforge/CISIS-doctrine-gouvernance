@@ -4,14 +4,92 @@ title: "[CP]: "
 labels: ["CP"]
 
 body:
-  - type: textarea
+  - type: texte
+    id: titre
+    attributes:
+      label: Titre
+      description: Quel est le tittre qui sera utlisé pour la publication sur le site esante.gouv.fr
+      placeholder: écrire ici le titre résumant la demande de changement
+    validations:
+      required: true
+  - type: texte
     id: volet
     attributes:
-      label: Volet Ci-SIS
+      label: Volet CI-SIS
       description: Quel est le volet CI-SIS concerné par votre demande?
       placeholder: écrire ici le titre et la version. Vous pouvez également ajouter un lien vers la version
     validations:
       required: true
+  - type: texte
+    id: Nom_prenom
+    attributes:
+      label: Prénom et Nom du demandeur
+      description: Prénom et Nom
+    validations:
+      required: true
+  - type: selection
+    id: organisation
+    attributes:
+      label: Oraganisation du demandeur
+      description: A quelle organisation êtes-vous ratacchée ?
+      options: 
+        - ANAP
+        - Agence du Numérique en Santé 
+        - ANSM
+        - ATIH
+        - CNAMTS
+        - CNSA
+        - DGOS
+        - DGS
+        - DSS
+        - DNS
+        - HAS
+        - HDH
+        - INCA
+        - ASINHPA
+        - FEIMA
+        - Interop'Santé
+        - LESSIS
+        - SNITEM
+        - SYNTEC
+        - ARS
+        - CISS
+        - FEHPA
+        - FFMPS
+        - FHF
+        - FHP
+        - FNEHAD
+        - FSM
+        - FSP
+        - GCS
+        - URPS
+        - UFCV
+        - Autre      
+    validations:
+      required: true
+  - type: texte
+    id: autre_orga
+    attributes:
+      label: Autre organisation
+      description: Veuillez spécifier votre organisation si vous avez sélectionné 'Autres'
+      visible_si: organisation == 'Autre'
+    validations:
+      required: true
+  - type: email
+    id: mail
+    attributes:
+      label: Adresse mail
+      description: Renseignez votre adresse mail
+    validations:
+      required: true
+  - type: texte
+    id: volet
+    attributes:
+      label: Volet CI-SIS
+      description: Quel est le volet CI-SIS concerné par votre demande?
+      placeholder: écrire ici le titre et la version. Vous pouvez également ajouter un lien vers la version
+    validations:
+      required: true      
   - type: input
     id: section_identification
     attributes:
@@ -25,7 +103,7 @@ body:
     id: issue_description
     attributes:
       label: "Votre demande de changement"
-      description: "Description de votre demande"
+      description: "Description de votre demande, du contexte, du problème rencontré"
       placeholder: "Décrivez votre demande"
     validations:
       required: true
@@ -37,7 +115,7 @@ body:
       description: "Proposer une modification (par exemple, une nouvelle formulation suggérée ou la description d'un moyen de résoudre le problème).\nProposer une solution ou une modification est fortement recommandé.\n Pour une suppression vous pouvez reprendre le texte et le barrer. \n Pour un ajout vous pouvez reprendre le paragraphe ou la section et surligner le texte ajouté.\n Vous pouvez également proposer une Pull Request (PR) lorsque le volet est sur un repository github et placer le lien ici vers cette PR"
       placeholder: "Proposez votre modification"
     validations:
-      required: false
+      required: true
 
   - type: dropdown
     id: impact_assessment
