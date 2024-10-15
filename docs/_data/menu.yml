@@ -30,9 +30,6 @@ header:
 
   - title: Gouvernance du CI-SIS
     subfolderitems:
-      - page: Généralités
-        url: /pages/docs/generalites-gouv.html
-        title: Généralités
       - page: Gouvernance du CI-SIS
         url: /pages/docs/gouvernance.html
         title: Gouvernance
