@@ -25,7 +25,7 @@ Le CI-SIS est élaboré à partir des cas d’usage métier des secteurs sanitai
 Le processus de la gouvernance du CI-SIS, proposé par l’ANS est le suivant :
 
 <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/processus-ebe.png" alt="CP" title="Processus d’élaboration des spécifications d’interopérabilité" style="width:80%;">
+    <img src="../../assets/images/processus-ebe.png" alt="processus EBE" title="Processus d’élaboration des spécifications d’interopérabilité" style="width:80%;">
     <figcaption><b>Processus d’élaboration des spécifications d’interopérabilité</b></figcaption>
 </div>
 
@@ -74,7 +74,7 @@ Le comité de concertation formule des recommandations en termes de priorisation
 Le positionnement des comités au sein du processus peut être illustré comme suit :
 
 <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/gouvernance-2.png" alt="CP" title="Positionnement des comités au sein du processus" style="width:80%;">
+    <img src="../../assets/images/gouvernance-2.png" alt="processus" title="Positionnement des comités au sein du processus" style="width:80%;">
     <figcaption><b>Positionnement des comités au sein du processus</b></figcaption>
 </div>
 
@@ -83,13 +83,13 @@ Le positionnement des comités au sein du processus peut être illustré comme s
 La figure ci-dessous représente l’articulation entre le comité de pilotage, le comité de concertation et la réunion annuelle de présentation du CI-SIS.
 
  <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/Gouvernance - 3 vf.png" alt="CP" title="articulation entre le comité de pilotage et le comité de concertation" style="width:80%;">
+    <img src="../../assets/images/Gouvernance - 3 vf.png" alt="Comitologie" title="articulation entre le comité de pilotage et le comité de concertation" style="width:80%;">
     <figcaption><b>articulation entre le comité de pilotage et le comité de concertation</b></figcaption>
 </div>
 
 La figure ci-dessous représente le calendrier des comités de pilotage, du comité de concertation et de la réunion annuelle de présentation du CI-SIS sur l’axe du temps au cours d’une année civile.
 
  <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/gouvernance-2.png" alt="CP" title="Calendrier des comités" style="width:80%;">
+    <img src="../../assets/images/gouvernance-3.png" alt="Calendrier des comités" title="Calendrier des comités" style="width:80%;">
     <figcaption><b>Calendrier des comités</b></figcaption>
 </div>
