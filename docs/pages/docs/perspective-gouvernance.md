@@ -90,6 +90,6 @@ La figure ci-dessous représente l’articulation entre le comité de pilotage, 
 La figure ci-dessous représente le calendrier des comités de pilotage, du comité de concertation et de la réunion annuelle de présentation du CI-SIS sur l’axe du temps au cours d’une année civile.
 
  <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/gouvernance-3.png" alt="Calendrier des comités" title="Calendrier des comités" style="width:80%;">
+    <img src="../../assets/images/gouvernance-4.png" alt="Calendrier des comités" title="Calendrier des comités" style="width:80%;">
     <figcaption><b>Calendrier des comités</b></figcaption>
 </div>
