@@ -4,6 +4,19 @@ title: "[CP]: "
 labels: ["CP"]
 
 body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Note d’utilisation du formulaire 
+        Merci de remplir les parties obligatoires. Les champs obligatoires devront être complétés de manière détaillée ainsi que les champs marqués optionnels si possible.
+
+        Le formulaire rempli ainsi que les éventuelles pièces jointes sont à transmettre par courriel à l’adresse ci-sis@esante.gouv.fr
+
+  - type: markdown
+    attributes:
+      value: |
+        # DESCRIPTION DE Votre demande de changement (Change Proposal)
+
   - type: input
     id: titre
     attributes:
