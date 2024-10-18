@@ -4,7 +4,7 @@ title: "[CP]: "
 labels: ["CP"]
 
 body:
-  - type: text
+  - type: input
     id: titre
     attributes:
       label: Titre
