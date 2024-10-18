@@ -30,7 +30,7 @@ body:
   - type: input
     id: organisation
     attributes:
-      label: Oraganisation du demandeur
+      label: Organisation du demandeur
       description: A quelle organisation êtes-vous ratacchée ?   
     validations:
       required: true
