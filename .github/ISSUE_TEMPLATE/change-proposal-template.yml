@@ -27,14 +27,14 @@ body:
       description: Prénom et Nom
     validations:
       required: true
-  - type: selection
+  - type: textarea
     id: organisation
     attributes:
       label: Oraganisation du demandeur
       description: A quelle organisation êtes-vous ratacchée ?   
     validations:
       required: true
-  - type: email
+  - type: textarea
     id: mail
     attributes:
       label: Adresse mail
@@ -85,6 +85,7 @@ body:
       required: false
   
   - type: textarea
+    id: complement
     attributes:
       label: Eléments complémentaires
       description: |
