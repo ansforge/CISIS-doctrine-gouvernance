@@ -4,7 +4,7 @@ title: "[CP]: "
 labels: ["CP"]
 
 body:
-  - type: textarea
+  - type: text
     id: titre
     attributes:
       label: Titre
@@ -20,21 +20,21 @@ body:
       placeholder: écrire ici le titre et la version. Vous pouvez également ajouter un lien vers la version
     validations:
       required: true
-  - type: textarea
+  - type: text
     id: Nom_prenom
     attributes:
       label: Prénom et Nom du demandeur
       description: Prénom et Nom
     validations:
       required: true
-  - type: textarea
+  - type: text
     id: organisation
     attributes:
       label: Oraganisation du demandeur
       description: A quelle organisation êtes-vous ratacchée ?   
     validations:
       required: true
-  - type: textarea
+  - type: text
     id: mail
     attributes:
       label: Adresse mail
