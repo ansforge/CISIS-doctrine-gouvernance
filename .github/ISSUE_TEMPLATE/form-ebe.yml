@@ -52,7 +52,7 @@ body:
       label: Adresse mail
       description: Renseignez votre adresse mail
     validations:
-      required: true  
+      required: true
  
 
   - type: textarea
@@ -61,7 +61,7 @@ body:
       label: "Sponsors"
       description: "Liste des sponsors soutenant l'expression de besoin (Organisation, Nom, Prénom et mail)."
       validations:
-        required: true 
+        required: true
 
   - type: textarea
     id: parties_prenantes
