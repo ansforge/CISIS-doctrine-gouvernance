@@ -48,15 +48,21 @@ body:
     validations:
       required: true
 
-
+  - type: input
+    id: mail
+    attributes:
+      label: Adresse mail
+      description: Renseignez votre adresse mail
+    validations:
+      required: true
 
   - type: textarea
     id: sponsors
     attributes:
       label: "Sponsors"
       description: "Liste des sponsors soutenant l'expression de besoin (Organisation, Nom, Prénom et mail)."
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: textarea
     id: parties_prenantes
@@ -93,9 +99,9 @@ body:
       options:
         - label: "Oui (préciser les titres des besoins concernés)"
         - label: "Non"
-      validations:
-        required: true
-  
+    validations:
+      required: true
+
   - type: textarea
     id: travaux
     attributes:
@@ -216,16 +222,12 @@ body:
           Le(s) cas d'usage peut/peuvent être présenté(s) sous la forme d'une petite histoire qui, si possible, indique quand un élément informatique est utilisé. Ces éléments seront utilisés pour l’élaboration des échanges fonctionnels.
 
           Attention : L’objectif est de faire émerger les besoins d’interopérabilité entre composants informatiques. Si au cours de la description du cas d’usage, il apparait évident que les transmissions de contenu décrites ou les actions réalisées le sont toujours au sein du même composant ou du même logiciel, il est probable que le besoin exprimé ne soit pas un besoin d’interopérabilité mais un besoin d’évolution d’un logiciel en particulier."
-    validations:
-      required: true
 
   - type: textarea
     id: problematique_syntaxique
     attributes:
       label: "Problématique (Partie Syntaxique)"
       description: "À partir du scénario d’usage, expliquer la problématique rencontrée en termes d’interopérabilité."
-    validations:
-      required: true
 
   - type: markdown
     id: description_echange 
@@ -239,49 +241,39 @@ body:
     attributes:
       label: "Description des échanges entre systèmes: Module source"
       description : Module source
-    validations:
-      required: true
 
   - type: input
     id: Module_destinataire
     attributes:
       label: "Description des échanges entre systèmes: Module destinataire"
       description : Module destinataire
-    validations:
-      required: true
+
 
   - type: input
     id: Objectif_general
     attributes:
       label: "Description des échanges entre systèmes: Objectif général"
       description : Objectif général
-    validations:
-      required: true
 
   - type: input
     id: Donnees_transmises
     attributes:
       label: "Description des échanges entre systèmes: Principales données transmises"
       description : Principales données transmises
-    validations:
-      required: true
+
 
   - type: input
     id: Evenement_declencheur
     attributes:
       label: "Description des échanges entre systèmes: Prérequis et évènement(s) déclencheur(s)"
       description : Prérequis et évènement(s) déclencheur(s)
-    validations:
-      required: true
+
 
   - type: input
     id: Actions_declenchees
     attributes:
       label: "Description des échanges entre systèmes: Actions déclenchées"
       description : Actions déclenchées
-    validations:
-      required: true
-
 
   - type: checkboxes
     id: jeux_valeurs
