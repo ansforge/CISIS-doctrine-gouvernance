@@ -10,13 +10,13 @@ body:
         ## Note d’utilisation du formulaire
         En préambule, merci de remplir les éléments obligatoires dans la partie “DESCRIPTION DE VOS BESOINS”    ainsi que les champs marqués optionnels (si possible).
         Ensuite :
-        - Si votre demande concerne la création ou la modification de volets dans le partage des informations (standardisation du format)  Veuillez compléter la PARTIE SYN-TAXIQUE du formulaire (a minima les éléments obligatoires).
+            - Si votre demande concerne la publication d’une ou plusieurs bibliothèques médicales (exemples CQL, AQL) (création ou hébergement). Veuillez compléter la PARTIE CONNAISSANCES.
 
-        - ET/OU si votre demande concerne la publication d’une Terminologie ou d’un ali-gnement (création ou hébergement)  Veuillez compléter la PARTIE SEMANTIQUE du formulaire (a minima les éléments obligatoires).
+            - ET/OU si votre demande concerne la création ou la modification de volets dans le partage des informations (standardisation du format). Veuillez compléter la PARTIE SYNTAXIQUE du formulaire .
 
-        - ET/OU si votre demande concerne la publication d’une ou plusieurs bibliothèques médicales (exemples CQL, AQL) (création ou hébergement)  Veuillez compléter la PARTIE CONNAISSANCES (a minima les éléments obligatoires).
+            - ET/OU si votre demande concerne la publication d’une Terminologie ou d’un alignement (création ou hébergement).Veuillez compléter la PARTIE SEMANTIQUE du formulaire .
 
-        Le formulaire rempli, ainsi que les éventuelles pièces jointes sont à trans-mettre par courriel à l’adresse ci-sis@esante.gouv.fr
+        Les éventuelles pièces jointes sont à transmettre par courriel à l’adresse ci-sis@esante.gouv.fr
 
   - type: markdown
     attributes:
@@ -88,7 +88,8 @@ body:
   - type : textarea
     id: precision_contexte
     attributes:
-      label : "Précisez dans le cadre de quel projet ou programme national/international. Le cas échéant décrire ici le cadre réglementaire qui justifie votre demande (références vers les décrets)"
+      label : "Précisez dans le cadre de quel projet ou programme national/international. 
+        Le cas échéant décrire ici le cadre réglementaire qui justifie votre demande (références vers les décrets)"
     validations:
       required: true
 
@@ -105,7 +106,7 @@ body:
   - type: textarea
     id: travaux
     attributes:
-      label: "Travaux en cours"
+      label: "Travaux en cours liés à la demande"
       description: "Si oui, précisez ici les titres des besoins concernés si vous avez répondu oui à la question précédente."
     validations:
       required: true
@@ -188,14 +189,16 @@ body:
   - type: textarea
     id: risques_identifies
     attributes:
-      label: "Décrivez et justifiez les risques identifiés."
+      label: "Risques"
+      description : "Décrivez et justifiez les risques identifiés."
     validations:
       required: true
 
   - type: textarea
     id: benefices_attendus
     attributes:
-      label: "Décrivez et justifiez les bénéfices attendus."
+      label: "Bénéfices"
+      description: "Décrivez et justifiez les bénéfices attendus."
     validations:
       required: true
     
@@ -204,6 +207,39 @@ body:
     attributes:
       label: "Délai et contraintes projet"
       description: "Indiquer ici si vous avez des contraintes de délai à prendre en compte pour le traitement de votre demande (jalons projet, contraintes réglementaires etc)."
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Partie connaissances
+        Cette section sert à donner une vue globale du périmètre des besoins. Décrire le(s) cas d’usage métier dans le(s)quel(s) s’inscrivent vos besoins, en particulier :
+        - Si le besoin concerne la standardisation d’un Guide de Bonnes Pratiques Cliniques (GBPC).
+        - Si le besoin concerne le développement d’une bibliothèque CQL dans le cadre d’un cas d’usage syntaxique
+        Si le besoin concerne le déploiement de bibliothèques CQL sous forme de Système d’Aide à la Décision Clinique (SADC) avec le standard CDS Hooks Dans tous les cas, le cas d’usage métier doit-être décrit avec des diagrammes de cas d’utilisation UML agrémentés d’autres diagrammes UML et/ou description textuel du cas d’usage. La description UML doit pouvoir préciser au minimum : les acteurs, les flux entre les acteurs, les composants logiciels. Pour cela, suivez la méthode d’élaboration des échanges fonctionnels (méthode disponible sur notre site).
+
+
+  - type: textarea
+    id: cas_usage_connaissance
+    attributes:
+      label: "Cas d'usage (Partie Connaissance)"
+      description: "Décrire votre cas d'usage"
+
+  - type: checkboxes
+    id: besoin_syntaxique
+    attributes:
+      label: "Avez-vous des besoins syntaxiques en lien avec le cas d'usage ?"
+      options:
+        - label: "Oui (la partie syntaxique doit être complétée)"
+        - label: "Non"
+
+  - type: checkboxes
+    id: besoin_semantique
+    attributes:
+      label: "Avez-vous des besoins sémantiques en lien avec le cas d'usage ?"
+      options:
+        - label: "Oui (la partie sémantique doit avoir été remplie)"
+        - label: "Non"
+
 
   - type: markdown
     attributes:
@@ -325,14 +361,15 @@ body:
   - type: input
     id: format_actuel
     attributes:
-      label: "Quel est le format actuel de votre (vos) Terminologie(s) ?"
+      label: "Format actuel de la Terminologie"
       description: |
         Décrire le format actuel de votre Terminologie, la volumétrie, les interactions avec d’autres terminologies, le niveau de maturité, et la langue utilisée (exemple : Excel, PDF, Access, etc.) 
 
   - type: input
     id: volumetrie
     attributes:
-      label: "Avez-vous une estimation de la volumétrie du contenu de votre Terminologie (nombre de codes)"
+      label: "Volumétrie de la Terminologie"
+      description : "Avez-vous une estimation de la volumétrie du contenu de votre Terminologie (nombre de codes)"
 
   - type: dropdown
     id: maturite_semantique
@@ -349,7 +386,8 @@ body:
   - type: textarea
     id: interaction_multiterminologie
     attributes:
-      label: "Votre Terminologie a-t-elle des interactions/liens avec d’autres Terminologies ?"
+      label: "Interaction inter Terminologie"
+      description : "Votre Terminologie a-t-elle des interactions/liens avec d’autres Terminologies ?"
 
   - type: checkboxes
     id: multilingue
@@ -369,7 +407,8 @@ body:
   - type: checkboxes
     id: implication_ans
     attributes:
-      label: "Quel est votre niveau d’attente sur le niveau d'implication de l'ANS ?"
+      label: "Implication de l'ANS"
+      description : "Quel est votre niveau d’attente sur le niveau d'implication de l'ANS ?"
       options:
         - label: "Assistance à maîtrise d’ouvrage et à la diffusion de votre Terminologie"
         - label: "Autres attentes"
@@ -377,41 +416,45 @@ body:
   - type: textarea
     id: precision_implication
     attributes:
-      label: "Si vous avez répondu 'Autres attentes', pouvez vous préciser les attentes que vous avez vis à vis de l'ANS ?"
+      label: "Autres attentes"
+      description : "Si vous avez répondu 'Autres attentes', pouvez vous préciser les attentes que vous avez vis à vis de l'ANS ?"
 
 
   - type: textarea
     id: unite_production
     attributes:
-      label: "Avez-vous identifié l’Unité de Production de votre Terminologie ?"
+      label: "Unité de Production de votre Terminologie"
       description: |
         L’Unité de Production de Terminologies (UP) assure une activité de gestion (production, maintenance, diffusion, formation) d’une Terminologie selon des modalités documentées et sécurisées
 
   - type : input 
     id: orga_respo
     attributes:
-      label : "Quel est l’organisme responsable de la production de la Terminologie ? "
+      label : "Organisme responsable"
+      description: "Quel est l’organisme responsable de la production de la Terminologie ? "
 
   - type: textarea
     id: equipe_projet
     attributes:
-      label: "Comment se compose l’équipe en charge du projet de la Terminologie ? "
+      label: "Equipe projet "
       description: |
+        Comment se compose l’équipe en charge du projet de la Terminologie ?
         Exemple : existence d’une équipe système d’information en appui du chef de projet
 
   - type: textarea
     id: politique_gestion_termino
     attributes:
-      label: "Possédez-vous une politique de gestion de votre Terminologie ?"
+      label: "Politique de gestion des Terminologies"
       description: |
+        Possédez-vous une politique de gestion de votre Terminologie ?
         La politique de gestion est un document spécifiant les modalités de gestion d’une Terminologie par l’Unité de production
 
 
   - type: input
     id: frequence_evolution
     attributes:
-      label: "A quelle fréquence envisagez-vous l’évolution de votre Terminologie ? "
-      description: "exemple : men-suelle, annuelle, etc."
+      label: "Fréquence d'évolution "
+      description: "A quelle fréquence envisagez-vous l’évolution de votre Terminologie ? exemple : mensuelle, annuelle, etc."
 
   - type: textarea
     id: propriete_intellectuelle
@@ -424,43 +467,26 @@ body:
     id: def_lov2
     attributes :
       value: |
-        "LOV2 : Licence ouverte figurant sur la liste, prévue par la loi pour une République numérique et fixée par dé-cret, de licences pouvant être utilisées par les administrations pour la réutilisation des informations pu-bliques (https://www.data.gouv.fr/fr/pages/legal/licences/)."
+        "LOV2 : Licence ouverte figurant sur la liste, prévue par la loi pour une République numérique et fixée par décret, de licences pouvant être utilisées par les administrations pour la réutilisation des informations pu-bliques (https://www.data.gouv.fr/fr/pages/legal/licences/)."
 
 
   - type: textarea
     id: utilisateurs_terminologie
     attributes:
-      label: "Quels sont les utilisateurs de votre Terminologie ? "
+      label: "Utilisateurs de votre Terminologie"
       description: "Décrire l’audience visée par votre Terminologie."
 
   - type: markdown
     attributes:
       value: |
         ## ELEMENTS COMPLEMENTAIRES
-        Cette section sert à donner une vue globale du périmètre des besoins. Décrire le(s) cas d’usage métier dans le(s)quel(s) s’inscrivent vos besoins, en particulier :
-        - Si le besoin concerne la standardisation d’un Guide de Bonnes Pratiques Cliniques (GBPC).
-        - Si le besoin concerne le développement d’une bibliothèque CQL dans le cadre d’un cas d’usage syntaxique
-        Si le besoin concerne le déploiement de bibliothèques CQL sous forme de Système d’Aide à la Décision Clinique (SADC) avec le standard CDS Hooks Dans tous les cas, le cas d’usage métier doit-être décrit avec des diagrammes de cas d’utilisation UML agrémentés d’autres diagrammes UML et/ou description textuel du cas d’usage. La description UML doit pouvoir préciser au minimum : les acteurs, les flux entre les acteurs, les composants logiciels. Pour cela, suivez la méthode d’élaboration des échanges fonctionnels (méthode disponible sur notre site).
-
+        Veuillez joindre à votre demande tout document que vous jugez utile et qui peut faciliter son instruction (i.e. : document de spécifications, description détaillée de la problématique d’interopérabilité concernée, etc.))
+        Veuillez transmettre les documents à l'adresse suivante ci-sis@esante.gouv.fr
 
   - type: textarea
-    id: cas_usage_connaissance
+    id: commentaire
     attributes:
-      label: "Cas d'usage (Partie Connaissance)"
-      description: "Décrire votre cas d'usage"
+      label: "Commentaire"
+      description: "Ajoutez ici tout élément vous semblant essentiel pour la prise en compte des besoins en interopérabilité qui n’aurait pas été renseigné dans les sections précédentes. Par exemple et si possible, une évaluation de l’impact en cas de non prise en compte dans le CI-SIS"
 
-  - type: checkboxes
-    id: besoin_syntaxique
-    attributes:
-      label: "Avez-vous des besoins syntaxiques en lien avec le cas d'usage ?"
-      options:
-        - label: "Oui (la partie syntaxique doit être complétée)"
-        - label: "Non"
 
-  - type: checkboxes
-    id: besoin_semantique
-    attributes:
-      label: "Avez-vous des besoins sémantiques en lien avec le cas d'usage ?"
-      options:
-        - label: "Oui (la partie sémantique doit avoir été remplie)"
-        - label: "Non"
