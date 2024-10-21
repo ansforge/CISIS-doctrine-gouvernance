@@ -10,11 +10,11 @@ body:
         ## Note d’utilisation du formulaire
         En préambule, merci de remplir les éléments obligatoires dans la partie “DESCRIPTION DE VOS BESOINS”    ainsi que les champs marqués optionnels (si possible).
         Ensuite :
-        •	Si votre demande concerne la création ou la modification de volets dans le partage des informations (standardisation du format)  Veuillez compléter la PARTIE SYN-TAXIQUE du formulaire (a minima les éléments obligatoires).
+        - Si votre demande concerne la création ou la modification de volets dans le partage des informations (standardisation du format)  Veuillez compléter la PARTIE SYN-TAXIQUE du formulaire (a minima les éléments obligatoires).
 
-        •	ET/OU si votre demande concerne la publication d’une Terminologie ou d’un ali-gnement (création ou hébergement)  Veuillez compléter la PARTIE SEMANTIQUE du formulaire (a minima les éléments obligatoires).
+        - ET/OU si votre demande concerne la publication d’une Terminologie ou d’un ali-gnement (création ou hébergement)  Veuillez compléter la PARTIE SEMANTIQUE du formulaire (a minima les éléments obligatoires).
 
-        •	ET/OU si votre demande concerne la publication d’une ou plusieurs bibliothèques médicales (exemples CQL, AQL) (création ou hébergement)  Veuillez compléter la PARTIE CONNAISSANCES (a minima les éléments obligatoires).
+        - ET/OU si votre demande concerne la publication d’une ou plusieurs bibliothèques médicales (exemples CQL, AQL) (création ou hébergement)  Veuillez compléter la PARTIE CONNAISSANCES (a minima les éléments obligatoires).
 
         Le formulaire rempli, ainsi que les éventuelles pièces jointes sont à trans-mettre par courriel à l’adresse ci-sis@esante.gouv.fr
 
@@ -242,8 +242,8 @@ body:
       label: "Cas d’usage (Partie Syntaxique)"
       description: |
         "Décrire le(s) cas d’usage métier dans le(s)quel(s) s’inscrivent vos besoins, en particulier :
-          •	les transmissions de contenu à effectuer de manière dématérialisée (i.e. en utilisant un composant informatique), en explicitant quel acteur humain (ex. professionnel de santé) produit le contenu et quels acteurs (utilisant un autre composant informatique) en sont les destinataires ou sont intéressés à le consulter ultérieurement ;
-          •	les actions réalisées via un composant informatique sur un autre composant informatique.
+          - les transmissions de contenu à effectuer de manière dématérialisée (i.e. en utilisant un composant informatique), en explicitant quel acteur humain (ex. professionnel de santé) produit le contenu et quels acteurs (utilisant un autre composant informatique) en sont les destinataires ou sont intéressés à le consulter ultérieurement ;
+          - les actions réalisées via un composant informatique sur un autre composant informatique.
           Le(s) cas d'usage peut/peuvent être présenté(s) sous la forme d'une petite histoire qui, si possible, indique quand un élément informatique est utilisé. Ces éléments seront utilisés pour l’élaboration des échanges fonctionnels.
 
           Attention : L’objectif est de faire émerger les besoins d’interopérabilité entre composants informatiques. Si au cours de la description du cas d’usage, il apparait évident que les transmissions de contenu décrites ou les actions réalisées le sont toujours au sein du même composant ou du même logiciel, il est probable que le besoin exprimé ne soit pas un besoin d’interopérabilité mais un besoin d’évolution d’un logiciel en particulier."
@@ -477,8 +477,8 @@ body:
       value: |
         ## ELEMENTS COMPLEMENTAIRES
         Cette section sert à donner une vue globale du périmètre des besoins. Décrire le(s) cas d’usage métier dans le(s)quel(s) s’inscrivent vos besoins, en particulier :
-        •	Si le besoin concerne la standardisation d’un Guide de Bonnes Pratiques Cliniques (GBPC).
-        •	Si le besoin concerne le développement d’une bibliothèque CQL dans le cadre d’un cas d’usage syntaxique
+        - Si le besoin concerne la standardisation d’un Guide de Bonnes Pratiques Cliniques (GBPC).
+        - Si le besoin concerne le développement d’une bibliothèque CQL dans le cadre d’un cas d’usage syntaxique
         Si le besoin concerne le déploiement de bibliothèques CQL sous forme de Système d’Aide à la Décision Clinique (SADC) avec le standard CDS Hooks Dans tous les cas, le cas d’usage métier doit-être décrit avec des diagrammes de cas d’utilisation UML agrémentés d’autres diagrammes UML et/ou description textuel du cas d’usage. La description UML doit pouvoir préciser au minimum : les acteurs, les flux entre les acteurs, les composants logiciels. Pour cela, suivez la méthode d’élaboration des échanges fonctionnels (méthode disponible sur notre site).
 
 
