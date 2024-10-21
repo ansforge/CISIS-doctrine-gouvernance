@@ -352,8 +352,8 @@ body:
     attributes:
       label: "Problématique (Partie Sémantique)"
       description: "À partir du scénario d’usage, expliquer la problématique rencontrée en termes d’interopérabilité que cette demande solutionnerait. Décrire :
-                    * la situation actuelle et la situation cible. 
-                    *	le besoin en ressources sémantique (domaine de connaissance cible, terminologie vs jeux de valeurs, alignements)" 
+                    - la situation actuelle et la situation cible. 
+                    - le besoin en ressources sémantique (domaine de connaissance cible, terminologie vs jeux de valeurs, alignements)" 
 
 
   - type: markdown
