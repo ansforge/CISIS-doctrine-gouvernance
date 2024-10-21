@@ -91,28 +91,6 @@ body:
     validations:
       required: true
 
-  - type: textarea
-    id: oui_contexte_programme
-    attributes:
-      label: "Projet ou programme national/international"
-      description: "Précisez dans le cadre de quel projet ou programme national/international"
-    validations:
-      required: true
-    condition :
-      if: contexte_projet_programme
-      is: "Oui (justifiez ci-dessous)"
-
-  - type: textarea
-    id: non_contexte_programme
-    attributes:
-      label: "Cadre réglementaire"
-      description: "Le cas échéant décrire ici le cadre réglementaire qui justifie votre demande (références vers les décrets)"
-    validations:
-      required: true
-    condition :
-      if: contexte_projet_programme
-      is: "Non (justifiez ci-dessous)"
-
   - type: checkboxes
     id: complement_expression
     attributes:
@@ -130,10 +108,6 @@ body:
       description: "Si oui, précisez ici les titres des besoins concernés si vous avez répondu oui à la question précédente."
     validations:
       required: true
-    condition:
-      if: complement_expression
-      is: "Oui (préciser les titres des besoins concernés)"
-
 
   - type: textarea
     id: references
@@ -193,7 +167,7 @@ body:
       - "3"
       - "4"
       - "5"
-    validation:
+    validations:
       required: true
 
   - type: dropdown
@@ -207,21 +181,21 @@ body:
       - "3"
       - "4"
       - "5"
-    validation:
+    validations:
       required: true
 
   - type: textarea
     id: risques_identifies
     attributes:
       label: "Décrivez et justifiez les risques identifiés."
-    validation:
+    validations:
       required: true
 
   - type: textarea
     id: benefices_attendus
     attributes:
       label: "Décrivez et justifiez les bénéfices attendus."
-    validation:
+    validations:
       required: true
     
   - type: textarea
@@ -258,7 +232,7 @@ body:
     validations:
       required: true
 
-  - type: Markdown
+  - type: markdown
     id: description_echange 
     attributes:
       value: |
@@ -298,7 +272,7 @@ body:
       required: true
 
   - type: input
-    id: Evènement_declencheur
+    id: Evenement_declencheur
     attributes:
       label: "Description des échanges entre systèmes: Prérequis et évènement(s) déclencheur(s)"
       description : Prérequis et évènement(s) déclencheur(s)
