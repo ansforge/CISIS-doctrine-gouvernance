@@ -323,7 +323,7 @@ body:
         - label: "Non"
 
   - type: markdown
-    id: :jdv
+    id: jdv
     attributes:
       value: |
         "Si vous avez exprimé un besoin de jeux de valeurs, veuillez remplir la partie sémantique suivante"
