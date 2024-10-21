@@ -10,7 +10,6 @@ body:
         ## Note d’utilisation du formulaire 
         Merci de remplir les parties obligatoires. Les champs obligatoires devront être complétés de manière détaillée ainsi que les champs marqués optionnels si possible.
 
-        Le formulaire rempli ainsi que les éventuelles pièces jointes sont à transmettre par courriel à l’adresse ci-sis@esante.gouv.fr
 
   - type: markdown
     attributes:
@@ -33,27 +32,7 @@ body:
       placeholder: écrire ici le titre et la version. Vous pouvez également ajouter un lien vers la version
     validations:
       required: true
-  - type: input
-    id: Nom_prenom
-    attributes:
-      label: Prénom et Nom du demandeur
-      description: Prénom et Nom
-    validations:
-      required: true
-  - type: input
-    id: organisation
-    attributes:
-      label: Organisation du demandeur
-      description: A quelle organisation êtes-vous ratacchée ?   
-    validations:
-      required: true
-  - type: input
-    id: mail
-    attributes:
-      label: Adresse mail
-      description: Renseignez votre adresse mail
-    validations:
-      required: true    
+
   - type: input
     id: section_identification
     attributes:

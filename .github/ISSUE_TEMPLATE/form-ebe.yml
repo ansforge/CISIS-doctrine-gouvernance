@@ -16,8 +16,7 @@ body:
 
             - ET/OU si votre demande concerne la publication d’une Terminologie ou d’un alignement (création ou hébergement).Veuillez compléter la PARTIE SEMANTIQUE du formulaire .
 
-        Les éventuelles pièces jointes sont à transmettre par courriel à l’adresse ci-sis@esante.gouv.fr
-
+        
   - type: markdown
     attributes:
       value: |
@@ -481,7 +480,7 @@ body:
       value: |
         ## ELEMENTS COMPLEMENTAIRES
         Veuillez joindre à votre demande tout document que vous jugez utile et qui peut faciliter son instruction (i.e. : document de spécifications, description détaillée de la problématique d’interopérabilité concernée, etc.))
-        Veuillez transmettre les documents à l'adresse suivante ci-sis@esante.gouv.fr
+                Tip: Vous pouvez joindre des images ou des fichiers en cliquant sur cette zone pour la mettre en surbrillance, puis en y faisant glisser les fichiers.
 
   - type: textarea
     id: commentaire
