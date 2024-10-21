@@ -49,7 +49,7 @@ Un volet du cadre d'interopérabilité des systèmes d'information de santé (CI
 </div>
 
 <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/docs-volet-cisis.png" alt="CP" title="Figure 4: Documents constituant un volet du CI-SIS" style="width:80%;">
+    <img src="../../assets/images/docs-volet-cisis-v2.png" alt="CP" title="Figure 4: Documents constituant un volet du CI-SIS" style="width:80%;">
     <figcaption><b>Figure 4: Documents constituant un volet du CI-SIS</b></figcaption>
 </div>
 
