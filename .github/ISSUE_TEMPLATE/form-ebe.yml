@@ -30,30 +30,6 @@ body:
       placeholder: "Indiquez le titre ici"
     validations:
       required: true
- 
-  - type: input
-    id: Nom_prenom
-    attributes:
-      label: Prénom et Nom du demandeur
-      description: Prénom et Nom
-    validations:
-      required: true
-
-  - type: input
-    id: organisation
-    attributes:
-      label: Organisation du demandeur
-      description: "A quelle organisation êtes-vous ratacchée ?" 
-    validations:
-      required: true
-
-  - type: input
-    id: mail
-    attributes:
-      label: Adresse mail
-      description: Renseignez votre adresse mail
-    validations:
-      required: true
 
   - type: textarea
     id: sponsors
