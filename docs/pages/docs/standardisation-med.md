@@ -123,7 +123,7 @@ Le mouvement Open Data (données ouvertes) (5) est une initiative mondiale qui v
 
 La doctrine SI-CM - comme décrite plus en aval – vise à pousser l’éco système à adopter, autant que faire se peut, l’échelle maximale (5 étoiles) de conformité pour la publication des artéfacts de connaissances médicales.
 
-![](<../../assets/images/FIGURE 1  ENONCE SIMPLIFIE DES PRINCIPES FIVE STARS.png>)
+![](<../../assets/images/enonce_cinq_etoile.png>)
 
 
 <div align="center">Figure 1 : ENONCE SIMPLIFIE DES PRINCIPES FIVES STARS (6)</div>
@@ -290,6 +290,18 @@ Une grande partie des principes énoncés plus en amont est basée sur des conce
 
 Il est donc nécessaire pour la doctrine du SI-CM de garder un œil sur l’évolution de certains concepts au regard de l’avancée de l’évaluation et de l’adoption de ces concepts en parcourant régulièrement les articles scientifiques correspondants.  
 
+### 4.4.6 L'évaluation de l'impact d'un SADC basé sur les bibliothèques de connaissances standards conçues et/ou exposées par l'ANS
+
+Les bibliothèques standards de connaissances médicales publiées ou exposées par l’ANS doivent être évaluées avant toute mise en œuvre dans un SI de santé en production. L’évaluation de ces bibliothèques peut-être effectuée suivant différentes étapes
+<div class = "wysiwyg">
+    <ul>
+    <li>Les tests : la phase de tests est couverte par le processus de conception choisi en 4.4.2. Les tests permettent de s’assurer que les bibliothèques de connaissances standards répondent bien à l’objectif initiale de modélisation (cas d’usage). Les tests permettent également de s’assurer qu’il n’y ait pas d’erreurs dans le code de la bibliothèque ou dans le déploiement sous forme de SADC basé sur cette bibliothèque. Les tests peuvent être effectués sur des données fictives.</li>
+    <li>L’évaluation rétrospective : l’évaluation de l’impact du SADC basé sur la ou les bibliothèques standards est une étape qui n’est pas couverte habituellement par les processus de développement logiciel. Une première étape d’évaluation de l’impact peut-être effectuée sur des données réelles rétrospectives. La bonne pratique la plus répondue pour effectuer des évaluations d’impact de SADC sur des données rétrospectives est l’utilisation des entrepôts de données cliniques (20).</li>
+    <li>L’évaluation prospective (étude de recherche clinique non randomisée) : Elle est mise en œuvre dans le cadre d’une étude de recherche clinique. Il existe une catégorie d’étude de recherche clinique  non randomisée destinée à l’évaluation de l’impact des SADC appelée : Quasi-Experimental Studies (21). </li>
+    <li>L’évaluation prospective randomisée : il s’agit de la catégorie de recherche clinique qui (dé)montre la preuve scientifique la plus importante. </li>
+    </ul>
+</div>
+
 ### 4.5 Principes #5 : Définir la relation avec les doctrines du CI-SIS et CGTS
 
 Les artéfacts produits et gérés par le SI-CM sont en étroites relation avec ceux produits et gérés par le CI-SIS et le CGTS (voir chapitre précédent). Les artéfacts produits et gérés par le SI-CM peuvent réutiliser, tout ou partie des artéfacts produits et gérés par le CI-SIS et le CGTS.  
@@ -318,7 +330,7 @@ Dans ce qui suit nous justifions nos choix d’outils et/ou standards pour le ch
 
 ##### 5.1.1.1 Choisir un langage de modélisation
 
-Cette activité est en relation avec le principe #4, chapitre 3.4.2 énoncé en amont. Le langage de modélisation standard choisi pour illustrer les étapes de conception et de structuration des artéfacts de connaissances médicales issues des GBPC dans la doctrine du SI-CM est le langage standard UML version 2.0 (20). 
+Cette activité est en relation avec le principe #4, chapitre 3.4.2 énoncé en amont. Le langage de modélisation standard choisi pour illustrer les étapes de conception et de structuration des artéfacts de connaissances médicales issues des GBPC dans la doctrine du SI-CM est le langage standard UML version 2.0 (22). 
 
 Ce choix est justifié pour plusieurs raisons 
 <div class = "wysiwyg">
@@ -332,20 +344,20 @@ Ce choix est justifié pour plusieurs raisons
 
 ##### 5.1.1.2 Choisir un processus de modélisation
 
-Cette activité est en relation avec le principe #4, chapitre 3.4.3 énoncé en amont. Le processus choisi pour encadrer le travail de conception et de structuration des artéfacts de connaissances médicales issues des GBPC dans la doctrine du SI-CM est le processus Agile décrit dans le FHIR IG CPG-on-FHIR (21). 
+Cette activité est en relation avec le principe #4, chapitre 3.4.3 énoncé en amont. Le processus choisi pour encadrer le travail de conception et de structuration des artéfacts de connaissances médicales issues des GBPC dans la doctrine du SI-CM est le processus Agile décrit dans le FHIR IG CPG-on-FHIR (23). 
 
 Ce choix est justifié pour plusieurs raisons :
 <div class = "wysiwyg">
     <ul>
-    <li>FHIR IG CPG-on-FHIR (21) s’articule avec les principes #4 de la présente doctrine</li> 
-    <li>FHIR IG CPG-on-FHIR (21) s’articule avec l’ensemble des autres standards choisis. FHIR IG CPG-on-FHIR  (21) permet de mettre en œuvre ensemble les différents modèles préconisés par l’architecture tri-dimensionnelle de Rector et al. (15) il permet de mettre en œuvre le standard UML pour illustrer les différentes étapes de conception. Il permet de mettre en œuvre la représentation multi couches de la connaissance médicale de Boxwala et al. (16).</li> 
-    <li>FHIR IG CPG-on-FHIR (21) est actuellement utilisé par de nombreux projets de standardisation de la connaissance médicale</li>  
+    <li>FHIR IG CPG-on-FHIR (23) s’articule avec les principes #4 de la présente doctrine</li> 
+    <li>FHIR IG CPG-on-FHIR (23) s’articule avec l’ensemble des autres standards choisis. FHIR IG CPG-on-FHIR  (23) permet de mettre en œuvre ensemble les différents modèles préconisés par l’architecture tri-dimensionnelle de Rector et al. (15) il permet de mettre en œuvre le standard UML pour illustrer les différentes étapes de conception. Il permet de mettre en œuvre la représentation multi couches de la connaissance médicale de Boxwala et al. (16).</li> 
+    <li>FHIR IG CPG-on-FHIR (23) est actuellement utilisé par de nombreux projets de standardisation de la connaissance médicale</li>  
     </ul>
 </div>
 
 ##### 5.1.1.3 Choisir un modèle d'information standard
 
-Cette activité est en relation avec le principe #4, chapitre 3.4.4.1 et les principes #1, #2, #3 et #5 énoncés en amont. Le modèle d’information standard choisi pour standardiser les informations issues du dossier patient est FHIR en version R4 (22). 
+Cette activité est en relation avec le principe #4, chapitre 3.4.4.1 et les principes #1, #2, #3 et #5 énoncés en amont. Le modèle d’information standard choisi pour standardiser les informations issues du dossier patient est FHIR en version R4 (24). 
 
 Ce choix est justifié pour plusieurs raisons :
 <div class = "wysiwyg">
@@ -375,7 +387,7 @@ Ce choix est justifié pour plusieurs raisons :
 
 ##### 5.1.1.5 Choisir un modèle de connaissances dynamiques standard
 
-Cette activité est en relation avec le principe #4, chapitre 3.4.4.1 et les principes #1, #2, #3 et #5 énoncés en amont. Le modèle de connaissances dynamiques choisie pour standardiser l’écriture des artéfacts de connaissances médicales issues des GBPC est CQL (23).  
+Cette activité est en relation avec le principe #4, chapitre 3.4.4.1 et les principes #1, #2, #3 et #5 énoncés en amont. Le modèle de connaissances dynamiques choisie pour standardiser l’écriture des artéfacts de connaissances médicales issues des GBPC est CQL (25).  
 
 Ce choix est justifié pour plusieurs raisons :
 <div class = "wysiwyg">
@@ -406,7 +418,7 @@ Ce choix est justifié pour plusieurs raisons :
 
 ##### 5.1.1.7 Choisir une licence de publication
 
-Cette activité est en relation avec le principe #3 et le principe #5 de la présente doctrine. Tous les artéfacts de connaissances médicales publiés dans le cadre du SI-CM doivent l’être sous la licence « Licence Ouverte Version 2.0 » (Lov2) d’Etalab (24). 
+Cette activité est en relation avec le principe #3 et le principe #5 de la présente doctrine. Tous les artéfacts de connaissances médicales publiés dans le cadre du SI-CM doivent l’être sous la licence « Licence Ouverte Version 2.0 » (Lov2) d’Etalab (26). 
 
 Ce choix est justifié pour plusieurs raisons :
 <div class = "wysiwyg">
@@ -464,11 +476,11 @@ Les choix faits au cours de ces chemins secondaires doivent impérativement resp
 
 Le chemin secondaire #7 concerne la propriété intellectuelle des artéfacts de connaissances médicales produits et/ou exposés par le SI-CM. A l’image de la doctrine du CGTS (1), un acteur de l’éco système peut décider de distribuer ses artéfacts de connaissances sous un autre régime de propriété intellectuelle que la Licence Lov2 choisie dans le chemin nominal de la présente doctrine. Ce choix de licence de diffusion résultera des négociations entre le SI-CM et l’Unité de Production (UP) lors de l’établissement de la convention de mise à disposition des artéfacts en question.  
 
-La notion d’UP et de conventions entre l’ANS et les UPs sont celles définies dans la gouvernance du CI-SIS (25). 
+La notion d’UP et de conventions entre l’ANS et les UPs sont celles définies dans la gouvernance du CI-SIS (27). 
 
 # 6. La relation avec la gouvernance
 
-Cette doctrine respecte les étapes et les règles de gouvernance énoncés dans la gouvernance du CI-SIS (25). 
+Cette doctrine respecte les étapes et les règles de gouvernance énoncés dans la gouvernance du CI-SIS (27). 
 
 ##  Références
 <div class = "wysiwyg">
@@ -492,6 +504,8 @@ Cette doctrine respecte les étapes et les règles de gouvernance énoncés dans
     <li>Graham ID, Logan J, Harrison MB, Straus SE, Tetroe J, Caswell W, et al. Lost in knowledge translation: Time for a map? Journal of Continuing Education in the Health Professions. 2006;26(1):13–24.</li>  
     <li>Marcial LH, Blumenfeld B, Harle C, Jing X, Keller MS, Lee V, et al. Barriers, Facilitators, and Potential Solutions to Advancing Interoperable Clinical Decision Support: Multi-Stakeholder Consensus Recommendations for the Opioid Use Case. AMIA Annu Symp Proc. 2019;2019:637–46.</li>  
     <li>CDS Hooks [Internet]. [cited 2018 Apr 12]. Available from: http://cds-hooks.org/</li> 
+    <li>Boussadi A, Caruba T, Zapletal E, Sabatier B, Durieux P, Degoulet P. A clinical data warehouse-based process for refining medication orders alerts. Journal of the American Medical Informatics Association. 2012 Sep 1;19(5):782–5. </li>
+    <li>Harris AD, McGregor JC, Perencevich EN, Furuno JP, Zhu J, Peterson DE, et al. The Use and Interpretation of Quasi-Experimental Studies in Medical Informatics. Journal of the American Medical Informatics Association. 2006 Jan 1;13(1):16–23</li>
     <li>About the Unified Modeling Language Specification Version 2.0 [Internet]. [cited 2024 Aug 29]. Available from: https://www.omg.org/spec/UML/2.0/</li> 
     <li>CPG Home - Clinical Practice Guidelines v2.0.0-ballot [Internet]. [cited 2024 Aug 30]. Available from: https://hl7.org/fhir/uv/cpg/2024Jan/</li> 
     <li>Http - FHIR v4.0.1 [Internet]. [cited 2021 Dec 1]. Available from: https://www.hl7.org/fhir/http.html</li> 
