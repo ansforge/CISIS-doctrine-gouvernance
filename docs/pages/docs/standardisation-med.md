@@ -123,11 +123,10 @@ Le mouvement Open Data (données ouvertes) (5) est une initiative mondiale qui v
 
 La doctrine SI-CM - comme décrite plus en aval – vise à pousser l’éco système à adopter, autant que faire se peut, l’échelle maximale (5 étoiles) de conformité pour la publication des artéfacts de connaissances médicales.
 
-![](<../../assets/images/enonce_cinq_etoile.png>)
-
-
-<div align="center">Figure 1 : ENONCE SIMPLIFIE DES PRINCIPES FIVES STARS (6)</div>
-
+<div class="figure" style='text-align: center;'>
+    <img src="../../assets/images/enonce_cinq_etoile.png" alt="5stars" title="Figure 1 : ENONCE SIMPLIFIE DES PRINCIPES FIVES STARS (6)" style="width:40%;">
+    <figcaption><b>Figure 1 : ENONCE SIMPLIFIE DES PRINCIPES FIVES STARS (6)</b></figcaption>
+</div>
 
 ### 4.4 Princpes #4 : Principes en lien avec les bonnes pratiques d'ingénierie logicielle et de recherche
 
@@ -211,9 +210,10 @@ La standardisation des GBPC dans le cadre du SI-CM doit combiner et interfacer t
     </ul>
 </div>
 
-![](<../../assets/images/Figure 2  Les modèles de l’architecture tri dimensionnel de Rector et al. et leurs interfaces.png>)
-
-<div align="center">Figure 2 : Les modèles de l’architecture tri-dimensionnel de Rector et al. (15) et leurs interfaces</div>
+<div class="figure" style='text-align: center;'>
+    <img src="../../assets/images/Figure 2  Les modèles de l’architecture tri dimensionnel de Rector et al. et leurs interfaces.png" alt="archi_tri_dim" title="Figure 2 : Les modèles de l’architecture tri-dimensionnel de Rector et al. (15) et leurs interfaces" style="width:40%;">
+    <figcaption><b>Figure 2 : Les modèles de l’architecture tri-dimensionnel de Rector et al. (15) et leurs interfaces</b></figcaption>
+</div>
 
 
 ##### 4.4.4.2 La représentation multi couches de la connaissance médicale de Boxwala et al (16)
@@ -258,9 +258,11 @@ La standardisation des GBPC dans le cadre du SI-CM doit respecter les différent
     </ol>
 </div> 
 
-![](<../../assets/images/Tableau 1 les quatre couches de formats de représentation de la connaissance médicale selon Boxwala et al.png>)
+<div class="figure" style='text-align: center;'>
+    <img src="../../assets/images/Tableau 1 les quatre couches de formats de représentation de la connaissance médicale selon Boxwala et al.png" alt="quatre_couche" title="Tableau 1 : les quatre couches de formats de représentation de la connaissance médicale selon Boxwala et al. (16)" style="width:40%;">
+    <figcaption><b>Tableau 1 : les quatre couches de formats de représentation de la connaissance médicale selon Boxwala et al. (16)</b></figcaption>
+</div>
 
-<div align="center">Tableau 1 : les quatre couches de formats de représentation de la connaissance médicale selon Boxwala et al. (16)</div>
 
 ##### 4.4.4.3 L'intégration standardisée des SADC basés sur les GBPC dans un SI de santé
 
@@ -400,8 +402,12 @@ Ce choix est justifié pour plusieurs raisons :
     </ul>
 </div>
 
-![](<../../assets/images/FIGURE 3  Instanciation du modèle de Rector et al. avec l’ensemble des standards utilisés dans le chemin nominal de la doctrine du SI-CM.png>)
-<div align="center">FIGURE 3 : Instanciation du modèle de Rector et al. avec l’ensemble des standards utilisés dans le chemin nominal de la doctrine du SI-CM</div>
+
+<div class="figure" style='text-align: center;'>
+    <img src="../../assets/images/FIGURE 3  Instanciation du modèle de Rector et al. avec l’ensemble des standards utilisés dans le chemin nominal de la doctrine du SI-CM.png" alt="rector_et_al" title="FIGURE 3 : Instanciation du modèle de Rector et al. avec l’ensemble des standards utilisés dans le chemin nominal de la doctrine du SI-CM" style="width:40%;">
+    <figcaption><b>FIGURE 3 : Instanciation du modèle de Rector et al. avec l’ensemble des standards utilisés dans le chemin nominal de la doctrine du SI-CM</b></figcaption>
+</div>
+
 
 ##### 5.1.1.6 Choisir un standard d'intégration 
 
