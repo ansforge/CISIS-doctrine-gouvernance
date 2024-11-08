@@ -18,6 +18,21 @@ description:
     ⚠️ Work in Progress
 </div>
 
+Le présent document a pour objet de mettre à jour le contenu de la gouvernance du CI-SIS à la suite des ateliers conduits par les équipes d’interopérabilité de la DE2I de mai à juillet 2024 en vue de faire évoluer la gouvernance et la doctrine du CI-SIS.
+
+À l’issue de plusieurs années de test de mise en œuvre de la gouvernance rénovée du cadre d’interopérabilité des systèmes d’information de santé (CI-SIS), il est apparu que la comitologie associée n’impliquait pas assez les acteurs partie-prenante de l’interopérabilité. En conséquence une nouvelle comitologie pour la gouvernance du CI-SIS a été définie, dans un effort de :
+
+<div class="wysiwyg">
+    <ul>
+        <li>Simplification et systématisation des processus de gouvernance ; </li>
+        <li>Lisibilité de la comitologie ; </li>
+        <li>Équité de la représentation des parties-prenantes ; </li>
+        <li>Mise à profit du retour d’expérience d’autres référentiels, bâtis en concertation avec les parties prenantes, tels que la PGSSI-S. </li>
+    </ul>
+</div>
+
+La présente page a pour objet de détailler cette nouvelle comitologie.
+
 ## Gouvernance rénovée du CI-SIS
 
 Le CI-SIS est un ensemble de spécifications d’interopérabilité mis à disposition des acteurs des domaines sanitaire, médico-administratif, médico-social et social afin de faciliter l’échange et le partage de données.
