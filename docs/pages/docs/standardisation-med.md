@@ -35,7 +35,7 @@ Ce document s'adresse principalement aux personnes et organismes qui veulent com
     </ul>
 </div>
 
-# 3. Le cadre de la doctrine d'ineropérabilité du SI-CM
+# 3. Le cadre de la doctrine d'interopérabilité du SI-CM
 
 La doctrine d’interopérabilité du SI-CM s’inscrit dans les orientations suivies par la nouvelle version de la doctrine du  CI-SIS décrite ici (1). 
 La doctrine du SI-CM peut-être synthétisée ainsi 
@@ -312,7 +312,7 @@ Les volets produits et gérés dans le cadre du SI-CM doivent, autant que faire 
 
 Les artéfacts de connaissances médicales qui suivent le principe de l’architecture tri-dimensionnelle de Rector et al. (15) (chapitre 3.4.4.1) doivent partager, autant que faire se peut, le même modèle d’information médicale que le CI-SIS et le même modèle de connaissance métier statique que le CGTS. 
 
-# 5. Les remines de la doctrine du SI-CM
+# 5. Les chemins de la doctrine du SI-CM
 
 Ce paragraphe décrit une instanciation nominale (et plusieurs instanciations secondaires) de la doctrine du SI-CM basée sur les principes énoncés plus en amont. Cette instanciation correspond à une série de choix de standards, d’outils, de méthodes et de règles que le SI-CM devra respecter pour gérer les artéfacts de connaissances médicales issus de la standardisation des GBPC produits et/ou exposés par l’ANS. 
 
