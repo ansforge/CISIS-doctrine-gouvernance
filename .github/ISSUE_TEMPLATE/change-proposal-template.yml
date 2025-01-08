@@ -20,7 +20,7 @@ body:
     id: titre
     attributes:
       label: Titre
-      description: Quel est le tittre qui sera utlisé pour la publication sur le site esante.gouv.fr
+      description: Quel est le titre qui sera utlisé pour la publication sur le site esante.gouv.fr
       placeholder: écrire ici le titre résumant la demande de changement
     validations:
       required: true
