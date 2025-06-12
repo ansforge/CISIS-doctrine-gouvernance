@@ -8,7 +8,7 @@ body:
     attributes:
       value: |
         ## Note d’utilisation du formulaire 
-        Merci de remplir les parties obligatoires. Les champs obligatoires devront être complétés de manière détaillée ainsi que les champs marqués optionnels si possible.
+        Merci de remplir les parties obligatoires. Les champs obligatoires devront être complétés de manière détaillée ainsi que les champs marqués optionnels si possible, afin de faciliter le traitement de votre demande.
 
 
   - type: markdown
@@ -78,3 +78,10 @@ body:
         Tip: Vous pouvez joindre des images ou des fichiers en cliquant sur cette zone pour la mettre en surbrillance, puis en y faisant glisser les fichiers.
     validations:
       required: false
+  
+  - type: markdown
+    attributes:
+      value: |
+        ## Processus de traitement de votre demande 
+        Le porcessus de traitement de votre demande est décrit dans la [Gouvernance du CI-SIS](https://interop.esante.gouv.fr/ig/doctrine/ebe-cp.html#gestion-des-changes-proposals-cp)
+   
