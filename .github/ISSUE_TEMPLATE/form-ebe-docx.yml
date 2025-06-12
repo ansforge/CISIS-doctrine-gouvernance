@@ -18,3 +18,9 @@ body:
     attributes:
       label: "Formulaire complété"
       description: "Veuillez joindre ici votre formulaire de demande complété. A noter que ce docuement sera visible publiquement"
+      
+  - type: markdown
+    attributes:
+      value: |
+        ## Processus de traitement de votre demande 
+        Le porcessus de traitement de votre demande est décrit dans la [Gouvernance du CI-SIS](https://interop.esante.gouv.fr/ig/doctrine/ebe-cp.html#expressions-de-besoins-dint%C3%A9rop%C3%A9rabilit%C3%A9)
