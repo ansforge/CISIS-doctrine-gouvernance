@@ -8,9 +8,13 @@ body:
     attributes:
       value: |
         ## Note d’utilisation
-        Pour nous soumettre votre demande il vous faut télécharger le document à compléter [ici](https://github.com/ansforge/CISIS-doctrine-gouvernance/blob/main/docs/assets/docs/CI-SIS_FORMULAIRE_EXPRESSION%20DE%20BESOINS.docx)
+        Pour nous soumettre votre demande il vous faut:
+         
+        * télécharger le document à compléter [ici](https://interop.esante.gouv.fr/ig/doctrine/CI-SIS_FORMULAIRE_EXPRESSION%20DE%20BESOINS.docx)
+        Une fois le document complété, veuillez l'enregistrer au format pdf.
+        * Avoir un compte github [(documentation pour créer un compte)](https://docs.github.com/fr/get-started/start-your-journey/creating-an-account-on-github)
   - type: textarea
     id: form
     attributes:
       label: "Formulaire complété"
-      description: "Veuillez joindre ici votre formulaire de demande complété."
+      description: "Veuillez joindre ici votre formulaire de demande complété. A noter que ce docuement sera visible publiquement"
