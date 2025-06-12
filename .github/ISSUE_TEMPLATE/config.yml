@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Processus
+    url: https://interop.esante.gouv.fr/ig/doctrine/ebe-cp.html
+    about: Information sur le processus de traitement de vos demandes
+  - name: CI-SIS
+    url: https://esante.gouv.fr/produits-services/ci-sis
+    about: Information sur le CI-SIS
