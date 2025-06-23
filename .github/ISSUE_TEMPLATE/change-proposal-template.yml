@@ -8,7 +8,7 @@ body:
     attributes:
       value: |
         ## Note d’utilisation du formulaire 
-        Merci de remplir les parties obligatoires. Les champs obligatoires devront être complétés de manière détaillée ainsi que les champs marqués optionnels si possible, afin de faciliter le traitement de votre demande.
+        Merci de remplir les parties obligatoires.\nLes champs obligatoires devront être complétés de manière détaillée, ainsi que les champs marqués optionnels si possible, afin de faciliter le traitement de votre demande.
 
 
   - type: markdown
@@ -33,11 +33,11 @@ body:
     validations:
       required: true
 
-  - type: input
+  - type: textarea
     id: section_identification
     attributes:
-      label: "Identification de la section à changer"
-      description: "Identifier la section du volet concernée par la demande de changement (numéro de la section exemple 12.2.2, ou directement le lien lorsque le volet est sous forme de guide d'implémentation)"
+      label: "Identification de la ou des section(s) à modifier"
+      description: "Identifier la section du volet concernée par la demande de changement (numéro de la section exemple 12.2.2, ou directement le lien lorsque le volet est sous forme de guide d'implémentation). Si plusieurs sections sont concernées merci de le faire sur plusieurs lignes."
       placeholder: "Entrez le numéro ou le lien de la section"
     validations:
       required: true
@@ -63,8 +63,8 @@ body:
   - type: textarea
     id: impact_assessment
     attributes:
-      label: "Votre évaluation d'impact du changement "
-      description: "Veuillez indiquer ci-dessous votre évaluation de(s) impact(s) (gains et/ou risques) du changement proposé"
+      label: "Votre évaluation d'impact du changement demandé"
+      description: "Veuillez indiquer ci-dessous votre évaluation de la conséquence du changement demandé (impact sur les implémentations par exemple) et la justifier si nécessaire."
     validations:
       required: false
   
